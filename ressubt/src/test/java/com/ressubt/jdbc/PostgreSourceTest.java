@@ -9,13 +9,10 @@ import org.junit.Test;
 public class PostgreSourceTest {
 
     @Test
-    public void open_close_connection() throws Exception {
+    public void open_connection() throws Exception {
 	Connection connection = PostgreSource.getConnectionPool().getConnection();
 
 	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(false));
-
-	PostgreSource.getConnectionPool().close();
-	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(true));
 
     }
 
