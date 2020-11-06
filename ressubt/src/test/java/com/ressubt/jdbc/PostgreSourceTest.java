@@ -10,9 +10,12 @@ public class PostgreSourceTest {
 
     @Test
     public void open_connection() throws Exception {
-	Connection connection = PostgreSource.getConnectionPool().getConnection();
+	Connection connection = PostgreDataSource.getConnectionPool().getConnection();
 
 	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(false));
+
+	connection.close();
+	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(true));
 
     }
 
