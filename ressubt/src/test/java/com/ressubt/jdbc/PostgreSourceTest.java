@@ -9,8 +9,8 @@ import org.junit.Test;
 public class PostgreSourceTest {
 
     @Test
-    public void open_connection() throws Exception {
-	Connection connection = PostgreDataSource.getConnectionPool().getConnection();
+    public void open_close_connection() throws Exception {
+	Connection connection = new PostgreDataSource().getConnectionPool().getConnection();
 
 	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(false));
 
@@ -18,5 +18,4 @@ public class PostgreSourceTest {
 	MatcherAssert.assertThat(connection.isClosed(), Matchers.equalTo(true));
 
     }
-
 }
