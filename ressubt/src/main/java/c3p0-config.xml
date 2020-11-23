@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c3p0-config>
   <default-config>
+    <property name="testConnectionOnCheckout">true</property>
     <property name="automaticTestTable">con_test</property>
     <property name="checkoutTimeout">30000</property>
     <property name="idleConnectionTestPeriod">30</property>
@@ -13,7 +14,6 @@
     <property name="jdbcUrl">jdbc:postgresql://localhost:5432/ressubt</property>
     <property name="user">postgres</property>
     <property name="password">casalafite2013</property>
-    <property name="testConnectionOnCheckout">true</property>
   </default-config>
 </c3p0-config>
 <!-- 

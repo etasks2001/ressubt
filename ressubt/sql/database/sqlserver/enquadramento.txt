@@ -1,0 +1,5 @@
+0-pj
+1-consumidor final
+2-baixa no estoque (cfop 5927)
+3-isenta e não incidente(exemplo: exportação)
+4-interestaduais
