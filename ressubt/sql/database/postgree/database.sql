@@ -1,29 +1,22 @@
-﻿      select *
-      from information_schema.table_constraints;
+﻿select * from information_schema.table_constraints;
 
-
-  DO $$
-  declare r record;
-  begin
-    for r in (
-      select 
-	constraint_name, table_name
-      from 
-	information_schema.table_constraints
-      where 
-	constraint_type = 'FOREIGN KEY'
-	/*table_name='participante' and 
-	constraint_name like 'fk_%'*/
-    ) loop
-    
-    execute CONCAT('ALTER TABLE "' || r.table_name || '" DROP CONSTRAINT '||r.constraint_name);
-    raise info '%','dropping '||r.constraint_name;
-    end loop;
-  end;
-  $$;
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+DO $$
+declare r record;
+begin
+	raise info '%','----------------------------------------------------------------------------------';
+	for r in (select  constraint_name, table_name from  information_schema.table_constraints where constraint_type = 'FOREIGN KEY') loop
+	execute CONCAT('ALTER TABLE "' || r.table_name || '" DROP CONSTRAINT '||r.constraint_name);
+	raise info '%','dropping '||r.constraint_name;
+	end loop;
+	raise info '%','----------------------------------------------------------------------------------';
+end;
+$$;
 drop table if exists contribuinte;
+drop table if exists participante;
+drop table if exists produto;
+drop table if exists saldo;
+drop table if exists movimento;
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table contribuinte(
 	sk serial,
 	ano smallint not null,
@@ -40,13 +33,9 @@ create table contribuinte(
 	constraint chk_contribuinte_cnpj check (cnpj ~ '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'),
 	constraint chk_contribuinte_mes check (mes >=1 and mes <= 12),
 	constraint chk_contribuinte_ano check (ano > 0)
-	
 );
-insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 12, 'carlos', '00111222333344', '123123', '0000056', '13', '45');
-insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 1, 'fgasdf', '60937810000110', '12310', '56', '12', '45');
-select * from contribuinte;
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-drop table if exists participante;
+
 create table participante (
 	sk serial,
 	contribuinte smallint not null,
@@ -60,15 +49,7 @@ create table participante (
 	unique (contribuinte, cnpj_cpf)
 );
 create unique index un_participante_contribuinte_cnpj on participante (contribuinte, cnpj_cpf) where cnpj_cpf is null;
-
-insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
-insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
-select * from participante;
-
---create unique index un_participante_contribuinte_cnpj on participante (contribuinte, cnpj_cpf) where cnpj_cpf is not null;
-
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-drop table if exists produto;
 create table produto(
 	sk serial,
 	contribuinte smallint not null,
@@ -81,12 +62,11 @@ create table produto(
 	cest char(7),
 	constraint fk_produto_contribuinte foreign key (contribuinte) references contribuinte (sk),
 	constraint pk_produto_sk primary key (sk),
-	--constraint un_produto_contribuinte_cod_item unique clustered (contribuinte, cod_item),
+	unique (contribuinte, cod_item),
 	constraint chk_produto_aliq_icms check (aliq_icms > 0)
 );
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-drop table if exists saldo;
 create table saldo(
 	produto int not null,
 	ano smallint not null,
@@ -110,11 +90,10 @@ create table saldo(
 	constraint chk_saldo_icms_tot_fim_proprio check (icms_tot_fim_proprio >= 0),
 	constraint chk_saldo_fixo check (fixo in ('S','N')),
 	constraint chk_saldo_mes check (mes between 1 and 12),
-	constraint chk_saldo_ano check (ano > 0)
-	--constraint idx_saldo unique clustered (produto,mes,ano)
+	constraint chk_saldo_ano check (ano > 0),
+	unique (produto,mes,ano)
 );
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-drop table if exists movimento;
 create table movimento(
 	numeroDeOrdem serial,
 	produto int not null,
@@ -126,7 +105,7 @@ create table movimento(
 	serieDoDocumento smallint not null,
 	numeroDoDocumento int not null,
 	codigoDoRemetenteOuDestinatario int not null,
-	cfop int not null,
+	cfop varchar(4) not null,
 	numeroDoItemNoDocumento int not null default 0,
 
 	indicadorDoTipoDeOperacao char(1) not null,
@@ -165,59 +144,25 @@ create table movimento(
 	constraint chk_movimento_chaveDoDocumentoFiscalEletronico check (chaveDoDocumentoFiscalEletronico ~ '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or chaveDoDocumentoFiscalEletronico ~ '[0]'),
 	constraint chk_movimento_numeroDoItemNoDocumento check (numeroDoItemNoDocumento > 0),
 	constraint chk_movimento_indicadorDoTipoDeOperacao check (indicadorDoTipoDeOperacao in ('0','1')),
-	--constraint chk_movimento_cfop check (cfop ~ '[0-9][0-9][0-9][0-9]')
+	constraint chk_movimento_cfop check (cfop ~ '[0-9][0-9][0-9][0-9]'),
 	constraint chk_movimento_quantidade check (quantidade > 0),
-	--constraint chk_movimento_saida_codigoDeEnquadramentoLegal check (saida_codigoDeEnquadramentoLegal in ('0','1','2','3','4')),
+	constraint chk_movimento_saida_codigoDeEnquadramentoLegal check (saida_codigoDeEnquadramentoLegal in ('0','1','2','3','4')),
 	constraint chk_movimento_mes check (mes >= 1 and mes <= 12),
 	constraint chk_movimento_ano check (ano > 0)
-/*
-	
-	
-	
-	
-	
-	
-	
-	
-	*/
 );
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-/*
-bulk insert dbo.contribuinte from 'C:\rst\empresa.txt'
-with (
-	codepage = 'ACP',
-	fieldterminator = ';',  
-	keepidentity
-);
 
-bulk insert dbo.produto from 'c:\rst\produto.txt'
-with (
-	codepage = 'ACP',
-	fieldterminator=';',
-	keepidentity
-);
 
-bulk insert dbo.participante from 'c:\rst\participante.txt'
-with (
-	codepage = 'ACP',
-	fieldterminator=';',
-	keepidentity
-);
+insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 12, 'carlos', '00111222333344', '123123', '0000056', '13', '45');
+insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 1, 'fgasdf', '60937810000110', '12310', '56', '12', '45');
 
-bulk insert dbo.movimento from 'c:\rst\movimento.txt'
-with(
-	codepage ='ACP',
-	fieldterminator =';',
-	keepidentity
-);
 
-bulk insert dbo.saldo from 'c:\rst\saldo.txt'
-with(
-	codepage='ACP',
-	fieldterminator=';',
-	keepidentity
-);
+insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
+insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
 
-dbcc shrinkdatabase (rst);
-go
-*/
+
+select * from contribuinte;
+
+select * from participante;
+
+
