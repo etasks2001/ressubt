@@ -152,17 +152,29 @@ create table movimento(
 );
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
+SET client_encoding = 'UTF8';
 
-insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 12, 'carlos', '00111222333344', '123123', '0000056', '13', '45');
-insert into contribuinte (ano, mes, nome, cnpj, ie, cod_mun, cod_ver, cod_fin) values (10, 1, 'fgasdf', '60937810000110', '12310', '56', '12', '45');
+/*first line must have fields with no content*/
+COPY contribuinte (sk,ano,mes,nome,cnpj,ie,cod_mun,cod_ver,cod_fin) 
+	FROM 'C:/rst/database/data/empresa.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+COPY produto (sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest) 
+	FROM 'C:/rst/database/data/produto.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+COPY participante (sk,contribuinte,nome,cod_pais,cnpj_cpf,ie,cod_mun) 
+	FROM 'C:/rst/database/data/participante.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+COPY movimento (numeroDeOrdem,produto,data,ano,mes,chaveDoDocumentoFiscalEletronico,tipoDoDocumento,serieDoDocumento,numeroDoDocumento,codigoDoRemetenteOuDestinatario,cfop,numeroDoItemNoDocumento,indicadorDoTipoDeOperacao,quantidade,entrada_valorTotalDoICMSST,entrada_valorTotalDoICMSProprio,saida_ValorUnitarioDoICMSSuportado,saida_SaidaAConsumidorOuUsuarioFinal,saida_FatoGeradorNaoRealizado,saida_SaidaOuSaidaSubsequenteComIsencaoOuNaoIncidencia,saida_SaidaParaOutroEstado,saida_ComercializacaoSubsequente,saida_Confronto_ICMSEfetivoNaSaida,saida_Confronto_ICMSEfetivoDaEntrada,saida_codigoDeEnquadramentoLegal,saldoST_Quantidade,saldoST_ValorUnitario,saldoST_ValorTotal,saldoProprio_Quantidade,saldoProprio_ValorUnitario,saldoProprio_ValorTotal,apuracao_ValorRessarcimento,apuracao_ValorComplemento,apuracao_ICMSCreditoDaOperacaoPropria) 
+	FROM 'C:/rst/database/data/movimento.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+COPY saldo (produto,ano,mes,qtd_ini,icms_tot_ini_st,icms_tot_ini_proprio,qtd_fim, icms_tot_fim_st,icms_tot_fim_proprio,fixo,entrada,saida) 
+	FROM 'C:/rst/database/data/saldo.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
 
-insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
-insert into participante(contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun) values(1, 'fdsafd', '15445', null, '', '789789');
 
 
 select * from contribuinte;
-
+select * from produto;
 select * from participante;
-
-
+select * from movimento;
+select * from saldo;
