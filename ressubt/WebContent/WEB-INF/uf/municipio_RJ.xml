@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="3300100" col2="ANGRA DOS REIS" />
+	<item col1="3300159" col2="APERIBÉ" />
+	<item col1="3300209" col2="ARARUAMA" />
+	<item col1="3300225" col2="AREAL" />
+	<item col1="3300233" col2="ARMAÇÃO DOS BÚZIOS" />
+	<item col1="3300258" col2="ARRAIAL DO CABO" />
+	<item col1="3300308" col2="BARRA DO PIRAÍ" />
+	<item col1="3300407" col2="BARRA MANSA" />
+	<item col1="3300456" col2="BELFORD ROXO" />
+	<item col1="3300506" col2="BOM JARDIM" />
+	<item col1="3300605" col2="BOM JESUS DO ITABAPOANA" />
+	<item col1="3300704" col2="CABO FRIO" />
+	<item col1="3300803" col2="CACHOEIRAS DE MACACU" />
+	<item col1="3300902" col2="CAMBUCI" />
+	<item col1="3300936" col2="CARAPEBUS" />
+	<item col1="3300951" col2="COMENDADOR LEVY GASPARIAN" />
+	<item col1="3301009" col2="CAMPOS DOS GOYTACAZES" />
+	<item col1="3301108" col2="CANTAGALO" />
+	<item col1="3301157" col2="CARDOSO MOREIRA" />
+	<item col1="3301207" col2="CARMO" />
+	<item col1="3301306" col2="CASIMIRO DE ABREU" />
+	<item col1="3301405" col2="CONCEIÇÃO DE MACABU" />
+	<item col1="3301504" col2="CORDEIRO" />
+	<item col1="3301603" col2="DUAS BARRAS" />
+	<item col1="3301702" col2="DUQUE DE CAXIAS" />
+	<item col1="3301801" col2="ENGENHEIRO PAULO DE FRONTIN" />
+	<item col1="3301850" col2="GUAPIMIRIM" />
+	<item col1="3301876" col2="IGUABA GRANDE" />
+	<item col1="3301900" col2="ITABORAÍ" />
+	<item col1="3302007" col2="ITAGUAÍ" />
+	<item col1="3302056" col2="ITALVA" />
+	<item col1="3302106" col2="ITAOCARA" />
+	<item col1="3302205" col2="ITAPERUNA" />
+	<item col1="3302254" col2="ITATIAIA" />
+	<item col1="3302270" col2="JAPERI" />
+	<item col1="3302304" col2="LAJE DO MURIAÉ" />
+	<item col1="3302403" col2="MACAÉ" />
+	<item col1="3302452" col2="MACUCO" />
+	<item col1="3302502" col2="MAGÉ" />
+	<item col1="3302601" col2="MANGARATIBA" />
+	<item col1="3302700" col2="MARICÁ" />
+	<item col1="3302809" col2="MENDES" />
+	<item col1="3302858" col2="MESQUITA" />
+	<item col1="3302908" col2="MIGUEL PEREIRA" />
+	<item col1="3303005" col2="MIRACEMA" />
+	<item col1="3303104" col2="NATIVIDADE" />
+	<item col1="3303203" col2="NILÓPOLIS" />
+	<item col1="3303302" col2="NITERÓI" />
+	<item col1="3303401" col2="NOVA FRIBURGO" />
+	<item col1="3303500" col2="NOVA IGUAÇU" />
+	<item col1="3303609" col2="PARACAMBI" />
+	<item col1="3303708" col2="PARAÍBA DO SUL" />
+	<item col1="3303807" col2="PARATI" />
+	<item col1="3303856" col2="PATY DO ALFERES" />
+	<item col1="3303906" col2="PETRÓPOLIS" />
+	<item col1="3303955" col2="PINHEIRAL" />
+	<item col1="3304003" col2="PIRAÍ" />
+	<item col1="3304102" col2="PORCIÚNCULA" />
+	<item col1="3304110" col2="PORTO REAL" />
+	<item col1="3304128" col2="QUATIS" />
+	<item col1="3304144" col2="QUEIMADOS" />
+	<item col1="3304151" col2="QUISSAMÃ" />
+	<item col1="3304201" col2="RESENDE" />
+	<item col1="3304300" col2="RIO BONITO" />
+	<item col1="3304409" col2="RIO CLARO" />
+	<item col1="3304508" col2="RIO DAS FLORES" />
+	<item col1="3304524" col2="RIO DAS OSTRAS" />
+	<item col1="3304557" col2="RIO DE JANEIRO" />
+	<item col1="3304607" col2="SANTA MARIA MADALENA" />
+	<item col1="3304706" col2="SANTO ANTÔNIO DE PÁDUA" />
+	<item col1="3304755" col2="SÃO FRANCISCO DE ITABAPOANA" />
+	<item col1="3304805" col2="SÃO FIDÉLIS" />
+	<item col1="3304904" col2="SÃO GONÇALO" />
+	<item col1="3305000" col2="SÃO JOÃO DA BARRA" />
+	<item col1="3305109" col2="SÃO JOÃO DE MERITI" />
+	<item col1="3305133" col2="SÃO JOSÉ DE UBÁ" />
+	<item col1="3305158" col2="SÃO JOSÉ DO VALE DO RIO PRETO" />
+	<item col1="3305208" col2="SÃO PEDRO DA ALDEIA" />
+	<item col1="3305307" col2="SÃO SEBASTIÃO DO ALTO" />
+	<item col1="3305406" col2="SAPUCAIA" />
+	<item col1="3305505" col2="SAQUAREMA" />
+	<item col1="3305554" col2="SEROPÉDICA" />
+	<item col1="3305604" col2="SILVA JARDIM" />
+	<item col1="3305703" col2="SUMIDOURO" />
+	<item col1="3305752" col2="TANGUÁ" />
+	<item col1="3305802" col2="TERESÓPOLIS" />
+	<item col1="3305901" col2="TRAJANO DE MORAIS" />
+	<item col1="3306008" col2="TRÊS RIOS" />
+	<item col1="3306107" col2="VALENÇA" />
+	<item col1="3306156" col2="VARRE-SAI" />
+	<item col1="3306206" col2="VASSOURAS" />
+	<item col1="3306305" col2="VOLTA REDONDA" />
+
+</tabela>

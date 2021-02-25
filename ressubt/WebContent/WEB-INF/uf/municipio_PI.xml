@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="2200053" col2="ACAUÃ" />
+	<item col1="2200103" col2="AGRICOLÂNDIA" />
+	<item col1="2200202" col2="ÁGUA BRANCA" />
+	<item col1="2200251" col2="ALAGOINHA DO PIAUÍ" />
+	<item col1="2200277" col2="ALEGRETE DO PIAUÍ" />
+	<item col1="2200301" col2="ALTO LONGÁ" />
+	<item col1="2200400" col2="ALTOS" />
+	<item col1="2200459" col2="ALVORADA DO GURGUÉIA" />
+	<item col1="2200509" col2="AMARANTE" />
+	<item col1="2200608" col2="ANGICAL DO PIAUÍ" />
+	<item col1="2200707" col2="ANÍSIO DE ABREU" />
+	<item col1="2200806" col2="ANTÔNIO ALMEIDA" />
+	<item col1="2200905" col2="AROAZES" />
+	<item col1="2200954" col2="AROEIRAS DO ITAIM" />
+	<item col1="2201002" col2="ARRAIAL" />
+	<item col1="2201051" col2="ASSUNÇÃO DO PIAUÍ" />
+	<item col1="2201101" col2="AVELINO LOPES" />
+	<item col1="2201150" col2="BAIXA GRANDE DO RIBEIRO" />
+	<item col1="2201176" col2="BARRA D'ALCÂNTARA" />
+	<item col1="2201200" col2="BARRAS" />
+	<item col1="2201309" col2="BARREIRAS DO PIAUÍ" />
+	<item col1="2201408" col2="BARRO DURO" />
+	<item col1="2201507" col2="BATALHA" />
+	<item col1="2201556" col2="BELA VISTA DO PIAUÍ" />
+	<item col1="2201572" col2="BELÉM DO PIAUÍ" />
+	<item col1="2201606" col2="BENEDITINOS" />
+	<item col1="2201705" col2="BERTOLÍNIA" />
+	<item col1="2201739" col2="BETÂNIA DO PIAUÍ" />
+	<item col1="2201770" col2="BOA HORA" />
+	<item col1="2201804" col2="BOCAINA" />
+	<item col1="2201903" col2="BOM JESUS" />
+	<item col1="2201919" col2="BOM PRINCÍPIO DO PIAUÍ" />
+	<item col1="2201929" col2="BONFIM DO PIAUÍ" />
+	<item col1="2201945" col2="BOQUEIRÃO DO PIAUÍ" />
+	<item col1="2201960" col2="BRASILEIRA" />
+	<item col1="2201988" col2="BREJO DO PIAUÍ" />
+	<item col1="2202000" col2="BURITI DOS LOPES" />
+	<item col1="2202026" col2="BURITI DOS MONTES" />
+	<item col1="2202059" col2="CABECEIRAS DO PIAUÍ" />
+	<item col1="2202075" col2="CAJAZEIRAS DO PIAUÍ" />
+	<item col1="2202083" col2="CAJUEIRO DA PRAIA" />
+	<item col1="2202091" col2="CALDEIRÃO GRANDE DO PIAUÍ" />
+	<item col1="2202109" col2="CAMPINAS DO PIAUÍ" />
+	<item col1="2202117" col2="CAMPO ALEGRE DO FIDALGO" />
+	<item col1="2202133" col2="CAMPO GRANDE DO PIAUÍ" />
+	<item col1="2202174" col2="CAMPO LARGO DO PIAUÍ" />
+	<item col1="2202208" col2="CAMPO MAIOR" />
+	<item col1="2202251" col2="CANAVIEIRA" />
+	<item col1="2202307" col2="CANTO DO BURITI" />
+	<item col1="2202406" col2="CAPITÃO DE CAMPOS" />
+	<item col1="2202455" col2="CAPITÃO GERVÁSIO OLIVEIRA" />
+	<item col1="2202505" col2="CARACOL" />
+	<item col1="2202539" col2="CARAÚBAS DO PIAUÍ" />
+	<item col1="2202554" col2="CARIDADE DO PIAUÍ" />
+	<item col1="2202604" col2="CASTELO DO PIAUÍ" />
+	<item col1="2202653" col2="CAXINGÓ" />
+	<item col1="2202703" col2="COCAL" />
+	<item col1="2202711" col2="COCAL DE TELHA" />
+	<item col1="2202729" col2="COCAL DOS ALVES" />
+	<item col1="2202737" col2="COIVARAS" />
+	<item col1="2202752" col2="COLÔNIA DO GURGUÉIA" />
+	<item col1="2202778" col2="COLÔNIA DO PIAUÍ" />
+	<item col1="2202802" col2="CONCEIÇÃO DO CANINDÉ" />
+	<item col1="2202851" col2="CORONEL JOSÉ DIAS" />
+	<item col1="2202901" col2="CORRENTE" />
+	<item col1="2203008" col2="CRISTALÂNDIA DO PIAUÍ" />
+	<item col1="2203107" col2="CRISTINO CASTRO" />
+	<item col1="2203206" col2="CURIMATÁ" />
+	<item col1="2203230" col2="CURRAIS" />
+	<item col1="2203255" col2="CURRALINHOS" />
+	<item col1="2203271" col2="CURRAL NOVO DO PIAUÍ" />
+	<item col1="2203305" col2="DEMERVAL LOBÃO" />
+	<item col1="2203354" col2="DIRCEU ARCOVERDE" />
+	<item col1="2203404" col2="DOM EXPEDITO LOPES" />
+	<item col1="2203420" col2="DOMINGOS MOURÃO" />
+	<item col1="2203453" col2="DOM INOCÊNCIO" />
+	<item col1="2203503" col2="ELESBÃO VELOSO" />
+	<item col1="2203602" col2="ELISEU MARTINS" />
+	<item col1="2203701" col2="ESPERANTINA" />
+	<item col1="2203750" col2="FARTURA DO PIAUÍ" />
+	<item col1="2203800" col2="FLORES DO PIAUÍ" />
+	<item col1="2203859" col2="FLORESTA DO PIAUÍ" />
+	<item col1="2203909" col2="FLORIANO" />
+	<item col1="2204006" col2="FRANCINÓPOLIS" />
+	<item col1="2204105" col2="FRANCISCO AYRES" />
+	<item col1="2204154" col2="FRANCISCO MACEDO" />
+	<item col1="2204204" col2="FRANCISCO SANTOS" />
+	<item col1="2204303" col2="FRONTEIRAS" />
+	<item col1="2204352" col2="GEMINIANO" />
+	<item col1="2204402" col2="GILBUÉS" />
+	<item col1="2204501" col2="GUADALUPE" />
+	<item col1="2204550" col2="GUARIBAS" />
+	<item col1="2204600" col2="HUGO NAPOLEÃO" />
+	<item col1="2204659" col2="ILHA GRANDE" />
+	<item col1="2204709" col2="INHUMA" />
+	<item col1="2204808" col2="IPIRANGA DO PIAUÍ" />
+	<item col1="2204907" col2="ISAÍAS COELHO" />
+	<item col1="2205003" col2="ITAINÓPOLIS" />
+	<item col1="2205102" col2="ITAUEIRA" />
+	<item col1="2205151" col2="JACOBINA DO PIAUÍ" />
+	<item col1="2205201" col2="JAICÓS" />
+	<item col1="2205250" col2="JARDIM DO MULATO" />
+	<item col1="2205276" col2="JATOBÁ DO PIAUÍ" />
+	<item col1="2205300" col2="JERUMENHA" />
+	<item col1="2205359" col2="JOÃO COSTA" />
+	<item col1="2205409" col2="JOAQUIM PIRES" />
+	<item col1="2205458" col2="JOCA MARQUES" />
+	<item col1="2205508" col2="JOSÉ DE FREITAS" />
+	<item col1="2205516" col2="JUAZEIRO DO PIAUÍ" />
+	<item col1="2205524" col2="JÚLIO BORGES" />
+	<item col1="2205532" col2="JUREMA" />
+	<item col1="2205540" col2="LAGOINHA DO PIAUÍ" />
+	<item col1="2205557" col2="LAGOA ALEGRE" />
+	<item col1="2205565" col2="LAGOA DO BARRO DO PIAUÍ" />
+	<item col1="2205573" col2="LAGOA DE SÃO FRANCISCO" />
+	<item col1="2205581" col2="LAGOA DO PIAUÍ" />
+	<item col1="2205599" col2="LAGOA DO SÍTIO" />
+	<item col1="2205607" col2="LANDRI SALES" />
+	<item col1="2205706" col2="LUÍS CORREIA" />
+	<item col1="2205805" col2="LUZILÂNDIA" />
+	<item col1="2205854" col2="MADEIRO" />
+	<item col1="2205904" col2="MANOEL EMÍDIO" />
+	<item col1="2205953" col2="MARCOLÂNDIA" />
+	<item col1="2206001" col2="MARCOS PARENTE" />
+	<item col1="2206050" col2="MASSAPÊ DO PIAUÍ" />
+	<item col1="2206100" col2="MATIAS OLÍMPIO" />
+	<item col1="2206209" col2="MIGUEL ALVES" />
+	<item col1="2206308" col2="MIGUEL LEÃO" />
+	<item col1="2206357" col2="MILTON BRANDÃO" />
+	<item col1="2206407" col2="MONSENHOR GIL" />
+	<item col1="2206506" col2="MONSENHOR HIPÓLITO" />
+	<item col1="2206605" col2="MONTE ALEGRE DO PIAUÍ" />
+	<item col1="2206654" col2="MORRO CABEÇA NO TEMPO" />
+	<item col1="2206670" col2="MORRO DO CHAPÉU DO PIAUÍ" />
+	<item col1="2206696" col2="MURICI DOS PORTELAS" />
+	<item col1="2206704" col2="NAZARÉ DO PIAUÍ" />
+	<item col1="2206753" col2="NOSSA SENHORA DE NAZARÉ" />
+	<item col1="2206803" col2="NOSSA SENHORA DOS REMÉDIOS" />
+	<item col1="2206902" col2="NOVO ORIENTE DO PIAUÍ" />
+	<item col1="2206951" col2="NOVO SANTO ANTÔNIO" />
+	<item col1="2207009" col2="OEIRAS" />
+	<item col1="2207108" col2="OLHO D'ÁGUA DO PIAUÍ" />
+	<item col1="2207207" col2="PADRE MARCOS" />
+	<item col1="2207306" col2="PAES LANDIM" />
+	<item col1="2207355" col2="PAJEÚ DO PIAUÍ" />
+	<item col1="2207405" col2="PALMEIRA DO PIAUÍ" />
+	<item col1="2207504" col2="PALMEIRAIS" />
+	<item col1="2207553" col2="PAQUETÁ" />
+	<item col1="2207603" col2="PARNAGUÁ" />
+	<item col1="2207702" col2="PARNAÍBA" />
+	<item col1="2207751" col2="PASSAGEM FRANCA DO PIAUÍ" />
+	<item col1="2207777" col2="PATOS DO PIAUÍ" />
+	<item col1="2207793" col2="PAU D'ARCO DO PIAUÍ" />
+	<item col1="2207801" col2="PAULISTANA" />
+	<item col1="2207850" col2="PAVUSSU" />
+	<item col1="2207900" col2="PEDRO II" />
+	<item col1="2207934" col2="PEDRO LAURENTINO" />
+	<item col1="2207959" col2="NOVA SANTA RITA" />
+	<item col1="2208007" col2="PICOS" />
+	<item col1="2208106" col2="PIMENTEIRAS" />
+	<item col1="2208205" col2="PIO IX" />
+	<item col1="2208304" col2="PIRACURUCA" />
+	<item col1="2208403" col2="PIRIPIRI" />
+	<item col1="2208502" col2="PORTO" />
+	<item col1="2208551" col2="PORTO ALEGRE DO PIAUÍ" />
+	<item col1="2208601" col2="PRATA DO PIAUÍ" />
+	<item col1="2208650" col2="QUEIMADA NOVA" />
+	<item col1="2208700" col2="REDENÇÃO DO GURGUÉIA" />
+	<item col1="2208809" col2="REGENERAÇÃO" />
+	<item col1="2208858" col2="RIACHO FRIO" />
+	<item col1="2208874" col2="RIBEIRA DO PIAUÍ" />
+	<item col1="2208908" col2="RIBEIRO GONÇALVES" />
+	<item col1="2209005" col2="RIO GRANDE DO PIAUÍ" />
+	<item col1="2209104" col2="SANTA CRUZ DO PIAUÍ" />
+	<item col1="2209153" col2="SANTA CRUZ DOS MILAGRES" />
+	<item col1="2209203" col2="SANTA FILOMENA" />
+	<item col1="2209302" col2="SANTA LUZ" />
+	<item col1="2209351" col2="SANTANA DO PIAUÍ" />
+	<item col1="2209377" col2="SANTA ROSA DO PIAUÍ" />
+	<item col1="2209401" col2="SANTO ANTÔNIO DE LISBOA" />
+	<item col1="2209450" col2="SANTO ANTÔNIO DOS MILAGRES" />
+	<item col1="2209500" col2="SANTO INÁCIO DO PIAUÍ" />
+	<item col1="2209559" col2="SÃO BRAZ DO PIAUÍ" />
+	<item col1="2209609" col2="SÃO FÉLIX DO PIAUÍ" />
+	<item col1="2209658" col2="SÃO FRANCISCO DE ASSIS DO PIAUÍ" />
+	<item col1="2209708" col2="SÃO FRANCISCO DO PIAUÍ" />
+	<item col1="2209757" col2="SÃO GONÇALO DO GURGUÉIA" />
+	<item col1="2209807" col2="SÃO GONÇALO DO PIAUÍ" />
+	<item col1="2209856" col2="SÃO JOÃO DA CANABRAVA" />
+	<item col1="2209872" col2="SÃO JOÃO DA FRONTEIRA" />
+	<item col1="2209906" col2="SÃO JOÃO DA SERRA" />
+	<item col1="2209955" col2="SÃO JOÃO DA VARJOTA" />
+	<item col1="2209971" col2="SÃO JOÃO DO ARRAIAL" />
+	<item col1="2210003" col2="SÃO JOÃO DO PIAUÍ" />
+	<item col1="2210052" col2="SÃO JOSÉ DO DIVINO" />
+	<item col1="2210102" col2="SÃO JOSÉ DO PEIXE" />
+	<item col1="2210201" col2="SÃO JOSÉ DO PIAUÍ" />
+	<item col1="2210300" col2="SÃO JULIÃO" />
+	<item col1="2210359" col2="SÃO LOURENÇO DO PIAUÍ" />
+	<item col1="2210375" col2="SÃO LUIS DO PIAUÍ" />
+	<item col1="2210383" col2="SÃO MIGUEL DA BAIXA GRANDE" />
+	<item col1="2210391" col2="SÃO MIGUEL DO FIDALGO" />
+	<item col1="2210409" col2="SÃO MIGUEL DO TAPUIO" />
+	<item col1="2210508" col2="SÃO PEDRO DO PIAUÍ" />
+	<item col1="2210607" col2="SÃO RAIMUNDO NONATO" />
+	<item col1="2210623" col2="SEBASTIÃO BARROS" />
+	<item col1="2210631" col2="SEBASTIÃO LEAL" />
+	<item col1="2210656" col2="SIGEFREDO PACHECO" />
+	<item col1="2210706" col2="SIMÕES" />
+	<item col1="2210805" col2="SIMPLÍCIO MENDES" />
+	<item col1="2210904" col2="SOCORRO DO PIAUÍ" />
+	<item col1="2210938" col2="SUSSUAPARA" />
+	<item col1="2210953" col2="TAMBORIL DO PIAUÍ" />
+	<item col1="2210979" col2="TANQUE DO PIAUÍ" />
+	<item col1="2211001" col2="TERESINA" />
+	<item col1="2211100" col2="UNIÃO" />
+	<item col1="2211209" col2="URUÇUÍ" />
+	<item col1="2211308" col2="VALENÇA DO PIAUÍ" />
+	<item col1="2211357" col2="VÁRZEA BRANCA" />
+	<item col1="2211407" col2="VÁRZEA GRANDE" />
+	<item col1="2211506" col2="VERA MENDES" />
+	<item col1="2211605" col2="VILA NOVA DO PIAUÍ" />
+	<item col1="2211704" col2="WALL FERRAZ" />
+
+</tabela>

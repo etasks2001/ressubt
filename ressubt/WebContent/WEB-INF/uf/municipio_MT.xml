@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="5100102" col2="ACORIZAL" />
+	<item col1="5100201" col2="ÁGUA BOA" />
+	<item col1="5100250" col2="ALTA FLORESTA" />
+	<item col1="5100300" col2="ALTO ARAGUAIA" />
+	<item col1="5100359" col2="ALTO BOA VISTA" />
+	<item col1="5100409" col2="ALTO GARÇAS" />
+	<item col1="5100508" col2="ALTO PARAGUAI" />
+	<item col1="5100607" col2="ALTO TAQUARI" />
+	<item col1="5100805" col2="APIACÁS" />
+	<item col1="5101001" col2="ARAGUAIANA" />
+	<item col1="5101209" col2="ARAGUAINHA" />
+	<item col1="5101258" col2="ARAPUTANGA" />
+	<item col1="5101308" col2="ARENÁPOLIS" />
+	<item col1="5101407" col2="ARIPUANÃ" />
+	<item col1="5101605" col2="BARÃO DE MELGAÇO" />
+	<item col1="5101704" col2="BARRA DO BUGRES" />
+	<item col1="5101803" col2="BARRA DO GARÇAS" />
+	<item col1="5101852" col2="BOM JESUS DO ARAGUAIA" />
+	<item col1="5101902" col2="BRASNORTE" />
+	<item col1="5102504" col2="CÁCERES" />
+	<item col1="5102603" col2="CAMPINÁPOLIS" />
+	<item col1="5102637" col2="CAMPO NOVO DO PARECIS" />
+	<item col1="5102678" col2="CAMPO VERDE" />
+	<item col1="5102686" col2="CAMPOS DE JÚLIO" />
+	<item col1="5102694" col2="CANABRAVA DO NORTE" />
+	<item col1="5102702" col2="CANARANA" />
+	<item col1="5102793" col2="CARLINDA" />
+	<item col1="5102850" col2="CASTANHEIRA" />
+	<item col1="5103007" col2="CHAPADA DOS GUIMARÃES" />
+	<item col1="5103056" col2="CLÁUDIA" />
+	<item col1="5103106" col2="COCALINHO" />
+	<item col1="5103205" col2="COLÍDER" />
+	<item col1="5103254" col2="COLNIZA" />
+	<item col1="5103304" col2="COMODORO" />
+	<item col1="5103353" col2="CONFRESA" />
+	<item col1="5103361" col2="CONQUISTA D'OESTE" />
+	<item col1="5103379" col2="COTRIGUAÇU" />
+	<item col1="5103403" col2="CUIABÁ" />
+	<item col1="5103437" col2="CURVELÂNDIA" />
+	<item col1="5103452" col2="DENISE" />
+	<item col1="5103502" col2="DIAMANTINO" />
+	<item col1="5103601" col2="DOM AQUINO" />
+	<item col1="5103700" col2="FELIZ NATAL" />
+	<item col1="5103809" col2="FIGUEIRÓPOLIS D'OESTE" />
+	<item col1="5103858" col2="GAÚCHA DO NORTE" />
+	<item col1="5103908" col2="GENERAL CARNEIRO" />
+	<item col1="5103957" col2="GLÓRIA D'OESTE" />
+	<item col1="5104104" col2="GUARANTÃ DO NORTE" />
+	<item col1="5104203" col2="GUIRATINGA" />
+	<item col1="5104500" col2="INDIAVAÍ" />
+	<item col1="5104526" col2="IPIRANGA DO NORTE" />
+	<item col1="5104542" col2="ITANHANGÁ" />
+	<item col1="5104559" col2="ITAÚBA" />
+	<item col1="5104609" col2="ITIQUIRA" />
+	<item col1="5104807" col2="JACIARA" />
+	<item col1="5104906" col2="JANGADA" />
+	<item col1="5105002" col2="JAURU" />
+	<item col1="5105101" col2="JUARA" />
+	<item col1="5105150" col2="JUÍNA" />
+	<item col1="5105176" col2="JURUENA" />
+	<item col1="5105200" col2="JUSCIMEIRA" />
+	<item col1="5105234" col2="LAMBARI D'OESTE" />
+	<item col1="5105259" col2="LUCAS DO RIO VERDE" />
+	<item col1="5105309" col2="LUCIARA" />
+	<item col1="5105507" col2="VILA BELA DA SANTÍSSIMA TRINDADE" />
+	<item col1="5105580" col2="MARCELÂNDIA" />
+	<item col1="5105606" col2="MATUPÁ" />
+	<item col1="5105622" col2="MIRASSOL D'OESTE" />
+	<item col1="5105903" col2="NOBRES" />
+	<item col1="5106000" col2="NORTELÂNDIA" />
+	<item col1="5106109" col2="NOSSA SENHORA DO LIVRAMENTO" />
+	<item col1="5106158" col2="NOVA BANDEIRANTES" />
+	<item col1="5106174" col2="NOVA NAZARÉ" />
+	<item col1="5106182" col2="NOVA LACERDA" />
+	<item col1="5106190" col2="NOVA SANTA HELENA" />
+	<item col1="5106208" col2="NOVA BRASILÂNDIA" />
+	<item col1="5106216" col2="NOVA CANAÃ DO NORTE" />
+	<item col1="5106224" col2="NOVA MUTUM" />
+	<item col1="5106232" col2="NOVA OLÍMPIA" />
+	<item col1="5106240" col2="NOVA UBIRATÃ" />
+	<item col1="5106257" col2="NOVA XAVANTINA" />
+	<item col1="5106265" col2="NOVO MUNDO" />
+	<item col1="5106273" col2="NOVO HORIZONTE DO NORTE" />
+	<item col1="5106281" col2="NOVO SÃO JOAQUIM" />
+	<item col1="5106299" col2="PARANAÍTA" />
+	<item col1="5106307" col2="PARANATINGA" />
+	<item col1="5106315" col2="NOVO SANTO ANTÔNIO" />
+	<item col1="5106372" col2="PEDRA PRETA" />
+	<item col1="5106422" col2="PEIXOTO DE AZEVEDO" />
+	<item col1="5106455" col2="PLANALTO DA SERRA" />
+	<item col1="5106505" col2="POCONÉ" />
+	<item col1="5106653" col2="PONTAL DO ARAGUAIA" />
+	<item col1="5106703" col2="PONTE BRANCA" />
+	<item col1="5106752" col2="PONTES E LACERDA" />
+	<item col1="5106778" col2="PORTO ALEGRE DO NORTE" />
+	<item col1="5106802" col2="PORTO DOS GAÚCHOS" />
+	<item col1="5106828" col2="PORTO ESPERIDIÃO" />
+	<item col1="5106851" col2="PORTO ESTRELA" />
+	<item col1="5107008" col2="POXORÉO" />
+	<item col1="5107040" col2="PRIMAVERA DO LESTE" />
+	<item col1="5107065" col2="QUERÊNCIA" />
+	<item col1="5107107" col2="SÃO JOSÉ DOS QUATRO MARCOS" />
+	<item col1="5107156" col2="RESERVA DO CABAÇAL" />
+	<item col1="5107180" col2="RIBEIRÃO CASCALHEIRA" />
+	<item col1="5107198" col2="RIBEIRÃOZINHO" />
+	<item col1="5107206" col2="RIO BRANCO" />
+	<item col1="5107248" col2="SANTA CARMEM" />
+	<item col1="5107263" col2="SANTO AFONSO" />
+	<item col1="5107297" col2="SÃO JOSÉ DO POVO" />
+	<item col1="5107305" col2="SÃO JOSÉ DO RIO CLARO" />
+	<item col1="5107354" col2="SÃO JOSÉ DO XINGU" />
+	<item col1="5107404" col2="SÃO PEDRO DA CIPA" />
+	<item col1="5107578" col2="RONDOLÂNDIA" />
+	<item col1="5107602" col2="RONDONÓPOLIS" />
+	<item col1="5107701" col2="ROSÁRIO OESTE" />
+	<item col1="5107743" col2="SANTA CRUZ DO XINGU" />
+	<item col1="5107750" col2="SALTO DO CÉU" />
+	<item col1="5107768" col2="SANTA RITA DO TRIVELATO" />
+	<item col1="5107776" col2="SANTA TEREZINHA" />
+	<item col1="5107792" col2="SANTO ANTÔNIO DO LESTE" />
+	<item col1="5107800" col2="SANTO ANTÔNIO DO LEVERGER" />
+	<item col1="5107859" col2="SÃO FÉLIX DO ARAGUAIA" />
+	<item col1="5107875" col2="SAPEZAL" />
+	<item col1="5107883" col2="SERRA NOVA DOURADA" />
+	<item col1="5107909" col2="SINOP" />
+	<item col1="5107925" col2="SORRISO" />
+	<item col1="5107941" col2="TABAPORÃ" />
+	<item col1="5107958" col2="TANGARÁ DA SERRA" />
+	<item col1="5108006" col2="TAPURAH" />
+	<item col1="5108055" col2="TERRA NOVA DO NORTE" />
+	<item col1="5108105" col2="TESOURO" />
+	<item col1="5108204" col2="TORIXORÉU" />
+	<item col1="5108303" col2="UNIÃO DO SUL" />
+	<item col1="5108352" col2="VALE DE SÃO DOMINGOS" />
+	<item col1="5108402" col2="VÁRZEA GRANDE" />
+	<item col1="5108501" col2="VERA" />
+	<item col1="5108600" col2="VILA RICA" />
+	<item col1="5108808" col2="NOVA GUARITA" />
+	<item col1="5108857" col2="NOVA MARILÂNDIA" />
+	<item col1="5108907" col2="NOVA MARINGÁ" />
+	<item col1="5108956" col2="NOVA MONTE VERDE" />
+
+</tabela>

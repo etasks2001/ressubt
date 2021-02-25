@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="2100055" col2="AÇAILÂNDIA" />
+	<item col1="2100105" col2="AFONSO CUNHA" />
+	<item col1="2100154" col2="ÁGUA DOCE DO MARANHÃO" />
+	<item col1="2100204" col2="ALCÂNTARA" />
+	<item col1="2100303" col2="ALDEIAS ALTAS" />
+	<item col1="2100402" col2="ALTAMIRA DO MARANHÃO" />
+	<item col1="2100436" col2="ALTO ALEGRE DO MARANHÃO" />
+	<item col1="2100477" col2="ALTO ALEGRE DO PINDARÉ" />
+	<item col1="2100501" col2="ALTO PARNAÍBA" />
+	<item col1="2100550" col2="AMAPÁ DO MARANHÃO" />
+	<item col1="2100600" col2="AMARANTE DO MARANHÃO" />
+	<item col1="2100709" col2="ANAJATUBA" />
+	<item col1="2100808" col2="ANAPURUS" />
+	<item col1="2100832" col2="APICUM-AÇU" />
+	<item col1="2100873" col2="ARAGUANÃ" />
+	<item col1="2100907" col2="ARAIOSES" />
+	<item col1="2100956" col2="ARAME" />
+	<item col1="2101004" col2="ARARI" />
+	<item col1="2101103" col2="AXIXÁ" />
+	<item col1="2101202" col2="BACABAL" />
+	<item col1="2101251" col2="BACABEIRA" />
+	<item col1="2101301" col2="BACURI" />
+	<item col1="2101350" col2="BACURITUBA" />
+	<item col1="2101400" col2="BALSAS" />
+	<item col1="2101509" col2="BARÃO DE GRAJAÚ" />
+	<item col1="2101608" col2="BARRA DO CORDA" />
+	<item col1="2101707" col2="BARREIRINHAS" />
+	<item col1="2101731" col2="BELÁGUA" />
+	<item col1="2101772" col2="BELA VISTA DO MARANHÃO" />
+	<item col1="2101806" col2="BENEDITO LEITE" />
+	<item col1="2101905" col2="BEQUIMÃO" />
+	<item col1="2101939" col2="BERNARDO DO MEARIM" />
+	<item col1="2101970" col2="BOA VISTA DO GURUPI" />
+	<item col1="2102002" col2="BOM JARDIM" />
+	<item col1="2102036" col2="BOM JESUS DAS SELVAS" />
+	<item col1="2102077" col2="BOM LUGAR" />
+	<item col1="2102101" col2="BREJO" />
+	<item col1="2102150" col2="BREJO DE AREIA" />
+	<item col1="2102200" col2="BURITI" />
+	<item col1="2102309" col2="BURITI BRAVO" />
+	<item col1="2102325" col2="BURITICUPU" />
+	<item col1="2102358" col2="BURITIRANA" />
+	<item col1="2102374" col2="CACHOEIRA GRANDE" />
+	<item col1="2102408" col2="CAJAPIÓ" />
+	<item col1="2102507" col2="CAJARI" />
+	<item col1="2102556" col2="CAMPESTRE DO MARANHÃO" />
+	<item col1="2102606" col2="CÂNDIDO MENDES" />
+	<item col1="2102705" col2="CANTANHEDE" />
+	<item col1="2102754" col2="CAPINZAL DO NORTE" />
+	<item col1="2102804" col2="CAROLINA" />
+	<item col1="2102903" col2="CARUTAPERA" />
+	<item col1="2103000" col2="CAXIAS" />
+	<item col1="2103109" col2="CEDRAL" />
+	<item col1="2103125" col2="CENTRAL DO MARANHÃO" />
+	<item col1="2103158" col2="CENTRO DO GUILHERME" />
+	<item col1="2103174" col2="CENTRO NOVO DO MARANHÃO" />
+	<item col1="2103208" col2="CHAPADINHA" />
+	<item col1="2103257" col2="CIDELÂNDIA" />
+	<item col1="2103307" col2="CODÓ" />
+	<item col1="2103406" col2="COELHO NETO" />
+	<item col1="2103505" col2="COLINAS" />
+	<item col1="2103554" col2="CONCEIÇÃO DO LAGO-AÇU" />
+	<item col1="2103604" col2="COROATÁ" />
+	<item col1="2103703" col2="CURURUPU" />
+	<item col1="2103752" col2="DAVINÓPOLIS" />
+	<item col1="2103802" col2="DOM PEDRO" />
+	<item col1="2103901" col2="DUQUE BACELAR" />
+	<item col1="2104008" col2="ESPERANTINÓPOLIS" />
+	<item col1="2104057" col2="ESTREITO" />
+	<item col1="2104073" col2="FEIRA NOVA DO MARANHÃO" />
+	<item col1="2104081" col2="FERNANDO FALCÃO" />
+	<item col1="2104099" col2="FORMOSA DA SERRA NEGRA" />
+	<item col1="2104107" col2="FORTALEZA DOS NOGUEIRAS" />
+	<item col1="2104206" col2="FORTUNA" />
+	<item col1="2104305" col2="GODOFREDO VIANA" />
+	<item col1="2104404" col2="GONÇALVES DIAS" />
+	<item col1="2104503" col2="GOVERNADOR ARCHER" />
+	<item col1="2104552" col2="GOVERNADOR EDISON LOBÃO" />
+	<item col1="2104602" col2="GOVERNADOR EUGÊNIO BARROS" />
+	<item col1="2104628" col2="GOVERNADOR LUIZ ROCHA" />
+	<item col1="2104651" col2="GOVERNADOR NEWTON BELLO" />
+	<item col1="2104677" col2="GOVERNADOR NUNES FREIRE" />
+	<item col1="2104701" col2="GRAÇA ARANHA" />
+	<item col1="2104800" col2="GRAJAÚ" />
+	<item col1="2104909" col2="GUIMARÃES" />
+	<item col1="2105005" col2="HUMBERTO DE CAMPOS" />
+	<item col1="2105104" col2="ICATU" />
+	<item col1="2105153" col2="IGARAPÉ DO MEIO" />
+	<item col1="2105203" col2="IGARAPÉ GRANDE" />
+	<item col1="2105302" col2="IMPERATRIZ" />
+	<item col1="2105351" col2="ITAIPAVA DO GRAJAÚ" />
+	<item col1="2105401" col2="ITAPECURU MIRIM" />
+	<item col1="2105427" col2="ITINGA DO MARANHÃO" />
+	<item col1="2105450" col2="JATOBÁ" />
+	<item col1="2105476" col2="JENIPAPO DOS VIEIRAS" />
+	<item col1="2105500" col2="JOÃO LISBOA" />
+	<item col1="2105609" col2="JOSELÂNDIA" />
+	<item col1="2105658" col2="JUNCO DO MARANHÃO" />
+	<item col1="2105708" col2="LAGO DA PEDRA" />
+	<item col1="2105807" col2="LAGO DO JUNCO" />
+	<item col1="2105906" col2="LAGO VERDE" />
+	<item col1="2105922" col2="LAGOA DO MATO" />
+	<item col1="2105948" col2="LAGO DOS RODRIGUES" />
+	<item col1="2105963" col2="LAGOA GRANDE DO MARANHÃO" />
+	<item col1="2105989" col2="LAJEADO NOVO" />
+	<item col1="2106003" col2="LIMA CAMPOS" />
+	<item col1="2106102" col2="LORETO" />
+	<item col1="2106201" col2="LUÍS DOMINGUES" />
+	<item col1="2106300" col2="MAGALHÃES DE ALMEIDA" />
+	<item col1="2106326" col2="MARACAÇUMÉ" />
+	<item col1="2106359" col2="MARAJÁ DO SENA" />
+	<item col1="2106375" col2="MARANHÃOZINHO" />
+	<item col1="2106409" col2="MATA ROMA" />
+	<item col1="2106508" col2="MATINHA" />
+	<item col1="2106607" col2="MATÕES" />
+	<item col1="2106631" col2="MATÕES DO NORTE" />
+	<item col1="2106672" col2="MILAGRES DO MARANHÃO" />
+	<item col1="2106706" col2="MIRADOR" />
+	<item col1="2106755" col2="MIRANDA DO NORTE" />
+	<item col1="2106805" col2="MIRINZAL" />
+	<item col1="2106904" col2="MONÇÃO" />
+	<item col1="2107001" col2="MONTES ALTOS" />
+	<item col1="2107100" col2="MORROS" />
+	<item col1="2107209" col2="NINA RODRIGUES" />
+	<item col1="2107258" col2="NOVA COLINAS" />
+	<item col1="2107308" col2="NOVA IORQUE" />
+	<item col1="2107357" col2="NOVA OLINDA DO MARANHÃO" />
+	<item col1="2107407" col2="OLHO D'ÁGUA DAS CUNHÃS" />
+	<item col1="2107456" col2="OLINDA NOVA DO MARANHÃO" />
+	<item col1="2107506" col2="PAÇO DO LUMIAR" />
+	<item col1="2107605" col2="PALMEIRÂNDIA" />
+	<item col1="2107704" col2="PARAIBANO" />
+	<item col1="2107803" col2="PARNARAMA" />
+	<item col1="2107902" col2="PASSAGEM FRANCA" />
+	<item col1="2108009" col2="PASTOS BONS" />
+	<item col1="2108058" col2="PAULINO NEVES" />
+	<item col1="2108108" col2="PAULO RAMOS" />
+	<item col1="2108207" col2="PEDREIRAS" />
+	<item col1="2108256" col2="PEDRO DO ROSÁRIO" />
+	<item col1="2108306" col2="PENALVA" />
+	<item col1="2108405" col2="PERI MIRIM" />
+	<item col1="2108454" col2="PERITORÓ" />
+	<item col1="2108504" col2="PINDARÉ-MIRIM" />
+	<item col1="2108603" col2="PINHEIRO" />
+	<item col1="2108702" col2="PIO XII" />
+	<item col1="2108801" col2="PIRAPEMAS" />
+	<item col1="2108900" col2="POÇÃO DE PEDRAS" />
+	<item col1="2109007" col2="PORTO FRANCO" />
+	<item col1="2109056" col2="PORTO RICO DO MARANHÃO" />
+	<item col1="2109106" col2="PRESIDENTE DUTRA" />
+	<item col1="2109205" col2="PRESIDENTE JUSCELINO" />
+	<item col1="2109239" col2="PRESIDENTE MÉDICI" />
+	<item col1="2109270" col2="PRESIDENTE SARNEY" />
+	<item col1="2109304" col2="PRESIDENTE VARGAS" />
+	<item col1="2109403" col2="PRIMEIRA CRUZ" />
+	<item col1="2109452" col2="RAPOSA" />
+	<item col1="2109502" col2="RIACHÃO" />
+	<item col1="2109551" col2="RIBAMAR FIQUENE" />
+	<item col1="2109601" col2="ROSÁRIO" />
+	<item col1="2109700" col2="SAMBAÍBA" />
+	<item col1="2109759" col2="SANTA FILOMENA DO MARANHÃO" />
+	<item col1="2109809" col2="SANTA HELENA" />
+	<item col1="2109908" col2="SANTA INÊS" />
+	<item col1="2110005" col2="SANTA LUZIA" />
+	<item col1="2110039" col2="SANTA LUZIA DO PARUÁ" />
+	<item col1="2110104" col2="SANTA QUITÉRIA DO MARANHÃO" />
+	<item col1="2110203" col2="SANTA RITA" />
+	<item col1="2110237" col2="SANTANA DO MARANHÃO" />
+	<item col1="2110278" col2="SANTO AMARO DO MARANHÃO" />
+	<item col1="2110302" col2="SANTO ANTÔNIO DOS LOPES" />
+	<item col1="2110401" col2="SÃO BENEDITO DO RIO PRETO" />
+	<item col1="2110500" col2="SÃO BENTO" />
+	<item col1="2110609" col2="SÃO BERNARDO" />
+	<item col1="2110658" col2="SÃO DOMINGOS DO AZEITÃO" />
+	<item col1="2110708" col2="SÃO DOMINGOS DO MARANHÃO" />
+	<item col1="2110807" col2="SÃO FÉLIX DE BALSAS" />
+	<item col1="2110856" col2="SÃO FRANCISCO DO BREJÃO" />
+	<item col1="2110906" col2="SÃO FRANCISCO DO MARANHÃO" />
+	<item col1="2111003" col2="SÃO JOÃO BATISTA" />
+	<item col1="2111029" col2="SÃO JOÃO DO CARÚ" />
+	<item col1="2111052" col2="SÃO JOÃO DO PARAÍSO" />
+	<item col1="2111078" col2="SÃO JOÃO DO SOTER" />
+	<item col1="2111102" col2="SÃO JOÃO DOS PATOS" />
+	<item col1="2111201" col2="SÃO JOSÉ DE RIBAMAR" />
+	<item col1="2111250" col2="SÃO JOSÉ DOS BASÍLIOS" />
+	<item col1="2111300" col2="SÃO LUÍS" />
+	<item col1="2111409" col2="SÃO LUÍS GONZAGA DO MARANHÃO" />
+	<item col1="2111508" col2="SÃO MATEUS DO MARANHÃO" />
+	<item col1="2111532" col2="SÃO PEDRO DA ÁGUA BRANCA" />
+	<item col1="2111573" col2="SÃO PEDRO DOS CRENTES" />
+	<item col1="2111607" col2="SÃO RAIMUNDO DAS MANGABEIRAS" />
+	<item col1="2111631" col2="SÃO RAIMUNDO DO DOCA BEZERRA" />
+	<item col1="2111672" col2="SÃO ROBERTO" />
+	<item col1="2111706" col2="SÃO VICENTE FERRER" />
+	<item col1="2111722" col2="SATUBINHA" />
+	<item col1="2111748" col2="SENADOR ALEXANDRE COSTA" />
+	<item col1="2111763" col2="SENADOR LA ROCQUE" />
+	<item col1="2111789" col2="SERRANO DO MARANHÃO" />
+	<item col1="2111805" col2="SÍTIO NOVO" />
+	<item col1="2111904" col2="SUCUPIRA DO NORTE" />
+	<item col1="2111953" col2="SUCUPIRA DO RIACHÃO" />
+	<item col1="2112001" col2="TASSO FRAGOSO" />
+	<item col1="2112100" col2="TIMBIRAS" />
+	<item col1="2112209" col2="TIMON" />
+	<item col1="2112233" col2="TRIZIDELA DO VALE" />
+	<item col1="2112274" col2="TUFILÂNDIA" />
+	<item col1="2112308" col2="TUNTUM" />
+	<item col1="2112407" col2="TURIAÇU" />
+	<item col1="2112456" col2="TURILÂNDIA" />
+	<item col1="2112506" col2="TUTÓIA" />
+	<item col1="2112605" col2="URBANO SANTOS" />
+	<item col1="2112704" col2="VARGEM GRANDE" />
+	<item col1="2112803" col2="VIANA" />
+	<item col1="2112852" col2="VILA NOVA DOS MARTÍRIOS" />
+	<item col1="2112902" col2="VITÓRIA DO MEARIM" />
+	<item col1="2113009" col2="VITORINO FREIRE" />
+	<item col1="2114007" col2="ZÉ DOCA" />
+
+</tabela>

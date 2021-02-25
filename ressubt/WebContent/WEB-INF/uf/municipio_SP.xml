@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="3500105" col2="ADAMANTINA" />
+	<item col1="3500204" col2="ADOLFO" />
+	<item col1="3500303" col2="AGUAÍ" />
+	<item col1="3500402" col2="ÁGUAS DA PRATA" />
+	<item col1="3500501" col2="ÁGUAS DE LINDÓIA" />
+	<item col1="3500550" col2="ÁGUAS DE SANTA BÁRBARA" />
+	<item col1="3500600" col2="ÁGUAS DE SÃO PEDRO" />
+	<item col1="3500709" col2="AGUDOS" />
+	<item col1="3500758" col2="ALAMBARI" />
+	<item col1="3500808" col2="ALFREDO MARCONDES" />
+	<item col1="3500907" col2="ALTAIR" />
+	<item col1="3501004" col2="ALTINÓPOLIS" />
+	<item col1="3501103" col2="ALTO ALEGRE" />
+	<item col1="3501152" col2="ALUMÍNIO" />
+	<item col1="3501202" col2="ÁLVARES FLORENCE" />
+	<item col1="3501301" col2="ÁLVARES MACHADO" />
+	<item col1="3501400" col2="ÁLVARO DE CARVALHO" />
+	<item col1="3501509" col2="ALVINLÂNDIA" />
+	<item col1="3501608" col2="AMERICANA" />
+	<item col1="3501707" col2="AMÉRICO BRASILIENSE" />
+	<item col1="3501806" col2="AMÉRICO DE CAMPOS" />
+	<item col1="3501905" col2="AMPARO" />
+	<item col1="3502002" col2="ANALÂNDIA" />
+	<item col1="3502101" col2="ANDRADINA" />
+	<item col1="3502200" col2="ANGATUBA" />
+	<item col1="3502309" col2="ANHEMBI" />
+	<item col1="3502408" col2="ANHUMAS" />
+	<item col1="3502507" col2="APARECIDA" />
+	<item col1="3502606" col2="APARECIDA D'OESTE" />
+	<item col1="3502705" col2="APIAÍ" />
+	<item col1="3502754" col2="ARAÇARIGUAMA" />
+	<item col1="3502804" col2="ARAÇATUBA" />
+	<item col1="3502903" col2="ARAÇOIABA DA SERRA" />
+	<item col1="3503000" col2="ARAMINA" />
+	<item col1="3503109" col2="ARANDU" />
+	<item col1="3503158" col2="ARAPEÍ" />
+	<item col1="3503208" col2="ARARAQUARA" />
+	<item col1="3503307" col2="ARARAS" />
+	<item col1="3503356" col2="ARCO-ÍRIS" />
+	<item col1="3503406" col2="AREALVA" />
+	<item col1="3503505" col2="AREIAS" />
+	<item col1="3503604" col2="AREIÓPOLIS" />
+	<item col1="3503703" col2="ARIRANHA" />
+	<item col1="3503802" col2="ARTUR NOGUEIRA" />
+	<item col1="3503901" col2="ARUJÁ" />
+	<item col1="3503950" col2="ASPÁSIA" />
+	<item col1="3504008" col2="ASSIS" />
+	<item col1="3504107" col2="ATIBAIA" />
+	<item col1="3504206" col2="AURIFLAMA" />
+	<item col1="3504305" col2="AVAÍ" />
+	<item col1="3504404" col2="AVANHANDAVA" />
+	<item col1="3504503" col2="AVARÉ" />
+	<item col1="3504602" col2="BADY BASSITT" />
+	<item col1="3504701" col2="BALBINOS" />
+	<item col1="3504800" col2="BÁLSAMO" />
+	<item col1="3504909" col2="BANANAL" />
+	<item col1="3505005" col2="BARÃO DE ANTONINA" />
+	<item col1="3505104" col2="BARBOSA" />
+	<item col1="3505203" col2="BARIRI" />
+	<item col1="3505302" col2="BARRA BONITA" />
+	<item col1="3505351" col2="BARRA DO CHAPÉU" />
+	<item col1="3505401" col2="BARRA DO TURVO" />
+	<item col1="3505500" col2="BARRETOS" />
+	<item col1="3505609" col2="BARRINHA" />
+	<item col1="3505708" col2="BARUERI" />
+	<item col1="3505807" col2="BASTOS" />
+	<item col1="3505906" col2="BATATAIS" />
+	<item col1="3506003" col2="BAURU" />
+	<item col1="3506102" col2="BEBEDOURO" />
+	<item col1="3506201" col2="BENTO DE ABREU" />
+	<item col1="3506300" col2="BERNARDINO DE CAMPOS" />
+	<item col1="3506359" col2="BERTIOGA" />
+	<item col1="3506409" col2="BILAC" />
+	<item col1="3506508" col2="BIRIGUI" />
+	<item col1="3506607" col2="BIRITIBA-MIRIM" />
+	<item col1="3506706" col2="BOA ESPERANÇA DO SUL" />
+	<item col1="3506805" col2="BOCAINA" />
+	<item col1="3506904" col2="BOFETE" />
+	<item col1="3507001" col2="BOITUVA" />
+	<item col1="3507100" col2="BOM JESUS DOS PERDÕES" />
+	<item col1="3507159" col2="BOM SUCESSO DE ITARARÉ" />
+	<item col1="3507209" col2="BORÁ" />
+	<item col1="3507308" col2="BORACÉIA" />
+	<item col1="3507407" col2="BORBOREMA" />
+	<item col1="3507456" col2="BOREBI" />
+	<item col1="3507506" col2="BOTUCATU" />
+	<item col1="3507605" col2="BRAGANÇA PAULISTA" />
+	<item col1="3507704" col2="BRAÚNA" />
+	<item col1="3507753" col2="BREJO ALEGRE" />
+	<item col1="3507803" col2="BRODOWSKI" />
+	<item col1="3507902" col2="BROTAS" />
+	<item col1="3508009" col2="BURI" />
+	<item col1="3508108" col2="BURITAMA" />
+	<item col1="3508207" col2="BURITIZAL" />
+	<item col1="3508306" col2="CABRÁLIA PAULISTA" />
+	<item col1="3508405" col2="CABREÚVA" />
+	<item col1="3508504" col2="CAÇAPAVA" />
+	<item col1="3508603" col2="CACHOEIRA PAULISTA" />
+	<item col1="3508702" col2="CACONDE" />
+	<item col1="3508801" col2="CAFELÂNDIA" />
+	<item col1="3508900" col2="CAIABU" />
+	<item col1="3509007" col2="CAIEIRAS" />
+	<item col1="3509106" col2="CAIUÁ" />
+	<item col1="3509205" col2="CAJAMAR" />
+	<item col1="3509254" col2="CAJATI" />
+	<item col1="3509304" col2="CAJOBI" />
+	<item col1="3509403" col2="CAJURU" />
+	<item col1="3509452" col2="CAMPINA DO MONTE ALEGRE" />
+	<item col1="3509502" col2="CAMPINAS" />
+	<item col1="3509601" col2="CAMPO LIMPO PAULISTA" />
+	<item col1="3509700" col2="CAMPOS DO JORDÃO" />
+	<item col1="3509809" col2="CAMPOS NOVOS PAULISTA" />
+	<item col1="3509908" col2="CANANÉIA" />
+	<item col1="3509957" col2="CANAS" />
+	<item col1="3510005" col2="CÂNDIDO MOTA" />
+	<item col1="3510104" col2="CÂNDIDO RODRIGUES" />
+	<item col1="3510153" col2="CANITAR" />
+	<item col1="3510203" col2="CAPÃO BONITO" />
+	<item col1="3510302" col2="CAPELA DO ALTO" />
+	<item col1="3510401" col2="CAPIVARI" />
+	<item col1="3510500" col2="CARAGUATATUBA" />
+	<item col1="3510609" col2="CARAPICUÍBA" />
+	<item col1="3510708" col2="CARDOSO" />
+	<item col1="3510807" col2="CASA BRANCA" />
+	<item col1="3510906" col2="CÁSSIA DOS COQUEIROS" />
+	<item col1="3511003" col2="CASTILHO" />
+	<item col1="3511102" col2="CATANDUVA" />
+	<item col1="3511201" col2="CATIGUÁ" />
+	<item col1="3511300" col2="CEDRAL" />
+	<item col1="3511409" col2="CERQUEIRA CÉSAR" />
+	<item col1="3511508" col2="CERQUILHO" />
+	<item col1="3511607" col2="CESÁRIO LANGE" />
+	<item col1="3511706" col2="CHARQUEADA" />
+	<item col1="3511904" col2="CLEMENTINA" />
+	<item col1="3512001" col2="COLINA" />
+	<item col1="3512100" col2="COLÔMBIA" />
+	<item col1="3512209" col2="CONCHAL" />
+	<item col1="3512308" col2="CONCHAS" />
+	<item col1="3512407" col2="CORDEIRÓPOLIS" />
+	<item col1="3512506" col2="COROADOS" />
+	<item col1="3512605" col2="CORONEL MACEDO" />
+	<item col1="3512704" col2="CORUMBATAÍ" />
+	<item col1="3512803" col2="COSMÓPOLIS" />
+	<item col1="3512902" col2="COSMORAMA" />
+	<item col1="3513009" col2="COTIA" />
+	<item col1="3513108" col2="CRAVINHOS" />
+	<item col1="3513207" col2="CRISTAIS PAULISTA" />
+	<item col1="3513306" col2="CRUZÁLIA" />
+	<item col1="3513405" col2="CRUZEIRO" />
+	<item col1="3513504" col2="CUBATÃO" />
+	<item col1="3513603" col2="CUNHA" />
+	<item col1="3513702" col2="DESCALVADO" />
+	<item col1="3513801" col2="DIADEMA" />
+	<item col1="3513850" col2="DIRCE REIS" />
+	<item col1="3513900" col2="DIVINOLÂNDIA" />
+	<item col1="3514007" col2="DOBRADA" />
+	<item col1="3514106" col2="DOIS CÓRREGOS" />
+	<item col1="3514205" col2="DOLCINÓPOLIS" />
+	<item col1="3514304" col2="DOURADO" />
+	<item col1="3514403" col2="DRACENA" />
+	<item col1="3514502" col2="DUARTINA" />
+	<item col1="3514601" col2="DUMONT" />
+	<item col1="3514700" col2="ECHAPORÃ" />
+	<item col1="3514809" col2="ELDORADO" />
+	<item col1="3514908" col2="ELIAS FAUSTO" />
+	<item col1="3514924" col2="ELISIÁRIO" />
+	<item col1="3514957" col2="EMBAÚBA" />
+	<item col1="3515004" col2="EMBU" />
+	<item col1="3515103" col2="EMBU-GUAÇU" />
+	<item col1="3515129" col2="EMILIANÓPOLIS" />
+	<item col1="3515152" col2="ENGENHEIRO COELHO" />
+	<item col1="3515186" col2="ESPÍRITO SANTO DO PINHAL" />
+	<item col1="3515194" col2="ESPÍRITO SANTO DO TURVO" />
+	<item col1="3515202" col2="ESTRELA D'OESTE" />
+	<item col1="3515301" col2="ESTRELA DO NORTE" />
+	<item col1="3515350" col2="EUCLIDES DA CUNHA PAULISTA" />
+	<item col1="3515400" col2="FARTURA" />
+	<item col1="3515509" col2="FERNANDÓPOLIS" />
+	<item col1="3515608" col2="FERNANDO PRESTES" />
+	<item col1="3515657" col2="FERNÃO" />
+	<item col1="3515707" col2="FERRAZ DE VASCONCELOS" />
+	<item col1="3515806" col2="FLORA RICA" />
+	<item col1="3515905" col2="FLOREAL" />
+	<item col1="3516002" col2="FLÓRIDA PAULISTA" />
+	<item col1="3516101" col2="FLORÍNIA" />
+	<item col1="3516200" col2="FRANCA" />
+	<item col1="3516309" col2="FRANCISCO MORATO" />
+	<item col1="3516408" col2="FRANCO DA ROCHA" />
+	<item col1="3516507" col2="GABRIEL MONTEIRO" />
+	<item col1="3516606" col2="GÁLIA" />
+	<item col1="3516705" col2="GARÇA" />
+	<item col1="3516804" col2="GASTÃO VIDIGAL" />
+	<item col1="3516853" col2="GAVIÃO PEIXOTO" />
+	<item col1="3516903" col2="GENERAL SALGADO" />
+	<item col1="3517000" col2="GETULINA" />
+	<item col1="3517109" col2="GLICÉRIO" />
+	<item col1="3517208" col2="GUAIÇARA" />
+	<item col1="3517307" col2="GUAIMBÊ" />
+	<item col1="3517406" col2="GUAÍRA" />
+	<item col1="3517505" col2="GUAPIAÇU" />
+	<item col1="3517604" col2="GUAPIARA" />
+	<item col1="3517703" col2="GUARÁ" />
+	<item col1="3517802" col2="GUARAÇAÍ" />
+	<item col1="3517901" col2="GUARACI" />
+	<item col1="3518008" col2="GUARANI D'OESTE" />
+	<item col1="3518107" col2="GUARANTÃ" />
+	<item col1="3518206" col2="GUARARAPES" />
+	<item col1="3518305" col2="GUARAREMA" />
+	<item col1="3518404" col2="GUARATINGUETÁ" />
+	<item col1="3518503" col2="GUAREÍ" />
+	<item col1="3518602" col2="GUARIBA" />
+	<item col1="3518701" col2="GUARUJÁ" />
+	<item col1="3518800" col2="GUARULHOS" />
+	<item col1="3518859" col2="GUATAPARÁ" />
+	<item col1="3518909" col2="GUZOLÂNDIA" />
+	<item col1="3519006" col2="HERCULÂNDIA" />
+	<item col1="3519055" col2="HOLAMBRA" />
+	<item col1="3519071" col2="HORTOLÂNDIA" />
+	<item col1="3519105" col2="IACANGA" />
+	<item col1="3519204" col2="IACRI" />
+	<item col1="3519253" col2="IARAS" />
+	<item col1="3519303" col2="IBATÉ" />
+	<item col1="3519402" col2="IBIRÁ" />
+	<item col1="3519501" col2="IBIRAREMA" />
+	<item col1="3519600" col2="IBITINGA" />
+	<item col1="3519709" col2="IBIÚNA" />
+	<item col1="3519808" col2="ICÉM" />
+	<item col1="3519907" col2="IEPÊ" />
+	<item col1="3520004" col2="IGARAÇU DO TIETÊ" />
+	<item col1="3520103" col2="IGARAPAVA" />
+	<item col1="3520202" col2="IGARATÁ" />
+	<item col1="3520301" col2="IGUAPE" />
+	<item col1="3520400" col2="ILHABELA" />
+	<item col1="3520426" col2="ILHA COMPRIDA" />
+	<item col1="3520442" col2="ILHA SOLTEIRA" />
+	<item col1="3520509" col2="INDAIATUBA" />
+	<item col1="3520608" col2="INDIANA" />
+	<item col1="3520707" col2="INDIAPORÃ" />
+	<item col1="3520806" col2="INÚBIA PAULISTA" />
+	<item col1="3520905" col2="IPAUSSU" />
+	<item col1="3521002" col2="IPERÓ" />
+	<item col1="3521101" col2="IPEÚNA" />
+	<item col1="3521150" col2="IPIGUÁ" />
+	<item col1="3521200" col2="IPORANGA" />
+	<item col1="3521309" col2="IPUÃ" />
+	<item col1="3521408" col2="IRACEMÁPOLIS" />
+	<item col1="3521507" col2="IRAPUÃ" />
+	<item col1="3521606" col2="IRAPURU" />
+	<item col1="3521705" col2="ITABERÁ" />
+	<item col1="3521804" col2="ITAÍ" />
+	<item col1="3521903" col2="ITAJOBI" />
+	<item col1="3522000" col2="ITAJU" />
+	<item col1="3522109" col2="ITANHAÉM" />
+	<item col1="3522158" col2="ITAÓCA" />
+	<item col1="3522208" col2="ITAPECERICA DA SERRA" />
+	<item col1="3522307" col2="ITAPETININGA" />
+	<item col1="3522406" col2="ITAPEVA" />
+	<item col1="3522505" col2="ITAPEVI" />
+	<item col1="3522604" col2="ITAPIRA" />
+	<item col1="3522653" col2="ITAPIRAPUÃ PAULISTA" />
+	<item col1="3522703" col2="ITÁPOLIS" />
+	<item col1="3522802" col2="ITAPORANGA" />
+	<item col1="3522901" col2="ITAPUÍ" />
+	<item col1="3523008" col2="ITAPURA" />
+	<item col1="3523107" col2="ITAQUAQUECETUBA" />
+	<item col1="3523206" col2="ITARARÉ" />
+	<item col1="3523305" col2="ITARIRI" />
+	<item col1="3523404" col2="ITATIBA" />
+	<item col1="3523503" col2="ITATINGA" />
+	<item col1="3523602" col2="ITIRAPINA" />
+	<item col1="3523701" col2="ITIRAPUÃ" />
+	<item col1="3523800" col2="ITOBI" />
+	<item col1="3523909" col2="ITU" />
+	<item col1="3524006" col2="ITUPEVA" />
+	<item col1="3524105" col2="ITUVERAVA" />
+	<item col1="3524204" col2="JABORANDI" />
+	<item col1="3524303" col2="JABOTICABAL" />
+	<item col1="3524402" col2="JACAREÍ" />
+	<item col1="3524501" col2="JACI" />
+	<item col1="3524600" col2="JACUPIRANGA" />
+	<item col1="3524709" col2="JAGUARIÚNA" />
+	<item col1="3524808" col2="JALES" />
+	<item col1="3524907" col2="JAMBEIRO" />
+	<item col1="3525003" col2="JANDIRA" />
+	<item col1="3525102" col2="JARDINÓPOLIS" />
+	<item col1="3525201" col2="JARINU" />
+	<item col1="3525300" col2="JAÚ" />
+	<item col1="3525409" col2="JERIQUARA" />
+	<item col1="3525508" col2="JOANÓPOLIS" />
+	<item col1="3525607" col2="JOÃO RAMALHO" />
+	<item col1="3525706" col2="JOSÉ BONIFÁCIO" />
+	<item col1="3525805" col2="JÚLIO MESQUITA" />
+	<item col1="3525854" col2="JUMIRIM" />
+	<item col1="3525904" col2="JUNDIAÍ" />
+	<item col1="3526001" col2="JUNQUEIRÓPOLIS" />
+	<item col1="3526100" col2="JUQUIÁ" />
+	<item col1="3526209" col2="JUQUITIBA" />
+	<item col1="3526308" col2="LAGOINHA" />
+	<item col1="3526407" col2="LARANJAL PAULISTA" />
+	<item col1="3526506" col2="LAVÍNIA" />
+	<item col1="3526605" col2="LAVRINHAS" />
+	<item col1="3526704" col2="LEME" />
+	<item col1="3526803" col2="LENÇÓIS PAULISTA" />
+	<item col1="3526902" col2="LIMEIRA" />
+	<item col1="3527009" col2="LINDÓIA" />
+	<item col1="3527108" col2="LINS" />
+	<item col1="3527207" col2="LORENA" />
+	<item col1="3527256" col2="LOURDES" />
+	<item col1="3527306" col2="LOUVEIRA" />
+	<item col1="3527405" col2="LUCÉLIA" />
+	<item col1="3527504" col2="LUCIANÓPOLIS" />
+	<item col1="3527603" col2="LUÍS ANTÔNIO" />
+	<item col1="3527702" col2="LUIZIÂNIA" />
+	<item col1="3527801" col2="LUPÉRCIO" />
+	<item col1="3527900" col2="LUTÉCIA" />
+	<item col1="3528007" col2="MACATUBA" />
+	<item col1="3528106" col2="MACAUBAL" />
+	<item col1="3528205" col2="MACEDÔNIA" />
+	<item col1="3528304" col2="MAGDA" />
+	<item col1="3528403" col2="MAIRINQUE" />
+	<item col1="3528502" col2="MAIRIPORÃ" />
+	<item col1="3528601" col2="MANDURI" />
+	<item col1="3528700" col2="MARABÁ PAULISTA" />
+	<item col1="3528809" col2="MARACAÍ" />
+	<item col1="3528858" col2="MARAPOAMA" />
+	<item col1="3528908" col2="MARIÁPOLIS" />
+	<item col1="3529005" col2="MARÍLIA" />
+	<item col1="3529104" col2="MARINÓPOLIS" />
+	<item col1="3529203" col2="MARTINÓPOLIS" />
+	<item col1="3529302" col2="MATÃO" />
+	<item col1="3529401" col2="MAUÁ" />
+	<item col1="3529500" col2="MENDONÇA" />
+	<item col1="3529609" col2="MERIDIANO" />
+	<item col1="3529658" col2="MESÓPOLIS" />
+	<item col1="3529708" col2="MIGUELÓPOLIS" />
+	<item col1="3529807" col2="MINEIROS DO TIETÊ" />
+	<item col1="3529906" col2="MIRACATU" />
+	<item col1="3530003" col2="MIRA ESTRELA" />
+	<item col1="3530102" col2="MIRANDÓPOLIS" />
+	<item col1="3530201" col2="MIRANTE DO PARANAPANEMA" />
+	<item col1="3530300" col2="MIRASSOL" />
+	<item col1="3530409" col2="MIRASSOLÂNDIA" />
+	<item col1="3530508" col2="MOCOCA" />
+	<item col1="3530607" col2="MOGI DAS CRUZES" />
+	<item col1="3530706" col2="MOGI GUAÇU" />
+	<item col1="3530805" col2="MOJI MIRIM" />
+	<item col1="3530904" col2="MOMBUCA" />
+	<item col1="3531001" col2="MONÇÕES" />
+	<item col1="3531100" col2="MONGAGUÁ" />
+	<item col1="3531209" col2="MONTE ALEGRE DO SUL" />
+	<item col1="3531308" col2="MONTE ALTO" />
+	<item col1="3531407" col2="MONTE APRAZÍVEL" />
+	<item col1="3531506" col2="MONTE AZUL PAULISTA" />
+	<item col1="3531605" col2="MONTE CASTELO" />
+	<item col1="3531704" col2="MONTEIRO LOBATO" />
+	<item col1="3531803" col2="MONTE MOR" />
+	<item col1="3531902" col2="MORRO AGUDO" />
+	<item col1="3532009" col2="MORUNGABA" />
+	<item col1="3532058" col2="MOTUCA" />
+	<item col1="3532108" col2="MURUTINGA DO SUL" />
+	<item col1="3532157" col2="NANTES" />
+	<item col1="3532207" col2="NARANDIBA" />
+	<item col1="3532306" col2="NATIVIDADE DA SERRA" />
+	<item col1="3532405" col2="NAZARÉ PAULISTA" />
+	<item col1="3532504" col2="NEVES PAULISTA" />
+	<item col1="3532603" col2="NHANDEARA" />
+	<item col1="3532702" col2="NIPOÃ" />
+	<item col1="3532801" col2="NOVA ALIANÇA" />
+	<item col1="3532827" col2="NOVA CAMPINA" />
+	<item col1="3532843" col2="NOVA CANAÃ PAULISTA" />
+	<item col1="3532868" col2="NOVA CASTILHO" />
+	<item col1="3532900" col2="NOVA EUROPA" />
+	<item col1="3533007" col2="NOVA GRANADA" />
+	<item col1="3533106" col2="NOVA GUATAPORANGA" />
+	<item col1="3533205" col2="NOVA INDEPENDÊNCIA" />
+	<item col1="3533254" col2="NOVAIS" />
+	<item col1="3533304" col2="NOVA LUZITÂNIA" />
+	<item col1="3533403" col2="NOVA ODESSA" />
+	<item col1="3533502" col2="NOVO HORIZONTE" />
+	<item col1="3533601" col2="NUPORANGA" />
+	<item col1="3533700" col2="OCAUÇU" />
+	<item col1="3533809" col2="ÓLEO" />
+	<item col1="3533908" col2="OLÍMPIA" />
+	<item col1="3534005" col2="ONDA VERDE" />
+	<item col1="3534104" col2="ORIENTE" />
+	<item col1="3534203" col2="ORINDIÚVA" />
+	<item col1="3534302" col2="ORLÂNDIA" />
+	<item col1="3534401" col2="OSASCO" />
+	<item col1="3534500" col2="OSCAR BRESSANE" />
+	<item col1="3534609" col2="OSVALDO CRUZ" />
+	<item col1="3534708" col2="OURINHOS" />
+	<item col1="3534757" col2="OUROESTE" />
+	<item col1="3534807" col2="OURO VERDE" />
+	<item col1="3534906" col2="PACAEMBU" />
+	<item col1="3535002" col2="PALESTINA" />
+	<item col1="3535101" col2="PALMARES PAULISTA" />
+	<item col1="3535200" col2="PALMEIRA D'OESTE" />
+	<item col1="3535309" col2="PALMITAL" />
+	<item col1="3535408" col2="PANORAMA" />
+	<item col1="3535507" col2="PARAGUAÇU PAULISTA" />
+	<item col1="3535606" col2="PARAIBUNA" />
+	<item col1="3535705" col2="PARAÍSO" />
+	<item col1="3535804" col2="PARANAPANEMA" />
+	<item col1="3535903" col2="PARANAPUÃ" />
+	<item col1="3536000" col2="PARAPUÃ" />
+	<item col1="3536109" col2="PARDINHO" />
+	<item col1="3536208" col2="PARIQUERA-AÇU" />
+	<item col1="3536257" col2="PARISI" />
+	<item col1="3536307" col2="PATROCÍNIO PAULISTA" />
+	<item col1="3536406" col2="PAULICÉIA" />
+	<item col1="3536505" col2="PAULÍNIA" />
+	<item col1="3536570" col2="PAULISTÂNIA" />
+	<item col1="3536604" col2="PAULO DE FARIA" />
+	<item col1="3536703" col2="PEDERNEIRAS" />
+	<item col1="3536802" col2="PEDRA BELA" />
+	<item col1="3536901" col2="PEDRANÓPOLIS" />
+	<item col1="3537008" col2="PEDREGULHO" />
+	<item col1="3537107" col2="PEDREIRA" />
+	<item col1="3537156" col2="PEDRINHAS PAULISTA" />
+	<item col1="3537206" col2="PEDRO DE TOLEDO" />
+	<item col1="3537305" col2="PENÁPOLIS" />
+	<item col1="3537404" col2="PEREIRA BARRETO" />
+	<item col1="3537503" col2="PEREIRAS" />
+	<item col1="3537602" col2="PERUÍBE" />
+	<item col1="3537701" col2="PIACATU" />
+	<item col1="3537800" col2="PIEDADE" />
+	<item col1="3537909" col2="PILAR DO SUL" />
+	<item col1="3538006" col2="PINDAMONHANGABA" />
+	<item col1="3538105" col2="PINDORAMA" />
+	<item col1="3538204" col2="PINHALZINHO" />
+	<item col1="3538303" col2="PIQUEROBI" />
+	<item col1="3538501" col2="PIQUETE" />
+	<item col1="3538600" col2="PIRACAIA" />
+	<item col1="3538709" col2="PIRACICABA" />
+	<item col1="3538808" col2="PIRAJU" />
+	<item col1="3538907" col2="PIRAJUÍ" />
+	<item col1="3539004" col2="PIRANGI" />
+	<item col1="3539103" col2="PIRAPORA DO BOM JESUS" />
+	<item col1="3539202" col2="PIRAPOZINHO" />
+	<item col1="3539301" col2="PIRASSUNUNGA" />
+	<item col1="3539400" col2="PIRATININGA" />
+	<item col1="3539509" col2="PITANGUEIRAS" />
+	<item col1="3539608" col2="PLANALTO" />
+	<item col1="3539707" col2="PLATINA" />
+	<item col1="3539806" col2="POÁ" />
+	<item col1="3539905" col2="POLONI" />
+	<item col1="3540002" col2="POMPÉIA" />
+	<item col1="3540101" col2="PONGAÍ" />
+	<item col1="3540200" col2="PONTAL" />
+	<item col1="3540259" col2="PONTALINDA" />
+	<item col1="3540309" col2="PONTES GESTAL" />
+	<item col1="3540408" col2="POPULINA" />
+	<item col1="3540507" col2="PORANGABA" />
+	<item col1="3540606" col2="PORTO FELIZ" />
+	<item col1="3540705" col2="PORTO FERREIRA" />
+	<item col1="3540754" col2="POTIM" />
+	<item col1="3540804" col2="POTIRENDABA" />
+	<item col1="3540853" col2="PRACINHA" />
+	<item col1="3540903" col2="PRADÓPOLIS" />
+	<item col1="3541000" col2="PRAIA GRANDE" />
+	<item col1="3541059" col2="PRATÂNIA" />
+	<item col1="3541109" col2="PRESIDENTE ALVES" />
+	<item col1="3541208" col2="PRESIDENTE BERNARDES" />
+	<item col1="3541307" col2="PRESIDENTE EPITÁCIO" />
+	<item col1="3541406" col2="PRESIDENTE PRUDENTE" />
+	<item col1="3541505" col2="PRESIDENTE VENCESLAU" />
+	<item col1="3541604" col2="PROMISSÃO" />
+	<item col1="3541653" col2="QUADRA" />
+	<item col1="3541703" col2="QUATÁ" />
+	<item col1="3541802" col2="QUEIROZ" />
+	<item col1="3541901" col2="QUELUZ" />
+	<item col1="3542008" col2="QUINTANA" />
+	<item col1="3542107" col2="RAFARD" />
+	<item col1="3542206" col2="RANCHARIA" />
+	<item col1="3542305" col2="REDENÇÃO DA SERRA" />
+	<item col1="3542404" col2="REGENTE FEIJÓ" />
+	<item col1="3542503" col2="REGINÓPOLIS" />
+	<item col1="3542602" col2="REGISTRO" />
+	<item col1="3542701" col2="RESTINGA" />
+	<item col1="3542800" col2="RIBEIRA" />
+	<item col1="3542909" col2="RIBEIRÃO BONITO" />
+	<item col1="3543006" col2="RIBEIRÃO BRANCO" />
+	<item col1="3543105" col2="RIBEIRÃO CORRENTE" />
+	<item col1="3543204" col2="RIBEIRÃO DO SUL" />
+	<item col1="3543238" col2="RIBEIRÃO DOS ÍNDIOS" />
+	<item col1="3543253" col2="RIBEIRÃO GRANDE" />
+	<item col1="3543303" col2="RIBEIRÃO PIRES" />
+	<item col1="3543402" col2="RIBEIRÃO PRETO" />
+	<item col1="3543501" col2="RIVERSUL" />
+	<item col1="3543600" col2="RIFAINA" />
+	<item col1="3543709" col2="RINCÃO" />
+	<item col1="3543808" col2="RINÓPOLIS" />
+	<item col1="3543907" col2="RIO CLARO" />
+	<item col1="3544004" col2="RIO DAS PEDRAS" />
+	<item col1="3544103" col2="RIO GRANDE DA SERRA" />
+	<item col1="3544202" col2="RIOLÂNDIA" />
+	<item col1="3544251" col2="ROSANA" />
+	<item col1="3544301" col2="ROSEIRA" />
+	<item col1="3544400" col2="RUBIÁCEA" />
+	<item col1="3544509" col2="RUBINÉIA" />
+	<item col1="3544608" col2="SABINO" />
+	<item col1="3544707" col2="SAGRES" />
+	<item col1="3544806" col2="SALES" />
+	<item col1="3544905" col2="SALES OLIVEIRA" />
+	<item col1="3545001" col2="SALESÓPOLIS" />
+	<item col1="3545100" col2="SALMOURÃO" />
+	<item col1="3545159" col2="SALTINHO" />
+	<item col1="3545209" col2="SALTO" />
+	<item col1="3545308" col2="SALTO DE PIRAPORA" />
+	<item col1="3545407" col2="SALTO GRANDE" />
+	<item col1="3545506" col2="SANDOVALINA" />
+	<item col1="3545605" col2="SANTA ADÉLIA" />
+	<item col1="3545704" col2="SANTA ALBERTINA" />
+	<item col1="3545803" col2="SANTA BÁRBARA D'OESTE" />
+	<item col1="3546009" col2="SANTA BRANCA" />
+	<item col1="3546108" col2="SANTA CLARA D'OESTE" />
+	<item col1="3546207" col2="SANTA CRUZ DA CONCEIÇÃO" />
+	<item col1="3546256" col2="SANTA CRUZ DA ESPERANÇA" />
+	<item col1="3546306" col2="SANTA CRUZ DAS PALMEIRAS" />
+	<item col1="3546405" col2="SANTA CRUZ DO RIO PARDO" />
+	<item col1="3546504" col2="SANTA ERNESTINA" />
+	<item col1="3546603" col2="SANTA FÉ DO SUL" />
+	<item col1="3546702" col2="SANTA GERTRUDES" />
+	<item col1="3546801" col2="SANTA ISABEL" />
+	<item col1="3546900" col2="SANTA LÚCIA" />
+	<item col1="3547007" col2="SANTA MARIA DA SERRA" />
+	<item col1="3547106" col2="SANTA MERCEDES" />
+	<item col1="3547205" col2="SANTANA DA PONTE PENSA" />
+	<item col1="3547304" col2="SANTANA DE PARNAÍBA" />
+	<item col1="3547403" col2="SANTA RITA D'OESTE" />
+	<item col1="3547502" col2="SANTA RITA DO PASSA QUATRO" />
+	<item col1="3547601" col2="SANTA ROSA DE VITERBO" />
+	<item col1="3547650" col2="SANTA SALETE" />
+	<item col1="3547700" col2="SANTO ANASTÁCIO" />
+	<item col1="3547809" col2="SANTO ANDRÉ" />
+	<item col1="3547908" col2="SANTO ANTÔNIO DA ALEGRIA" />
+	<item col1="3548005" col2="SANTO ANTÔNIO DE POSSE" />
+	<item col1="3548054" col2="SANTO ANTÔNIO DO ARACANGUÁ" />
+	<item col1="3548104" col2="SANTO ANTÔNIO DO JARDIM" />
+	<item col1="3548203" col2="SANTO ANTÔNIO DO PINHAL" />
+	<item col1="3548302" col2="SANTO EXPEDITO" />
+	<item col1="3548401" col2="SANTÓPOLIS DO AGUAPEÍ" />
+	<item col1="3548500" col2="SANTOS" />
+	<item col1="3548609" col2="SÃO BENTO DO SAPUCAÍ" />
+	<item col1="3548708" col2="SÃO BERNARDO DO CAMPO" />
+	<item col1="3548807" col2="SÃO CAETANO DO SUL" />
+	<item col1="3548906" col2="SÃO CARLOS" />
+	<item col1="3549003" col2="SÃO FRANCISCO" />
+	<item col1="3549102" col2="SÃO JOÃO DA BOA VISTA" />
+	<item col1="3549201" col2="SÃO JOÃO DAS DUAS PONTES" />
+	<item col1="3549250" col2="SÃO JOÃO DE IRACEMA" />
+	<item col1="3549300" col2="SÃO JOÃO DO PAU D'ALHO" />
+	<item col1="3549409" col2="SÃO JOAQUIM DA BARRA" />
+	<item col1="3549508" col2="SÃO JOSÉ DA BELA VISTA" />
+	<item col1="3549607" col2="SÃO JOSÉ DO BARREIRO" />
+	<item col1="3549706" col2="SÃO JOSÉ DO RIO PARDO" />
+	<item col1="3549805" col2="SÃO JOSÉ DO RIO PRETO" />
+	<item col1="3549904" col2="SÃO JOSÉ DOS CAMPOS" />
+	<item col1="3549953" col2="SÃO LOURENÇO DA SERRA" />
+	<item col1="3550001" col2="SÃO LUÍS DO PARAITINGA" />
+	<item col1="3550100" col2="SÃO MANUEL" />
+	<item col1="3550209" col2="SÃO MIGUEL ARCANJO" />
+	<item col1="3550308" col2="SÃO PAULO" />
+	<item col1="3550407" col2="SÃO PEDRO" />
+	<item col1="3550506" col2="SÃO PEDRO DO TURVO" />
+	<item col1="3550605" col2="SÃO ROQUE" />
+	<item col1="3550704" col2="SÃO SEBASTIÃO" />
+	<item col1="3550803" col2="SÃO SEBASTIÃO DA GRAMA" />
+	<item col1="3550902" col2="SÃO SIMÃO" />
+	<item col1="3551009" col2="SÃO VICENTE" />
+	<item col1="3551108" col2="SARAPUÍ" />
+	<item col1="3551207" col2="SARUTAIÁ" />
+	<item col1="3551306" col2="SEBASTIANÓPOLIS DO SUL" />
+	<item col1="3551405" col2="SERRA AZUL" />
+	<item col1="3551504" col2="SERRANA" />
+	<item col1="3551603" col2="SERRA NEGRA" />
+	<item col1="3551702" col2="SERTÃOZINHO" />
+	<item col1="3551801" col2="SETE BARRAS" />
+	<item col1="3551900" col2="SEVERÍNIA" />
+	<item col1="3552007" col2="SILVEIRAS" />
+	<item col1="3552106" col2="SOCORRO" />
+	<item col1="3552205" col2="SOROCABA" />
+	<item col1="3552304" col2="SUD MENNUCCI" />
+	<item col1="3552403" col2="SUMARÉ" />
+	<item col1="3552502" col2="SUZANO" />
+	<item col1="3552551" col2="SUZANÁPOLIS" />
+	<item col1="3552601" col2="TABAPUÃ" />
+	<item col1="3552700" col2="TABATINGA" />
+	<item col1="3552809" col2="TABOÃO DA SERRA" />
+	<item col1="3552908" col2="TACIBA" />
+	<item col1="3553005" col2="TAGUAÍ" />
+	<item col1="3553104" col2="TAIAÇU" />
+	<item col1="3553203" col2="TAIÚVA" />
+	<item col1="3553302" col2="TAMBAÚ" />
+	<item col1="3553401" col2="TANABI" />
+	<item col1="3553500" col2="TAPIRAÍ" />
+	<item col1="3553609" col2="TAPIRATIBA" />
+	<item col1="3553658" col2="TAQUARAL" />
+	<item col1="3553708" col2="TAQUARITINGA" />
+	<item col1="3553807" col2="TAQUARITUBA" />
+	<item col1="3553856" col2="TAQUARIVAÍ" />
+	<item col1="3553906" col2="TARABAI" />
+	<item col1="3553955" col2="TARUMÃ" />
+	<item col1="3554003" col2="TATUÍ" />
+	<item col1="3554102" col2="TAUBATÉ" />
+	<item col1="3554201" col2="TEJUPÁ" />
+	<item col1="3554300" col2="TEODORO SAMPAIO" />
+	<item col1="3554409" col2="TERRA ROXA" />
+	<item col1="3554508" col2="TIETÊ" />
+	<item col1="3554607" col2="TIMBURI" />
+	<item col1="3554656" col2="TORRE DE PEDRA" />
+	<item col1="3554706" col2="TORRINHA" />
+	<item col1="3554755" col2="TRABIJU" />
+	<item col1="3554805" col2="TREMEMBÉ" />
+	<item col1="3554904" col2="TRÊS FRONTEIRAS" />
+	<item col1="3554953" col2="TUIUTI" />
+	<item col1="3555000" col2="TUPÃ" />
+	<item col1="3555109" col2="TUPI PAULISTA" />
+	<item col1="3555208" col2="TURIÚBA" />
+	<item col1="3555307" col2="TURMALINA" />
+	<item col1="3555356" col2="UBARANA" />
+	<item col1="3555406" col2="UBATUBA" />
+	<item col1="3555505" col2="UBIRAJARA" />
+	<item col1="3555604" col2="UCHOA" />
+	<item col1="3555703" col2="UNIÃO PAULISTA" />
+	<item col1="3555802" col2="URÂNIA" />
+	<item col1="3555901" col2="URU" />
+	<item col1="3556008" col2="URUPÊS" />
+	<item col1="3556107" col2="VALENTIM GENTIL" />
+	<item col1="3556206" col2="VALINHOS" />
+	<item col1="3556305" col2="VALPARAÍSO" />
+	<item col1="3556354" col2="VARGEM" />
+	<item col1="3556404" col2="VARGEM GRANDE DO SUL" />
+	<item col1="3556453" col2="VARGEM GRANDE PAULISTA" />
+	<item col1="3556503" col2="VÁRZEA PAULISTA" />
+	<item col1="3556602" col2="VERA CRUZ" />
+	<item col1="3556701" col2="VINHEDO" />
+	<item col1="3556800" col2="VIRADOURO" />
+	<item col1="3556909" col2="VISTA ALEGRE DO ALTO" />
+	<item col1="3556958" col2="VITÓRIA BRASIL" />
+	<item col1="3557006" col2="VOTORANTIM" />
+	<item col1="3557105" col2="VOTUPORANGA" />
+	<item col1="3557154" col2="ZACARIAS" />
+	<item col1="3557204" col2="CHAVANTES" />
+	<item col1="3557303" col2="ESTIVA GERBI" />
+</tabela>

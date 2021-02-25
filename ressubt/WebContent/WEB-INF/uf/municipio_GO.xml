@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="5200050" col2="ABADIA DE GOIÁS" />
+	<item col1="5200100" col2="ABADIÂNIA" />
+	<item col1="5200134" col2="ACREÚNA" />
+	<item col1="5200159" col2="ADELÂNDIA" />
+	<item col1="5200175" col2="ÁGUA FRIA DE GOIÁS" />
+	<item col1="5200209" col2="ÁGUA LIMPA" />
+	<item col1="5200258" col2="ÁGUAS LINDAS DE GOIÁS" />
+	<item col1="5200308" col2="ALEXÂNIA" />
+	<item col1="5200506" col2="ALOÂNDIA" />
+	<item col1="5200555" col2="ALTO HORIZONTE" />
+	<item col1="5200605" col2="ALTO PARAÍSO DE GOIÁS" />
+	<item col1="5200803" col2="ALVORADA DO NORTE" />
+	<item col1="5200829" col2="AMARALINA" />
+	<item col1="5200852" col2="AMERICANO DO BRASIL" />
+	<item col1="5200902" col2="AMORINÓPOLIS" />
+	<item col1="5201108" col2="ANÁPOLIS" />
+	<item col1="5201207" col2="ANHANGUERA" />
+	<item col1="5201306" col2="ANICUNS" />
+	<item col1="5201405" col2="APARECIDA DE GOIÂNIA" />
+	<item col1="5201454" col2="APARECIDA DO RIO DOCE" />
+	<item col1="5201504" col2="APORÉ" />
+	<item col1="5201603" col2="ARAÇU" />
+	<item col1="5201702" col2="ARAGARÇAS" />
+	<item col1="5201801" col2="ARAGOIÂNIA" />
+	<item col1="5202155" col2="ARAGUAPAZ" />
+	<item col1="5202353" col2="ARENÓPOLIS" />
+	<item col1="5202502" col2="ARUANÃ" />
+	<item col1="5202601" col2="AURILÂNDIA" />
+	<item col1="5202809" col2="AVELINÓPOLIS" />
+	<item col1="5203104" col2="BALIZA" />
+	<item col1="5203203" col2="BARRO ALTO" />
+	<item col1="5203302" col2="BELA VISTA DE GOIÁS" />
+	<item col1="5203401" col2="BOM JARDIM DE GOIÁS" />
+	<item col1="5203500" col2="BOM JESUS DE GOIÁS" />
+	<item col1="5203559" col2="BONFINÓPOLIS" />
+	<item col1="5203575" col2="BONÓPOLIS" />
+	<item col1="5203609" col2="BRAZABRANTES" />
+	<item col1="5203807" col2="BRITÂNIA" />
+	<item col1="5203906" col2="BURITI ALEGRE" />
+	<item col1="5203939" col2="BURITI DE GOIÁS" />
+	<item col1="5203962" col2="BURITINÓPOLIS" />
+	<item col1="5204003" col2="CABECEIRAS" />
+	<item col1="5204102" col2="CACHOEIRA ALTA" />
+	<item col1="5204201" col2="CACHOEIRA DE GOIÁS" />
+	<item col1="5204250" col2="CACHOEIRA DOURADA" />
+	<item col1="5204300" col2="CAÇU" />
+	<item col1="5204409" col2="CAIAPÔNIA" />
+	<item col1="5204508" col2="CALDAS NOVAS" />
+	<item col1="5204557" col2="CALDAZINHA" />
+	<item col1="5204607" col2="CAMPESTRE DE GOIÁS" />
+	<item col1="5204656" col2="CAMPINAÇU" />
+	<item col1="5204706" col2="CAMPINORTE" />
+	<item col1="5204805" col2="CAMPO ALEGRE DE GOIÁS" />
+	<item col1="5204854" col2="CAMPO LIMPO DE GOIÁS" />
+	<item col1="5204904" col2="CAMPOS BELOS" />
+	<item col1="5204953" col2="CAMPOS VERDES" />
+	<item col1="5205000" col2="CARMO DO RIO VERDE" />
+	<item col1="5205059" col2="CASTELÂNDIA" />
+	<item col1="5205109" col2="CATALÃO" />
+	<item col1="5205208" col2="CATURAÍ" />
+	<item col1="5205307" col2="CAVALCANTE" />
+	<item col1="5205406" col2="CERES" />
+	<item col1="5205455" col2="CEZARINA" />
+	<item col1="5205471" col2="CHAPADÃO DO CÉU" />
+	<item col1="5205497" col2="CIDADE OCIDENTAL" />
+	<item col1="5205513" col2="COCALZINHO DE GOIÁS" />
+	<item col1="5205521" col2="COLINAS DO SUL" />
+	<item col1="5205703" col2="CÓRREGO DO OURO" />
+	<item col1="5205802" col2="CORUMBÁ DE GOIÁS" />
+	<item col1="5205901" col2="CORUMBAÍBA" />
+	<item col1="5206206" col2="CRISTALINA" />
+	<item col1="5206305" col2="CRISTIANÓPOLIS" />
+	<item col1="5206404" col2="CRIXÁS" />
+	<item col1="5206503" col2="CROMÍNIA" />
+	<item col1="5206602" col2="CUMARI" />
+	<item col1="5206701" col2="DAMIANÓPOLIS" />
+	<item col1="5206800" col2="DAMOLÂNDIA" />
+	<item col1="5206909" col2="DAVINÓPOLIS" />
+	<item col1="5207105" col2="DIORAMA" />
+	<item col1="5207253" col2="DOVERLÂNDIA" />
+	<item col1="5207352" col2="EDEALINA" />
+	<item col1="5207402" col2="EDÉIA" />
+	<item col1="5207501" col2="ESTRELA DO NORTE" />
+	<item col1="5207535" col2="FAINA" />
+	<item col1="5207600" col2="FAZENDA NOVA" />
+	<item col1="5207808" col2="FIRMINÓPOLIS" />
+	<item col1="5207907" col2="FLORES DE GOIÁS" />
+	<item col1="5208004" col2="FORMOSA" />
+	<item col1="5208103" col2="FORMOSO" />
+	<item col1="5208152" col2="GAMELEIRA DE GOIÁS" />
+	<item col1="5208301" col2="DIVINÓPOLIS DE GOIÁS" />
+	<item col1="5208400" col2="GOIANÁPOLIS" />
+	<item col1="5208509" col2="GOIANDIRA" />
+	<item col1="5208608" col2="GOIANÉSIA" />
+	<item col1="5208707" col2="GOIÂNIA" />
+	<item col1="5208806" col2="GOIANIRA" />
+	<item col1="5208905" col2="GOIÁS" />
+	<item col1="5209101" col2="GOIATUBA" />
+	<item col1="5209150" col2="GOUVELÂNDIA" />
+	<item col1="5209200" col2="GUAPÓ" />
+	<item col1="5209291" col2="GUARAÍTA" />
+	<item col1="5209408" col2="GUARANI DE GOIÁS" />
+	<item col1="5209457" col2="GUARINOS" />
+	<item col1="5209606" col2="HEITORAÍ" />
+	<item col1="5209705" col2="HIDROLÂNDIA" />
+	<item col1="5209804" col2="HIDROLINA" />
+	<item col1="5209903" col2="IACIARA" />
+	<item col1="5209937" col2="INACIOLÂNDIA" />
+	<item col1="5209952" col2="INDIARA" />
+	<item col1="5210000" col2="INHUMAS" />
+	<item col1="5210109" col2="IPAMERI" />
+	<item col1="5210158" col2="IPIRANGA DE GOIÁS" />
+	<item col1="5210208" col2="IPORÁ" />
+	<item col1="5210307" col2="ISRAELÂNDIA" />
+	<item col1="5210406" col2="ITABERAÍ" />
+	<item col1="5210562" col2="ITAGUARI" />
+	<item col1="5210604" col2="ITAGUARU" />
+	<item col1="5210802" col2="ITAJÁ" />
+	<item col1="5210901" col2="ITAPACI" />
+	<item col1="5211008" col2="ITAPIRAPUÃ" />
+	<item col1="5211206" col2="ITAPURANGA" />
+	<item col1="5211305" col2="ITARUMÃ" />
+	<item col1="5211404" col2="ITAUÇU" />
+	<item col1="5211503" col2="ITUMBIARA" />
+	<item col1="5211602" col2="IVOLÂNDIA" />
+	<item col1="5211701" col2="JANDAIA" />
+	<item col1="5211800" col2="JARAGUÁ" />
+	<item col1="5211909" col2="JATAÍ" />
+	<item col1="5212006" col2="JAUPACI" />
+	<item col1="5212055" col2="JESÚPOLIS" />
+	<item col1="5212105" col2="JOVIÂNIA" />
+	<item col1="5212204" col2="JUSSARA" />
+	<item col1="5212253" col2="LAGOA SANTA" />
+	<item col1="5212303" col2="LEOPOLDO DE BULHÕES" />
+	<item col1="5212501" col2="LUZIÂNIA" />
+	<item col1="5212600" col2="MAIRIPOTABA" />
+	<item col1="5212709" col2="MAMBAÍ" />
+	<item col1="5212808" col2="MARA ROSA" />
+	<item col1="5212907" col2="MARZAGÃO" />
+	<item col1="5212956" col2="MATRINCHÃ" />
+	<item col1="5213004" col2="MAURILÂNDIA" />
+	<item col1="5213053" col2="MIMOSO DE GOIÁS" />
+	<item col1="5213087" col2="MINAÇU" />
+	<item col1="5213103" col2="MINEIROS" />
+	<item col1="5213400" col2="MOIPORÁ" />
+	<item col1="5213509" col2="MONTE ALEGRE DE GOIÁS" />
+	<item col1="5213707" col2="MONTES CLAROS DE GOIÁS" />
+	<item col1="5213756" col2="MONTIVIDIU" />
+	<item col1="5213772" col2="MONTIVIDIU DO NORTE" />
+	<item col1="5213806" col2="MORRINHOS" />
+	<item col1="5213855" col2="MORRO AGUDO DE GOIÁS" />
+	<item col1="5213905" col2="MOSSÂMEDES" />
+	<item col1="5214002" col2="MOZARLÂNDIA" />
+	<item col1="5214051" col2="MUNDO NOVO" />
+	<item col1="5214101" col2="MUTUNÓPOLIS" />
+	<item col1="5214408" col2="NAZÁRIO" />
+	<item col1="5214507" col2="NERÓPOLIS" />
+	<item col1="5214606" col2="NIQUELÂNDIA" />
+	<item col1="5214705" col2="NOVA AMÉRICA" />
+	<item col1="5214804" col2="NOVA AURORA" />
+	<item col1="5214838" col2="NOVA CRIXÁS" />
+	<item col1="5214861" col2="NOVA GLÓRIA" />
+	<item col1="5214879" col2="NOVA IGUAÇU DE GOIÁS" />
+	<item col1="5214903" col2="NOVA ROMA" />
+	<item col1="5215009" col2="NOVA VENEZA" />
+	<item col1="5215207" col2="NOVO BRASIL" />
+	<item col1="5215231" col2="NOVO GAMA" />
+	<item col1="5215256" col2="NOVO PLANALTO" />
+	<item col1="5215306" col2="ORIZONA" />
+	<item col1="5215405" col2="OURO VERDE DE GOIÁS" />
+	<item col1="5215504" col2="OUVIDOR" />
+	<item col1="5215603" col2="PADRE BERNARDO" />
+	<item col1="5215652" col2="PALESTINA DE GOIÁS" />
+	<item col1="5215702" col2="PALMEIRAS DE GOIÁS" />
+	<item col1="5215801" col2="PALMELO" />
+	<item col1="5215900" col2="PALMINÓPOLIS" />
+	<item col1="5216007" col2="PANAMÁ" />
+	<item col1="5216304" col2="PARANAIGUARA" />
+	<item col1="5216403" col2="PARAÚNA" />
+	<item col1="5216452" col2="PEROLÂNDIA" />
+	<item col1="5216809" col2="PETROLINA DE GOIÁS" />
+	<item col1="5216908" col2="PILAR DE GOIÁS" />
+	<item col1="5217104" col2="PIRACANJUBA" />
+	<item col1="5217203" col2="PIRANHAS" />
+	<item col1="5217302" col2="PIRENÓPOLIS" />
+	<item col1="5217401" col2="PIRES DO RIO" />
+	<item col1="5217609" col2="PLANALTINA" />
+	<item col1="5217708" col2="PONTALINA" />
+	<item col1="5218003" col2="PORANGATU" />
+	<item col1="5218052" col2="PORTEIRÃO" />
+	<item col1="5218102" col2="PORTELÂNDIA" />
+	<item col1="5218300" col2="POSSE" />
+	<item col1="5218391" col2="PROFESSOR JAMIL" />
+	<item col1="5218508" col2="QUIRINÓPOLIS" />
+	<item col1="5218607" col2="RIALMA" />
+	<item col1="5218706" col2="RIANÁPOLIS" />
+	<item col1="5218789" col2="RIO QUENTE" />
+	<item col1="5218805" col2="RIO VERDE" />
+	<item col1="5218904" col2="RUBIATABA" />
+	<item col1="5219001" col2="SANCLERLÂNDIA" />
+	<item col1="5219100" col2="SANTA BÁRBARA DE GOIÁS" />
+	<item col1="5219209" col2="SANTA CRUZ DE GOIÁS" />
+	<item col1="5219258" col2="SANTA FÉ DE GOIÁS" />
+	<item col1="5219308" col2="SANTA HELENA DE GOIÁS" />
+	<item col1="5219357" col2="SANTA ISABEL" />
+	<item col1="5219407" col2="SANTA RITA DO ARAGUAIA" />
+	<item col1="5219456" col2="SANTA RITA DO NOVO DESTINO" />
+	<item col1="5219506" col2="SANTA ROSA DE GOIÁS" />
+	<item col1="5219605" col2="SANTA TEREZA DE GOIÁS" />
+	<item col1="5219704" col2="SANTA TEREZINHA DE GOIÁS" />
+	<item col1="5219712" col2="SANTO ANTÔNIO DA BARRA" />
+	<item col1="5219738" col2="SANTO ANTÔNIO DE GOIÁS" />
+	<item col1="5219753" col2="SANTO ANTÔNIO DO DESCOBERTO" />
+	<item col1="5219803" col2="SÃO DOMINGOS" />
+	<item col1="5219902" col2="SÃO FRANCISCO DE GOIÁS" />
+	<item col1="5220009" col2="SÃO JOÃO D'ALIANÇA" />
+	<item col1="5220058" col2="SÃO JOÃO DA PARAÚNA" />
+	<item col1="5220108" col2="SÃO LUÍS DE MONTES BELOS" />
+	<item col1="5220157" col2="SÃO LUÍZ DO NORTE" />
+	<item col1="5220207" col2="SÃO MIGUEL DO ARAGUAIA" />
+	<item col1="5220264" col2="SÃO MIGUEL DO PASSA QUATRO" />
+	<item col1="5220280" col2="SÃO PATRÍCIO" />
+	<item col1="5220405" col2="SÃO SIMÃO" />
+	<item col1="5220454" col2="SENADOR CANEDO" />
+	<item col1="5220504" col2="SERRANÓPOLIS" />
+	<item col1="5220603" col2="SILVÂNIA" />
+	<item col1="5220686" col2="SIMOLÂNDIA" />
+	<item col1="5220702" col2="SÍTIO D'ABADIA" />
+	<item col1="5221007" col2="TAQUARAL DE GOIÁS" />
+	<item col1="5221080" col2="TERESINA DE GOIÁS" />
+	<item col1="5221197" col2="TEREZÓPOLIS DE GOIÁS" />
+	<item col1="5221304" col2="TRÊS RANCHOS" />
+	<item col1="5221403" col2="TRINDADE" />
+	<item col1="5221452" col2="TROMBAS" />
+	<item col1="5221502" col2="TURVÂNIA" />
+	<item col1="5221551" col2="TURVELÂNDIA" />
+	<item col1="5221577" col2="UIRAPURU" />
+	<item col1="5221601" col2="URUAÇU" />
+	<item col1="5221700" col2="URUANA" />
+	<item col1="5221809" col2="URUTAÍ" />
+	<item col1="5221858" col2="VALPARAÍSO DE GOIÁS" />
+	<item col1="5221908" col2="VARJÃO" />
+	<item col1="5222005" col2="VIANÓPOLIS" />
+	<item col1="5222054" col2="VICENTINÓPOLIS" />
+	<item col1="5222203" col2="VILA BOA" />
+	<item col1="5222302" col2="VILA PROPÍCIO" />
+
+</tabela>

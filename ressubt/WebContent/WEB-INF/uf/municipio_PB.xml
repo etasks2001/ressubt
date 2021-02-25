@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela>
+	<item col1="2500106" col2="ÁGUA BRANCA" />
+	<item col1="2500205" col2="AGUIAR" />
+	<item col1="2500304" col2="ALAGOA GRANDE" />
+	<item col1="2500403" col2="ALAGOA NOVA" />
+	<item col1="2500502" col2="ALAGOINHA" />
+	<item col1="2500536" col2="ALCANTIL" />
+	<item col1="2500577" col2="ALGODÃO DE JANDAÍRA" />
+	<item col1="2500601" col2="ALHANDRA" />
+	<item col1="2500700" col2="SÃO JOÃO DO RIO DO PEIXE" />
+	<item col1="2500734" col2="AMPARO" />
+	<item col1="2500775" col2="APARECIDA" />
+	<item col1="2500809" col2="ARAÇAGI" />
+	<item col1="2500908" col2="ARARA" />
+	<item col1="2501005" col2="ARARUNA" />
+	<item col1="2501104" col2="AREIA" />
+	<item col1="2501153" col2="AREIA DE BARAÚNAS" />
+	<item col1="2501203" col2="AREIAL" />
+	<item col1="2501302" col2="AROEIRAS" />
+	<item col1="2501351" col2="ASSUNÇÃO" />
+	<item col1="2501401" col2="BAÍA DA TRAIÇÃO" />
+	<item col1="2501500" col2="BANANEIRAS" />
+	<item col1="2501534" col2="BARAÚNA" />
+	<item col1="2501575" col2="BARRA DE SANTANA" />
+	<item col1="2501609" col2="BARRA DE SANTA ROSA" />
+	<item col1="2501708" col2="BARRA DE SÃO MIGUEL" />
+	<item col1="2501807" col2="BAYEUX" />
+	<item col1="2501906" col2="BELÉM" />
+	<item col1="2502003" col2="BELÉM DO BREJO DO CRUZ" />
+	<item col1="2502052" col2="BERNARDINO BATISTA" />
+	<item col1="2502102" col2="BOA VENTURA" />
+	<item col1="2502151" col2="BOA VISTA" />
+	<item col1="2502201" col2="BOM JESUS" />
+	<item col1="2502300" col2="BOM SUCESSO" />
+	<item col1="2502409" col2="BONITO DE SANTA FÉ" />
+	<item col1="2502508" col2="BOQUEIRÃO" />
+	<item col1="2502607" col2="IGARACY" />
+	<item col1="2502706" col2="BORBOREMA" />
+	<item col1="2502805" col2="BREJO DO CRUZ" />
+	<item col1="2502904" col2="BREJO DOS SANTOS" />
+	<item col1="2503001" col2="CAAPORÃ" />
+	<item col1="2503100" col2="CABACEIRAS" />
+	<item col1="2503209" col2="CABEDELO" />
+	<item col1="2503308" col2="CACHOEIRA DOS ÍNDIOS" />
+	<item col1="2503407" col2="CACIMBA DE AREIA" />
+	<item col1="2503506" col2="CACIMBA DE DENTRO" />
+	<item col1="2503555" col2="CACIMBAS" />
+	<item col1="2503605" col2="CAIÇARA" />
+	<item col1="2503704" col2="CAJAZEIRAS" />
+	<item col1="2503753" col2="CAJAZEIRINHAS" />
+	<item col1="2503803" col2="CALDAS BRANDÃO" />
+	<item col1="2503902" col2="CAMALAÚ" />
+	<item col1="2504009" col2="CAMPINA GRANDE" />
+	<item col1="2504033" col2="CAPIM" />
+	<item col1="2504074" col2="CARAÚBAS" />
+	<item col1="2504108" col2="CARRAPATEIRA" />
+	<item col1="2504157" col2="CASSERENGUE" />
+	<item col1="2504207" col2="CATINGUEIRA" />
+	<item col1="2504306" col2="CATOLÉ DO ROCHA" />
+	<item col1="2504355" col2="CATURITÉ" />
+	<item col1="2504405" col2="CONCEIÇÃO" />
+	<item col1="2504504" col2="CONDADO" />
+	<item col1="2504603" col2="CONDE" />
+	<item col1="2504702" col2="CONGO" />
+	<item col1="2504801" col2="COREMAS" />
+	<item col1="2504850" col2="COXIXOLA" />
+	<item col1="2504900" col2="CRUZ DO ESPÍRITO SANTO" />
+	<item col1="2505006" col2="CUBATI" />
+	<item col1="2505105" col2="CUITÉ" />
+	<item col1="2505204" col2="CUITEGI" />
+	<item col1="2505238" col2="CUITÉ DE MAMANGUAPE" />
+	<item col1="2505279" col2="CURRAL DE CIMA" />
+	<item col1="2505303" col2="CURRAL VELHO" />
+	<item col1="2505352" col2="DAMIÃO" />
+	<item col1="2505402" col2="DESTERRO" />
+	<item col1="2505501" col2="VISTA SERRANA" />
+	<item col1="2505600" col2="DIAMANTE" />
+	<item col1="2505709" col2="DONA INÊS" />
+	<item col1="2505808" col2="DUAS ESTRADAS" />
+	<item col1="2505907" col2="EMAS" />
+	<item col1="2506004" col2="ESPERANÇA" />
+	<item col1="2506103" col2="FAGUNDES" />
+	<item col1="2506202" col2="FREI MARTINHO" />
+	<item col1="2506251" col2="GADO BRAVO" />
+	<item col1="2506301" col2="GUARABIRA" />
+	<item col1="2506400" col2="GURINHÉM" />
+	<item col1="2506509" col2="GURJÃO" />
+	<item col1="2506608" col2="IBIARA" />
+	<item col1="2506707" col2="IMACULADA" />
+	<item col1="2506806" col2="INGÁ" />
+	<item col1="2506905" col2="ITABAIANA" />
+	<item col1="2507002" col2="ITAPORANGA" />
+	<item col1="2507101" col2="ITAPOROROCA" />
+	<item col1="2507200" col2="ITATUBA" />
+	<item col1="2507309" col2="JACARAÚ" />
+	<item col1="2507408" col2="JERICÓ" />
+	<item col1="2507507" col2="JOÃO PESSOA" />
+	<item col1="2507606" col2="JUAREZ TÁVORA" />
+	<item col1="2507705" col2="JUAZEIRINHO" />
+	<item col1="2507804" col2="JUNCO DO SERIDÓ" />
+	<item col1="2507903" col2="JURIPIRANGA" />
+	<item col1="2508000" col2="JURU" />
+	<item col1="2508109" col2="LAGOA" />
+	<item col1="2508208" col2="LAGOA DE DENTRO" />
+	<item col1="2508307" col2="LAGOA SECA" />
+	<item col1="2508406" col2="LASTRO" />
+	<item col1="2508505" col2="LIVRAMENTO" />
+	<item col1="2508554" col2="LOGRADOURO" />
+	<item col1="2508604" col2="LUCENA" />
+	<item col1="2508703" col2="MÃE D'ÁGUA" />
+	<item col1="2508802" col2="MALTA" />
+	<item col1="2508901" col2="MAMANGUAPE" />
+	<item col1="2509008" col2="MANAÍRA" />
+	<item col1="2509057" col2="MARCAÇÃO" />
+	<item col1="2509107" col2="MARI" />
+	<item col1="2509156" col2="MARIZÓPOLIS" />
+	<item col1="2509206" col2="MASSARANDUBA" />
+	<item col1="2509305" col2="MATARACA" />
+	<item col1="2509339" col2="MATINHAS" />
+	<item col1="2509370" col2="MATO GROSSO" />
+	<item col1="2509396" col2="MATURÉIA" />
+	<item col1="2509404" col2="MOGEIRO" />
+	<item col1="2509503" col2="MONTADAS" />
+	<item col1="2509602" col2="MONTE HOREBE" />
+	<item col1="2509701" col2="MONTEIRO" />
+	<item col1="2509800" col2="MULUNGU" />
+	<item col1="2509909" col2="NATUBA" />
+	<item col1="2510006" col2="NAZAREZINHO" />
+	<item col1="2510105" col2="NOVA FLORESTA" />
+	<item col1="2510204" col2="NOVA OLINDA" />
+	<item col1="2510303" col2="NOVA PALMEIRA" />
+	<item col1="2510402" col2="OLHO D'ÁGUA" />
+	<item col1="2510501" col2="OLIVEDOS" />
+	<item col1="2510600" col2="OURO VELHO" />
+	<item col1="2510659" col2="PARARI" />
+	<item col1="2510709" col2="PASSAGEM" />
+	<item col1="2510808" col2="PATOS" />
+	<item col1="2510907" col2="PAULISTA" />
+	<item col1="2511004" col2="PEDRA BRANCA" />
+	<item col1="2511103" col2="PEDRA LAVRADA" />
+	<item col1="2511202" col2="PEDRAS DE FOGO" />
+	<item col1="2511301" col2="PIANCÓ" />
+	<item col1="2511400" col2="PICUÍ" />
+	<item col1="2511509" col2="PILAR" />
+	<item col1="2511608" col2="PILÕES" />
+	<item col1="2511707" col2="PILÕEZINHOS" />
+	<item col1="2511806" col2="PIRPIRITUBA" />
+	<item col1="2511905" col2="PITIMBU" />
+	<item col1="2512002" col2="POCINHOS" />
+	<item col1="2512036" col2="POÇO DANTAS" />
+	<item col1="2512077" col2="POÇO DE JOSÉ DE MOURA" />
+	<item col1="2512101" col2="POMBAL" />
+	<item col1="2512200" col2="PRATA" />
+	<item col1="2512309" col2="PRINCESA ISABEL" />
+	<item col1="2512408" col2="PUXINANÃ" />
+	<item col1="2512507" col2="QUEIMADAS" />
+	<item col1="2512606" col2="QUIXABÁ" />
+	<item col1="2512705" col2="REMÍGIO" />
+	<item col1="2512721" col2="PEDRO RÉGIS" />
+	<item col1="2512747" col2="RIACHÃO" />
+	<item col1="2512754" col2="RIACHÃO DO BACAMARTE" />
+	<item col1="2512762" col2="RIACHÃO DO POÇO" />
+	<item col1="2512788" col2="RIACHO DE SANTO ANTÔNIO" />
+	<item col1="2512804" col2="RIACHO DOS CAVALOS" />
+	<item col1="2512903" col2="RIO TINTO" />
+	<item col1="2513000" col2="SALGADINHO" />
+	<item col1="2513109" col2="SALGADO DE SÃO FÉLIX" />
+	<item col1="2513158" col2="SANTA CECÍLIA" />
+	<item col1="2513208" col2="SANTA CRUZ" />
+	<item col1="2513307" col2="SANTA HELENA" />
+	<item col1="2513356" col2="SANTA INÊS" />
+	<item col1="2513406" col2="SANTA LUZIA" />
+	<item col1="2513505" col2="SANTANA DE MANGUEIRA" />
+	<item col1="2513604" col2="SANTANA DOS GARROTES" />
+	<item col1="2513653" col2="SANTARÉM" />
+	<item col1="2513703" col2="SANTA RITA" />
+	<item col1="2513802" col2="SANTA TERESINHA" />
+	<item col1="2513851" col2="SANTO ANDRÉ" />
+	<item col1="2513901" col2="SÃO BENTO" />
+	<item col1="2513927" col2="SÃO BENTINHO" />
+	<item col1="2513943" col2="SÃO DOMINGOS DO CARIRI" />
+	<item col1="2513968" col2="SÃO DOMINGOS" />
+	<item col1="2513984" col2="SÃO FRANCISCO" />
+	<item col1="2514008" col2="SÃO JOÃO DO CARIRI" />
+	<item col1="2514107" col2="SÃO JOÃO DO TIGRE" />
+	<item col1="2514206" col2="SÃO JOSÉ DA LAGOA TAPADA" />
+	<item col1="2514305" col2="SÃO JOSÉ DE CAIANA" />
+	<item col1="2514404" col2="SÃO JOSÉ DE ESPINHARAS" />
+	<item col1="2514453" col2="SÃO JOSÉ DOS RAMOS" />
+	<item col1="2514503" col2="SÃO JOSÉ DE PIRANHAS" />
+	<item col1="2514552" col2="SÃO JOSÉ DE PRINCESA" />
+	<item col1="2514602" col2="SÃO JOSÉ DO BONFIM" />
+	<item col1="2514651" col2="SÃO JOSÉ DO BREJO DO CRUZ" />
+	<item col1="2514701" col2="SÃO JOSÉ DO SABUGI" />
+	<item col1="2514800" col2="SÃO JOSÉ DOS CORDEIROS" />
+	<item col1="2514909" col2="SÃO MAMEDE" />
+	<item col1="2515005" col2="SÃO MIGUEL DE TAIPU" />
+	<item col1="2515104" col2="SÃO SEBASTIÃO DE LAGOA DE ROÇA" />
+	<item col1="2515203" col2="SÃO SEBASTIÃO DO UMBUZEIRO" />
+	<item col1="2515302" col2="SAPÉ" />
+	<item col1="2515401" col2="SERIDÓ" />
+	<item col1="2515500" col2="SERRA BRANCA" />
+	<item col1="2515609" col2="SERRA DA RAIZ" />
+	<item col1="2515708" col2="SERRA GRANDE" />
+	<item col1="2515807" col2="SERRA REDONDA" />
+	<item col1="2515906" col2="SERRARIA" />
+	<item col1="2515930" col2="SERTÃOZINHO" />
+	<item col1="2515971" col2="SOBRADO" />
+	<item col1="2516003" col2="SOLÂNEA" />
+	<item col1="2516102" col2="SOLEDADE" />
+	<item col1="2516151" col2="SOSSÊGO" />
+	<item col1="2516201" col2="SOUSA" />
+	<item col1="2516300" col2="SUMÉ" />
+	<item col1="2516409" col2="CAMPO DE SANTANA" />
+	<item col1="2516508" col2="TAPEROÁ" />
+	<item col1="2516607" col2="TAVARES" />
+	<item col1="2516706" col2="TEIXEIRA" />
+	<item col1="2516755" col2="TENÓRIO" />
+	<item col1="2516805" col2="TRIUNFO" />
+	<item col1="2516904" col2="UIRAÚNA" />
+	<item col1="2517001" col2="UMBUZEIRO" />
+	<item col1="2517100" col2="VÁRZEA" />
+	<item col1="2517209" col2="VIEIRÓPOLIS" />
+	<item col1="2517407" col2="ZABELÊ" />
+
+</tabela>
