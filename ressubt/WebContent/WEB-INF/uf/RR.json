@@ -1,0 +1,66 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "1400027",
+        "-nome": "AMAJARI"
+      },
+      {
+        "-codigo": "1400050",
+        "-nome": "ALTO ALEGRE"
+      },
+      {
+        "-codigo": "1400100",
+        "-nome": "BOA VISTA"
+      },
+      {
+        "-codigo": "1400159",
+        "-nome": "BONFIM"
+      },
+      {
+        "-codigo": "1400175",
+        "-nome": "CANTÁ"
+      },
+      {
+        "-codigo": "1400209",
+        "-nome": "CARACARAÍ"
+      },
+      {
+        "-codigo": "1400233",
+        "-nome": "CAROEBE"
+      },
+      {
+        "-codigo": "1400282",
+        "-nome": "IRACEMA"
+      },
+      {
+        "-codigo": "1400308",
+        "-nome": "MUCAJAÍ"
+      },
+      {
+        "-codigo": "1400407",
+        "-nome": "NORMANDIA"
+      },
+      {
+        "-codigo": "1400456",
+        "-nome": "PACARAIMA"
+      },
+      {
+        "-codigo": "1400472",
+        "-nome": "RORAINÓPOLIS"
+      },
+      {
+        "-codigo": "1400506",
+        "-nome": "SÃO JOÃO DA BALIZA"
+      },
+      {
+        "-codigo": "1400605",
+        "-nome": "SÃO LUIZ"
+      },
+      {
+        "-codigo": "1400704",
+        "-nome": "UIRAMUTÃ"
+      }
+    ]
+  }
+}

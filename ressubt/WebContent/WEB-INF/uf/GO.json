@@ -1,0 +1,990 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "5200050",
+        "-nome": "ABADIA DE GOIÁS"
+      },
+      {
+        "-codigo": "5200100",
+        "-nome": "ABADIÂNIA"
+      },
+      {
+        "-codigo": "5200134",
+        "-nome": "ACREÚNA"
+      },
+      {
+        "-codigo": "5200159",
+        "-nome": "ADELÂNDIA"
+      },
+      {
+        "-codigo": "5200175",
+        "-nome": "ÁGUA FRIA DE GOIÁS"
+      },
+      {
+        "-codigo": "5200209",
+        "-nome": "ÁGUA LIMPA"
+      },
+      {
+        "-codigo": "5200258",
+        "-nome": "ÁGUAS LINDAS DE GOIÁS"
+      },
+      {
+        "-codigo": "5200308",
+        "-nome": "ALEXÂNIA"
+      },
+      {
+        "-codigo": "5200506",
+        "-nome": "ALOÂNDIA"
+      },
+      {
+        "-codigo": "5200555",
+        "-nome": "ALTO HORIZONTE"
+      },
+      {
+        "-codigo": "5200605",
+        "-nome": "ALTO PARAÍSO DE GOIÁS"
+      },
+      {
+        "-codigo": "5200803",
+        "-nome": "ALVORADA DO NORTE"
+      },
+      {
+        "-codigo": "5200829",
+        "-nome": "AMARALINA"
+      },
+      {
+        "-codigo": "5200852",
+        "-nome": "AMERICANO DO BRASIL"
+      },
+      {
+        "-codigo": "5200902",
+        "-nome": "AMORINÓPOLIS"
+      },
+      {
+        "-codigo": "5201108",
+        "-nome": "ANÁPOLIS"
+      },
+      {
+        "-codigo": "5201207",
+        "-nome": "ANHANGUERA"
+      },
+      {
+        "-codigo": "5201306",
+        "-nome": "ANICUNS"
+      },
+      {
+        "-codigo": "5201405",
+        "-nome": "APARECIDA DE GOIÂNIA"
+      },
+      {
+        "-codigo": "5201454",
+        "-nome": "APARECIDA DO RIO DOCE"
+      },
+      {
+        "-codigo": "5201504",
+        "-nome": "APORÉ"
+      },
+      {
+        "-codigo": "5201603",
+        "-nome": "ARAÇU"
+      },
+      {
+        "-codigo": "5201702",
+        "-nome": "ARAGARÇAS"
+      },
+      {
+        "-codigo": "5201801",
+        "-nome": "ARAGOIÂNIA"
+      },
+      {
+        "-codigo": "5202155",
+        "-nome": "ARAGUAPAZ"
+      },
+      {
+        "-codigo": "5202353",
+        "-nome": "ARENÓPOLIS"
+      },
+      {
+        "-codigo": "5202502",
+        "-nome": "ARUANÃ"
+      },
+      {
+        "-codigo": "5202601",
+        "-nome": "AURILÂNDIA"
+      },
+      {
+        "-codigo": "5202809",
+        "-nome": "AVELINÓPOLIS"
+      },
+      {
+        "-codigo": "5203104",
+        "-nome": "BALIZA"
+      },
+      {
+        "-codigo": "5203203",
+        "-nome": "BARRO ALTO"
+      },
+      {
+        "-codigo": "5203302",
+        "-nome": "BELA VISTA DE GOIÁS"
+      },
+      {
+        "-codigo": "5203401",
+        "-nome": "BOM JARDIM DE GOIÁS"
+      },
+      {
+        "-codigo": "5203500",
+        "-nome": "BOM JESUS DE GOIÁS"
+      },
+      {
+        "-codigo": "5203559",
+        "-nome": "BONFINÓPOLIS"
+      },
+      {
+        "-codigo": "5203575",
+        "-nome": "BONÓPOLIS"
+      },
+      {
+        "-codigo": "5203609",
+        "-nome": "BRAZABRANTES"
+      },
+      {
+        "-codigo": "5203807",
+        "-nome": "BRITÂNIA"
+      },
+      {
+        "-codigo": "5203906",
+        "-nome": "BURITI ALEGRE"
+      },
+      {
+        "-codigo": "5203939",
+        "-nome": "BURITI DE GOIÁS"
+      },
+      {
+        "-codigo": "5203962",
+        "-nome": "BURITINÓPOLIS"
+      },
+      {
+        "-codigo": "5204003",
+        "-nome": "CABECEIRAS"
+      },
+      {
+        "-codigo": "5204102",
+        "-nome": "CACHOEIRA ALTA"
+      },
+      {
+        "-codigo": "5204201",
+        "-nome": "CACHOEIRA DE GOIÁS"
+      },
+      {
+        "-codigo": "5204250",
+        "-nome": "CACHOEIRA DOURADA"
+      },
+      {
+        "-codigo": "5204300",
+        "-nome": "CAÇU"
+      },
+      {
+        "-codigo": "5204409",
+        "-nome": "CAIAPÔNIA"
+      },
+      {
+        "-codigo": "5204508",
+        "-nome": "CALDAS NOVAS"
+      },
+      {
+        "-codigo": "5204557",
+        "-nome": "CALDAZINHA"
+      },
+      {
+        "-codigo": "5204607",
+        "-nome": "CAMPESTRE DE GOIÁS"
+      },
+      {
+        "-codigo": "5204656",
+        "-nome": "CAMPINAÇU"
+      },
+      {
+        "-codigo": "5204706",
+        "-nome": "CAMPINORTE"
+      },
+      {
+        "-codigo": "5204805",
+        "-nome": "CAMPO ALEGRE DE GOIÁS"
+      },
+      {
+        "-codigo": "5204854",
+        "-nome": "CAMPO LIMPO DE GOIÁS"
+      },
+      {
+        "-codigo": "5204904",
+        "-nome": "CAMPOS BELOS"
+      },
+      {
+        "-codigo": "5204953",
+        "-nome": "CAMPOS VERDES"
+      },
+      {
+        "-codigo": "5205000",
+        "-nome": "CARMO DO RIO VERDE"
+      },
+      {
+        "-codigo": "5205059",
+        "-nome": "CASTELÂNDIA"
+      },
+      {
+        "-codigo": "5205109",
+        "-nome": "CATALÃO"
+      },
+      {
+        "-codigo": "5205208",
+        "-nome": "CATURAÍ"
+      },
+      {
+        "-codigo": "5205307",
+        "-nome": "CAVALCANTE"
+      },
+      {
+        "-codigo": "5205406",
+        "-nome": "CERES"
+      },
+      {
+        "-codigo": "5205455",
+        "-nome": "CEZARINA"
+      },
+      {
+        "-codigo": "5205471",
+        "-nome": "CHAPADÃO DO CÉU"
+      },
+      {
+        "-codigo": "5205497",
+        "-nome": "CIDADE OCIDENTAL"
+      },
+      {
+        "-codigo": "5205513",
+        "-nome": "COCALZINHO DE GOIÁS"
+      },
+      {
+        "-codigo": "5205521",
+        "-nome": "COLINAS DO SUL"
+      },
+      {
+        "-codigo": "5205703",
+        "-nome": "CÓRREGO DO OURO"
+      },
+      {
+        "-codigo": "5205802",
+        "-nome": "CORUMBÁ DE GOIÁS"
+      },
+      {
+        "-codigo": "5205901",
+        "-nome": "CORUMBAÍBA"
+      },
+      {
+        "-codigo": "5206206",
+        "-nome": "CRISTALINA"
+      },
+      {
+        "-codigo": "5206305",
+        "-nome": "CRISTIANÓPOLIS"
+      },
+      {
+        "-codigo": "5206404",
+        "-nome": "CRIXÁS"
+      },
+      {
+        "-codigo": "5206503",
+        "-nome": "CROMÍNIA"
+      },
+      {
+        "-codigo": "5206602",
+        "-nome": "CUMARI"
+      },
+      {
+        "-codigo": "5206701",
+        "-nome": "DAMIANÓPOLIS"
+      },
+      {
+        "-codigo": "5206800",
+        "-nome": "DAMOLÂNDIA"
+      },
+      {
+        "-codigo": "5206909",
+        "-nome": "DAVINÓPOLIS"
+      },
+      {
+        "-codigo": "5207105",
+        "-nome": "DIORAMA"
+      },
+      {
+        "-codigo": "5207253",
+        "-nome": "DOVERLÂNDIA"
+      },
+      {
+        "-codigo": "5207352",
+        "-nome": "EDEALINA"
+      },
+      {
+        "-codigo": "5207402",
+        "-nome": "EDÉIA"
+      },
+      {
+        "-codigo": "5207501",
+        "-nome": "ESTRELA DO NORTE"
+      },
+      {
+        "-codigo": "5207535",
+        "-nome": "FAINA"
+      },
+      {
+        "-codigo": "5207600",
+        "-nome": "FAZENDA NOVA"
+      },
+      {
+        "-codigo": "5207808",
+        "-nome": "FIRMINÓPOLIS"
+      },
+      {
+        "-codigo": "5207907",
+        "-nome": "FLORES DE GOIÁS"
+      },
+      {
+        "-codigo": "5208004",
+        "-nome": "FORMOSA"
+      },
+      {
+        "-codigo": "5208103",
+        "-nome": "FORMOSO"
+      },
+      {
+        "-codigo": "5208152",
+        "-nome": "GAMELEIRA DE GOIÁS"
+      },
+      {
+        "-codigo": "5208301",
+        "-nome": "DIVINÓPOLIS DE GOIÁS"
+      },
+      {
+        "-codigo": "5208400",
+        "-nome": "GOIANÁPOLIS"
+      },
+      {
+        "-codigo": "5208509",
+        "-nome": "GOIANDIRA"
+      },
+      {
+        "-codigo": "5208608",
+        "-nome": "GOIANÉSIA"
+      },
+      {
+        "-codigo": "5208707",
+        "-nome": "GOIÂNIA"
+      },
+      {
+        "-codigo": "5208806",
+        "-nome": "GOIANIRA"
+      },
+      {
+        "-codigo": "5208905",
+        "-nome": "GOIÁS"
+      },
+      {
+        "-codigo": "5209101",
+        "-nome": "GOIATUBA"
+      },
+      {
+        "-codigo": "5209150",
+        "-nome": "GOUVELÂNDIA"
+      },
+      {
+        "-codigo": "5209200",
+        "-nome": "GUAPÓ"
+      },
+      {
+        "-codigo": "5209291",
+        "-nome": "GUARAÍTA"
+      },
+      {
+        "-codigo": "5209408",
+        "-nome": "GUARANI DE GOIÁS"
+      },
+      {
+        "-codigo": "5209457",
+        "-nome": "GUARINOS"
+      },
+      {
+        "-codigo": "5209606",
+        "-nome": "HEITORAÍ"
+      },
+      {
+        "-codigo": "5209705",
+        "-nome": "HIDROLÂNDIA"
+      },
+      {
+        "-codigo": "5209804",
+        "-nome": "HIDROLINA"
+      },
+      {
+        "-codigo": "5209903",
+        "-nome": "IACIARA"
+      },
+      {
+        "-codigo": "5209937",
+        "-nome": "INACIOLÂNDIA"
+      },
+      {
+        "-codigo": "5209952",
+        "-nome": "INDIARA"
+      },
+      {
+        "-codigo": "5210000",
+        "-nome": "INHUMAS"
+      },
+      {
+        "-codigo": "5210109",
+        "-nome": "IPAMERI"
+      },
+      {
+        "-codigo": "5210158",
+        "-nome": "IPIRANGA DE GOIÁS"
+      },
+      {
+        "-codigo": "5210208",
+        "-nome": "IPORÁ"
+      },
+      {
+        "-codigo": "5210307",
+        "-nome": "ISRAELÂNDIA"
+      },
+      {
+        "-codigo": "5210406",
+        "-nome": "ITABERAÍ"
+      },
+      {
+        "-codigo": "5210562",
+        "-nome": "ITAGUARI"
+      },
+      {
+        "-codigo": "5210604",
+        "-nome": "ITAGUARU"
+      },
+      {
+        "-codigo": "5210802",
+        "-nome": "ITAJÁ"
+      },
+      {
+        "-codigo": "5210901",
+        "-nome": "ITAPACI"
+      },
+      {
+        "-codigo": "5211008",
+        "-nome": "ITAPIRAPUÃ"
+      },
+      {
+        "-codigo": "5211206",
+        "-nome": "ITAPURANGA"
+      },
+      {
+        "-codigo": "5211305",
+        "-nome": "ITARUMÃ"
+      },
+      {
+        "-codigo": "5211404",
+        "-nome": "ITAUÇU"
+      },
+      {
+        "-codigo": "5211503",
+        "-nome": "ITUMBIARA"
+      },
+      {
+        "-codigo": "5211602",
+        "-nome": "IVOLÂNDIA"
+      },
+      {
+        "-codigo": "5211701",
+        "-nome": "JANDAIA"
+      },
+      {
+        "-codigo": "5211800",
+        "-nome": "JARAGUÁ"
+      },
+      {
+        "-codigo": "5211909",
+        "-nome": "JATAÍ"
+      },
+      {
+        "-codigo": "5212006",
+        "-nome": "JAUPACI"
+      },
+      {
+        "-codigo": "5212055",
+        "-nome": "JESÚPOLIS"
+      },
+      {
+        "-codigo": "5212105",
+        "-nome": "JOVIÂNIA"
+      },
+      {
+        "-codigo": "5212204",
+        "-nome": "JUSSARA"
+      },
+      {
+        "-codigo": "5212253",
+        "-nome": "LAGOA SANTA"
+      },
+      {
+        "-codigo": "5212303",
+        "-nome": "LEOPOLDO DE BULHÕES"
+      },
+      {
+        "-codigo": "5212501",
+        "-nome": "LUZIÂNIA"
+      },
+      {
+        "-codigo": "5212600",
+        "-nome": "MAIRIPOTABA"
+      },
+      {
+        "-codigo": "5212709",
+        "-nome": "MAMBAÍ"
+      },
+      {
+        "-codigo": "5212808",
+        "-nome": "MARA ROSA"
+      },
+      {
+        "-codigo": "5212907",
+        "-nome": "MARZAGÃO"
+      },
+      {
+        "-codigo": "5212956",
+        "-nome": "MATRINCHÃ"
+      },
+      {
+        "-codigo": "5213004",
+        "-nome": "MAURILÂNDIA"
+      },
+      {
+        "-codigo": "5213053",
+        "-nome": "MIMOSO DE GOIÁS"
+      },
+      {
+        "-codigo": "5213087",
+        "-nome": "MINAÇU"
+      },
+      {
+        "-codigo": "5213103",
+        "-nome": "MINEIROS"
+      },
+      {
+        "-codigo": "5213400",
+        "-nome": "MOIPORÁ"
+      },
+      {
+        "-codigo": "5213509",
+        "-nome": "MONTE ALEGRE DE GOIÁS"
+      },
+      {
+        "-codigo": "5213707",
+        "-nome": "MONTES CLAROS DE GOIÁS"
+      },
+      {
+        "-codigo": "5213756",
+        "-nome": "MONTIVIDIU"
+      },
+      {
+        "-codigo": "5213772",
+        "-nome": "MONTIVIDIU DO NORTE"
+      },
+      {
+        "-codigo": "5213806",
+        "-nome": "MORRINHOS"
+      },
+      {
+        "-codigo": "5213855",
+        "-nome": "MORRO AGUDO DE GOIÁS"
+      },
+      {
+        "-codigo": "5213905",
+        "-nome": "MOSSÂMEDES"
+      },
+      {
+        "-codigo": "5214002",
+        "-nome": "MOZARLÂNDIA"
+      },
+      {
+        "-codigo": "5214051",
+        "-nome": "MUNDO NOVO"
+      },
+      {
+        "-codigo": "5214101",
+        "-nome": "MUTUNÓPOLIS"
+      },
+      {
+        "-codigo": "5214408",
+        "-nome": "NAZÁRIO"
+      },
+      {
+        "-codigo": "5214507",
+        "-nome": "NERÓPOLIS"
+      },
+      {
+        "-codigo": "5214606",
+        "-nome": "NIQUELÂNDIA"
+      },
+      {
+        "-codigo": "5214705",
+        "-nome": "NOVA AMÉRICA"
+      },
+      {
+        "-codigo": "5214804",
+        "-nome": "NOVA AURORA"
+      },
+      {
+        "-codigo": "5214838",
+        "-nome": "NOVA CRIXÁS"
+      },
+      {
+        "-codigo": "5214861",
+        "-nome": "NOVA GLÓRIA"
+      },
+      {
+        "-codigo": "5214879",
+        "-nome": "NOVA IGUAÇU DE GOIÁS"
+      },
+      {
+        "-codigo": "5214903",
+        "-nome": "NOVA ROMA"
+      },
+      {
+        "-codigo": "5215009",
+        "-nome": "NOVA VENEZA"
+      },
+      {
+        "-codigo": "5215207",
+        "-nome": "NOVO BRASIL"
+      },
+      {
+        "-codigo": "5215231",
+        "-nome": "NOVO GAMA"
+      },
+      {
+        "-codigo": "5215256",
+        "-nome": "NOVO PLANALTO"
+      },
+      {
+        "-codigo": "5215306",
+        "-nome": "ORIZONA"
+      },
+      {
+        "-codigo": "5215405",
+        "-nome": "OURO VERDE DE GOIÁS"
+      },
+      {
+        "-codigo": "5215504",
+        "-nome": "OUVIDOR"
+      },
+      {
+        "-codigo": "5215603",
+        "-nome": "PADRE BERNARDO"
+      },
+      {
+        "-codigo": "5215652",
+        "-nome": "PALESTINA DE GOIÁS"
+      },
+      {
+        "-codigo": "5215702",
+        "-nome": "PALMEIRAS DE GOIÁS"
+      },
+      {
+        "-codigo": "5215801",
+        "-nome": "PALMELO"
+      },
+      {
+        "-codigo": "5215900",
+        "-nome": "PALMINÓPOLIS"
+      },
+      {
+        "-codigo": "5216007",
+        "-nome": "PANAMÁ"
+      },
+      {
+        "-codigo": "5216304",
+        "-nome": "PARANAIGUARA"
+      },
+      {
+        "-codigo": "5216403",
+        "-nome": "PARAÚNA"
+      },
+      {
+        "-codigo": "5216452",
+        "-nome": "PEROLÂNDIA"
+      },
+      {
+        "-codigo": "5216809",
+        "-nome": "PETROLINA DE GOIÁS"
+      },
+      {
+        "-codigo": "5216908",
+        "-nome": "PILAR DE GOIÁS"
+      },
+      {
+        "-codigo": "5217104",
+        "-nome": "PIRACANJUBA"
+      },
+      {
+        "-codigo": "5217203",
+        "-nome": "PIRANHAS"
+      },
+      {
+        "-codigo": "5217302",
+        "-nome": "PIRENÓPOLIS"
+      },
+      {
+        "-codigo": "5217401",
+        "-nome": "PIRES DO RIO"
+      },
+      {
+        "-codigo": "5217609",
+        "-nome": "PLANALTINA"
+      },
+      {
+        "-codigo": "5217708",
+        "-nome": "PONTALINA"
+      },
+      {
+        "-codigo": "5218003",
+        "-nome": "PORANGATU"
+      },
+      {
+        "-codigo": "5218052",
+        "-nome": "PORTEIRÃO"
+      },
+      {
+        "-codigo": "5218102",
+        "-nome": "PORTELÂNDIA"
+      },
+      {
+        "-codigo": "5218300",
+        "-nome": "POSSE"
+      },
+      {
+        "-codigo": "5218391",
+        "-nome": "PROFESSOR JAMIL"
+      },
+      {
+        "-codigo": "5218508",
+        "-nome": "QUIRINÓPOLIS"
+      },
+      {
+        "-codigo": "5218607",
+        "-nome": "RIALMA"
+      },
+      {
+        "-codigo": "5218706",
+        "-nome": "RIANÁPOLIS"
+      },
+      {
+        "-codigo": "5218789",
+        "-nome": "RIO QUENTE"
+      },
+      {
+        "-codigo": "5218805",
+        "-nome": "RIO VERDE"
+      },
+      {
+        "-codigo": "5218904",
+        "-nome": "RUBIATABA"
+      },
+      {
+        "-codigo": "5219001",
+        "-nome": "SANCLERLÂNDIA"
+      },
+      {
+        "-codigo": "5219100",
+        "-nome": "SANTA BÁRBARA DE GOIÁS"
+      },
+      {
+        "-codigo": "5219209",
+        "-nome": "SANTA CRUZ DE GOIÁS"
+      },
+      {
+        "-codigo": "5219258",
+        "-nome": "SANTA FÉ DE GOIÁS"
+      },
+      {
+        "-codigo": "5219308",
+        "-nome": "SANTA HELENA DE GOIÁS"
+      },
+      {
+        "-codigo": "5219357",
+        "-nome": "SANTA ISABEL"
+      },
+      {
+        "-codigo": "5219407",
+        "-nome": "SANTA RITA DO ARAGUAIA"
+      },
+      {
+        "-codigo": "5219456",
+        "-nome": "SANTA RITA DO NOVO DESTINO"
+      },
+      {
+        "-codigo": "5219506",
+        "-nome": "SANTA ROSA DE GOIÁS"
+      },
+      {
+        "-codigo": "5219605",
+        "-nome": "SANTA TEREZA DE GOIÁS"
+      },
+      {
+        "-codigo": "5219704",
+        "-nome": "SANTA TEREZINHA DE GOIÁS"
+      },
+      {
+        "-codigo": "5219712",
+        "-nome": "SANTO ANTÔNIO DA BARRA"
+      },
+      {
+        "-codigo": "5219738",
+        "-nome": "SANTO ANTÔNIO DE GOIÁS"
+      },
+      {
+        "-codigo": "5219753",
+        "-nome": "SANTO ANTÔNIO DO DESCOBERTO"
+      },
+      {
+        "-codigo": "5219803",
+        "-nome": "SÃO DOMINGOS"
+      },
+      {
+        "-codigo": "5219902",
+        "-nome": "SÃO FRANCISCO DE GOIÁS"
+      },
+      {
+        "-codigo": "5220009",
+        "-nome": "SÃO JOÃO D'ALIANÇA"
+      },
+      {
+        "-codigo": "5220058",
+        "-nome": "SÃO JOÃO DA PARAÚNA"
+      },
+      {
+        "-codigo": "5220108",
+        "-nome": "SÃO LUÍS DE MONTES BELOS"
+      },
+      {
+        "-codigo": "5220157",
+        "-nome": "SÃO LUÍZ DO NORTE"
+      },
+      {
+        "-codigo": "5220207",
+        "-nome": "SÃO MIGUEL DO ARAGUAIA"
+      },
+      {
+        "-codigo": "5220264",
+        "-nome": "SÃO MIGUEL DO PASSA QUATRO"
+      },
+      {
+        "-codigo": "5220280",
+        "-nome": "SÃO PATRÍCIO"
+      },
+      {
+        "-codigo": "5220405",
+        "-nome": "SÃO SIMÃO"
+      },
+      {
+        "-codigo": "5220454",
+        "-nome": "SENADOR CANEDO"
+      },
+      {
+        "-codigo": "5220504",
+        "-nome": "SERRANÓPOLIS"
+      },
+      {
+        "-codigo": "5220603",
+        "-nome": "SILVÂNIA"
+      },
+      {
+        "-codigo": "5220686",
+        "-nome": "SIMOLÂNDIA"
+      },
+      {
+        "-codigo": "5220702",
+        "-nome": "SÍTIO D'ABADIA"
+      },
+      {
+        "-codigo": "5221007",
+        "-nome": "TAQUARAL DE GOIÁS"
+      },
+      {
+        "-codigo": "5221080",
+        "-nome": "TERESINA DE GOIÁS"
+      },
+      {
+        "-codigo": "5221197",
+        "-nome": "TEREZÓPOLIS DE GOIÁS"
+      },
+      {
+        "-codigo": "5221304",
+        "-nome": "TRÊS RANCHOS"
+      },
+      {
+        "-codigo": "5221403",
+        "-nome": "TRINDADE"
+      },
+      {
+        "-codigo": "5221452",
+        "-nome": "TROMBAS"
+      },
+      {
+        "-codigo": "5221502",
+        "-nome": "TURVÂNIA"
+      },
+      {
+        "-codigo": "5221551",
+        "-nome": "TURVELÂNDIA"
+      },
+      {
+        "-codigo": "5221577",
+        "-nome": "UIRAPURU"
+      },
+      {
+        "-codigo": "5221601",
+        "-nome": "URUAÇU"
+      },
+      {
+        "-codigo": "5221700",
+        "-nome": "URUANA"
+      },
+      {
+        "-codigo": "5221809",
+        "-nome": "URUTAÍ"
+      },
+      {
+        "-codigo": "5221858",
+        "-nome": "VALPARAÍSO DE GOIÁS"
+      },
+      {
+        "-codigo": "5221908",
+        "-nome": "VARJÃO"
+      },
+      {
+        "-codigo": "5222005",
+        "-nome": "VIANÓPOLIS"
+      },
+      {
+        "-codigo": "5222054",
+        "-nome": "VICENTINÓPOLIS"
+      },
+      {
+        "-codigo": "5222203",
+        "-nome": "VILA BOA"
+      },
+      {
+        "-codigo": "5222302",
+        "-nome": "VILA PROPÍCIO"
+      }
+    ]
+  }
+}

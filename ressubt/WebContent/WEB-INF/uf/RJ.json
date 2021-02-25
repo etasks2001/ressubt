@@ -1,0 +1,374 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "3300100",
+        "-nome": "ANGRA DOS REIS"
+      },
+      {
+        "-codigo": "3300159",
+        "-nome": "APERIBÉ"
+      },
+      {
+        "-codigo": "3300209",
+        "-nome": "ARARUAMA"
+      },
+      {
+        "-codigo": "3300225",
+        "-nome": "AREAL"
+      },
+      {
+        "-codigo": "3300233",
+        "-nome": "ARMAÇÃO DOS BÚZIOS"
+      },
+      {
+        "-codigo": "3300258",
+        "-nome": "ARRAIAL DO CABO"
+      },
+      {
+        "-codigo": "3300308",
+        "-nome": "BARRA DO PIRAÍ"
+      },
+      {
+        "-codigo": "3300407",
+        "-nome": "BARRA MANSA"
+      },
+      {
+        "-codigo": "3300456",
+        "-nome": "BELFORD ROXO"
+      },
+      {
+        "-codigo": "3300506",
+        "-nome": "BOM JARDIM"
+      },
+      {
+        "-codigo": "3300605",
+        "-nome": "BOM JESUS DO ITABAPOANA"
+      },
+      {
+        "-codigo": "3300704",
+        "-nome": "CABO FRIO"
+      },
+      {
+        "-codigo": "3300803",
+        "-nome": "CACHOEIRAS DE MACACU"
+      },
+      {
+        "-codigo": "3300902",
+        "-nome": "CAMBUCI"
+      },
+      {
+        "-codigo": "3300936",
+        "-nome": "CARAPEBUS"
+      },
+      {
+        "-codigo": "3300951",
+        "-nome": "COMENDADOR LEVY GASPARIAN"
+      },
+      {
+        "-codigo": "3301009",
+        "-nome": "CAMPOS DOS GOYTACAZES"
+      },
+      {
+        "-codigo": "3301108",
+        "-nome": "CANTAGALO"
+      },
+      {
+        "-codigo": "3301157",
+        "-nome": "CARDOSO MOREIRA"
+      },
+      {
+        "-codigo": "3301207",
+        "-nome": "CARMO"
+      },
+      {
+        "-codigo": "3301306",
+        "-nome": "CASIMIRO DE ABREU"
+      },
+      {
+        "-codigo": "3301405",
+        "-nome": "CONCEIÇÃO DE MACABU"
+      },
+      {
+        "-codigo": "3301504",
+        "-nome": "CORDEIRO"
+      },
+      {
+        "-codigo": "3301603",
+        "-nome": "DUAS BARRAS"
+      },
+      {
+        "-codigo": "3301702",
+        "-nome": "DUQUE DE CAXIAS"
+      },
+      {
+        "-codigo": "3301801",
+        "-nome": "ENGENHEIRO PAULO DE FRONTIN"
+      },
+      {
+        "-codigo": "3301850",
+        "-nome": "GUAPIMIRIM"
+      },
+      {
+        "-codigo": "3301876",
+        "-nome": "IGUABA GRANDE"
+      },
+      {
+        "-codigo": "3301900",
+        "-nome": "ITABORAÍ"
+      },
+      {
+        "-codigo": "3302007",
+        "-nome": "ITAGUAÍ"
+      },
+      {
+        "-codigo": "3302056",
+        "-nome": "ITALVA"
+      },
+      {
+        "-codigo": "3302106",
+        "-nome": "ITAOCARA"
+      },
+      {
+        "-codigo": "3302205",
+        "-nome": "ITAPERUNA"
+      },
+      {
+        "-codigo": "3302254",
+        "-nome": "ITATIAIA"
+      },
+      {
+        "-codigo": "3302270",
+        "-nome": "JAPERI"
+      },
+      {
+        "-codigo": "3302304",
+        "-nome": "LAJE DO MURIAÉ"
+      },
+      {
+        "-codigo": "3302403",
+        "-nome": "MACAÉ"
+      },
+      {
+        "-codigo": "3302452",
+        "-nome": "MACUCO"
+      },
+      {
+        "-codigo": "3302502",
+        "-nome": "MAGÉ"
+      },
+      {
+        "-codigo": "3302601",
+        "-nome": "MANGARATIBA"
+      },
+      {
+        "-codigo": "3302700",
+        "-nome": "MARICÁ"
+      },
+      {
+        "-codigo": "3302809",
+        "-nome": "MENDES"
+      },
+      {
+        "-codigo": "3302858",
+        "-nome": "MESQUITA"
+      },
+      {
+        "-codigo": "3302908",
+        "-nome": "MIGUEL PEREIRA"
+      },
+      {
+        "-codigo": "3303005",
+        "-nome": "MIRACEMA"
+      },
+      {
+        "-codigo": "3303104",
+        "-nome": "NATIVIDADE"
+      },
+      {
+        "-codigo": "3303203",
+        "-nome": "NILÓPOLIS"
+      },
+      {
+        "-codigo": "3303302",
+        "-nome": "NITERÓI"
+      },
+      {
+        "-codigo": "3303401",
+        "-nome": "NOVA FRIBURGO"
+      },
+      {
+        "-codigo": "3303500",
+        "-nome": "NOVA IGUAÇU"
+      },
+      {
+        "-codigo": "3303609",
+        "-nome": "PARACAMBI"
+      },
+      {
+        "-codigo": "3303708",
+        "-nome": "PARAÍBA DO SUL"
+      },
+      {
+        "-codigo": "3303807",
+        "-nome": "PARATI"
+      },
+      {
+        "-codigo": "3303856",
+        "-nome": "PATY DO ALFERES"
+      },
+      {
+        "-codigo": "3303906",
+        "-nome": "PETRÓPOLIS"
+      },
+      {
+        "-codigo": "3303955",
+        "-nome": "PINHEIRAL"
+      },
+      {
+        "-codigo": "3304003",
+        "-nome": "PIRAÍ"
+      },
+      {
+        "-codigo": "3304102",
+        "-nome": "PORCIÚNCULA"
+      },
+      {
+        "-codigo": "3304110",
+        "-nome": "PORTO REAL"
+      },
+      {
+        "-codigo": "3304128",
+        "-nome": "QUATIS"
+      },
+      {
+        "-codigo": "3304144",
+        "-nome": "QUEIMADOS"
+      },
+      {
+        "-codigo": "3304151",
+        "-nome": "QUISSAMÃ"
+      },
+      {
+        "-codigo": "3304201",
+        "-nome": "RESENDE"
+      },
+      {
+        "-codigo": "3304300",
+        "-nome": "RIO BONITO"
+      },
+      {
+        "-codigo": "3304409",
+        "-nome": "RIO CLARO"
+      },
+      {
+        "-codigo": "3304508",
+        "-nome": "RIO DAS FLORES"
+      },
+      {
+        "-codigo": "3304524",
+        "-nome": "RIO DAS OSTRAS"
+      },
+      {
+        "-codigo": "3304557",
+        "-nome": "RIO DE JANEIRO"
+      },
+      {
+        "-codigo": "3304607",
+        "-nome": "SANTA MARIA MADALENA"
+      },
+      {
+        "-codigo": "3304706",
+        "-nome": "SANTO ANTÔNIO DE PÁDUA"
+      },
+      {
+        "-codigo": "3304755",
+        "-nome": "SÃO FRANCISCO DE ITABAPOANA"
+      },
+      {
+        "-codigo": "3304805",
+        "-nome": "SÃO FIDÉLIS"
+      },
+      {
+        "-codigo": "3304904",
+        "-nome": "SÃO GONÇALO"
+      },
+      {
+        "-codigo": "3305000",
+        "-nome": "SÃO JOÃO DA BARRA"
+      },
+      {
+        "-codigo": "3305109",
+        "-nome": "SÃO JOÃO DE MERITI"
+      },
+      {
+        "-codigo": "3305133",
+        "-nome": "SÃO JOSÉ DE UBÁ"
+      },
+      {
+        "-codigo": "3305158",
+        "-nome": "SÃO JOSÉ DO VALE DO RIO PRETO"
+      },
+      {
+        "-codigo": "3305208",
+        "-nome": "SÃO PEDRO DA ALDEIA"
+      },
+      {
+        "-codigo": "3305307",
+        "-nome": "SÃO SEBASTIÃO DO ALTO"
+      },
+      {
+        "-codigo": "3305406",
+        "-nome": "SAPUCAIA"
+      },
+      {
+        "-codigo": "3305505",
+        "-nome": "SAQUAREMA"
+      },
+      {
+        "-codigo": "3305554",
+        "-nome": "SEROPÉDICA"
+      },
+      {
+        "-codigo": "3305604",
+        "-nome": "SILVA JARDIM"
+      },
+      {
+        "-codigo": "3305703",
+        "-nome": "SUMIDOURO"
+      },
+      {
+        "-codigo": "3305752",
+        "-nome": "TANGUÁ"
+      },
+      {
+        "-codigo": "3305802",
+        "-nome": "TERESÓPOLIS"
+      },
+      {
+        "-codigo": "3305901",
+        "-nome": "TRAJANO DE MORAIS"
+      },
+      {
+        "-codigo": "3306008",
+        "-nome": "TRÊS RIOS"
+      },
+      {
+        "-codigo": "3306107",
+        "-nome": "VALENÇA"
+      },
+      {
+        "-codigo": "3306156",
+        "-nome": "VARRE-SAI"
+      },
+      {
+        "-codigo": "3306206",
+        "-nome": "VASSOURAS"
+      },
+      {
+        "-codigo": "3306305",
+        "-nome": "VOLTA REDONDA"
+      }
+    ]
+  }
+}

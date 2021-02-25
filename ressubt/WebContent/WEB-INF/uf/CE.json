@@ -1,0 +1,742 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "2300101",
+        "-nome": "ABAIARA"
+      },
+      {
+        "-codigo": "2300150",
+        "-nome": "ACARAPE"
+      },
+      {
+        "-codigo": "2300200",
+        "-nome": "ACARAÚ"
+      },
+      {
+        "-codigo": "2300309",
+        "-nome": "ACOPIARA"
+      },
+      {
+        "-codigo": "2300408",
+        "-nome": "AIUABA"
+      },
+      {
+        "-codigo": "2300507",
+        "-nome": "ALCÂNTARAS"
+      },
+      {
+        "-codigo": "2300606",
+        "-nome": "ALTANEIRA"
+      },
+      {
+        "-codigo": "2300705",
+        "-nome": "ALTO SANTO"
+      },
+      {
+        "-codigo": "2300754",
+        "-nome": "AMONTADA"
+      },
+      {
+        "-codigo": "2300804",
+        "-nome": "ANTONINA DO NORTE"
+      },
+      {
+        "-codigo": "2300903",
+        "-nome": "APUIARÉS"
+      },
+      {
+        "-codigo": "2301000",
+        "-nome": "AQUIRAZ"
+      },
+      {
+        "-codigo": "2301109",
+        "-nome": "ARACATI"
+      },
+      {
+        "-codigo": "2301208",
+        "-nome": "ARACOIABA"
+      },
+      {
+        "-codigo": "2301257",
+        "-nome": "ARARENDÁ"
+      },
+      {
+        "-codigo": "2301307",
+        "-nome": "ARARIPE"
+      },
+      {
+        "-codigo": "2301406",
+        "-nome": "ARATUBA"
+      },
+      {
+        "-codigo": "2301505",
+        "-nome": "ARNEIROZ"
+      },
+      {
+        "-codigo": "2301604",
+        "-nome": "ASSARÉ"
+      },
+      {
+        "-codigo": "2301703",
+        "-nome": "AURORA"
+      },
+      {
+        "-codigo": "2301802",
+        "-nome": "BAIXIO"
+      },
+      {
+        "-codigo": "2301851",
+        "-nome": "BANABUIÚ"
+      },
+      {
+        "-codigo": "2301901",
+        "-nome": "BARBALHA"
+      },
+      {
+        "-codigo": "2301950",
+        "-nome": "BARREIRA"
+      },
+      {
+        "-codigo": "2302008",
+        "-nome": "BARRO"
+      },
+      {
+        "-codigo": "2302057",
+        "-nome": "BARROQUINHA"
+      },
+      {
+        "-codigo": "2302107",
+        "-nome": "BATURITÉ"
+      },
+      {
+        "-codigo": "2302206",
+        "-nome": "BEBERIBE"
+      },
+      {
+        "-codigo": "2302305",
+        "-nome": "BELA CRUZ"
+      },
+      {
+        "-codigo": "2302404",
+        "-nome": "BOA VIAGEM"
+      },
+      {
+        "-codigo": "2302503",
+        "-nome": "BREJO SANTO"
+      },
+      {
+        "-codigo": "2302602",
+        "-nome": "CAMOCIM"
+      },
+      {
+        "-codigo": "2302701",
+        "-nome": "CAMPOS SALES"
+      },
+      {
+        "-codigo": "2302800",
+        "-nome": "CANINDÉ"
+      },
+      {
+        "-codigo": "2302909",
+        "-nome": "CAPISTRANO"
+      },
+      {
+        "-codigo": "2303006",
+        "-nome": "CARIDADE"
+      },
+      {
+        "-codigo": "2303105",
+        "-nome": "CARIRÉ"
+      },
+      {
+        "-codigo": "2303204",
+        "-nome": "CARIRIAÇU"
+      },
+      {
+        "-codigo": "2303303",
+        "-nome": "CARIÚS"
+      },
+      {
+        "-codigo": "2303402",
+        "-nome": "CARNAUBAL"
+      },
+      {
+        "-codigo": "2303501",
+        "-nome": "CASCAVEL"
+      },
+      {
+        "-codigo": "2303600",
+        "-nome": "CATARINA"
+      },
+      {
+        "-codigo": "2303659",
+        "-nome": "CATUNDA"
+      },
+      {
+        "-codigo": "2303709",
+        "-nome": "CAUCAIA"
+      },
+      {
+        "-codigo": "2303808",
+        "-nome": "CEDRO"
+      },
+      {
+        "-codigo": "2303907",
+        "-nome": "CHAVAL"
+      },
+      {
+        "-codigo": "2303931",
+        "-nome": "CHORÓ"
+      },
+      {
+        "-codigo": "2303956",
+        "-nome": "CHOROZINHO"
+      },
+      {
+        "-codigo": "2304004",
+        "-nome": "COREAÚ"
+      },
+      {
+        "-codigo": "2304103",
+        "-nome": "CRATEÚS"
+      },
+      {
+        "-codigo": "2304202",
+        "-nome": "CRATO"
+      },
+      {
+        "-codigo": "2304236",
+        "-nome": "CROATÁ"
+      },
+      {
+        "-codigo": "2304251",
+        "-nome": "CRUZ"
+      },
+      {
+        "-codigo": "2304269",
+        "-nome": "DEPUTADO IRAPUAN PINHEIRO"
+      },
+      {
+        "-codigo": "2304277",
+        "-nome": "ERERÊ"
+      },
+      {
+        "-codigo": "2304285",
+        "-nome": "EUSÉBIO"
+      },
+      {
+        "-codigo": "2304301",
+        "-nome": "FARIAS BRITO"
+      },
+      {
+        "-codigo": "2304350",
+        "-nome": "FORQUILHA"
+      },
+      {
+        "-codigo": "2304400",
+        "-nome": "FORTALEZA"
+      },
+      {
+        "-codigo": "2304459",
+        "-nome": "FORTIM"
+      },
+      {
+        "-codigo": "2304509",
+        "-nome": "FRECHEIRINHA"
+      },
+      {
+        "-codigo": "2304608",
+        "-nome": "GENERAL SAMPAIO"
+      },
+      {
+        "-codigo": "2304657",
+        "-nome": "GRAÇA"
+      },
+      {
+        "-codigo": "2304707",
+        "-nome": "GRANJA"
+      },
+      {
+        "-codigo": "2304806",
+        "-nome": "GRANJEIRO"
+      },
+      {
+        "-codigo": "2304905",
+        "-nome": "GROAÍRAS"
+      },
+      {
+        "-codigo": "2304954",
+        "-nome": "GUAIÚBA"
+      },
+      {
+        "-codigo": "2305001",
+        "-nome": "GUARACIABA DO NORTE"
+      },
+      {
+        "-codigo": "2305100",
+        "-nome": "GUARAMIRANGA"
+      },
+      {
+        "-codigo": "2305209",
+        "-nome": "HIDROLÂNDIA"
+      },
+      {
+        "-codigo": "2305233",
+        "-nome": "HORIZONTE"
+      },
+      {
+        "-codigo": "2305266",
+        "-nome": "IBARETAMA"
+      },
+      {
+        "-codigo": "2305308",
+        "-nome": "IBIAPINA"
+      },
+      {
+        "-codigo": "2305332",
+        "-nome": "IBICUITINGA"
+      },
+      {
+        "-codigo": "2305357",
+        "-nome": "ICAPUÍ"
+      },
+      {
+        "-codigo": "2305407",
+        "-nome": "ICÓ"
+      },
+      {
+        "-codigo": "2305506",
+        "-nome": "IGUATU"
+      },
+      {
+        "-codigo": "2305605",
+        "-nome": "INDEPENDÊNCIA"
+      },
+      {
+        "-codigo": "2305654",
+        "-nome": "IPAPORANGA"
+      },
+      {
+        "-codigo": "2305704",
+        "-nome": "IPAUMIRIM"
+      },
+      {
+        "-codigo": "2305803",
+        "-nome": "IPU"
+      },
+      {
+        "-codigo": "2305902",
+        "-nome": "IPUEIRAS"
+      },
+      {
+        "-codigo": "2306009",
+        "-nome": "IRACEMA"
+      },
+      {
+        "-codigo": "2306108",
+        "-nome": "IRAUÇUBA"
+      },
+      {
+        "-codigo": "2306207",
+        "-nome": "ITAIÇABA"
+      },
+      {
+        "-codigo": "2306256",
+        "-nome": "ITAITINGA"
+      },
+      {
+        "-codigo": "2306306",
+        "-nome": "ITAPAGÉ"
+      },
+      {
+        "-codigo": "2306405",
+        "-nome": "ITAPIPOCA"
+      },
+      {
+        "-codigo": "2306504",
+        "-nome": "ITAPIÚNA"
+      },
+      {
+        "-codigo": "2306553",
+        "-nome": "ITAREMA"
+      },
+      {
+        "-codigo": "2306603",
+        "-nome": "ITATIRA"
+      },
+      {
+        "-codigo": "2306702",
+        "-nome": "JAGUARETAMA"
+      },
+      {
+        "-codigo": "2306801",
+        "-nome": "JAGUARIBARA"
+      },
+      {
+        "-codigo": "2306900",
+        "-nome": "JAGUARIBE"
+      },
+      {
+        "-codigo": "2307007",
+        "-nome": "JAGUARUANA"
+      },
+      {
+        "-codigo": "2307106",
+        "-nome": "JARDIM"
+      },
+      {
+        "-codigo": "2307205",
+        "-nome": "JATI"
+      },
+      {
+        "-codigo": "2307254",
+        "-nome": "JIJOCA DE JERICOACOARA"
+      },
+      {
+        "-codigo": "2307304",
+        "-nome": "JUAZEIRO DO NORTE"
+      },
+      {
+        "-codigo": "2307403",
+        "-nome": "JUCÁS"
+      },
+      {
+        "-codigo": "2307502",
+        "-nome": "LAVRAS DA MANGABEIRA"
+      },
+      {
+        "-codigo": "2307601",
+        "-nome": "LIMOEIRO DO NORTE"
+      },
+      {
+        "-codigo": "2307635",
+        "-nome": "MADALENA"
+      },
+      {
+        "-codigo": "2307650",
+        "-nome": "MARACANAÚ"
+      },
+      {
+        "-codigo": "2307700",
+        "-nome": "MARANGUAPE"
+      },
+      {
+        "-codigo": "2307809",
+        "-nome": "MARCO"
+      },
+      {
+        "-codigo": "2307908",
+        "-nome": "MARTINÓPOLE"
+      },
+      {
+        "-codigo": "2308005",
+        "-nome": "MASSAPÊ"
+      },
+      {
+        "-codigo": "2308104",
+        "-nome": "MAURITI"
+      },
+      {
+        "-codigo": "2308203",
+        "-nome": "MERUOCA"
+      },
+      {
+        "-codigo": "2308302",
+        "-nome": "MILAGRES"
+      },
+      {
+        "-codigo": "2308351",
+        "-nome": "MILHÃ"
+      },
+      {
+        "-codigo": "2308377",
+        "-nome": "MIRAÍMA"
+      },
+      {
+        "-codigo": "2308401",
+        "-nome": "MISSÃO VELHA"
+      },
+      {
+        "-codigo": "2308500",
+        "-nome": "MOMBAÇA"
+      },
+      {
+        "-codigo": "2308609",
+        "-nome": "MONSENHOR TABOSA"
+      },
+      {
+        "-codigo": "2308708",
+        "-nome": "MORADA NOVA"
+      },
+      {
+        "-codigo": "2308807",
+        "-nome": "MORAÚJO"
+      },
+      {
+        "-codigo": "2308906",
+        "-nome": "MORRINHOS"
+      },
+      {
+        "-codigo": "2309003",
+        "-nome": "MUCAMBO"
+      },
+      {
+        "-codigo": "2309102",
+        "-nome": "MULUNGU"
+      },
+      {
+        "-codigo": "2309201",
+        "-nome": "NOVA OLINDA"
+      },
+      {
+        "-codigo": "2309300",
+        "-nome": "NOVA RUSSAS"
+      },
+      {
+        "-codigo": "2309409",
+        "-nome": "NOVO ORIENTE"
+      },
+      {
+        "-codigo": "2309458",
+        "-nome": "OCARA"
+      },
+      {
+        "-codigo": "2309508",
+        "-nome": "ORÓS"
+      },
+      {
+        "-codigo": "2309607",
+        "-nome": "PACAJUS"
+      },
+      {
+        "-codigo": "2309706",
+        "-nome": "PACATUBA"
+      },
+      {
+        "-codigo": "2309805",
+        "-nome": "PACOTI"
+      },
+      {
+        "-codigo": "2309904",
+        "-nome": "PACUJÁ"
+      },
+      {
+        "-codigo": "2310001",
+        "-nome": "PALHANO"
+      },
+      {
+        "-codigo": "2310100",
+        "-nome": "PALMÁCIA"
+      },
+      {
+        "-codigo": "2310209",
+        "-nome": "PARACURU"
+      },
+      {
+        "-codigo": "2310258",
+        "-nome": "PARAIPABA"
+      },
+      {
+        "-codigo": "2310308",
+        "-nome": "PARAMBU"
+      },
+      {
+        "-codigo": "2310407",
+        "-nome": "PARAMOTI"
+      },
+      {
+        "-codigo": "2310506",
+        "-nome": "PEDRA BRANCA"
+      },
+      {
+        "-codigo": "2310605",
+        "-nome": "PENAFORTE"
+      },
+      {
+        "-codigo": "2310704",
+        "-nome": "PENTECOSTE"
+      },
+      {
+        "-codigo": "2310803",
+        "-nome": "PEREIRO"
+      },
+      {
+        "-codigo": "2310852",
+        "-nome": "PINDORETAMA"
+      },
+      {
+        "-codigo": "2310902",
+        "-nome": "PIQUET CARNEIRO"
+      },
+      {
+        "-codigo": "2310951",
+        "-nome": "PIRES FERREIRA"
+      },
+      {
+        "-codigo": "2311009",
+        "-nome": "PORANGA"
+      },
+      {
+        "-codigo": "2311108",
+        "-nome": "PORTEIRAS"
+      },
+      {
+        "-codigo": "2311207",
+        "-nome": "POTENGI"
+      },
+      {
+        "-codigo": "2311231",
+        "-nome": "POTIRETAMA"
+      },
+      {
+        "-codigo": "2311264",
+        "-nome": "QUITERIANÓPOLIS"
+      },
+      {
+        "-codigo": "2311306",
+        "-nome": "QUIXADÁ"
+      },
+      {
+        "-codigo": "2311355",
+        "-nome": "QUIXELÔ"
+      },
+      {
+        "-codigo": "2311405",
+        "-nome": "QUIXERAMOBIM"
+      },
+      {
+        "-codigo": "2311504",
+        "-nome": "QUIXERÉ"
+      },
+      {
+        "-codigo": "2311603",
+        "-nome": "REDENÇÃO"
+      },
+      {
+        "-codigo": "2311702",
+        "-nome": "RERIUTABA"
+      },
+      {
+        "-codigo": "2311801",
+        "-nome": "RUSSAS"
+      },
+      {
+        "-codigo": "2311900",
+        "-nome": "SABOEIRO"
+      },
+      {
+        "-codigo": "2311959",
+        "-nome": "SALITRE"
+      },
+      {
+        "-codigo": "2312007",
+        "-nome": "SANTANA DO ACARAÚ"
+      },
+      {
+        "-codigo": "2312106",
+        "-nome": "SANTANA DO CARIRI"
+      },
+      {
+        "-codigo": "2312205",
+        "-nome": "SANTA QUITÉRIA"
+      },
+      {
+        "-codigo": "2312304",
+        "-nome": "SÃO BENEDITO"
+      },
+      {
+        "-codigo": "2312403",
+        "-nome": "SÃO GONÇALO DO AMARANTE"
+      },
+      {
+        "-codigo": "2312502",
+        "-nome": "SÃO JOÃO DO JAGUARIBE"
+      },
+      {
+        "-codigo": "2312601",
+        "-nome": "SÃO LUÍS DO CURU"
+      },
+      {
+        "-codigo": "2312700",
+        "-nome": "SENADOR POMPEU"
+      },
+      {
+        "-codigo": "2312809",
+        "-nome": "SENADOR SÁ"
+      },
+      {
+        "-codigo": "2312908",
+        "-nome": "SOBRAL"
+      },
+      {
+        "-codigo": "2313005",
+        "-nome": "SOLONÓPOLE"
+      },
+      {
+        "-codigo": "2313104",
+        "-nome": "TABULEIRO DO NORTE"
+      },
+      {
+        "-codigo": "2313203",
+        "-nome": "TAMBORIL"
+      },
+      {
+        "-codigo": "2313252",
+        "-nome": "TARRAFAS"
+      },
+      {
+        "-codigo": "2313302",
+        "-nome": "TAUÁ"
+      },
+      {
+        "-codigo": "2313351",
+        "-nome": "TEJUÇUOCA"
+      },
+      {
+        "-codigo": "2313401",
+        "-nome": "TIANGUÁ"
+      },
+      {
+        "-codigo": "2313500",
+        "-nome": "TRAIRI"
+      },
+      {
+        "-codigo": "2313559",
+        "-nome": "TURURU"
+      },
+      {
+        "-codigo": "2313609",
+        "-nome": "UBAJARA"
+      },
+      {
+        "-codigo": "2313708",
+        "-nome": "UMARI"
+      },
+      {
+        "-codigo": "2313757",
+        "-nome": "UMIRIM"
+      },
+      {
+        "-codigo": "2313807",
+        "-nome": "URUBURETAMA"
+      },
+      {
+        "-codigo": "2313906",
+        "-nome": "URUOCA"
+      },
+      {
+        "-codigo": "2313955",
+        "-nome": "VARJOTA"
+      },
+      {
+        "-codigo": "2314003",
+        "-nome": "VÁRZEA ALEGRE"
+      },
+      {
+        "-codigo": "2314102",
+        "-nome": "VIÇOSA DO CEARÁ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "2800100",
+        "-nome": "AMPARO DE SÃO FRANCISCO"
+      },
+      {
+        "-codigo": "2800209",
+        "-nome": "AQUIDABÃ"
+      },
+      {
+        "-codigo": "2800308",
+        "-nome": "ARACAJU"
+      },
+      {
+        "-codigo": "2800407",
+        "-nome": "ARAUÁ"
+      },
+      {
+        "-codigo": "2800506",
+        "-nome": "AREIA BRANCA"
+      },
+      {
+        "-codigo": "2800605",
+        "-nome": "BARRA DOS COQUEIROS"
+      },
+      {
+        "-codigo": "2800670",
+        "-nome": "BOQUIM"
+      },
+      {
+        "-codigo": "2800704",
+        "-nome": "BREJO GRANDE"
+      },
+      {
+        "-codigo": "2801009",
+        "-nome": "CAMPO DO BRITO"
+      },
+      {
+        "-codigo": "2801108",
+        "-nome": "CANHOBA"
+      },
+      {
+        "-codigo": "2801207",
+        "-nome": "CANINDÉ DE SÃO FRANCISCO"
+      },
+      {
+        "-codigo": "2801306",
+        "-nome": "CAPELA"
+      },
+      {
+        "-codigo": "2801405",
+        "-nome": "CARIRA"
+      },
+      {
+        "-codigo": "2801504",
+        "-nome": "CARMÓPOLIS"
+      },
+      {
+        "-codigo": "2801603",
+        "-nome": "CEDRO DE SÃO JOÃO"
+      },
+      {
+        "-codigo": "2801702",
+        "-nome": "CRISTINÁPOLIS"
+      },
+      {
+        "-codigo": "2801900",
+        "-nome": "CUMBE"
+      },
+      {
+        "-codigo": "2802007",
+        "-nome": "DIVINA PASTORA"
+      },
+      {
+        "-codigo": "2802106",
+        "-nome": "ESTÂNCIA"
+      },
+      {
+        "-codigo": "2802205",
+        "-nome": "FEIRA NOVA"
+      },
+      {
+        "-codigo": "2802304",
+        "-nome": "FREI PAULO"
+      },
+      {
+        "-codigo": "2802403",
+        "-nome": "GARARU"
+      },
+      {
+        "-codigo": "2802502",
+        "-nome": "GENERAL MAYNARD"
+      },
+      {
+        "-codigo": "2802601",
+        "-nome": "GRACHO CARDOSO"
+      },
+      {
+        "-codigo": "2802700",
+        "-nome": "ILHA DAS FLORES"
+      },
+      {
+        "-codigo": "2802809",
+        "-nome": "INDIAROBA"
+      },
+      {
+        "-codigo": "2802908",
+        "-nome": "ITABAIANA"
+      },
+      {
+        "-codigo": "2803005",
+        "-nome": "ITABAIANINHA"
+      },
+      {
+        "-codigo": "2803104",
+        "-nome": "ITABI"
+      },
+      {
+        "-codigo": "2803203",
+        "-nome": "ITAPORANGA D'AJUDA"
+      },
+      {
+        "-codigo": "2803302",
+        "-nome": "JAPARATUBA"
+      },
+      {
+        "-codigo": "2803401",
+        "-nome": "JAPOATÃ"
+      },
+      {
+        "-codigo": "2803500",
+        "-nome": "LAGARTO"
+      },
+      {
+        "-codigo": "2803609",
+        "-nome": "LARANJEIRAS"
+      },
+      {
+        "-codigo": "2803708",
+        "-nome": "MACAMBIRA"
+      },
+      {
+        "-codigo": "2803807",
+        "-nome": "MALHADA DOS BOIS"
+      },
+      {
+        "-codigo": "2803906",
+        "-nome": "MALHADOR"
+      },
+      {
+        "-codigo": "2804003",
+        "-nome": "MARUIM"
+      },
+      {
+        "-codigo": "2804102",
+        "-nome": "MOITA BONITA"
+      },
+      {
+        "-codigo": "2804201",
+        "-nome": "MONTE ALEGRE DE SERGIPE"
+      },
+      {
+        "-codigo": "2804300",
+        "-nome": "MURIBECA"
+      },
+      {
+        "-codigo": "2804409",
+        "-nome": "NEÓPOLIS"
+      },
+      {
+        "-codigo": "2804458",
+        "-nome": "NOSSA SENHORA APARECIDA"
+      },
+      {
+        "-codigo": "2804508",
+        "-nome": "NOSSA SENHORA DA GLÓRIA"
+      },
+      {
+        "-codigo": "2804607",
+        "-nome": "NOSSA SENHORA DAS DORES"
+      },
+      {
+        "-codigo": "2804706",
+        "-nome": "NOSSA SENHORA DE LOURDES"
+      },
+      {
+        "-codigo": "2804805",
+        "-nome": "NOSSA SENHORA DO SOCORRO"
+      },
+      {
+        "-codigo": "2804904",
+        "-nome": "PACATUBA"
+      },
+      {
+        "-codigo": "2805000",
+        "-nome": "PEDRA MOLE"
+      },
+      {
+        "-codigo": "2805109",
+        "-nome": "PEDRINHAS"
+      },
+      {
+        "-codigo": "2805208",
+        "-nome": "PINHÃO"
+      },
+      {
+        "-codigo": "2805307",
+        "-nome": "PIRAMBU"
+      },
+      {
+        "-codigo": "2805406",
+        "-nome": "POÇO REDONDO"
+      },
+      {
+        "-codigo": "2805505",
+        "-nome": "POÇO VERDE"
+      },
+      {
+        "-codigo": "2805604",
+        "-nome": "PORTO DA FOLHA"
+      },
+      {
+        "-codigo": "2805703",
+        "-nome": "PROPRIÁ"
+      },
+      {
+        "-codigo": "2805802",
+        "-nome": "RIACHÃO DO DANTAS"
+      },
+      {
+        "-codigo": "2805901",
+        "-nome": "RIACHUELO"
+      },
+      {
+        "-codigo": "2806008",
+        "-nome": "RIBEIRÓPOLIS"
+      },
+      {
+        "-codigo": "2806107",
+        "-nome": "ROSÁRIO DO CATETE"
+      },
+      {
+        "-codigo": "2806206",
+        "-nome": "SALGADO"
+      },
+      {
+        "-codigo": "2806305",
+        "-nome": "SANTA LUZIA DO ITANHY"
+      },
+      {
+        "-codigo": "2806404",
+        "-nome": "SANTANA DO SÃO FRANCISCO"
+      },
+      {
+        "-codigo": "2806503",
+        "-nome": "SANTA ROSA DE LIMA"
+      },
+      {
+        "-codigo": "2806602",
+        "-nome": "SANTO AMARO DAS BROTAS"
+      },
+      {
+        "-codigo": "2806701",
+        "-nome": "SÃO CRISTÓVÃO"
+      },
+      {
+        "-codigo": "2806800",
+        "-nome": "SÃO DOMINGOS"
+      },
+      {
+        "-codigo": "2806909",
+        "-nome": "SÃO FRANCISCO"
+      },
+      {
+        "-codigo": "2807006",
+        "-nome": "SÃO MIGUEL DO ALEIXO"
+      },
+      {
+        "-codigo": "2807105",
+        "-nome": "SIMÃO DIAS"
+      },
+      {
+        "-codigo": "2807204",
+        "-nome": "SIRIRI"
+      },
+      {
+        "-codigo": "2807303",
+        "-nome": "TELHA"
+      },
+      {
+        "-codigo": "2807402",
+        "-nome": "TOBIAS BARRETO"
+      },
+      {
+        "-codigo": "2807501",
+        "-nome": "TOMAR DO GERU"
+      },
+      {
+        "-codigo": "2807600",
+        "-nome": "UMBAÚBA"
+      }
+    ]
+  }
+}

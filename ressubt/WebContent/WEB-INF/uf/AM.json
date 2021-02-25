@@ -1,0 +1,254 @@
+{
+  "tabela": {
+    "item": [
+      {
+        "-codigo": "1300029",
+        "-nome": "ALVARÃES"
+      },
+      {
+        "-codigo": "1300060",
+        "-nome": "AMATURÁ"
+      },
+      {
+        "-codigo": "1300086",
+        "-nome": "ANAMÃ"
+      },
+      {
+        "-codigo": "1300102",
+        "-nome": "ANORI"
+      },
+      {
+        "-codigo": "1300144",
+        "-nome": "APUÍ"
+      },
+      {
+        "-codigo": "1300201",
+        "-nome": "ATALAIA DO NORTE"
+      },
+      {
+        "-codigo": "1300300",
+        "-nome": "AUTAZES"
+      },
+      {
+        "-codigo": "1300409",
+        "-nome": "BARCELOS"
+      },
+      {
+        "-codigo": "1300508",
+        "-nome": "BARREIRINHA"
+      },
+      {
+        "-codigo": "1300607",
+        "-nome": "BENJAMIN CONSTANT"
+      },
+      {
+        "-codigo": "1300631",
+        "-nome": "BERURI"
+      },
+      {
+        "-codigo": "1300680",
+        "-nome": "BOA VISTA DO RAMOS"
+      },
+      {
+        "-codigo": "1300706",
+        "-nome": "BOCA DO ACRE"
+      },
+      {
+        "-codigo": "1300805",
+        "-nome": "BORBA"
+      },
+      {
+        "-codigo": "1300839",
+        "-nome": "CAAPIRANGA"
+      },
+      {
+        "-codigo": "1300904",
+        "-nome": "CANUTAMA"
+      },
+      {
+        "-codigo": "1301001",
+        "-nome": "CARAUARI"
+      },
+      {
+        "-codigo": "1301100",
+        "-nome": "CAREIRO"
+      },
+      {
+        "-codigo": "1301159",
+        "-nome": "CAREIRO DA VÁRZEA"
+      },
+      {
+        "-codigo": "1301209",
+        "-nome": "COARI"
+      },
+      {
+        "-codigo": "1301308",
+        "-nome": "CODAJÁS"
+      },
+      {
+        "-codigo": "1301407",
+        "-nome": "EIRUNEPÉ"
+      },
+      {
+        "-codigo": "1301506",
+        "-nome": "ENVIRA"
+      },
+      {
+        "-codigo": "1301605",
+        "-nome": "FONTE BOA"
+      },
+      {
+        "-codigo": "1301654",
+        "-nome": "GUAJARÁ"
+      },
+      {
+        "-codigo": "1301704",
+        "-nome": "HUMAITÁ"
+      },
+      {
+        "-codigo": "1301803",
+        "-nome": "IPIXUNA"
+      },
+      {
+        "-codigo": "1301852",
+        "-nome": "IRANDUBA"
+      },
+      {
+        "-codigo": "1301902",
+        "-nome": "ITACOATIARA"
+      },
+      {
+        "-codigo": "1301951",
+        "-nome": "ITAMARATI"
+      },
+      {
+        "-codigo": "1302009",
+        "-nome": "ITAPIRANGA"
+      },
+      {
+        "-codigo": "1302108",
+        "-nome": "JAPURÁ"
+      },
+      {
+        "-codigo": "1302207",
+        "-nome": "JURUÁ"
+      },
+      {
+        "-codigo": "1302306",
+        "-nome": "JUTAÍ"
+      },
+      {
+        "-codigo": "1302405",
+        "-nome": "LÁBREA"
+      },
+      {
+        "-codigo": "1302504",
+        "-nome": "MANACAPURU"
+      },
+      {
+        "-codigo": "1302553",
+        "-nome": "MANAQUIRI"
+      },
+      {
+        "-codigo": "1302603",
+        "-nome": "MANAUS"
+      },
+      {
+        "-codigo": "1302702",
+        "-nome": "MANICORÉ"
+      },
+      {
+        "-codigo": "1302801",
+        "-nome": "MARAÃ"
+      },
+      {
+        "-codigo": "1302900",
+        "-nome": "MAUÉS"
+      },
+      {
+        "-codigo": "1303007",
+        "-nome": "NHAMUNDÁ"
+      },
+      {
+        "-codigo": "1303106",
+        "-nome": "NOVA OLINDA DO NORTE"
+      },
+      {
+        "-codigo": "1303205",
+        "-nome": "NOVO AIRÃO"
+      },
+      {
+        "-codigo": "1303304",
+        "-nome": "NOVO ARIPUANÃ"
+      },
+      {
+        "-codigo": "1303403",
+        "-nome": "PARINTINS"
+      },
+      {
+        "-codigo": "1303502",
+        "-nome": "PAUINI"
+      },
+      {
+        "-codigo": "1303536",
+        "-nome": "PRESIDENTE FIGUEIREDO"
+      },
+      {
+        "-codigo": "1303569",
+        "-nome": "RIO PRETO DA EVA"
+      },
+      {
+        "-codigo": "1303601",
+        "-nome": "SANTA ISABEL DO RIO NEGRO"
+      },
+      {
+        "-codigo": "1303700",
+        "-nome": "SANTO ANTÔNIO DO IÇÁ"
+      },
+      {
+        "-codigo": "1303809",
+        "-nome": "SÃO GABRIEL DA CACHOEIRA"
+      },
+      {
+        "-codigo": "1303908",
+        "-nome": "SÃO PAULO DE OLIVENÇA"
+      },
+      {
+        "-codigo": "1303957",
+        "-nome": "SÃO SEBASTIÃO DO UATUMÃ"
+      },
+      {
+        "-codigo": "1304005",
+        "-nome": "SILVES"
+      },
+      {
+        "-codigo": "1304062",
+        "-nome": "TABATINGA"
+      },
+      {
+        "-codigo": "1304104",
+        "-nome": "TAPAUÁ"
+      },
+      {
+        "-codigo": "1304203",
+        "-nome": "TEFÉ"
+      },
+      {
+        "-codigo": "1304237",
+        "-nome": "TONANTINS"
+      },
+      {
+        "-codigo": "1304260",
+        "-nome": "UARINI"
+      },
+      {
+        "-codigo": "1304302",
+        "-nome": "URUCARÁ"
+      },
+      {
+        "-codigo": "1304401",
+        "-nome": "URUCURITUBA"
+      }
+    ]
+  }
+}
