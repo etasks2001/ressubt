@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="1500107" col2="ABAETETUBA" />
-	<item col1="1500131" col2="ABEL FIGUEIREDO" />
-	<item col1="1500206" col2="ACARÁ" />
-	<item col1="1500305" col2="AFUÁ" />
-	<item col1="1500347" col2="ÁGUA AZUL DO NORTE" />
-	<item col1="1500404" col2="ALENQUER" />
-	<item col1="1500503" col2="ALMEIRIM" />
-	<item col1="1500602" col2="ALTAMIRA" />
-	<item col1="1500701" col2="ANAJÁS" />
-	<item col1="1500800" col2="ANANINDEUA" />
-	<item col1="1500859" col2="ANAPU" />
-	<item col1="1500909" col2="AUGUSTO CORRÊA" />
-	<item col1="1500958" col2="AURORA DO PARÁ" />
-	<item col1="1501006" col2="AVEIRO" />
-	<item col1="1501105" col2="BAGRE" />
-	<item col1="1501204" col2="BAIÃO" />
-	<item col1="1501253" col2="BANNACH" />
-	<item col1="1501303" col2="BARCARENA" />
-	<item col1="1501402" col2="BELÉM" />
-	<item col1="1501451" col2="BELTERRA" />
-	<item col1="1501501" col2="BENEVIDES" />
-	<item col1="1501576" col2="BOM JESUS DO TOCANTINS" />
-	<item col1="1501600" col2="BONITO" />
-	<item col1="1501709" col2="BRAGANÇA" />
-	<item col1="1501725" col2="BRASIL NOVO" />
-	<item col1="1501758" col2="BREJO GRANDE DO ARAGUAIA" />
-	<item col1="1501782" col2="BREU BRANCO" />
-	<item col1="1501808" col2="BREVES" />
-	<item col1="1501907" col2="BUJARU" />
-	<item col1="1501956" col2="CACHOEIRA DO PIRIÁ" />
-	<item col1="1502004" col2="CACHOEIRA DO ARARI" />
-	<item col1="1502103" col2="CAMETÁ" />
-	<item col1="1502152" col2="CANAÃ DOS CARAJÁS" />
-	<item col1="1502202" col2="CAPANEMA" />
-	<item col1="1502301" col2="CAPITÃO POÇO" />
-	<item col1="1502400" col2="CASTANHAL" />
-	<item col1="1502509" col2="CHAVES" />
-	<item col1="1502608" col2="COLARES" />
-	<item col1="1502707" col2="CONCEIÇÃO DO ARAGUAIA" />
-	<item col1="1502756" col2="CONCÓRDIA DO PARÁ" />
-	<item col1="1502764" col2="CUMARU DO NORTE" />
-	<item col1="1502772" col2="CURIONÓPOLIS" />
-	<item col1="1502806" col2="CURRALINHO" />
-	<item col1="1502855" col2="CURUÁ" />
-	<item col1="1502905" col2="CURUÇÁ" />
-	<item col1="1502939" col2="DOM ELISEU" />
-	<item col1="1502954" col2="ELDORADO DOS CARAJÁS" />
-	<item col1="1503002" col2="FARO" />
-	<item col1="1503044" col2="FLORESTA DO ARAGUAIA" />
-	<item col1="1503077" col2="GARRAFÃO DO NORTE" />
-	<item col1="1503093" col2="GOIANÉSIA DO PARÁ" />
-	<item col1="1503101" col2="GURUPÁ" />
-	<item col1="1503200" col2="IGARAPÉ-AÇU" />
-	<item col1="1503309" col2="IGARAPÉ-MIRI" />
-	<item col1="1503408" col2="INHANGAPI" />
-	<item col1="1503457" col2="IPIXUNA DO PARÁ" />
-	<item col1="1503507" col2="IRITUIA" />
-	<item col1="1503606" col2="ITAITUBA" />
-	<item col1="1503705" col2="ITUPIRANGA" />
-	<item col1="1503754" col2="JACAREACANGA" />
-	<item col1="1503804" col2="JACUNDÁ" />
-	<item col1="1503903" col2="JURUTI" />
-	<item col1="1504000" col2="LIMOEIRO DO AJURU" />
-	<item col1="1504059" col2="MÃE DO RIO" />
-	<item col1="1504109" col2="MAGALHÃES BARATA" />
-	<item col1="1504208" col2="MARABÁ" />
-	<item col1="1504307" col2="MARACANÃ" />
-	<item col1="1504406" col2="MARAPANIM" />
-	<item col1="1504422" col2="MARITUBA" />
-	<item col1="1504455" col2="MEDICILÂNDIA" />
-	<item col1="1504505" col2="MELGAÇO" />
-	<item col1="1504604" col2="MOCAJUBA" />
-	<item col1="1504703" col2="MOJU" />
-	<item col1="1504802" col2="MONTE ALEGRE" />
-	<item col1="1504901" col2="MUANÁ" />
-	<item col1="1504950" col2="NOVA ESPERANÇA DO PIRIÁ" />
-	<item col1="1504976" col2="NOVA IPIXUNA" />
-	<item col1="1505007" col2="NOVA TIMBOTEUA" />
-	<item col1="1505031" col2="NOVO PROGRESSO" />
-	<item col1="1505064" col2="NOVO REPARTIMENTO" />
-	<item col1="1505106" col2="ÓBIDOS" />
-	<item col1="1505205" col2="OEIRAS DO PARÁ" />
-	<item col1="1505304" col2="ORIXIMINÁ" />
-	<item col1="1505403" col2="OURÉM" />
-	<item col1="1505437" col2="OURILÂNDIA DO NORTE" />
-	<item col1="1505486" col2="PACAJÁ" />
-	<item col1="1505494" col2="PALESTINA DO PARÁ" />
-	<item col1="1505502" col2="PARAGOMINAS" />
-	<item col1="1505536" col2="PARAUAPEBAS" />
-	<item col1="1505551" col2="PAU D'ARCO" />
-	<item col1="1505601" col2="PEIXE-BOI" />
-	<item col1="1505635" col2="PIÇARRA" />
-	<item col1="1505650" col2="PLACAS" />
-	<item col1="1505700" col2="PONTA DE PEDRAS" />
-	<item col1="1505809" col2="PORTEL" />
-	<item col1="1505908" col2="PORTO DE MOZ" />
-	<item col1="1506005" col2="PRAINHA" />
-	<item col1="1506104" col2="PRIMAVERA" />
-	<item col1="1506112" col2="QUATIPURU" />
-	<item col1="1506138" col2="REDENÇÃO" />
-	<item col1="1506161" col2="RIO MARIA" />
-	<item col1="1506187" col2="RONDON DO PARÁ" />
-	<item col1="1506195" col2="RURÓPOLIS" />
-	<item col1="1506203" col2="SALINÓPOLIS" />
-	<item col1="1506302" col2="SALVATERRA" />
-	<item col1="1506351" col2="SANTA BÁRBARA DO PARÁ" />
-	<item col1="1506401" col2="SANTA CRUZ DO ARARI" />
-	<item col1="1506500" col2="SANTA ISABEL DO PARÁ" />
-	<item col1="1506559" col2="SANTA LUZIA DO PARÁ" />
-	<item col1="1506583" col2="SANTA MARIA DAS BARREIRAS" />
-	<item col1="1506609" col2="SANTA MARIA DO PARÁ" />
-	<item col1="1506708" col2="SANTANA DO ARAGUAIA" />
-	<item col1="1506807" col2="SANTARÉM" />
-	<item col1="1506906" col2="SANTARÉM NOVO" />
-	<item col1="1507003" col2="SANTO ANTÔNIO DO TAUÁ" />
-	<item col1="1507102" col2="SÃO CAETANO DE ODIVELAS" />
-	<item col1="1507151" col2="SÃO DOMINGOS DO ARAGUAIA" />
-	<item col1="1507201" col2="SÃO DOMINGOS DO CAPIM" />
-	<item col1="1507300" col2="SÃO FÉLIX DO XINGU" />
-	<item col1="1507409" col2="SÃO FRANCISCO DO PARÁ" />
-	<item col1="1507458" col2="SÃO GERALDO DO ARAGUAIA" />
-	<item col1="1507466" col2="SÃO JOÃO DA PONTA" />
-	<item col1="1507474" col2="SÃO JOÃO DE PIRABAS" />
-	<item col1="1507508" col2="SÃO JOÃO DO ARAGUAIA" />
-	<item col1="1507607" col2="SÃO MIGUEL DO GUAMÁ" />
-	<item col1="1507706" col2="SÃO SEBASTIÃO DA BOA VISTA" />
-	<item col1="1507755" col2="SAPUCAIA" />
-	<item col1="1507805" col2="SENADOR JOSÉ PORFÍRIO" />
-	<item col1="1507904" col2="SOURE" />
-	<item col1="1507953" col2="TAILÂNDIA" />
-	<item col1="1507961" col2="TERRA ALTA" />
-	<item col1="1507979" col2="TERRA SANTA" />
-	<item col1="1508001" col2="TOMÉ-AÇU" />
-	<item col1="1508035" col2="TRACUATEUA" />
-	<item col1="1508050" col2="TRAIRÃO" />
-	<item col1="1508084" col2="TUCUMÃ" />
-	<item col1="1508100" col2="TUCURUÍ" />
-	<item col1="1508126" col2="ULIANÓPOLIS" />
-	<item col1="1508159" col2="URUARÁ" />
-	<item col1="1508209" col2="VIGIA" />
-	<item col1="1508308" col2="VISEU" />
-	<item col1="1508357" col2="VITÓRIA DO XINGU" />
-	<item col1="1508407" col2="XINGUARA" />
+	<item codigo="1500107" nome="ABAETETUBA" />
+	<item codigo="1500131" nome="ABEL FIGUEIREDO" />
+	<item codigo="1500206" nome="ACARÁ" />
+	<item codigo="1500305" nome="AFUÁ" />
+	<item codigo="1500347" nome="ÁGUA AZUL DO NORTE" />
+	<item codigo="1500404" nome="ALENQUER" />
+	<item codigo="1500503" nome="ALMEIRIM" />
+	<item codigo="1500602" nome="ALTAMIRA" />
+	<item codigo="1500701" nome="ANAJÁS" />
+	<item codigo="1500800" nome="ANANINDEUA" />
+	<item codigo="1500859" nome="ANAPU" />
+	<item codigo="1500909" nome="AUGUSTO CORRÊA" />
+	<item codigo="1500958" nome="AURORA DO PARÁ" />
+	<item codigo="1501006" nome="AVEIRO" />
+	<item codigo="1501105" nome="BAGRE" />
+	<item codigo="1501204" nome="BAIÃO" />
+	<item codigo="1501253" nome="BANNACH" />
+	<item codigo="1501303" nome="BARCARENA" />
+	<item codigo="1501402" nome="BELÉM" />
+	<item codigo="1501451" nome="BELTERRA" />
+	<item codigo="1501501" nome="BENEVIDES" />
+	<item codigo="1501576" nome="BOM JESUS DO TOCANTINS" />
+	<item codigo="1501600" nome="BONITO" />
+	<item codigo="1501709" nome="BRAGANÇA" />
+	<item codigo="1501725" nome="BRASIL NOVO" />
+	<item codigo="1501758" nome="BREJO GRANDE DO ARAGUAIA" />
+	<item codigo="1501782" nome="BREU BRANCO" />
+	<item codigo="1501808" nome="BREVES" />
+	<item codigo="1501907" nome="BUJARU" />
+	<item codigo="1501956" nome="CACHOEIRA DO PIRIÁ" />
+	<item codigo="1502004" nome="CACHOEIRA DO ARARI" />
+	<item codigo="1502103" nome="CAMETÁ" />
+	<item codigo="1502152" nome="CANAÃ DOS CARAJÁS" />
+	<item codigo="1502202" nome="CAPANEMA" />
+	<item codigo="1502301" nome="CAPITÃO POÇO" />
+	<item codigo="1502400" nome="CASTANHAL" />
+	<item codigo="1502509" nome="CHAVES" />
+	<item codigo="1502608" nome="COLARES" />
+	<item codigo="1502707" nome="CONCEIÇÃO DO ARAGUAIA" />
+	<item codigo="1502756" nome="CONCÓRDIA DO PARÁ" />
+	<item codigo="1502764" nome="CUMARU DO NORTE" />
+	<item codigo="1502772" nome="CURIONÓPOLIS" />
+	<item codigo="1502806" nome="CURRALINHO" />
+	<item codigo="1502855" nome="CURUÁ" />
+	<item codigo="1502905" nome="CURUÇÁ" />
+	<item codigo="1502939" nome="DOM ELISEU" />
+	<item codigo="1502954" nome="ELDORADO DOS CARAJÁS" />
+	<item codigo="1503002" nome="FARO" />
+	<item codigo="1503044" nome="FLORESTA DO ARAGUAIA" />
+	<item codigo="1503077" nome="GARRAFÃO DO NORTE" />
+	<item codigo="1503093" nome="GOIANÉSIA DO PARÁ" />
+	<item codigo="1503101" nome="GURUPÁ" />
+	<item codigo="1503200" nome="IGARAPÉ-AÇU" />
+	<item codigo="1503309" nome="IGARAPÉ-MIRI" />
+	<item codigo="1503408" nome="INHANGAPI" />
+	<item codigo="1503457" nome="IPIXUNA DO PARÁ" />
+	<item codigo="1503507" nome="IRITUIA" />
+	<item codigo="1503606" nome="ITAITUBA" />
+	<item codigo="1503705" nome="ITUPIRANGA" />
+	<item codigo="1503754" nome="JACAREACANGA" />
+	<item codigo="1503804" nome="JACUNDÁ" />
+	<item codigo="1503903" nome="JURUTI" />
+	<item codigo="1504000" nome="LIMOEIRO DO AJURU" />
+	<item codigo="1504059" nome="MÃE DO RIO" />
+	<item codigo="1504109" nome="MAGALHÃES BARATA" />
+	<item codigo="1504208" nome="MARABÁ" />
+	<item codigo="1504307" nome="MARACANÃ" />
+	<item codigo="1504406" nome="MARAPANIM" />
+	<item codigo="1504422" nome="MARITUBA" />
+	<item codigo="1504455" nome="MEDICILÂNDIA" />
+	<item codigo="1504505" nome="MELGAÇO" />
+	<item codigo="1504604" nome="MOCAJUBA" />
+	<item codigo="1504703" nome="MOJU" />
+	<item codigo="1504802" nome="MONTE ALEGRE" />
+	<item codigo="1504901" nome="MUANÁ" />
+	<item codigo="1504950" nome="NOVA ESPERANÇA DO PIRIÁ" />
+	<item codigo="1504976" nome="NOVA IPIXUNA" />
+	<item codigo="1505007" nome="NOVA TIMBOTEUA" />
+	<item codigo="1505031" nome="NOVO PROGRESSO" />
+	<item codigo="1505064" nome="NOVO REPARTIMENTO" />
+	<item codigo="1505106" nome="ÓBIDOS" />
+	<item codigo="1505205" nome="OEIRAS DO PARÁ" />
+	<item codigo="1505304" nome="ORIXIMINÁ" />
+	<item codigo="1505403" nome="OURÉM" />
+	<item codigo="1505437" nome="OURILÂNDIA DO NORTE" />
+	<item codigo="1505486" nome="PACAJÁ" />
+	<item codigo="1505494" nome="PALESTINA DO PARÁ" />
+	<item codigo="1505502" nome="PARAGOMINAS" />
+	<item codigo="1505536" nome="PARAUAPEBAS" />
+	<item codigo="1505551" nome="PAU D'ARCO" />
+	<item codigo="1505601" nome="PEIXE-BOI" />
+	<item codigo="1505635" nome="PIÇARRA" />
+	<item codigo="1505650" nome="PLACAS" />
+	<item codigo="1505700" nome="PONTA DE PEDRAS" />
+	<item codigo="1505809" nome="PORTEL" />
+	<item codigo="1505908" nome="PORTO DE MOZ" />
+	<item codigo="1506005" nome="PRAINHA" />
+	<item codigo="1506104" nome="PRIMAVERA" />
+	<item codigo="1506112" nome="QUATIPURU" />
+	<item codigo="1506138" nome="REDENÇÃO" />
+	<item codigo="1506161" nome="RIO MARIA" />
+	<item codigo="1506187" nome="RONDON DO PARÁ" />
+	<item codigo="1506195" nome="RURÓPOLIS" />
+	<item codigo="1506203" nome="SALINÓPOLIS" />
+	<item codigo="1506302" nome="SALVATERRA" />
+	<item codigo="1506351" nome="SANTA BÁRBARA DO PARÁ" />
+	<item codigo="1506401" nome="SANTA CRUZ DO ARARI" />
+	<item codigo="1506500" nome="SANTA ISABEL DO PARÁ" />
+	<item codigo="1506559" nome="SANTA LUZIA DO PARÁ" />
+	<item codigo="1506583" nome="SANTA MARIA DAS BARREIRAS" />
+	<item codigo="1506609" nome="SANTA MARIA DO PARÁ" />
+	<item codigo="1506708" nome="SANTANA DO ARAGUAIA" />
+	<item codigo="1506807" nome="SANTARÉM" />
+	<item codigo="1506906" nome="SANTARÉM NOVO" />
+	<item codigo="1507003" nome="SANTO ANTÔNIO DO TAUÁ" />
+	<item codigo="1507102" nome="SÃO CAETANO DE ODIVELAS" />
+	<item codigo="1507151" nome="SÃO DOMINGOS DO ARAGUAIA" />
+	<item codigo="1507201" nome="SÃO DOMINGOS DO CAPIM" />
+	<item codigo="1507300" nome="SÃO FÉLIX DO XINGU" />
+	<item codigo="1507409" nome="SÃO FRANCISCO DO PARÁ" />
+	<item codigo="1507458" nome="SÃO GERALDO DO ARAGUAIA" />
+	<item codigo="1507466" nome="SÃO JOÃO DA PONTA" />
+	<item codigo="1507474" nome="SÃO JOÃO DE PIRABAS" />
+	<item codigo="1507508" nome="SÃO JOÃO DO ARAGUAIA" />
+	<item codigo="1507607" nome="SÃO MIGUEL DO GUAMÁ" />
+	<item codigo="1507706" nome="SÃO SEBASTIÃO DA BOA VISTA" />
+	<item codigo="1507755" nome="SAPUCAIA" />
+	<item codigo="1507805" nome="SENADOR JOSÉ PORFÍRIO" />
+	<item codigo="1507904" nome="SOURE" />
+	<item codigo="1507953" nome="TAILÂNDIA" />
+	<item codigo="1507961" nome="TERRA ALTA" />
+	<item codigo="1507979" nome="TERRA SANTA" />
+	<item codigo="1508001" nome="TOMÉ-AÇU" />
+	<item codigo="1508035" nome="TRACUATEUA" />
+	<item codigo="1508050" nome="TRAIRÃO" />
+	<item codigo="1508084" nome="TUCUMÃ" />
+	<item codigo="1508100" nome="TUCURUÍ" />
+	<item codigo="1508126" nome="ULIANÓPOLIS" />
+	<item codigo="1508159" nome="URUARÁ" />
+	<item codigo="1508209" nome="VIGIA" />
+	<item codigo="1508308" nome="VISEU" />
+	<item codigo="1508357" nome="VITÓRIA DO XINGU" />
+	<item codigo="1508407" nome="XINGUARA" />
 
 </tabela>

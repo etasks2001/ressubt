@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="1100015" col2="ALTA FLORESTA D'OESTE" />
-	<item col1="1100023" col2="ARIQUEMES" />
-	<item col1="1100031" col2="CABIXI" />
-	<item col1="1100049" col2="CACOAL" />
-	<item col1="1100056" col2="CEREJEIRAS" />
-	<item col1="1100064" col2="COLORADO DO OESTE" />
-	<item col1="1100072" col2="CORUMBIARA" />
-	<item col1="1100080" col2="COSTA MARQUES" />
-	<item col1="1100098" col2="ESPIGÃO D'OESTE" />
-	<item col1="1100106" col2="GUAJARÁ-MIRIM" />
-	<item col1="1100114" col2="JARU" />
-	<item col1="1100122" col2="JI-PARANÁ" />
-	<item col1="1100130" col2="MACHADINHO D'OESTE" />
-	<item col1="1100148" col2="NOVA BRASILÂNDIA D'OESTE" />
-	<item col1="1100155" col2="OURO PRETO DO OESTE" />
-	<item col1="1100189" col2="PIMENTA BUENO" />
-	<item col1="1100205" col2="PORTO VELHO" />
-	<item col1="1100254" col2="PRESIDENTE MÉDICI" />
-	<item col1="1100262" col2="RIO CRESPO" />
-	<item col1="1100288" col2="ROLIM DE MOURA" />
-	<item col1="1100296" col2="SANTA LUZIA D'OESTE" />
-	<item col1="1100304" col2="VILHENA" />
-	<item col1="1100320" col2="SÃO MIGUEL DO GUAPORÉ" />
-	<item col1="1100338" col2="NOVA MAMORÉ" />
-	<item col1="1100346" col2="ALVORADA D'OESTE" />
-	<item col1="1100379" col2="ALTO ALEGRE DOS PARECIS" />
-	<item col1="1100403" col2="ALTO PARAÍSO" />
-	<item col1="1100452" col2="BURITIS" />
-	<item col1="1100502" col2="NOVO HORIZONTE DO OESTE" />
-	<item col1="1100601" col2="CACAULÂNDIA" />
-	<item col1="1100700" col2="CAMPO NOVO DE RONDÔNIA" />
-	<item col1="1100809" col2="CANDEIAS DO JAMARI" />
-	<item col1="1100908" col2="CASTANHEIRAS" />
-	<item col1="1100924" col2="CHUPINGUAIA" />
-	<item col1="1100940" col2="CUJUBIM" />
-	<item col1="1101005" col2="GOVERNADOR JORGE TEIXEIRA" />
-	<item col1="1101104" col2="ITAPUÃ DO OESTE" />
-	<item col1="1101203" col2="MINISTRO ANDREAZZA" />
-	<item col1="1101302" col2="MIRANTE DA SERRA" />
-	<item col1="1101401" col2="MONTE NEGRO" />
-	<item col1="1101435" col2="NOVA UNIÃO" />
-	<item col1="1101450" col2="PARECIS" />
-	<item col1="1101468" col2="PIMENTEIRAS DO OESTE" />
-	<item col1="1101476" col2="PRIMAVERA DE RONDÔNIA" />
-	<item col1="1101484" col2="SÃO FELIPE D'OESTE" />
-	<item col1="1101492" col2="SÃO FRANCISCO DO GUAPORÉ" />
-	<item col1="1101500" col2="SERINGUEIRAS" />
-	<item col1="1101559" col2="TEIXEIRÓPOLIS" />
-	<item col1="1101609" col2="THEOBROMA" />
-	<item col1="1101708" col2="URUPÁ" />
-	<item col1="1101757" col2="VALE DO ANARI" />
-	<item col1="1101807" col2="VALE DO PARAÍSO" />
+	<item codigo="1100015" nome="ALTA FLORESTA D'OESTE" />
+	<item codigo="1100023" nome="ARIQUEMES" />
+	<item codigo="1100031" nome="CABIXI" />
+	<item codigo="1100049" nome="CACOAL" />
+	<item codigo="1100056" nome="CEREJEIRAS" />
+	<item codigo="1100064" nome="COLORADO DO OESTE" />
+	<item codigo="1100072" nome="CORUMBIARA" />
+	<item codigo="1100080" nome="COSTA MARQUES" />
+	<item codigo="1100098" nome="ESPIGÃO D'OESTE" />
+	<item codigo="1100106" nome="GUAJARÁ-MIRIM" />
+	<item codigo="1100114" nome="JARU" />
+	<item codigo="1100122" nome="JI-PARANÁ" />
+	<item codigo="1100130" nome="MACHADINHO D'OESTE" />
+	<item codigo="1100148" nome="NOVA BRASILÂNDIA D'OESTE" />
+	<item codigo="1100155" nome="OURO PRETO DO OESTE" />
+	<item codigo="1100189" nome="PIMENTA BUENO" />
+	<item codigo="1100205" nome="PORTO VELHO" />
+	<item codigo="1100254" nome="PRESIDENTE MÉDICI" />
+	<item codigo="1100262" nome="RIO CRESPO" />
+	<item codigo="1100288" nome="ROLIM DE MOURA" />
+	<item codigo="1100296" nome="SANTA LUZIA D'OESTE" />
+	<item codigo="1100304" nome="VILHENA" />
+	<item codigo="1100320" nome="SÃO MIGUEL DO GUAPORÉ" />
+	<item codigo="1100338" nome="NOVA MAMORÉ" />
+	<item codigo="1100346" nome="ALVORADA D'OESTE" />
+	<item codigo="1100379" nome="ALTO ALEGRE DOS PARECIS" />
+	<item codigo="1100403" nome="ALTO PARAÍSO" />
+	<item codigo="1100452" nome="BURITIS" />
+	<item codigo="1100502" nome="NOVO HORIZONTE DO OESTE" />
+	<item codigo="1100601" nome="CACAULÂNDIA" />
+	<item codigo="1100700" nome="CAMPO NOVO DE RONDÔNIA" />
+	<item codigo="1100809" nome="CANDEIAS DO JAMARI" />
+	<item codigo="1100908" nome="CASTANHEIRAS" />
+	<item codigo="1100924" nome="CHUPINGUAIA" />
+	<item codigo="1100940" nome="CUJUBIM" />
+	<item codigo="1101005" nome="GOVERNADOR JORGE TEIXEIRA" />
+	<item codigo="1101104" nome="ITAPUÃ DO OESTE" />
+	<item codigo="1101203" nome="MINISTRO ANDREAZZA" />
+	<item codigo="1101302" nome="MIRANTE DA SERRA" />
+	<item codigo="1101401" nome="MONTE NEGRO" />
+	<item codigo="1101435" nome="NOVA UNIÃO" />
+	<item codigo="1101450" nome="PARECIS" />
+	<item codigo="1101468" nome="PIMENTEIRAS DO OESTE" />
+	<item codigo="1101476" nome="PRIMAVERA DE RONDÔNIA" />
+	<item codigo="1101484" nome="SÃO FELIPE D'OESTE" />
+	<item codigo="1101492" nome="SÃO FRANCISCO DO GUAPORÉ" />
+	<item codigo="1101500" nome="SERINGUEIRAS" />
+	<item codigo="1101559" nome="TEIXEIRÓPOLIS" />
+	<item codigo="1101609" nome="THEOBROMA" />
+	<item codigo="1101708" nome="URUPÁ" />
+	<item codigo="1101757" nome="VALE DO ANARI" />
+	<item codigo="1101807" nome="VALE DO PARAÍSO" />
 
 </tabela>

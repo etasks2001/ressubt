@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-<item col1="1300029" col2="ALVARÃES"/>
-<item col1="1300060" col2="AMATURÁ"/>
-<item col1="1300086" col2="ANAMÃ"/>
-<item col1="1300102" col2="ANORI"/>
-<item col1="1300144" col2="APUÍ"/>
-<item col1="1300201" col2="ATALAIA DO NORTE"/>
-<item col1="1300300" col2="AUTAZES"/>
-<item col1="1300409" col2="BARCELOS"/>
-<item col1="1300508" col2="BARREIRINHA"/>
-<item col1="1300607" col2="BENJAMIN CONSTANT"/>
-<item col1="1300631" col2="BERURI"/>
-<item col1="1300680" col2="BOA VISTA DO RAMOS"/>
-<item col1="1300706" col2="BOCA DO ACRE"/>
-<item col1="1300805" col2="BORBA"/>
-<item col1="1300839" col2="CAAPIRANGA"/>
-<item col1="1300904" col2="CANUTAMA"/>
-<item col1="1301001" col2="CARAUARI"/>
-<item col1="1301100" col2="CAREIRO"/>
-<item col1="1301159" col2="CAREIRO DA VÁRZEA"/>
-<item col1="1301209" col2="COARI"/>
-<item col1="1301308" col2="CODAJÁS"/>
-<item col1="1301407" col2="EIRUNEPÉ"/>
-<item col1="1301506" col2="ENVIRA"/>
-<item col1="1301605" col2="FONTE BOA"/>
-<item col1="1301654" col2="GUAJARÁ"/>
-<item col1="1301704" col2="HUMAITÁ"/>
-<item col1="1301803" col2="IPIXUNA"/>
-<item col1="1301852" col2="IRANDUBA"/>
-<item col1="1301902" col2="ITACOATIARA"/>
-<item col1="1301951" col2="ITAMARATI"/>
-<item col1="1302009" col2="ITAPIRANGA"/>
-<item col1="1302108" col2="JAPURÁ"/>
-<item col1="1302207" col2="JURUÁ"/>
-<item col1="1302306" col2="JUTAÍ"/>
-<item col1="1302405" col2="LÁBREA"/>
-<item col1="1302504" col2="MANACAPURU"/>
-<item col1="1302553" col2="MANAQUIRI"/>
-<item col1="1302603" col2="MANAUS"/>
-<item col1="1302702" col2="MANICORÉ"/>
-<item col1="1302801" col2="MARAÃ"/>
-<item col1="1302900" col2="MAUÉS"/>
-<item col1="1303007" col2="NHAMUNDÁ"/>
-<item col1="1303106" col2="NOVA OLINDA DO NORTE"/>
-<item col1="1303205" col2="NOVO AIRÃO"/>
-<item col1="1303304" col2="NOVO ARIPUANÃ"/>
-<item col1="1303403" col2="PARINTINS"/>
-<item col1="1303502" col2="PAUINI"/>
-<item col1="1303536" col2="PRESIDENTE FIGUEIREDO"/>
-<item col1="1303569" col2="RIO PRETO DA EVA"/>
-<item col1="1303601" col2="SANTA ISABEL DO RIO NEGRO"/>
-<item col1="1303700" col2="SANTO ANTÔNIO DO IÇÁ"/>
-<item col1="1303809" col2="SÃO GABRIEL DA CACHOEIRA"/>
-<item col1="1303908" col2="SÃO PAULO DE OLIVENÇA"/>
-<item col1="1303957" col2="SÃO SEBASTIÃO DO UATUMÃ"/>
-<item col1="1304005" col2="SILVES"/>
-<item col1="1304062" col2="TABATINGA"/>
-<item col1="1304104" col2="TAPAUÁ"/>
-<item col1="1304203" col2="TEFÉ"/>
-<item col1="1304237" col2="TONANTINS"/>
-<item col1="1304260" col2="UARINI"/>
-<item col1="1304302" col2="URUCARÁ"/>
-<item col1="1304401" col2="URUCURITUBA"/>
+	<item codigo="1300029" nome="ALVARÃES" />
+	<item codigo="1300060" nome="AMATURÁ" />
+	<item codigo="1300086" nome="ANAMÃ" />
+	<item codigo="1300102" nome="ANORI" />
+	<item codigo="1300144" nome="APUÍ" />
+	<item codigo="1300201" nome="ATALAIA DO NORTE" />
+	<item codigo="1300300" nome="AUTAZES" />
+	<item codigo="1300409" nome="BARCELOS" />
+	<item codigo="1300508" nome="BARREIRINHA" />
+	<item codigo="1300607" nome="BENJAMIN CONSTANT" />
+	<item codigo="1300631" nome="BERURI" />
+	<item codigo="1300680" nome="BOA VISTA DO RAMOS" />
+	<item codigo="1300706" nome="BOCA DO ACRE" />
+	<item codigo="1300805" nome="BORBA" />
+	<item codigo="1300839" nome="CAAPIRANGA" />
+	<item codigo="1300904" nome="CANUTAMA" />
+	<item codigo="1301001" nome="CARAUARI" />
+	<item codigo="1301100" nome="CAREIRO" />
+	<item codigo="1301159" nome="CAREIRO DA VÁRZEA" />
+	<item codigo="1301209" nome="COARI" />
+	<item codigo="1301308" nome="CODAJÁS" />
+	<item codigo="1301407" nome="EIRUNEPÉ" />
+	<item codigo="1301506" nome="ENVIRA" />
+	<item codigo="1301605" nome="FONTE BOA" />
+	<item codigo="1301654" nome="GUAJARÁ" />
+	<item codigo="1301704" nome="HUMAITÁ" />
+	<item codigo="1301803" nome="IPIXUNA" />
+	<item codigo="1301852" nome="IRANDUBA" />
+	<item codigo="1301902" nome="ITACOATIARA" />
+	<item codigo="1301951" nome="ITAMARATI" />
+	<item codigo="1302009" nome="ITAPIRANGA" />
+	<item codigo="1302108" nome="JAPURÁ" />
+	<item codigo="1302207" nome="JURUÁ" />
+	<item codigo="1302306" nome="JUTAÍ" />
+	<item codigo="1302405" nome="LÁBREA" />
+	<item codigo="1302504" nome="MANACAPURU" />
+	<item codigo="1302553" nome="MANAQUIRI" />
+	<item codigo="1302603" nome="MANAUS" />
+	<item codigo="1302702" nome="MANICORÉ" />
+	<item codigo="1302801" nome="MARAÃ" />
+	<item codigo="1302900" nome="MAUÉS" />
+	<item codigo="1303007" nome="NHAMUNDÁ" />
+	<item codigo="1303106" nome="NOVA OLINDA DO NORTE" />
+	<item codigo="1303205" nome="NOVO AIRÃO" />
+	<item codigo="1303304" nome="NOVO ARIPUANÃ" />
+	<item codigo="1303403" nome="PARINTINS" />
+	<item codigo="1303502" nome="PAUINI" />
+	<item codigo="1303536" nome="PRESIDENTE FIGUEIREDO" />
+	<item codigo="1303569" nome="RIO PRETO DA EVA" />
+	<item codigo="1303601" nome="SANTA ISABEL DO RIO NEGRO" />
+	<item codigo="1303700" nome="SANTO ANTÔNIO DO IÇÁ" />
+	<item codigo="1303809" nome="SÃO GABRIEL DA CACHOEIRA" />
+	<item codigo="1303908" nome="SÃO PAULO DE OLIVENÇA" />
+	<item codigo="1303957" nome="SÃO SEBASTIÃO DO UATUMÃ" />
+	<item codigo="1304005" nome="SILVES" />
+	<item codigo="1304062" nome="TABATINGA" />
+	<item codigo="1304104" nome="TAPAUÁ" />
+	<item codigo="1304203" nome="TEFÉ" />
+	<item codigo="1304237" nome="TONANTINS" />
+	<item codigo="1304260" nome="UARINI" />
+	<item codigo="1304302" nome="URUCARÁ" />
+	<item codigo="1304401" nome="URUCURITUBA" />
 
 </tabela>

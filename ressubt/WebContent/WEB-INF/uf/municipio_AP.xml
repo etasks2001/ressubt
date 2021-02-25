@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="1600055" col2="SERRA DO NAVIO" />
-	<item col1="1600105" col2="AMAPÁ" />
-	<item col1="1600154" col2="PEDRA BRANCA DO AMAPARI" />
-	<item col1="1600204" col2="CALÇOENE" />
-	<item col1="1600212" col2="CUTIAS" />
-	<item col1="1600238" col2="FERREIRA GOMES" />
-	<item col1="1600253" col2="ITAUBAL" />
-	<item col1="1600279" col2="LARANJAL DO JARI" />
-	<item col1="1600303" col2="MACAPÁ" />
-	<item col1="1600402" col2="MAZAGÃO" />
-	<item col1="1600501" col2="OIAPOQUE" />
-	<item col1="1600535" col2="PORTO GRANDE" />
-	<item col1="1600550" col2="PRACUÚBA" />
-	<item col1="1600600" col2="SANTANA" />
-	<item col1="1600709" col2="TARTARUGALZINHO" />
-	<item col1="1600808" col2="VITÓRIA DO JARI" />
+	<item codigo="1600055" nome="SERRA DO NAVIO" />
+	<item codigo="1600105" nome="AMAPÁ" />
+	<item codigo="1600154" nome="PEDRA BRANCA DO AMAPARI" />
+	<item codigo="1600204" nome="CALÇOENE" />
+	<item codigo="1600212" nome="CUTIAS" />
+	<item codigo="1600238" nome="FERREIRA GOMES" />
+	<item codigo="1600253" nome="ITAUBAL" />
+	<item codigo="1600279" nome="LARANJAL DO JARI" />
+	<item codigo="1600303" nome="MACAPÁ" />
+	<item codigo="1600402" nome="MAZAGÃO" />
+	<item codigo="1600501" nome="OIAPOQUE" />
+	<item codigo="1600535" nome="PORTO GRANDE" />
+	<item codigo="1600550" nome="PRACUÚBA" />
+	<item codigo="1600600" nome="SANTANA" />
+	<item codigo="1600709" nome="TARTARUGALZINHO" />
+	<item codigo="1600808" nome="VITÓRIA DO JARI" />
 
 </tabela>

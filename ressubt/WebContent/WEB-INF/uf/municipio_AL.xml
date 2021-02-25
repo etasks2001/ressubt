@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="2700102" col2="ÁGUA BRANCA" />
-	<item col1="2700201" col2="ANADIA" />
-	<item col1="2700300" col2="ARAPIRACA" />
-	<item col1="2700409" col2="ATALAIA" />
-	<item col1="2700508" col2="BARRA DE SANTO ANTÔNIO" />
-	<item col1="2700607" col2="BARRA DE SÃO MIGUEL" />
-	<item col1="2700706" col2="BATALHA" />
-	<item col1="2700805" col2="BELÉM" />
-	<item col1="2700904" col2="BELO MONTE" />
-	<item col1="2701001" col2="BOCA DA MATA" />
-	<item col1="2701100" col2="BRANQUINHA" />
-	<item col1="2701209" col2="CACIMBINHAS" />
-	<item col1="2701308" col2="CAJUEIRO" />
-	<item col1="2701357" col2="CAMPESTRE" />
-	<item col1="2701407" col2="CAMPO ALEGRE" />
-	<item col1="2701506" col2="CAMPO GRANDE" />
-	<item col1="2701605" col2="CANAPI" />
-	<item col1="2701704" col2="CAPELA" />
-	<item col1="2701803" col2="CARNEIROS" />
-	<item col1="2701902" col2="CHÃ PRETA" />
-	<item col1="2702009" col2="COITÉ DO NÓIA" />
-	<item col1="2702108" col2="COLÔNIA LEOPOLDINA" />
-	<item col1="2702207" col2="COQUEIRO SECO" />
-	<item col1="2702306" col2="CORURIPE" />
-	<item col1="2702355" col2="CRAÍBAS" />
-	<item col1="2702405" col2="DELMIRO GOUVEIA" />
-	<item col1="2702504" col2="DOIS RIACHOS" />
-	<item col1="2702553" col2="ESTRELA DE ALAGOAS" />
-	<item col1="2702603" col2="FEIRA GRANDE" />
-	<item col1="2702702" col2="FELIZ DESERTO" />
-	<item col1="2702801" col2="FLEXEIRAS" />
-	<item col1="2702900" col2="GIRAU DO PONCIANO" />
-	<item col1="2703007" col2="IBATEGUARA" />
-	<item col1="2703106" col2="IGACI" />
-	<item col1="2703205" col2="IGREJA NOVA" />
-	<item col1="2703304" col2="INHAPI" />
-	<item col1="2703403" col2="JACARÉ DOS HOMENS" />
-	<item col1="2703502" col2="JACUÍPE" />
-	<item col1="2703601" col2="JAPARATINGA" />
-	<item col1="2703700" col2="JARAMATAIA" />
-	<item col1="2703759" col2="JEQUIÁ DA PRAIA" />
-	<item col1="2703809" col2="JOAQUIM GOMES" />
-	<item col1="2703908" col2="JUNDIÁ" />
-	<item col1="2704005" col2="JUNQUEIRO" />
-	<item col1="2704104" col2="LAGOA DA CANOA" />
-	<item col1="2704203" col2="LIMOEIRO DE ANADIA" />
-	<item col1="2704302" col2="MACEIÓ" />
-	<item col1="2704401" col2="MAJOR ISIDORO" />
-	<item col1="2704500" col2="MARAGOGI" />
-	<item col1="2704609" col2="MARAVILHA" />
-	<item col1="2704708" col2="MARECHAL DEODORO" />
-	<item col1="2704807" col2="MARIBONDO" />
-	<item col1="2704906" col2="MAR VERMELHO" />
-	<item col1="2705002" col2="MATA GRANDE" />
-	<item col1="2705101" col2="MATRIZ DE CAMARAGIBE" />
-	<item col1="2705200" col2="MESSIAS" />
-	<item col1="2705309" col2="MINADOR DO NEGRÃO" />
-	<item col1="2705408" col2="MONTEIRÓPOLIS" />
-	<item col1="2705507" col2="MURICI" />
-	<item col1="2705606" col2="NOVO LINO" />
-	<item col1="2705705" col2="OLHO D'ÁGUA DAS FLORES" />
-	<item col1="2705804" col2="OLHO D'ÁGUA DO CASADO" />
-	<item col1="2705903" col2="OLHO D'ÁGUA GRANDE" />
-	<item col1="2706000" col2="OLIVENÇA" />
-	<item col1="2706109" col2="OURO BRANCO" />
-	<item col1="2706208" col2="PALESTINA" />
-	<item col1="2706307" col2="PALMEIRA DOS ÍNDIOS" />
-	<item col1="2706406" col2="PÃO DE AÇÚCAR" />
-	<item col1="2706422" col2="PARICONHA" />
-	<item col1="2706448" col2="PARIPUEIRA" />
-	<item col1="2706505" col2="PASSO DE CAMARAGIBE" />
-	<item col1="2706604" col2="PAULO JACINTO" />
-	<item col1="2706703" col2="PENEDO" />
-	<item col1="2706802" col2="PIAÇABUÇU" />
-	<item col1="2706901" col2="PILAR" />
-	<item col1="2707008" col2="PINDOBA" />
-	<item col1="2707107" col2="PIRANHAS" />
-	<item col1="2707206" col2="POÇO DAS TRINCHEIRAS" />
-	<item col1="2707305" col2="PORTO CALVO" />
-	<item col1="2707404" col2="PORTO DE PEDRAS" />
-	<item col1="2707503" col2="PORTO REAL DO COLÉGIO" />
-	<item col1="2707602" col2="QUEBRANGULO" />
-	<item col1="2707701" col2="RIO LARGO" />
-	<item col1="2707800" col2="ROTEIRO" />
-	<item col1="2707909" col2="SANTA LUZIA DO NORTE" />
-	<item col1="2708006" col2="SANTANA DO IPANEMA" />
-	<item col1="2708105" col2="SANTANA DO MUNDAÚ" />
-	<item col1="2708204" col2="SÃO BRÁS" />
-	<item col1="2708303" col2="SÃO JOSÉ DA LAJE" />
-	<item col1="2708402" col2="SÃO JOSÉ DA TAPERA" />
-	<item col1="2708501" col2="SÃO LUÍS DO QUITUNDE" />
-	<item col1="2708600" col2="SÃO MIGUEL DOS CAMPOS" />
-	<item col1="2708709" col2="SÃO MIGUEL DOS MILAGRES" />
-	<item col1="2708808" col2="SÃO SEBASTIÃO" />
-	<item col1="2708907" col2="SATUBA" />
-	<item col1="2708956" col2="SENADOR RUI PALMEIRA" />
-	<item col1="2709004" col2="TANQUE D'ARCA" />
-	<item col1="2709103" col2="TAQUARANA" />
-	<item col1="2709152" col2="TEOTÔNIO VILELA" />
-	<item col1="2709202" col2="TRAIPU" />
-	<item col1="2709301" col2="UNIÃO DOS PALMARES" />
-	<item col1="2709400" col2="VIÇOSA" />
+	<item codigo="2700102" nome="ÁGUA BRANCA" />
+	<item codigo="2700201" nome="ANADIA" />
+	<item codigo="2700300" nome="ARAPIRACA" />
+	<item codigo="2700409" nome="ATALAIA" />
+	<item codigo="2700508" nome="BARRA DE SANTO ANTÔNIO" />
+	<item codigo="2700607" nome="BARRA DE SÃO MIGUEL" />
+	<item codigo="2700706" nome="BATALHA" />
+	<item codigo="2700805" nome="BELÉM" />
+	<item codigo="2700904" nome="BELO MONTE" />
+	<item codigo="2701001" nome="BOCA DA MATA" />
+	<item codigo="2701100" nome="BRANQUINHA" />
+	<item codigo="2701209" nome="CACIMBINHAS" />
+	<item codigo="2701308" nome="CAJUEIRO" />
+	<item codigo="2701357" nome="CAMPESTRE" />
+	<item codigo="2701407" nome="CAMPO ALEGRE" />
+	<item codigo="2701506" nome="CAMPO GRANDE" />
+	<item codigo="2701605" nome="CANAPI" />
+	<item codigo="2701704" nome="CAPELA" />
+	<item codigo="2701803" nome="CARNEIROS" />
+	<item codigo="2701902" nome="CHÃ PRETA" />
+	<item codigo="2702009" nome="COITÉ DO NÓIA" />
+	<item codigo="2702108" nome="COLÔNIA LEOPOLDINA" />
+	<item codigo="2702207" nome="COQUEIRO SECO" />
+	<item codigo="2702306" nome="CORURIPE" />
+	<item codigo="2702355" nome="CRAÍBAS" />
+	<item codigo="2702405" nome="DELMIRO GOUVEIA" />
+	<item codigo="2702504" nome="DOIS RIACHOS" />
+	<item codigo="2702553" nome="ESTRELA DE ALAGOAS" />
+	<item codigo="2702603" nome="FEIRA GRANDE" />
+	<item codigo="2702702" nome="FELIZ DESERTO" />
+	<item codigo="2702801" nome="FLEXEIRAS" />
+	<item codigo="2702900" nome="GIRAU DO PONCIANO" />
+	<item codigo="2703007" nome="IBATEGUARA" />
+	<item codigo="2703106" nome="IGACI" />
+	<item codigo="2703205" nome="IGREJA NOVA" />
+	<item codigo="2703304" nome="INHAPI" />
+	<item codigo="2703403" nome="JACARÉ DOS HOMENS" />
+	<item codigo="2703502" nome="JACUÍPE" />
+	<item codigo="2703601" nome="JAPARATINGA" />
+	<item codigo="2703700" nome="JARAMATAIA" />
+	<item codigo="2703759" nome="JEQUIÁ DA PRAIA" />
+	<item codigo="2703809" nome="JOAQUIM GOMES" />
+	<item codigo="2703908" nome="JUNDIÁ" />
+	<item codigo="2704005" nome="JUNQUEIRO" />
+	<item codigo="2704104" nome="LAGOA DA CANOA" />
+	<item codigo="2704203" nome="LIMOEIRO DE ANADIA" />
+	<item codigo="2704302" nome="MACEIÓ" />
+	<item codigo="2704401" nome="MAJOR ISIDORO" />
+	<item codigo="2704500" nome="MARAGOGI" />
+	<item codigo="2704609" nome="MARAVILHA" />
+	<item codigo="2704708" nome="MARECHAL DEODORO" />
+	<item codigo="2704807" nome="MARIBONDO" />
+	<item codigo="2704906" nome="MAR VERMELHO" />
+	<item codigo="2705002" nome="MATA GRANDE" />
+	<item codigo="2705101" nome="MATRIZ DE CAMARAGIBE" />
+	<item codigo="2705200" nome="MESSIAS" />
+	<item codigo="2705309" nome="MINADOR DO NEGRÃO" />
+	<item codigo="2705408" nome="MONTEIRÓPOLIS" />
+	<item codigo="2705507" nome="MURICI" />
+	<item codigo="2705606" nome="NOVO LINO" />
+	<item codigo="2705705" nome="OLHO D'ÁGUA DAS FLORES" />
+	<item codigo="2705804" nome="OLHO D'ÁGUA DO CASADO" />
+	<item codigo="2705903" nome="OLHO D'ÁGUA GRANDE" />
+	<item codigo="2706000" nome="OLIVENÇA" />
+	<item codigo="2706109" nome="OURO BRANCO" />
+	<item codigo="2706208" nome="PALESTINA" />
+	<item codigo="2706307" nome="PALMEIRA DOS ÍNDIOS" />
+	<item codigo="2706406" nome="PÃO DE AÇÚCAR" />
+	<item codigo="2706422" nome="PARICONHA" />
+	<item codigo="2706448" nome="PARIPUEIRA" />
+	<item codigo="2706505" nome="PASSO DE CAMARAGIBE" />
+	<item codigo="2706604" nome="PAULO JACINTO" />
+	<item codigo="2706703" nome="PENEDO" />
+	<item codigo="2706802" nome="PIAÇABUÇU" />
+	<item codigo="2706901" nome="PILAR" />
+	<item codigo="2707008" nome="PINDOBA" />
+	<item codigo="2707107" nome="PIRANHAS" />
+	<item codigo="2707206" nome="POÇO DAS TRINCHEIRAS" />
+	<item codigo="2707305" nome="PORTO CALVO" />
+	<item codigo="2707404" nome="PORTO DE PEDRAS" />
+	<item codigo="2707503" nome="PORTO REAL DO COLÉGIO" />
+	<item codigo="2707602" nome="QUEBRANGULO" />
+	<item codigo="2707701" nome="RIO LARGO" />
+	<item codigo="2707800" nome="ROTEIRO" />
+	<item codigo="2707909" nome="SANTA LUZIA DO NORTE" />
+	<item codigo="2708006" nome="SANTANA DO IPANEMA" />
+	<item codigo="2708105" nome="SANTANA DO MUNDAÚ" />
+	<item codigo="2708204" nome="SÃO BRÁS" />
+	<item codigo="2708303" nome="SÃO JOSÉ DA LAJE" />
+	<item codigo="2708402" nome="SÃO JOSÉ DA TAPERA" />
+	<item codigo="2708501" nome="SÃO LUÍS DO QUITUNDE" />
+	<item codigo="2708600" nome="SÃO MIGUEL DOS CAMPOS" />
+	<item codigo="2708709" nome="SÃO MIGUEL DOS MILAGRES" />
+	<item codigo="2708808" nome="SÃO SEBASTIÃO" />
+	<item codigo="2708907" nome="SATUBA" />
+	<item codigo="2708956" nome="SENADOR RUI PALMEIRA" />
+	<item codigo="2709004" nome="TANQUE D'ARCA" />
+	<item codigo="2709103" nome="TAQUARANA" />
+	<item codigo="2709152" nome="TEOTÔNIO VILELA" />
+	<item codigo="2709202" nome="TRAIPU" />
+	<item codigo="2709301" nome="UNIÃO DOS PALMARES" />
+	<item codigo="2709400" nome="VIÇOSA" />
 
 </tabela>

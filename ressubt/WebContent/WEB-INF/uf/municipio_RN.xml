@@ -1,171 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="2400109" col2="ACARI" />
-	<item col1="2400208" col2="AÇU" />
-	<item col1="2400307" col2="AFONSO BEZERRA" />
-	<item col1="2400406" col2="ÁGUA NOVA" />
-	<item col1="2400505" col2="ALEXANDRIA" />
-	<item col1="2400604" col2="ALMINO AFONSO" />
-	<item col1="2400703" col2="ALTO DO RODRIGUES" />
-	<item col1="2400802" col2="ANGICOS" />
-	<item col1="2400901" col2="ANTÔNIO MARTINS" />
-	<item col1="2401008" col2="APODI" />
-	<item col1="2401107" col2="AREIA BRANCA" />
-	<item col1="2401206" col2="ARÊS" />
-	<item col1="2401305" col2="AUGUSTO SEVERO" />
-	<item col1="2401404" col2="BAÍA FORMOSA" />
-	<item col1="2401453" col2="BARAÚNA" />
-	<item col1="2401503" col2="BARCELONA" />
-	<item col1="2401602" col2="BENTO FERNANDES" />
-	<item col1="2401651" col2="BODÓ" />
-	<item col1="2401701" col2="BOM JESUS" />
-	<item col1="2401800" col2="BREJINHO" />
-	<item col1="2401859" col2="CAIÇARA DO NORTE" />
-	<item col1="2401909" col2="CAIÇARA DO RIO DO VENTO" />
-	<item col1="2402006" col2="CAICÓ" />
-	<item col1="2402105" col2="CAMPO REDONDO" />
-	<item col1="2402204" col2="CANGUARETAMA" />
-	<item col1="2402303" col2="CARAÚBAS" />
-	<item col1="2402402" col2="CARNAÚBA DOS DANTAS" />
-	<item col1="2402501" col2="CARNAUBAIS" />
-	<item col1="2402600" col2="CEARÁ-MIRIM" />
-	<item col1="2402709" col2="CERRO CORÁ" />
-	<item col1="2402808" col2="CORONEL EZEQUIEL" />
-	<item col1="2402907" col2="CORONEL JOÃO PESSOA" />
-	<item col1="2403004" col2="CRUZETA" />
-	<item col1="2403103" col2="CURRAIS NOVOS" />
-	<item col1="2403202" col2="DOUTOR SEVERIANO" />
-	<item col1="2403251" col2="PARNAMIRIM" />
-	<item col1="2403301" col2="ENCANTO" />
-	<item col1="2403400" col2="EQUADOR" />
-	<item col1="2403509" col2="ESPÍRITO SANTO" />
-	<item col1="2403608" col2="EXTREMOZ" />
-	<item col1="2403707" col2="FELIPE GUERRA" />
-	<item col1="2403756" col2="FERNANDO PEDROZA" />
-	<item col1="2403806" col2="FLORÂNIA" />
-	<item col1="2403905" col2="FRANCISCO DANTAS" />
-	<item col1="2404002" col2="FRUTUOSO GOMES" />
-	<item col1="2404101" col2="GALINHOS" />
-	<item col1="2404200" col2="GOIANINHA" />
-	<item col1="2404309" col2="GOVERNADOR DIX-SEPT ROSADO" />
-	<item col1="2404408" col2="GROSSOS" />
-	<item col1="2404507" col2="GUAMARÉ" />
-	<item col1="2404606" col2="IELMO MARINHO" />
-	<item col1="2404705" col2="IPANGUAÇU" />
-	<item col1="2404804" col2="IPUEIRA" />
-	<item col1="2404853" col2="ITAJÁ" />
-	<item col1="2404903" col2="ITAÚ" />
-	<item col1="2405009" col2="JAÇANÃ" />
-	<item col1="2405108" col2="JANDAÍRA" />
-	<item col1="2405207" col2="JANDUÍS" />
-	<item col1="2405306" col2="JANUÁRIO CICCO" />
-	<item col1="2405405" col2="JAPI" />
-	<item col1="2405504" col2="JARDIM DE ANGICOS" />
-	<item col1="2405603" col2="JARDIM DE PIRANHAS" />
-	<item col1="2405702" col2="JARDIM DO SERIDÓ" />
-	<item col1="2405801" col2="JOÃO CÂMARA" />
-	<item col1="2405900" col2="JOÃO DIAS" />
-	<item col1="2406007" col2="JOSÉ DA PENHA" />
-	<item col1="2406106" col2="JUCURUTU" />
-	<item col1="2406155" col2="JUNDIÁ" />
-	<item col1="2406205" col2="LAGOA D'ANTA" />
-	<item col1="2406304" col2="LAGOA DE PEDRAS" />
-	<item col1="2406403" col2="LAGOA DE VELHOS" />
-	<item col1="2406502" col2="LAGOA NOVA" />
-	<item col1="2406601" col2="LAGOA SALGADA" />
-	<item col1="2406700" col2="LAJES" />
-	<item col1="2406809" col2="LAJES PINTADAS" />
-	<item col1="2406908" col2="LUCRÉCIA" />
-	<item col1="2407005" col2="LUÍS GOMES" />
-	<item col1="2407104" col2="MACAÍBA" />
-	<item col1="2407203" col2="MACAU" />
-	<item col1="2407252" col2="MAJOR SALES" />
-	<item col1="2407302" col2="MARCELINO VIEIRA" />
-	<item col1="2407401" col2="MARTINS" />
-	<item col1="2407500" col2="MAXARANGUAPE" />
-	<item col1="2407609" col2="MESSIAS TARGINO" />
-	<item col1="2407708" col2="MONTANHAS" />
-	<item col1="2407807" col2="MONTE ALEGRE" />
-	<item col1="2407906" col2="MONTE DAS GAMELEIRAS" />
-	<item col1="2408003" col2="MOSSORÓ" />
-	<item col1="2408102" col2="NATAL" />
-	<item col1="2408201" col2="NÍSIA FLORESTA" />
-	<item col1="2408300" col2="NOVA CRUZ" />
-	<item col1="2408409" col2="OLHO-D'ÁGUA DO BORGES" />
-	<item col1="2408508" col2="OURO BRANCO" />
-	<item col1="2408607" col2="PARANÁ" />
-	<item col1="2408706" col2="PARAÚ" />
-	<item col1="2408805" col2="PARAZINHO" />
-	<item col1="2408904" col2="PARELHAS" />
-	<item col1="2408953" col2="RIO DO FOGO" />
-	<item col1="2409100" col2="PASSA E FICA" />
-	<item col1="2409209" col2="PASSAGEM" />
-	<item col1="2409308" col2="PATU" />
-	<item col1="2409332" col2="SANTA MARIA" />
-	<item col1="2409407" col2="PAU DOS FERROS" />
-	<item col1="2409506" col2="PEDRA GRANDE" />
-	<item col1="2409605" col2="PEDRA PRETA" />
-	<item col1="2409704" col2="PEDRO AVELINO" />
-	<item col1="2409803" col2="PEDRO VELHO" />
-	<item col1="2409902" col2="PENDÊNCIAS" />
-	<item col1="2410009" col2="PILÕES" />
-	<item col1="2410108" col2="POÇO BRANCO" />
-	<item col1="2410207" col2="PORTALEGRE" />
-	<item col1="2410256" col2="PORTO DO MANGUE" />
-	<item col1="2410306" col2="PRESIDENTE JUSCELINO" />
-	<item col1="2410405" col2="PUREZA" />
-	<item col1="2410504" col2="RAFAEL FERNANDES" />
-	<item col1="2410603" col2="RAFAEL GODEIRO" />
-	<item col1="2410702" col2="RIACHO DA CRUZ" />
-	<item col1="2410801" col2="RIACHO DE SANTANA" />
-	<item col1="2410900" col2="RIACHUELO" />
-	<item col1="2411007" col2="RODOLFO FERNANDES" />
-	<item col1="2411056" col2="TIBAU" />
-	<item col1="2411106" col2="RUY BARBOSA" />
-	<item col1="2411205" col2="SANTA CRUZ" />
-	<item col1="2411403" col2="SANTANA DO MATOS" />
-	<item col1="2411429" col2="SANTANA DO SERIDÓ" />
-	<item col1="2411502" col2="SANTO ANTÔNIO" />
-	<item col1="2411601" col2="SÃO BENTO DO NORTE" />
-	<item col1="2411700" col2="SÃO BENTO DO TRAIRÍ" />
-	<item col1="2411809" col2="SÃO FERNANDO" />
-	<item col1="2411908" col2="SÃO FRANCISCO DO OESTE" />
-	<item col1="2412005" col2="SÃO GONÇALO DO AMARANTE" />
-	<item col1="2412104" col2="SÃO JOÃO DO SABUGI" />
-	<item col1="2412203" col2="SÃO JOSÉ DE MIPIBU" />
-	<item col1="2412302" col2="SÃO JOSÉ DO CAMPESTRE" />
-	<item col1="2412401" col2="SÃO JOSÉ DO SERIDÓ" />
-	<item col1="2412500" col2="SÃO MIGUEL" />
-	<item col1="2412559" col2="SÃO MIGUEL DO GOSTOSO" />
-	<item col1="2412609" col2="SÃO PAULO DO POTENGI" />
-	<item col1="2412708" col2="SÃO PEDRO" />
-	<item col1="2412807" col2="SÃO RAFAEL" />
-	<item col1="2412906" col2="SÃO TOMÉ" />
-	<item col1="2413003" col2="SÃO VICENTE" />
-	<item col1="2413102" col2="SENADOR ELÓI DE SOUZA" />
-	<item col1="2413201" col2="SENADOR GEORGINO AVELINO" />
-	<item col1="2413300" col2="SERRA DE SÃO BENTO" />
-	<item col1="2413359" col2="SERRA DO MEL" />
-	<item col1="2413409" col2="SERRA NEGRA DO NORTE" />
-	<item col1="2413508" col2="SERRINHA" />
-	<item col1="2413557" col2="SERRINHA DOS PINTOS" />
-	<item col1="2413607" col2="SEVERIANO MELO" />
-	<item col1="2413706" col2="SÍTIO NOVO" />
-	<item col1="2413805" col2="TABOLEIRO GRANDE" />
-	<item col1="2413904" col2="TAIPU" />
-	<item col1="2414001" col2="TANGARÁ" />
-	<item col1="2414100" col2="TENENTE ANANIAS" />
-	<item col1="2414159" col2="TENENTE LAURENTINO CRUZ" />
-	<item col1="2414209" col2="TIBAU DO SUL" />
-	<item col1="2414308" col2="TIMBAÚBA DOS BATISTAS" />
-	<item col1="2414407" col2="TOUROS" />
-	<item col1="2414456" col2="TRIUNFO POTIGUAR" />
-	<item col1="2414506" col2="UMARIZAL" />
-	<item col1="2414605" col2="UPANEMA" />
-	<item col1="2414704" col2="VÁRZEA" />
-	<item col1="2414753" col2="VENHA-VER" />
-	<item col1="2414803" col2="VERA CRUZ" />
-	<item col1="2414902" col2="VIÇOSA" />
-	<item col1="2415008" col2="VILA FLOR" />
+	<item codigo="2400109" nome="ACARI" />
+	<item codigo="2400208" nome="AÇU" />
+	<item codigo="2400307" nome="AFONSO BEZERRA" />
+	<item codigo="2400406" nome="ÁGUA NOVA" />
+	<item codigo="2400505" nome="ALEXANDRIA" />
+	<item codigo="2400604" nome="ALMINO AFONSO" />
+	<item codigo="2400703" nome="ALTO DO RODRIGUES" />
+	<item codigo="2400802" nome="ANGICOS" />
+	<item codigo="2400901" nome="ANTÔNIO MARTINS" />
+	<item codigo="2401008" nome="APODI" />
+	<item codigo="2401107" nome="AREIA BRANCA" />
+	<item codigo="2401206" nome="ARÊS" />
+	<item codigo="2401305" nome="AUGUSTO SEVERO" />
+	<item codigo="2401404" nome="BAÍA FORMOSA" />
+	<item codigo="2401453" nome="BARAÚNA" />
+	<item codigo="2401503" nome="BARCELONA" />
+	<item codigo="2401602" nome="BENTO FERNANDES" />
+	<item codigo="2401651" nome="BODÓ" />
+	<item codigo="2401701" nome="BOM JESUS" />
+	<item codigo="2401800" nome="BREJINHO" />
+	<item codigo="2401859" nome="CAIÇARA DO NORTE" />
+	<item codigo="2401909" nome="CAIÇARA DO RIO DO VENTO" />
+	<item codigo="2402006" nome="CAICÓ" />
+	<item codigo="2402105" nome="CAMPO REDONDO" />
+	<item codigo="2402204" nome="CANGUARETAMA" />
+	<item codigo="2402303" nome="CARAÚBAS" />
+	<item codigo="2402402" nome="CARNAÚBA DOS DANTAS" />
+	<item codigo="2402501" nome="CARNAUBAIS" />
+	<item codigo="2402600" nome="CEARÁ-MIRIM" />
+	<item codigo="2402709" nome="CERRO CORÁ" />
+	<item codigo="2402808" nome="CORONEL EZEQUIEL" />
+	<item codigo="2402907" nome="CORONEL JOÃO PESSOA" />
+	<item codigo="2403004" nome="CRUZETA" />
+	<item codigo="2403103" nome="CURRAIS NOVOS" />
+	<item codigo="2403202" nome="DOUTOR SEVERIANO" />
+	<item codigo="2403251" nome="PARNAMIRIM" />
+	<item codigo="2403301" nome="ENCANTO" />
+	<item codigo="2403400" nome="EQUADOR" />
+	<item codigo="2403509" nome="ESPÍRITO SANTO" />
+	<item codigo="2403608" nome="EXTREMOZ" />
+	<item codigo="2403707" nome="FELIPE GUERRA" />
+	<item codigo="2403756" nome="FERNANDO PEDROZA" />
+	<item codigo="2403806" nome="FLORÂNIA" />
+	<item codigo="2403905" nome="FRANCISCO DANTAS" />
+	<item codigo="2404002" nome="FRUTUOSO GOMES" />
+	<item codigo="2404101" nome="GALINHOS" />
+	<item codigo="2404200" nome="GOIANINHA" />
+	<item codigo="2404309" nome="GOVERNADOR DIX-SEPT ROSADO" />
+	<item codigo="2404408" nome="GROSSOS" />
+	<item codigo="2404507" nome="GUAMARÉ" />
+	<item codigo="2404606" nome="IELMO MARINHO" />
+	<item codigo="2404705" nome="IPANGUAÇU" />
+	<item codigo="2404804" nome="IPUEIRA" />
+	<item codigo="2404853" nome="ITAJÁ" />
+	<item codigo="2404903" nome="ITAÚ" />
+	<item codigo="2405009" nome="JAÇANÃ" />
+	<item codigo="2405108" nome="JANDAÍRA" />
+	<item codigo="2405207" nome="JANDUÍS" />
+	<item codigo="2405306" nome="JANUÁRIO CICCO" />
+	<item codigo="2405405" nome="JAPI" />
+	<item codigo="2405504" nome="JARDIM DE ANGICOS" />
+	<item codigo="2405603" nome="JARDIM DE PIRANHAS" />
+	<item codigo="2405702" nome="JARDIM DO SERIDÓ" />
+	<item codigo="2405801" nome="JOÃO CÂMARA" />
+	<item codigo="2405900" nome="JOÃO DIAS" />
+	<item codigo="2406007" nome="JOSÉ DA PENHA" />
+	<item codigo="2406106" nome="JUCURUTU" />
+	<item codigo="2406155" nome="JUNDIÁ" />
+	<item codigo="2406205" nome="LAGOA D'ANTA" />
+	<item codigo="2406304" nome="LAGOA DE PEDRAS" />
+	<item codigo="2406403" nome="LAGOA DE VELHOS" />
+	<item codigo="2406502" nome="LAGOA NOVA" />
+	<item codigo="2406601" nome="LAGOA SALGADA" />
+	<item codigo="2406700" nome="LAJES" />
+	<item codigo="2406809" nome="LAJES PINTADAS" />
+	<item codigo="2406908" nome="LUCRÉCIA" />
+	<item codigo="2407005" nome="LUÍS GOMES" />
+	<item codigo="2407104" nome="MACAÍBA" />
+	<item codigo="2407203" nome="MACAU" />
+	<item codigo="2407252" nome="MAJOR SALES" />
+	<item codigo="2407302" nome="MARCELINO VIEIRA" />
+	<item codigo="2407401" nome="MARTINS" />
+	<item codigo="2407500" nome="MAXARANGUAPE" />
+	<item codigo="2407609" nome="MESSIAS TARGINO" />
+	<item codigo="2407708" nome="MONTANHAS" />
+	<item codigo="2407807" nome="MONTE ALEGRE" />
+	<item codigo="2407906" nome="MONTE DAS GAMELEIRAS" />
+	<item codigo="2408003" nome="MOSSORÓ" />
+	<item codigo="2408102" nome="NATAL" />
+	<item codigo="2408201" nome="NÍSIA FLORESTA" />
+	<item codigo="2408300" nome="NOVA CRUZ" />
+	<item codigo="2408409" nome="OLHO-D'ÁGUA DO BORGES" />
+	<item codigo="2408508" nome="OURO BRANCO" />
+	<item codigo="2408607" nome="PARANÁ" />
+	<item codigo="2408706" nome="PARAÚ" />
+	<item codigo="2408805" nome="PARAZINHO" />
+	<item codigo="2408904" nome="PARELHAS" />
+	<item codigo="2408953" nome="RIO DO FOGO" />
+	<item codigo="2409100" nome="PASSA E FICA" />
+	<item codigo="2409209" nome="PASSAGEM" />
+	<item codigo="2409308" nome="PATU" />
+	<item codigo="2409332" nome="SANTA MARIA" />
+	<item codigo="2409407" nome="PAU DOS FERROS" />
+	<item codigo="2409506" nome="PEDRA GRANDE" />
+	<item codigo="2409605" nome="PEDRA PRETA" />
+	<item codigo="2409704" nome="PEDRO AVELINO" />
+	<item codigo="2409803" nome="PEDRO VELHO" />
+	<item codigo="2409902" nome="PENDÊNCIAS" />
+	<item codigo="2410009" nome="PILÕES" />
+	<item codigo="2410108" nome="POÇO BRANCO" />
+	<item codigo="2410207" nome="PORTALEGRE" />
+	<item codigo="2410256" nome="PORTO DO MANGUE" />
+	<item codigo="2410306" nome="PRESIDENTE JUSCELINO" />
+	<item codigo="2410405" nome="PUREZA" />
+	<item codigo="2410504" nome="RAFAEL FERNANDES" />
+	<item codigo="2410603" nome="RAFAEL GODEIRO" />
+	<item codigo="2410702" nome="RIACHO DA CRUZ" />
+	<item codigo="2410801" nome="RIACHO DE SANTANA" />
+	<item codigo="2410900" nome="RIACHUELO" />
+	<item codigo="2411007" nome="RODOLFO FERNANDES" />
+	<item codigo="2411056" nome="TIBAU" />
+	<item codigo="2411106" nome="RUY BARBOSA" />
+	<item codigo="2411205" nome="SANTA CRUZ" />
+	<item codigo="2411403" nome="SANTANA DO MATOS" />
+	<item codigo="2411429" nome="SANTANA DO SERIDÓ" />
+	<item codigo="2411502" nome="SANTO ANTÔNIO" />
+	<item codigo="2411601" nome="SÃO BENTO DO NORTE" />
+	<item codigo="2411700" nome="SÃO BENTO DO TRAIRÍ" />
+	<item codigo="2411809" nome="SÃO FERNANDO" />
+	<item codigo="2411908" nome="SÃO FRANCISCO DO OESTE" />
+	<item codigo="2412005" nome="SÃO GONÇALO DO AMARANTE" />
+	<item codigo="2412104" nome="SÃO JOÃO DO SABUGI" />
+	<item codigo="2412203" nome="SÃO JOSÉ DE MIPIBU" />
+	<item codigo="2412302" nome="SÃO JOSÉ DO CAMPESTRE" />
+	<item codigo="2412401" nome="SÃO JOSÉ DO SERIDÓ" />
+	<item codigo="2412500" nome="SÃO MIGUEL" />
+	<item codigo="2412559" nome="SÃO MIGUEL DO GOSTOSO" />
+	<item codigo="2412609" nome="SÃO PAULO DO POTENGI" />
+	<item codigo="2412708" nome="SÃO PEDRO" />
+	<item codigo="2412807" nome="SÃO RAFAEL" />
+	<item codigo="2412906" nome="SÃO TOMÉ" />
+	<item codigo="2413003" nome="SÃO VICENTE" />
+	<item codigo="2413102" nome="SENADOR ELÓI DE SOUZA" />
+	<item codigo="2413201" nome="SENADOR GEORGINO AVELINO" />
+	<item codigo="2413300" nome="SERRA DE SÃO BENTO" />
+	<item codigo="2413359" nome="SERRA DO MEL" />
+	<item codigo="2413409" nome="SERRA NEGRA DO NORTE" />
+	<item codigo="2413508" nome="SERRINHA" />
+	<item codigo="2413557" nome="SERRINHA DOS PINTOS" />
+	<item codigo="2413607" nome="SEVERIANO MELO" />
+	<item codigo="2413706" nome="SÍTIO NOVO" />
+	<item codigo="2413805" nome="TABOLEIRO GRANDE" />
+	<item codigo="2413904" nome="TAIPU" />
+	<item codigo="2414001" nome="TANGARÁ" />
+	<item codigo="2414100" nome="TENENTE ANANIAS" />
+	<item codigo="2414159" nome="TENENTE LAURENTINO CRUZ" />
+	<item codigo="2414209" nome="TIBAU DO SUL" />
+	<item codigo="2414308" nome="TIMBAÚBA DOS BATISTAS" />
+	<item codigo="2414407" nome="TOUROS" />
+	<item codigo="2414456" nome="TRIUNFO POTIGUAR" />
+	<item codigo="2414506" nome="UMARIZAL" />
+	<item codigo="2414605" nome="UPANEMA" />
+	<item codigo="2414704" nome="VÁRZEA" />
+	<item codigo="2414753" nome="VENHA-VER" />
+	<item codigo="2414803" nome="VERA CRUZ" />
+	<item codigo="2414902" nome="VIÇOSA" />
+	<item codigo="2415008" nome="VILA FLOR" />
 
 </tabela>

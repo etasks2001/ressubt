@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="5000203" col2="ÁGUA CLARA" />
-	<item col1="5000252" col2="ALCINÓPOLIS" />
-	<item col1="5000609" col2="AMAMBAI" />
-	<item col1="5000708" col2="ANASTÁCIO" />
-	<item col1="5000807" col2="ANAURILÂNDIA" />
-	<item col1="5000856" col2="ANGÉLICA" />
-	<item col1="5000906" col2="ANTÔNIO JOÃO" />
-	<item col1="5001003" col2="APARECIDA DO TABOADO" />
-	<item col1="5001102" col2="AQUIDAUANA" />
-	<item col1="5001243" col2="ARAL MOREIRA" />
-	<item col1="5001508" col2="BANDEIRANTES" />
-	<item col1="5001904" col2="BATAGUASSU" />
-	<item col1="5002001" col2="BATAYPORÃ" />
-	<item col1="5002100" col2="BELA VISTA" />
-	<item col1="5002159" col2="BODOQUENA" />
-	<item col1="5002209" col2="BONITO" />
-	<item col1="5002308" col2="BRASILÂNDIA" />
-	<item col1="5002407" col2="CAARAPÓ" />
-	<item col1="5002605" col2="CAMAPUÃ" />
-	<item col1="5002704" col2="CAMPO GRANDE" />
-	<item col1="5002803" col2="CARACOL" />
-	<item col1="5002902" col2="CASSILÂNDIA" />
-	<item col1="5002951" col2="CHAPADÃO DO SUL" />
-	<item col1="5003108" col2="CORGUINHO" />
-	<item col1="5003157" col2="CORONEL SAPUCAIA" />
-	<item col1="5003207" col2="CORUMBÁ" />
-	<item col1="5003256" col2="COSTA RICA" />
-	<item col1="5003306" col2="COXIM" />
-	<item col1="5003454" col2="DEODÁPOLIS" />
-	<item col1="5003488" col2="DOIS IRMÃOS DO BURITI" />
-	<item col1="5003504" col2="DOURADINA" />
-	<item col1="5003702" col2="DOURADOS" />
-	<item col1="5003751" col2="ELDORADO" />
-	<item col1="5003801" col2="FÁTIMA DO SUL" />
-	<item col1="5003900" col2="FIGUEIRÃO" />
-	<item col1="5004007" col2="GLÓRIA DE DOURADOS" />
-	<item col1="5004106" col2="GUIA LOPES DA LAGUNA" />
-	<item col1="5004304" col2="IGUATEMI" />
-	<item col1="5004403" col2="INOCÊNCIA" />
-	<item col1="5004502" col2="ITAPORÃ" />
-	<item col1="5004601" col2="ITAQUIRAÍ" />
-	<item col1="5004700" col2="IVINHEMA" />
-	<item col1="5004809" col2="JAPORÃ" />
-	<item col1="5004908" col2="JARAGUARI" />
-	<item col1="5005004" col2="JARDIM" />
-	<item col1="5005103" col2="JATEÍ" />
-	<item col1="5005152" col2="JUTI" />
-	<item col1="5005202" col2="LADÁRIO" />
-	<item col1="5005251" col2="LAGUNA CARAPÃ" />
-	<item col1="5005400" col2="MARACAJU" />
-	<item col1="5005608" col2="MIRANDA" />
-	<item col1="5005681" col2="MUNDO NOVO" />
-	<item col1="5005707" col2="NAVIRAÍ" />
-	<item col1="5005806" col2="NIOAQUE" />
-	<item col1="5006002" col2="NOVA ALVORADA DO SUL" />
-	<item col1="5006200" col2="NOVA ANDRADINA" />
-	<item col1="5006259" col2="NOVO HORIZONTE DO SUL" />
-	<item col1="5006309" col2="PARANAÍBA" />
-	<item col1="5006358" col2="PARANHOS" />
-	<item col1="5006408" col2="PEDRO GOMES" />
-	<item col1="5006606" col2="PONTA PORÃ" />
-	<item col1="5006903" col2="PORTO MURTINHO" />
-	<item col1="5007109" col2="RIBAS DO RIO PARDO" />
-	<item col1="5007208" col2="RIO BRILHANTE" />
-	<item col1="5007307" col2="RIO NEGRO" />
-	<item col1="5007406" col2="RIO VERDE DE MATO GROSSO" />
-	<item col1="5007505" col2="ROCHEDO" />
-	<item col1="5007554" col2="SANTA RITA DO PARDO" />
-	<item col1="5007695" col2="SÃO GABRIEL DO OESTE" />
-	<item col1="5007703" col2="SETE QUEDAS" />
-	<item col1="5007802" col2="SELVÍRIA" />
-	<item col1="5007901" col2="SIDROLÂNDIA" />
-	<item col1="5007935" col2="SONORA" />
-	<item col1="5007950" col2="TACURU" />
-	<item col1="5007976" col2="TAQUARUSSU" />
-	<item col1="5008008" col2="TERENOS" />
-	<item col1="5008305" col2="TRÊS LAGOAS" />
-	<item col1="5008404" col2="VICENTINA" />
+	<item codigo="5000203" nome="ÁGUA CLARA" />
+	<item codigo="5000252" nome="ALCINÓPOLIS" />
+	<item codigo="5000609" nome="AMAMBAI" />
+	<item codigo="5000708" nome="ANASTÁCIO" />
+	<item codigo="5000807" nome="ANAURILÂNDIA" />
+	<item codigo="5000856" nome="ANGÉLICA" />
+	<item codigo="5000906" nome="ANTÔNIO JOÃO" />
+	<item codigo="5001003" nome="APARECIDA DO TABOADO" />
+	<item codigo="5001102" nome="AQUIDAUANA" />
+	<item codigo="5001243" nome="ARAL MOREIRA" />
+	<item codigo="5001508" nome="BANDEIRANTES" />
+	<item codigo="5001904" nome="BATAGUASSU" />
+	<item codigo="5002001" nome="BATAYPORÃ" />
+	<item codigo="5002100" nome="BELA VISTA" />
+	<item codigo="5002159" nome="BODOQUENA" />
+	<item codigo="5002209" nome="BONITO" />
+	<item codigo="5002308" nome="BRASILÂNDIA" />
+	<item codigo="5002407" nome="CAARAPÓ" />
+	<item codigo="5002605" nome="CAMAPUÃ" />
+	<item codigo="5002704" nome="CAMPO GRANDE" />
+	<item codigo="5002803" nome="CARACOL" />
+	<item codigo="5002902" nome="CASSILÂNDIA" />
+	<item codigo="5002951" nome="CHAPADÃO DO SUL" />
+	<item codigo="5003108" nome="CORGUINHO" />
+	<item codigo="5003157" nome="CORONEL SAPUCAIA" />
+	<item codigo="5003207" nome="CORUMBÁ" />
+	<item codigo="5003256" nome="COSTA RICA" />
+	<item codigo="5003306" nome="COXIM" />
+	<item codigo="5003454" nome="DEODÁPOLIS" />
+	<item codigo="5003488" nome="DOIS IRMÃOS DO BURITI" />
+	<item codigo="5003504" nome="DOURADINA" />
+	<item codigo="5003702" nome="DOURADOS" />
+	<item codigo="5003751" nome="ELDORADO" />
+	<item codigo="5003801" nome="FÁTIMA DO SUL" />
+	<item codigo="5003900" nome="FIGUEIRÃO" />
+	<item codigo="5004007" nome="GLÓRIA DE DOURADOS" />
+	<item codigo="5004106" nome="GUIA LOPES DA LAGUNA" />
+	<item codigo="5004304" nome="IGUATEMI" />
+	<item codigo="5004403" nome="INOCÊNCIA" />
+	<item codigo="5004502" nome="ITAPORÃ" />
+	<item codigo="5004601" nome="ITAQUIRAÍ" />
+	<item codigo="5004700" nome="IVINHEMA" />
+	<item codigo="5004809" nome="JAPORÃ" />
+	<item codigo="5004908" nome="JARAGUARI" />
+	<item codigo="5005004" nome="JARDIM" />
+	<item codigo="5005103" nome="JATEÍ" />
+	<item codigo="5005152" nome="JUTI" />
+	<item codigo="5005202" nome="LADÁRIO" />
+	<item codigo="5005251" nome="LAGUNA CARAPÃ" />
+	<item codigo="5005400" nome="MARACAJU" />
+	<item codigo="5005608" nome="MIRANDA" />
+	<item codigo="5005681" nome="MUNDO NOVO" />
+	<item codigo="5005707" nome="NAVIRAÍ" />
+	<item codigo="5005806" nome="NIOAQUE" />
+	<item codigo="5006002" nome="NOVA ALVORADA DO SUL" />
+	<item codigo="5006200" nome="NOVA ANDRADINA" />
+	<item codigo="5006259" nome="NOVO HORIZONTE DO SUL" />
+	<item codigo="5006309" nome="PARANAÍBA" />
+	<item codigo="5006358" nome="PARANHOS" />
+	<item codigo="5006408" nome="PEDRO GOMES" />
+	<item codigo="5006606" nome="PONTA PORÃ" />
+	<item codigo="5006903" nome="PORTO MURTINHO" />
+	<item codigo="5007109" nome="RIBAS DO RIO PARDO" />
+	<item codigo="5007208" nome="RIO BRILHANTE" />
+	<item codigo="5007307" nome="RIO NEGRO" />
+	<item codigo="5007406" nome="RIO VERDE DE MATO GROSSO" />
+	<item codigo="5007505" nome="ROCHEDO" />
+	<item codigo="5007554" nome="SANTA RITA DO PARDO" />
+	<item codigo="5007695" nome="SÃO GABRIEL DO OESTE" />
+	<item codigo="5007703" nome="SETE QUEDAS" />
+	<item codigo="5007802" nome="SELVÍRIA" />
+	<item codigo="5007901" nome="SIDROLÂNDIA" />
+	<item codigo="5007935" nome="SONORA" />
+	<item codigo="5007950" nome="TACURU" />
+	<item codigo="5007976" nome="TAQUARUSSU" />
+	<item codigo="5008008" nome="TERENOS" />
+	<item codigo="5008305" nome="TRÊS LAGOAS" />
+	<item codigo="5008404" nome="VICENTINA" />
 
 </tabela>

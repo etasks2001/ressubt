@@ -1,857 +1,857 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tabela>
-	<item col1="3100104" col2="ABADIA DOS DOURADOS" />
-	<item col1="3100203" col2="ABAETÉ" />
-	<item col1="3100302" col2="ABRE CAMPO" />
-	<item col1="3100401" col2="ACAIACA" />
-	<item col1="3100500" col2="AÇUCENA" />
-	<item col1="3100609" col2="ÁGUA BOA" />
-	<item col1="3100708" col2="ÁGUA COMPRIDA" />
-	<item col1="3100807" col2="AGUANIL" />
-	<item col1="3100906" col2="ÁGUAS FORMOSAS" />
-	<item col1="3101003" col2="ÁGUAS VERMELHAS" />
-	<item col1="3101102" col2="AIMORÉS" />
-	<item col1="3101201" col2="AIURUOCA" />
-	<item col1="3101300" col2="ALAGOA" />
-	<item col1="3101409" col2="ALBERTINA" />
-	<item col1="3101508" col2="ALÉM PARAÍBA" />
-	<item col1="3101607" col2="ALFENAS" />
-	<item col1="3101631" col2="ALFREDO VASCONCELOS" />
-	<item col1="3101706" col2="ALMENARA" />
-	<item col1="3101805" col2="ALPERCATA" />
-	<item col1="3101904" col2="ALPINÓPOLIS" />
-	<item col1="3102001" col2="ALTEROSA" />
-	<item col1="3102050" col2="ALTO CAPARAÓ" />
-	<item col1="3102100" col2="ALTO RIO DOCE" />
-	<item col1="3102209" col2="ALVARENGA" />
-	<item col1="3102308" col2="ALVINÓPOLIS" />
-	<item col1="3102407" col2="ALVORADA DE MINAS" />
-	<item col1="3102506" col2="AMPARO DO SERRA" />
-	<item col1="3102605" col2="ANDRADAS" />
-	<item col1="3102704" col2="CACHOEIRA DE PAJEÚ" />
-	<item col1="3102803" col2="ANDRELÂNDIA" />
-	<item col1="3102852" col2="ANGELÂNDIA" />
-	<item col1="3102902" col2="ANTÔNIO CARLOS" />
-	<item col1="3103009" col2="ANTÔNIO DIAS" />
-	<item col1="3103108" col2="ANTÔNIO PRADO DE MINAS" />
-	<item col1="3103207" col2="ARAÇAÍ" />
-	<item col1="3103306" col2="ARACITABA" />
-	<item col1="3103405" col2="ARAÇUAÍ" />
-	<item col1="3103504" col2="ARAGUARI" />
-	<item col1="3103603" col2="ARANTINA" />
-	<item col1="3103702" col2="ARAPONGA" />
-	<item col1="3103751" col2="ARAPORÃ" />
-	<item col1="3103801" col2="ARAPUÁ" />
-	<item col1="3103900" col2="ARAÚJOS" />
-	<item col1="3104007" col2="ARAXÁ" />
-	<item col1="3104106" col2="ARCEBURGO" />
-	<item col1="3104205" col2="ARCOS" />
-	<item col1="3104304" col2="AREADO" />
-	<item col1="3104403" col2="ARGIRITA" />
-	<item col1="3104452" col2="ARICANDUVA" />
-	<item col1="3104502" col2="ARINOS" />
-	<item col1="3104601" col2="ASTOLFO DUTRA" />
-	<item col1="3104700" col2="ATALÉIA" />
-	<item col1="3104809" col2="AUGUSTO DE LIMA" />
-	<item col1="3104908" col2="BAEPENDI" />
-	<item col1="3105004" col2="BALDIM" />
-	<item col1="3105103" col2="BAMBUÍ" />
-	<item col1="3105202" col2="BANDEIRA" />
-	<item col1="3105301" col2="BANDEIRA DO SUL" />
-	<item col1="3105400" col2="BARÃO DE COCAIS" />
-	<item col1="3105509" col2="BARÃO DE MONTE ALTO" />
-	<item col1="3105608" col2="BARBACENA" />
-	<item col1="3105707" col2="BARRA LONGA" />
-	<item col1="3105905" col2="BARROSO" />
-	<item col1="3106002" col2="BELA VISTA DE MINAS" />
-	<item col1="3106101" col2="BELMIRO BRAGA" />
-	<item col1="3106200" col2="BELO HORIZONTE" />
-	<item col1="3106309" col2="BELO ORIENTE" />
-	<item col1="3106408" col2="BELO VALE" />
-	<item col1="3106507" col2="BERILO" />
-	<item col1="3106606" col2="BERTÓPOLIS" />
-	<item col1="3106655" col2="BERIZAL" />
-	<item col1="3106705" col2="BETIM" />
-	<item col1="3106804" col2="BIAS FORTES" />
-	<item col1="3106903" col2="BICAS" />
-	<item col1="3107000" col2="BIQUINHAS" />
-	<item col1="3107109" col2="BOA ESPERANÇA" />
-	<item col1="3107208" col2="BOCAINA DE MINAS" />
-	<item col1="3107307" col2="BOCAIÚVA" />
-	<item col1="3107406" col2="BOM DESPACHO" />
-	<item col1="3107505" col2="BOM JARDIM DE MINAS" />
-	<item col1="3107604" col2="BOM JESUS DA PENHA" />
-	<item col1="3107703" col2="BOM JESUS DO AMPARO" />
-	<item col1="3107802" col2="BOM JESUS DO GALHO" />
-	<item col1="3107901" col2="BOM REPOUSO" />
-	<item col1="3108008" col2="BOM SUCESSO" />
-	<item col1="3108107" col2="BONFIM" />
-	<item col1="3108206" col2="BONFINÓPOLIS DE MINAS" />
-	<item col1="3108255" col2="BONITO DE MINAS" />
-	<item col1="3108305" col2="BORDA DA MATA" />
-	<item col1="3108404" col2="BOTELHOS" />
-	<item col1="3108503" col2="BOTUMIRIM" />
-	<item col1="3108552" col2="BRASILÂNDIA DE MINAS" />
-	<item col1="3108602" col2="BRASÍLIA DE MINAS" />
-	<item col1="3108701" col2="BRÁS PIRES" />
-	<item col1="3108800" col2="BRAÚNAS" />
-	<item col1="3108909" col2="BRASÓPOLIS" />
-	<item col1="3109006" col2="BRUMADINHO" />
-	<item col1="3109105" col2="BUENO BRANDÃO" />
-	<item col1="3109204" col2="BUENÓPOLIS" />
-	<item col1="3109253" col2="BUGRE" />
-	<item col1="3109303" col2="BURITIS" />
-	<item col1="3109402" col2="BURITIZEIRO" />
-	<item col1="3109451" col2="CABECEIRA GRANDE" />
-	<item col1="3109501" col2="CABO VERDE" />
-	<item col1="3109600" col2="CACHOEIRA DA PRATA" />
-	<item col1="3109709" col2="CACHOEIRA DE MINAS" />
-	<item col1="3109808" col2="CACHOEIRA DOURADA" />
-	<item col1="3109907" col2="CAETANÓPOLIS" />
-	<item col1="3110004" col2="CAETÉ" />
-	<item col1="3110103" col2="CAIANA" />
-	<item col1="3110202" col2="CAJURI" />
-	<item col1="3110301" col2="CALDAS" />
-	<item col1="3110400" col2="CAMACHO" />
-	<item col1="3110509" col2="CAMANDUCAIA" />
-	<item col1="3110608" col2="CAMBUÍ" />
-	<item col1="3110707" col2="CAMBUQUIRA" />
-	<item col1="3110806" col2="CAMPANÁRIO" />
-	<item col1="3110905" col2="CAMPANHA" />
-	<item col1="3111002" col2="CAMPESTRE" />
-	<item col1="3111101" col2="CAMPINA VERDE" />
-	<item col1="3111150" col2="CAMPO AZUL" />
-	<item col1="3111200" col2="CAMPO BELO" />
-	<item col1="3111309" col2="CAMPO DO MEIO" />
-	<item col1="3111408" col2="CAMPO FLORIDO" />
-	<item col1="3111507" col2="CAMPOS ALTOS" />
-	<item col1="3111606" col2="CAMPOS GERAIS" />
-	<item col1="3111705" col2="CANAÃ" />
-	<item col1="3111804" col2="CANÁPOLIS" />
-	<item col1="3111903" col2="CANA VERDE" />
-	<item col1="3112000" col2="CANDEIAS" />
-	<item col1="3112059" col2="CANTAGALO" />
-	<item col1="3112109" col2="CAPARAÓ" />
-	<item col1="3112208" col2="CAPELA NOVA" />
-	<item col1="3112307" col2="CAPELINHA" />
-	<item col1="3112406" col2="CAPETINGA" />
-	<item col1="3112505" col2="CAPIM BRANCO" />
-	<item col1="3112604" col2="CAPINÓPOLIS" />
-	<item col1="3112653" col2="CAPITÃO ANDRADE" />
-	<item col1="3112703" col2="CAPITÃO ENÉAS" />
-	<item col1="3112802" col2="CAPITÓLIO" />
-	<item col1="3112901" col2="CAPUTIRA" />
-	<item col1="3113008" col2="CARAÍ" />
-	<item col1="3113107" col2="CARANAÍBA" />
-	<item col1="3113206" col2="CARANDAÍ" />
-	<item col1="3113305" col2="CARANGOLA" />
-	<item col1="3113404" col2="CARATINGA" />
-	<item col1="3113503" col2="CARBONITA" />
-	<item col1="3113602" col2="CAREAÇU" />
-	<item col1="3113701" col2="CARLOS CHAGAS" />
-	<item col1="3113800" col2="CARMÉSIA" />
-	<item col1="3113909" col2="CARMO DA CACHOEIRA" />
-	<item col1="3114006" col2="CARMO DA MATA" />
-	<item col1="3114105" col2="CARMO DE MINAS" />
-	<item col1="3114204" col2="CARMO DO CAJURU" />
-	<item col1="3114303" col2="CARMO DO PARANAÍBA" />
-	<item col1="3114402" col2="CARMO DO RIO CLARO" />
-	<item col1="3114501" col2="CARMÓPOLIS DE MINAS" />
-	<item col1="3114550" col2="CARNEIRINHO" />
-	<item col1="3114600" col2="CARRANCAS" />
-	<item col1="3114709" col2="CARVALHÓPOLIS" />
-	<item col1="3114808" col2="CARVALHOS" />
-	<item col1="3114907" col2="CASA GRANDE" />
-	<item col1="3115003" col2="CASCALHO RICO" />
-	<item col1="3115102" col2="CÁSSIA" />
-	<item col1="3115201" col2="CONCEIÇÃO DA BARRA DE MINAS" />
-	<item col1="3115300" col2="CATAGUASES" />
-	<item col1="3115359" col2="CATAS ALTAS" />
-	<item col1="3115409" col2="CATAS ALTAS DA NORUEGA" />
-	<item col1="3115458" col2="CATUJI" />
-	<item col1="3115474" col2="CATUTI" />
-	<item col1="3115508" col2="CAXAMBU" />
-	<item col1="3115607" col2="CEDRO DO ABAETÉ" />
-	<item col1="3115706" col2="CENTRAL DE MINAS" />
-	<item col1="3115805" col2="CENTRALINA" />
-	<item col1="3115904" col2="CHÁCARA" />
-	<item col1="3116001" col2="CHALÉ" />
-	<item col1="3116100" col2="CHAPADA DO NORTE" />
-	<item col1="3116159" col2="CHAPADA GAÚCHA" />
-	<item col1="3116209" col2="CHIADOR" />
-	<item col1="3116308" col2="CIPOTÂNEA" />
-	<item col1="3116407" col2="CLARAVAL" />
-	<item col1="3116506" col2="CLARO DOS POÇÕES" />
-	<item col1="3116605" col2="CLÁUDIO" />
-	<item col1="3116704" col2="COIMBRA" />
-	<item col1="3116803" col2="COLUNA" />
-	<item col1="3116902" col2="COMENDADOR GOMES" />
-	<item col1="3117009" col2="COMERCINHO" />
-	<item col1="3117108" col2="CONCEIÇÃO DA APARECIDA" />
-	<item col1="3117207" col2="CONCEIÇÃO DAS PEDRAS" />
-	<item col1="3117306" col2="CONCEIÇÃO DAS ALAGOAS" />
-	<item col1="3117405" col2="CONCEIÇÃO DE IPANEMA" />
-	<item col1="3117504" col2="CONCEIÇÃO DO MATO DENTRO" />
-	<item col1="3117603" col2="CONCEIÇÃO DO PARÁ" />
-	<item col1="3117702" col2="CONCEIÇÃO DO RIO VERDE" />
-	<item col1="3117801" col2="CONCEIÇÃO DOS OUROS" />
-	<item col1="3117836" col2="CÔNEGO MARINHO" />
-	<item col1="3117876" col2="CONFINS" />
-	<item col1="3117900" col2="CONGONHAL" />
-	<item col1="3118007" col2="CONGONHAS" />
-	<item col1="3118106" col2="CONGONHAS DO NORTE" />
-	<item col1="3118205" col2="CONQUISTA" />
-	<item col1="3118304" col2="CONSELHEIRO LAFAIETE" />
-	<item col1="3118403" col2="CONSELHEIRO PENA" />
-	<item col1="3118502" col2="CONSOLAÇÃO" />
-	<item col1="3118601" col2="CONTAGEM" />
-	<item col1="3118700" col2="COQUEIRAL" />
-	<item col1="3118809" col2="CORAÇÃO DE JESUS" />
-	<item col1="3118908" col2="CORDISBURGO" />
-	<item col1="3119005" col2="CORDISLÂNDIA" />
-	<item col1="3119104" col2="CORINTO" />
-	<item col1="3119203" col2="COROACI" />
-	<item col1="3119302" col2="COROMANDEL" />
-	<item col1="3119401" col2="CORONEL FABRICIANO" />
-	<item col1="3119500" col2="CORONEL MURTA" />
-	<item col1="3119609" col2="CORONEL PACHECO" />
-	<item col1="3119708" col2="CORONEL XAVIER CHAVES" />
-	<item col1="3119807" col2="CÓRREGO DANTA" />
-	<item col1="3119906" col2="CÓRREGO DO BOM JESUS" />
-	<item col1="3119955" col2="CÓRREGO FUNDO" />
-	<item col1="3120003" col2="CÓRREGO NOVO" />
-	<item col1="3120102" col2="COUTO DE MAGALHÃES DE MINAS" />
-	<item col1="3120151" col2="CRISÓLITA" />
-	<item col1="3120201" col2="CRISTAIS" />
-	<item col1="3120300" col2="CRISTÁLIA" />
-	<item col1="3120409" col2="CRISTIANO OTONI" />
-	<item col1="3120508" col2="CRISTINA" />
-	<item col1="3120607" col2="CRUCILÂNDIA" />
-	<item col1="3120706" col2="CRUZEIRO DA FORTALEZA" />
-	<item col1="3120805" col2="CRUZÍLIA" />
-	<item col1="3120839" col2="CUPARAQUE" />
-	<item col1="3120870" col2="CURRAL DE DENTRO" />
-	<item col1="3120904" col2="CURVELO" />
-	<item col1="3121001" col2="DATAS" />
-	<item col1="3121100" col2="DELFIM MOREIRA" />
-	<item col1="3121209" col2="DELFINÓPOLIS" />
-	<item col1="3121258" col2="DELTA" />
-	<item col1="3121308" col2="DESCOBERTO" />
-	<item col1="3121407" col2="DESTERRO DE ENTRE RIOS" />
-	<item col1="3121506" col2="DESTERRO DO MELO" />
-	<item col1="3121605" col2="DIAMANTINA" />
-	<item col1="3121704" col2="DIOGO DE VASCONCELOS" />
-	<item col1="3121803" col2="DIONÍSIO" />
-	<item col1="3121902" col2="DIVINÉSIA" />
-	<item col1="3122009" col2="DIVINO" />
-	<item col1="3122108" col2="DIVINO DAS LARANJEIRAS" />
-	<item col1="3122207" col2="DIVINOLÂNDIA DE MINAS" />
-	<item col1="3122306" col2="DIVINÓPOLIS" />
-	<item col1="3122355" col2="DIVISA ALEGRE" />
-	<item col1="3122405" col2="DIVISA NOVA" />
-	<item col1="3122454" col2="DIVISÓPOLIS" />
-	<item col1="3122470" col2="DOM BOSCO" />
-	<item col1="3122504" col2="DOM CAVATI" />
-	<item col1="3122603" col2="DOM JOAQUIM" />
-	<item col1="3122702" col2="DOM SILVÉRIO" />
-	<item col1="3122801" col2="DOM VIÇOSO" />
-	<item col1="3122900" col2="DONA EUSÉBIA" />
-	<item col1="3123007" col2="DORES DE CAMPOS" />
-	<item col1="3123106" col2="DORES DE GUANHÃES" />
-	<item col1="3123205" col2="DORES DO INDAIÁ" />
-	<item col1="3123304" col2="DORES DO TURVO" />
-	<item col1="3123403" col2="DORESÓPOLIS" />
-	<item col1="3123502" col2="DOURADOQUARA" />
-	<item col1="3123528" col2="DURANDÉ" />
-	<item col1="3123601" col2="ELÓI MENDES" />
-	<item col1="3123700" col2="ENGENHEIRO CALDAS" />
-	<item col1="3123809" col2="ENGENHEIRO NAVARRO" />
-	<item col1="3123858" col2="ENTRE FOLHAS" />
-	<item col1="3123908" col2="ENTRE RIOS DE MINAS" />
-	<item col1="3124005" col2="ERVÁLIA" />
-	<item col1="3124104" col2="ESMERALDAS" />
-	<item col1="3124203" col2="ESPERA FELIZ" />
-	<item col1="3124302" col2="ESPINOSA" />
-	<item col1="3124401" col2="ESPÍRITO SANTO DO DOURADO" />
-	<item col1="3124500" col2="ESTIVA" />
-	<item col1="3124609" col2="ESTRELA DALVA" />
-	<item col1="3124708" col2="ESTRELA DO INDAIÁ" />
-	<item col1="3124807" col2="ESTRELA DO SUL" />
-	<item col1="3124906" col2="EUGENÓPOLIS" />
-	<item col1="3125002" col2="EWBANK DA CÂMARA" />
-	<item col1="3125101" col2="EXTREMA" />
-	<item col1="3125200" col2="FAMA" />
-	<item col1="3125309" col2="FARIA LEMOS" />
-	<item col1="3125408" col2="FELÍCIO DOS SANTOS" />
-	<item col1="3125507" col2="SÃO GONÇALO DO RIO PRETO" />
-	<item col1="3125606" col2="FELISBURGO" />
-	<item col1="3125705" col2="FELIXLÂNDIA" />
-	<item col1="3125804" col2="FERNANDES TOURINHO" />
-	<item col1="3125903" col2="FERROS" />
-	<item col1="3125952" col2="FERVEDOURO" />
-	<item col1="3126000" col2="FLORESTAL" />
-	<item col1="3126109" col2="FORMIGA" />
-	<item col1="3126208" col2="FORMOSO" />
-	<item col1="3126307" col2="FORTALEZA DE MINAS" />
-	<item col1="3126406" col2="FORTUNA DE MINAS" />
-	<item col1="3126505" col2="FRANCISCO BADARÓ" />
-	<item col1="3126604" col2="FRANCISCO DUMONT" />
-	<item col1="3126703" col2="FRANCISCO SÁ" />
-	<item col1="3126752" col2="FRANCISCÓPOLIS" />
-	<item col1="3126802" col2="FREI GASPAR" />
-	<item col1="3126901" col2="FREI INOCÊNCIO" />
-	<item col1="3126950" col2="FREI LAGONEGRO" />
-	<item col1="3127008" col2="FRONTEIRA" />
-	<item col1="3127057" col2="FRONTEIRA DOS VALES" />
-	<item col1="3127073" col2="FRUTA DE LEITE" />
-	<item col1="3127107" col2="FRUTAL" />
-	<item col1="3127206" col2="FUNILÂNDIA" />
-	<item col1="3127305" col2="GALILÉIA" />
-	<item col1="3127339" col2="GAMELEIRAS" />
-	<item col1="3127354" col2="GLAUCILÂNDIA" />
-	<item col1="3127370" col2="GOIABEIRA" />
-	<item col1="3127388" col2="GOIANÁ" />
-	<item col1="3127404" col2="GONÇALVES" />
-	<item col1="3127503" col2="GONZAGA" />
-	<item col1="3127602" col2="GOUVEIA" />
-	<item col1="3127701" col2="GOVERNADOR VALADARES" />
-	<item col1="3127800" col2="GRÃO MOGOL" />
-	<item col1="3127909" col2="GRUPIARA" />
-	<item col1="3128006" col2="GUANHÃES" />
-	<item col1="3128105" col2="GUAPÉ" />
-	<item col1="3128204" col2="GUARACIABA" />
-	<item col1="3128253" col2="GUARACIAMA" />
-	<item col1="3128303" col2="GUARANÉSIA" />
-	<item col1="3128402" col2="GUARANI" />
-	<item col1="3128501" col2="GUARARÁ" />
-	<item col1="3128600" col2="GUARDA-MOR" />
-	<item col1="3128709" col2="GUAXUPÉ" />
-	<item col1="3128808" col2="GUIDOVAL" />
-	<item col1="3128907" col2="GUIMARÂNIA" />
-	<item col1="3129004" col2="GUIRICEMA" />
-	<item col1="3129103" col2="GURINHATÃ" />
-	<item col1="3129202" col2="HELIODORA" />
-	<item col1="3129301" col2="IAPU" />
-	<item col1="3129400" col2="IBERTIOGA" />
-	<item col1="3129509" col2="IBIÁ" />
-	<item col1="3129608" col2="IBIAÍ" />
-	<item col1="3129657" col2="IBIRACATU" />
-	<item col1="3129707" col2="IBIRACI" />
-	<item col1="3129806" col2="IBIRITÉ" />
-	<item col1="3129905" col2="IBITIÚRA DE MINAS" />
-	<item col1="3130002" col2="IBITURUNA" />
-	<item col1="3130051" col2="ICARAÍ DE MINAS" />
-	<item col1="3130101" col2="IGARAPÉ" />
-	<item col1="3130200" col2="IGARATINGA" />
-	<item col1="3130309" col2="IGUATAMA" />
-	<item col1="3130408" col2="IJACI" />
-	<item col1="3130507" col2="ILICÍNEA" />
-	<item col1="3130556" col2="IMBÉ DE MINAS" />
-	<item col1="3130606" col2="INCONFIDENTES" />
-	<item col1="3130655" col2="INDAIABIRA" />
-	<item col1="3130705" col2="INDIANÓPOLIS" />
-	<item col1="3130804" col2="INGAÍ" />
-	<item col1="3130903" col2="INHAPIM" />
-	<item col1="3131000" col2="INHAÚMA" />
-	<item col1="3131109" col2="INIMUTABA" />
-	<item col1="3131158" col2="IPABA" />
-	<item col1="3131208" col2="IPANEMA" />
-	<item col1="3131307" col2="IPATINGA" />
-	<item col1="3131406" col2="IPIAÇU" />
-	<item col1="3131505" col2="IPUIÚNA" />
-	<item col1="3131604" col2="IRAÍ DE MINAS" />
-	<item col1="3131703" col2="ITABIRA" />
-	<item col1="3131802" col2="ITABIRINHA" />
-	<item col1="3131901" col2="ITABIRITO" />
-	<item col1="3132008" col2="ITACAMBIRA" />
-	<item col1="3132107" col2="ITACARAMBI" />
-	<item col1="3132206" col2="ITAGUARA" />
-	<item col1="3132305" col2="ITAIPÉ" />
-	<item col1="3132404" col2="ITAJUBÁ" />
-	<item col1="3132503" col2="ITAMARANDIBA" />
-	<item col1="3132602" col2="ITAMARATI DE MINAS" />
-	<item col1="3132701" col2="ITAMBACURI" />
-	<item col1="3132800" col2="ITAMBÉ DO MATO DENTRO" />
-	<item col1="3132909" col2="ITAMOGI" />
-	<item col1="3133006" col2="ITAMONTE" />
-	<item col1="3133105" col2="ITANHANDU" />
-	<item col1="3133204" col2="ITANHOMI" />
-	<item col1="3133303" col2="ITAOBIM" />
-	<item col1="3133402" col2="ITAPAGIPE" />
-	<item col1="3133501" col2="ITAPECERICA" />
-	<item col1="3133600" col2="ITAPEVA" />
-	<item col1="3133709" col2="ITATIAIUÇU" />
-	<item col1="3133758" col2="ITAÚ DE MINAS" />
-	<item col1="3133808" col2="ITAÚNA" />
-	<item col1="3133907" col2="ITAVERAVA" />
-	<item col1="3134004" col2="ITINGA" />
-	<item col1="3134103" col2="ITUETA" />
-	<item col1="3134202" col2="ITUIUTABA" />
-	<item col1="3134301" col2="ITUMIRIM" />
-	<item col1="3134400" col2="ITURAMA" />
-	<item col1="3134509" col2="ITUTINGA" />
-	<item col1="3134608" col2="JABOTICATUBAS" />
-	<item col1="3134707" col2="JACINTO" />
-	<item col1="3134806" col2="JACUÍ" />
-	<item col1="3134905" col2="JACUTINGA" />
-	<item col1="3135001" col2="JAGUARAÇU" />
-	<item col1="3135050" col2="JAÍBA" />
-	<item col1="3135076" col2="JAMPRUCA" />
-	<item col1="3135100" col2="JANAÚBA" />
-	<item col1="3135209" col2="JANUÁRIA" />
-	<item col1="3135308" col2="JAPARAÍBA" />
-	<item col1="3135357" col2="JAPONVAR" />
-	<item col1="3135407" col2="JECEABA" />
-	<item col1="3135456" col2="JENIPAPO DE MINAS" />
-	<item col1="3135506" col2="JEQUERI" />
-	<item col1="3135605" col2="JEQUITAÍ" />
-	<item col1="3135704" col2="JEQUITIBÁ" />
-	<item col1="3135803" col2="JEQUITINHONHA" />
-	<item col1="3135902" col2="JESUÂNIA" />
-	<item col1="3136009" col2="JOAÍMA" />
-	<item col1="3136108" col2="JOANÉSIA" />
-	<item col1="3136207" col2="JOÃO MONLEVADE" />
-	<item col1="3136306" col2="JOÃO PINHEIRO" />
-	<item col1="3136405" col2="JOAQUIM FELÍCIO" />
-	<item col1="3136504" col2="JORDÂNIA" />
-	<item col1="3136520" col2="JOSÉ GONÇALVES DE MINAS" />
-	<item col1="3136553" col2="JOSÉ RAYDAN" />
-	<item col1="3136579" col2="JOSENÓPOLIS" />
-	<item col1="3136603" col2="NOVA UNIÃO" />
-	<item col1="3136652" col2="JUATUBA" />
-	<item col1="3136702" col2="JUIZ DE FORA" />
-	<item col1="3136801" col2="JURAMENTO" />
-	<item col1="3136900" col2="JURUAIA" />
-	<item col1="3136959" col2="JUVENÍLIA" />
-	<item col1="3137007" col2="LADAINHA" />
-	<item col1="3137106" col2="LAGAMAR" />
-	<item col1="3137205" col2="LAGOA DA PRATA" />
-	<item col1="3137304" col2="LAGOA DOS PATOS" />
-	<item col1="3137403" col2="LAGOA DOURADA" />
-	<item col1="3137502" col2="LAGOA FORMOSA" />
-	<item col1="3137536" col2="LAGOA GRANDE" />
-	<item col1="3137601" col2="LAGOA SANTA" />
-	<item col1="3137700" col2="LAJINHA" />
-	<item col1="3137809" col2="LAMBARI" />
-	<item col1="3137908" col2="LAMIM" />
-	<item col1="3138005" col2="LARANJAL" />
-	<item col1="3138104" col2="LASSANCE" />
-	<item col1="3138203" col2="LAVRAS" />
-	<item col1="3138302" col2="LEANDRO FERREIRA" />
-	<item col1="3138351" col2="LEME DO PRADO" />
-	<item col1="3138401" col2="LEOPOLDINA" />
-	<item col1="3138500" col2="LIBERDADE" />
-	<item col1="3138609" col2="LIMA DUARTE" />
-	<item col1="3138625" col2="LIMEIRA DO OESTE" />
-	<item col1="3138658" col2="LONTRA" />
-	<item col1="3138674" col2="LUISBURGO" />
-	<item col1="3138682" col2="LUISLÂNDIA" />
-	<item col1="3138708" col2="LUMINÁRIAS" />
-	<item col1="3138807" col2="LUZ" />
-	<item col1="3138906" col2="MACHACALIS" />
-	<item col1="3139003" col2="MACHADO" />
-	<item col1="3139102" col2="MADRE DE DEUS DE MINAS" />
-	<item col1="3139201" col2="MALACACHETA" />
-	<item col1="3139250" col2="MAMONAS" />
-	<item col1="3139300" col2="MANGA" />
-	<item col1="3139409" col2="MANHUAÇU" />
-	<item col1="3139508" col2="MANHUMIRIM" />
-	<item col1="3139607" col2="MANTENA" />
-	<item col1="3139706" col2="MARAVILHAS" />
-	<item col1="3139805" col2="MAR DE ESPANHA" />
-	<item col1="3139904" col2="MARIA DA FÉ" />
-	<item col1="3140001" col2="MARIANA" />
-	<item col1="3140100" col2="MARILAC" />
-	<item col1="3140159" col2="MÁRIO CAMPOS" />
-	<item col1="3140209" col2="MARIPÁ DE MINAS" />
-	<item col1="3140308" col2="MARLIÉRIA" />
-	<item col1="3140407" col2="MARMELÓPOLIS" />
-	<item col1="3140506" col2="MARTINHO CAMPOS" />
-	<item col1="3140530" col2="MARTINS SOARES" />
-	<item col1="3140555" col2="MATA VERDE" />
-	<item col1="3140605" col2="MATERLÂNDIA" />
-	<item col1="3140704" col2="MATEUS LEME" />
-	<item col1="3140803" col2="MATIAS BARBOSA" />
-	<item col1="3140852" col2="MATIAS CARDOSO" />
-	<item col1="3140902" col2="MATIPÓ" />
-	<item col1="3141009" col2="MATO VERDE" />
-	<item col1="3141108" col2="MATOZINHOS" />
-	<item col1="3141207" col2="MATUTINA" />
-	<item col1="3141306" col2="MEDEIROS" />
-	<item col1="3141405" col2="MEDINA" />
-	<item col1="3141504" col2="MENDES PIMENTEL" />
-	<item col1="3141603" col2="MERCÊS" />
-	<item col1="3141702" col2="MESQUITA" />
-	<item col1="3141801" col2="MINAS NOVAS" />
-	<item col1="3141900" col2="MINDURI" />
-	<item col1="3142007" col2="MIRABELA" />
-	<item col1="3142106" col2="MIRADOURO" />
-	<item col1="3142205" col2="MIRAÍ" />
-	<item col1="3142254" col2="MIRAVÂNIA" />
-	<item col1="3142304" col2="MOEDA" />
-	<item col1="3142403" col2="MOEMA" />
-	<item col1="3142502" col2="MONJOLOS" />
-	<item col1="3142601" col2="MONSENHOR PAULO" />
-	<item col1="3142700" col2="MONTALVÂNIA" />
-	<item col1="3142809" col2="MONTE ALEGRE DE MINAS" />
-	<item col1="3142908" col2="MONTE AZUL" />
-	<item col1="3143005" col2="MONTE BELO" />
-	<item col1="3143104" col2="MONTE CARMELO" />
-	<item col1="3143153" col2="MONTE FORMOSO" />
-	<item col1="3143203" col2="MONTE SANTO DE MINAS" />
-	<item col1="3143302" col2="MONTES CLAROS" />
-	<item col1="3143401" col2="MONTE SIÃO" />
-	<item col1="3143450" col2="MONTEZUMA" />
-	<item col1="3143500" col2="MORADA NOVA DE MINAS" />
-	<item col1="3143609" col2="MORRO DA GARÇA" />
-	<item col1="3143708" col2="MORRO DO PILAR" />
-	<item col1="3143807" col2="MUNHOZ" />
-	<item col1="3143906" col2="MURIAÉ" />
-	<item col1="3144003" col2="MUTUM" />
-	<item col1="3144102" col2="MUZAMBINHO" />
-	<item col1="3144201" col2="NACIP RAYDAN" />
-	<item col1="3144300" col2="NANUQUE" />
-	<item col1="3144359" col2="NAQUE" />
-	<item col1="3144375" col2="NATALÂNDIA" />
-	<item col1="3144409" col2="NATÉRCIA" />
-	<item col1="3144508" col2="NAZARENO" />
-	<item col1="3144607" col2="NEPOMUCENO" />
-	<item col1="3144656" col2="NINHEIRA" />
-	<item col1="3144672" col2="NOVA BELÉM" />
-	<item col1="3144706" col2="NOVA ERA" />
-	<item col1="3144805" col2="NOVA LIMA" />
-	<item col1="3144904" col2="NOVA MÓDICA" />
-	<item col1="3145000" col2="NOVA PONTE" />
-	<item col1="3145059" col2="NOVA PORTEIRINHA" />
-	<item col1="3145109" col2="NOVA RESENDE" />
-	<item col1="3145208" col2="NOVA SERRANA" />
-	<item col1="3145307" col2="NOVO CRUZEIRO" />
-	<item col1="3145356" col2="NOVO ORIENTE DE MINAS" />
-	<item col1="3145372" col2="NOVORIZONTE" />
-	<item col1="3145406" col2="OLARIA" />
-	<item col1="3145455" col2="OLHOS-D'ÁGUA" />
-	<item col1="3145505" col2="OLÍMPIO NORONHA" />
-	<item col1="3145604" col2="OLIVEIRA" />
-	<item col1="3145703" col2="OLIVEIRA FORTES" />
-	<item col1="3145802" col2="ONÇA DE PITANGUI" />
-	<item col1="3145851" col2="ORATÓRIOS" />
-	<item col1="3145877" col2="ORIZÂNIA" />
-	<item col1="3145901" col2="OURO BRANCO" />
-	<item col1="3146008" col2="OURO FINO" />
-	<item col1="3146107" col2="OURO PRETO" />
-	<item col1="3146206" col2="OURO VERDE DE MINAS" />
-	<item col1="3146255" col2="PADRE CARVALHO" />
-	<item col1="3146305" col2="PADRE PARAÍSO" />
-	<item col1="3146404" col2="PAINEIRAS" />
-	<item col1="3146503" col2="PAINS" />
-	<item col1="3146552" col2="PAI PEDRO" />
-	<item col1="3146602" col2="PAIVA" />
-	<item col1="3146701" col2="PALMA" />
-	<item col1="3146750" col2="PALMÓPOLIS" />
-	<item col1="3146909" col2="PAPAGAIOS" />
-	<item col1="3147006" col2="PARACATU" />
-	<item col1="3147105" col2="PARÁ DE MINAS" />
-	<item col1="3147204" col2="PARAGUAÇU" />
-	<item col1="3147303" col2="PARAISÓPOLIS" />
-	<item col1="3147402" col2="PARAOPEBA" />
-	<item col1="3147501" col2="PASSABÉM" />
-	<item col1="3147600" col2="PASSA QUATRO" />
-	<item col1="3147709" col2="PASSA TEMPO" />
-	<item col1="3147808" col2="PASSA-VINTE" />
-	<item col1="3147907" col2="PASSOS" />
-	<item col1="3147956" col2="PATIS" />
-	<item col1="3148004" col2="PATOS DE MINAS" />
-	<item col1="3148103" col2="PATROCÍNIO" />
-	<item col1="3148202" col2="PATROCÍNIO DO MURIAÉ" />
-	<item col1="3148301" col2="PAULA CÂNDIDO" />
-	<item col1="3148400" col2="PAULISTAS" />
-	<item col1="3148509" col2="PAVÃO" />
-	<item col1="3148608" col2="PEÇANHA" />
-	<item col1="3148707" col2="PEDRA AZUL" />
-	<item col1="3148756" col2="PEDRA BONITA" />
-	<item col1="3148806" col2="PEDRA DO ANTA" />
-	<item col1="3148905" col2="PEDRA DO INDAIÁ" />
-	<item col1="3149002" col2="PEDRA DOURADA" />
-	<item col1="3149101" col2="PEDRALVA" />
-	<item col1="3149150" col2="PEDRAS DE MARIA DA CRUZ" />
-	<item col1="3149200" col2="PEDRINÓPOLIS" />
-	<item col1="3149309" col2="PEDRO LEOPOLDO" />
-	<item col1="3149408" col2="PEDRO TEIXEIRA" />
-	<item col1="3149507" col2="PEQUERI" />
-	<item col1="3149606" col2="PEQUI" />
-	<item col1="3149705" col2="PERDIGÃO" />
-	<item col1="3149804" col2="PERDIZES" />
-	<item col1="3149903" col2="PERDÕES" />
-	<item col1="3149952" col2="PERIQUITO" />
-	<item col1="3150000" col2="PESCADOR" />
-	<item col1="3150109" col2="PIAU" />
-	<item col1="3150158" col2="PIEDADE DE CARATINGA" />
-	<item col1="3150208" col2="PIEDADE DE PONTE NOVA" />
-	<item col1="3150307" col2="PIEDADE DO RIO GRANDE" />
-	<item col1="3150406" col2="PIEDADE DOS GERAIS" />
-	<item col1="3150505" col2="PIMENTA" />
-	<item col1="3150539" col2="PINGO-D'ÁGUA" />
-	<item col1="3150570" col2="PINTÓPOLIS" />
-	<item col1="3150604" col2="PIRACEMA" />
-	<item col1="3150703" col2="PIRAJUBA" />
-	<item col1="3150802" col2="PIRANGA" />
-	<item col1="3150901" col2="PIRANGUÇU" />
-	<item col1="3151008" col2="PIRANGUINHO" />
-	<item col1="3151107" col2="PIRAPETINGA" />
-	<item col1="3151206" col2="PIRAPORA" />
-	<item col1="3151305" col2="PIRAÚBA" />
-	<item col1="3151404" col2="PITANGUI" />
-	<item col1="3151503" col2="PIUMHI" />
-	<item col1="3151602" col2="PLANURA" />
-	<item col1="3151701" col2="POÇO FUNDO" />
-	<item col1="3151800" col2="POÇOS DE CALDAS" />
-	<item col1="3151909" col2="POCRANE" />
-	<item col1="3152006" col2="POMPÉU" />
-	<item col1="3152105" col2="PONTE NOVA" />
-	<item col1="3152131" col2="PONTO CHIQUE" />
-	<item col1="3152170" col2="PONTO DOS VOLANTES" />
-	<item col1="3152204" col2="PORTEIRINHA" />
-	<item col1="3152303" col2="PORTO FIRME" />
-	<item col1="3152402" col2="POTÉ" />
-	<item col1="3152501" col2="POUSO ALEGRE" />
-	<item col1="3152600" col2="POUSO ALTO" />
-	<item col1="3152709" col2="PRADOS" />
-	<item col1="3152808" col2="PRATA" />
-	<item col1="3152907" col2="PRATÁPOLIS" />
-	<item col1="3153004" col2="PRATINHA" />
-	<item col1="3153103" col2="PRESIDENTE BERNARDES" />
-	<item col1="3153202" col2="PRESIDENTE JUSCELINO" />
-	<item col1="3153301" col2="PRESIDENTE KUBITSCHEK" />
-	<item col1="3153400" col2="PRESIDENTE OLEGÁRIO" />
-	<item col1="3153509" col2="ALTO JEQUITIBÁ" />
-	<item col1="3153608" col2="PRUDENTE DE MORAIS" />
-	<item col1="3153707" col2="QUARTEL GERAL" />
-	<item col1="3153806" col2="QUELUZITO" />
-	<item col1="3153905" col2="RAPOSOS" />
-	<item col1="3154002" col2="RAUL SOARES" />
-	<item col1="3154101" col2="RECREIO" />
-	<item col1="3154150" col2="REDUTO" />
-	<item col1="3154200" col2="RESENDE COSTA" />
-	<item col1="3154309" col2="RESPLENDOR" />
-	<item col1="3154408" col2="RESSAQUINHA" />
-	<item col1="3154457" col2="RIACHINHO" />
-	<item col1="3154507" col2="RIACHO DOS MACHADOS" />
-	<item col1="3154606" col2="RIBEIRÃO DAS NEVES" />
-	<item col1="3154705" col2="RIBEIRÃO VERMELHO" />
-	<item col1="3154804" col2="RIO ACIMA" />
-	<item col1="3154903" col2="RIO CASCA" />
-	<item col1="3155009" col2="RIO DOCE" />
-	<item col1="3155108" col2="RIO DO PRADO" />
-	<item col1="3155207" col2="RIO ESPERA" />
-	<item col1="3155306" col2="RIO MANSO" />
-	<item col1="3155405" col2="RIO NOVO" />
-	<item col1="3155504" col2="RIO PARANAÍBA" />
-	<item col1="3155603" col2="RIO PARDO DE MINAS" />
-	<item col1="3155702" col2="RIO PIRACICABA" />
-	<item col1="3155801" col2="RIO POMBA" />
-	<item col1="3155900" col2="RIO PRETO" />
-	<item col1="3156007" col2="RIO VERMELHO" />
-	<item col1="3156106" col2="RITÁPOLIS" />
-	<item col1="3156205" col2="ROCHEDO DE MINAS" />
-	<item col1="3156304" col2="RODEIRO" />
-	<item col1="3156403" col2="ROMARIA" />
-	<item col1="3156452" col2="ROSÁRIO DA LIMEIRA" />
-	<item col1="3156502" col2="RUBELITA" />
-	<item col1="3156601" col2="RUBIM" />
-	<item col1="3156700" col2="SABARÁ" />
-	<item col1="3156809" col2="SABINÓPOLIS" />
-	<item col1="3156908" col2="SACRAMENTO" />
-	<item col1="3157005" col2="SALINAS" />
-	<item col1="3157104" col2="SALTO DA DIVISA" />
-	<item col1="3157203" col2="SANTA BÁRBARA" />
-	<item col1="3157252" col2="SANTA BÁRBARA DO LESTE" />
-	<item col1="3157278" col2="SANTA BÁRBARA DO MONTE VERDE" />
-	<item col1="3157302" col2="SANTA BÁRBARA DO TUGÚRIO" />
-	<item col1="3157336" col2="SANTA CRUZ DE MINAS" />
-	<item col1="3157377" col2="SANTA CRUZ DE SALINAS" />
-	<item col1="3157401" col2="SANTA CRUZ DO ESCALVADO" />
-	<item col1="3157500" col2="SANTA EFIGÊNIA DE MINAS" />
-	<item col1="3157609" col2="SANTA FÉ DE MINAS" />
-	<item col1="3157658" col2="SANTA HELENA DE MINAS" />
-	<item col1="3157708" col2="SANTA JULIANA" />
-	<item col1="3157807" col2="SANTA LUZIA" />
-	<item col1="3157906" col2="SANTA MARGARIDA" />
-	<item col1="3158003" col2="SANTA MARIA DE ITABIRA" />
-	<item col1="3158102" col2="SANTA MARIA DO SALTO" />
-	<item col1="3158201" col2="SANTA MARIA DO SUAÇUÍ" />
-	<item col1="3158300" col2="SANTANA DA VARGEM" />
-	<item col1="3158409" col2="SANTANA DE CATAGUASES" />
-	<item col1="3158508" col2="SANTANA DE PIRAPAMA" />
-	<item col1="3158607" col2="SANTANA DO DESERTO" />
-	<item col1="3158706" col2="SANTANA DO GARAMBÉU" />
-	<item col1="3158805" col2="SANTANA DO JACARÉ" />
-	<item col1="3158904" col2="SANTANA DO MANHUAÇU" />
-	<item col1="3158953" col2="SANTANA DO PARAÍSO" />
-	<item col1="3159001" col2="SANTANA DO RIACHO" />
-	<item col1="3159100" col2="SANTANA DOS MONTES" />
-	<item col1="3159209" col2="SANTA RITA DE CALDAS" />
-	<item col1="3159308" col2="SANTA RITA DE JACUTINGA" />
-	<item col1="3159357" col2="SANTA RITA DE MINAS" />
-	<item col1="3159407" col2="SANTA RITA DE IBITIPOCA" />
-	<item col1="3159506" col2="SANTA RITA DO ITUETO" />
-	<item col1="3159605" col2="SANTA RITA DO SAPUCAÍ" />
-	<item col1="3159704" col2="SANTA ROSA DA SERRA" />
-	<item col1="3159803" col2="SANTA VITÓRIA" />
-	<item col1="3159902" col2="SANTO ANTÔNIO DO AMPARO" />
-	<item col1="3160009" col2="SANTO ANTÔNIO DO AVENTUREIRO" />
-	<item col1="3160108" col2="SANTO ANTÔNIO DO GRAMA" />
-	<item col1="3160207" col2="SANTO ANTÔNIO DO ITAMBÉ" />
-	<item col1="3160306" col2="SANTO ANTÔNIO DO JACINTO" />
-	<item col1="3160405" col2="SANTO ANTÔNIO DO MONTE" />
-	<item col1="3160454" col2="SANTO ANTÔNIO DO RETIRO" />
-	<item col1="3160504" col2="SANTO ANTÔNIO DO RIO ABAIXO" />
-	<item col1="3160603" col2="SANTO HIPÓLITO" />
-	<item col1="3160702" col2="SANTOS DUMONT" />
-	<item col1="3160801" col2="SÃO BENTO ABADE" />
-	<item col1="3160900" col2="SÃO BRÁS DO SUAÇUÍ" />
-	<item col1="3160959" col2="SÃO DOMINGOS DAS DORES" />
-	<item col1="3161007" col2="SÃO DOMINGOS DO PRATA" />
-	<item col1="3161056" col2="SÃO FÉLIX DE MINAS" />
-	<item col1="3161106" col2="SÃO FRANCISCO" />
-	<item col1="3161205" col2="SÃO FRANCISCO DE PAULA" />
-	<item col1="3161304" col2="SÃO FRANCISCO DE SALES" />
-	<item col1="3161403" col2="SÃO FRANCISCO DO GLÓRIA" />
-	<item col1="3161502" col2="SÃO GERALDO" />
-	<item col1="3161601" col2="SÃO GERALDO DA PIEDADE" />
-	<item col1="3161650" col2="SÃO GERALDO DO BAIXIO" />
-	<item col1="3161700" col2="SÃO GONÇALO DO ABAETÉ" />
-	<item col1="3161809" col2="SÃO GONÇALO DO PARÁ" />
-	<item col1="3161908" col2="SÃO GONÇALO DO RIO ABAIXO" />
-	<item col1="3162005" col2="SÃO GONÇALO DO SAPUCAÍ" />
-	<item col1="3162104" col2="SÃO GOTARDO" />
-	<item col1="3162203" col2="SÃO JOÃO BATISTA DO GLÓRIA" />
-	<item col1="3162252" col2="SÃO JOÃO DA LAGOA" />
-	<item col1="3162302" col2="SÃO JOÃO DA MATA" />
-	<item col1="3162401" col2="SÃO JOÃO DA PONTE" />
-	<item col1="3162450" col2="SÃO JOÃO DAS MISSÕES" />
-	<item col1="3162500" col2="SÃO JOÃO DEL REI" />
-	<item col1="3162559" col2="SÃO JOÃO DO MANHUAÇU" />
-	<item col1="3162575" col2="SÃO JOÃO DO MANTENINHA" />
-	<item col1="3162609" col2="SÃO JOÃO DO ORIENTE" />
-	<item col1="3162658" col2="SÃO JOÃO DO PACUÍ" />
-	<item col1="3162708" col2="SÃO JOÃO DO PARAÍSO" />
-	<item col1="3162807" col2="SÃO JOÃO EVANGELISTA" />
-	<item col1="3162906" col2="SÃO JOÃO NEPOMUCENO" />
-	<item col1="3162922" col2="SÃO JOAQUIM DE BICAS" />
-	<item col1="3162948" col2="SÃO JOSÉ DA BARRA" />
-	<item col1="3162955" col2="SÃO JOSÉ DA LAPA" />
-	<item col1="3163003" col2="SÃO JOSÉ DA SAFIRA" />
-	<item col1="3163102" col2="SÃO JOSÉ DA VARGINHA" />
-	<item col1="3163201" col2="SÃO JOSÉ DO ALEGRE" />
-	<item col1="3163300" col2="SÃO JOSÉ DO DIVINO" />
-	<item col1="3163409" col2="SÃO JOSÉ DO GOIABAL" />
-	<item col1="3163508" col2="SÃO JOSÉ DO JACURI" />
-	<item col1="3163607" col2="SÃO JOSÉ DO MANTIMENTO" />
-	<item col1="3163706" col2="SÃO LOURENÇO" />
-	<item col1="3163805" col2="SÃO MIGUEL DO ANTA" />
-	<item col1="3163904" col2="SÃO PEDRO DA UNIÃO" />
-	<item col1="3164001" col2="SÃO PEDRO DOS FERROS" />
-	<item col1="3164100" col2="SÃO PEDRO DO SUAÇUÍ" />
-	<item col1="3164209" col2="SÃO ROMÃO" />
-	<item col1="3164308" col2="SÃO ROQUE DE MINAS" />
-	<item col1="3164407" col2="SÃO SEBASTIÃO DA BELA VISTA" />
-	<item col1="3164431" col2="SÃO SEBASTIÃO DA VARGEM ALEGRE" />
-	<item col1="3164472" col2="SÃO SEBASTIÃO DO ANTA" />
-	<item col1="3164506" col2="SÃO SEBASTIÃO DO MARANHÃO" />
-	<item col1="3164605" col2="SÃO SEBASTIÃO DO OESTE" />
-	<item col1="3164704" col2="SÃO SEBASTIÃO DO PARAÍSO" />
-	<item col1="3164803" col2="SÃO SEBASTIÃO DO RIO PRETO" />
-	<item col1="3164902" col2="SÃO SEBASTIÃO DO RIO VERDE" />
-	<item col1="3165008" col2="SÃO TIAGO" />
-	<item col1="3165107" col2="SÃO TOMÁS DE AQUINO" />
-	<item col1="3165206" col2="SÃO THOMÉ DAS LETRAS" />
-	<item col1="3165305" col2="SÃO VICENTE DE MINAS" />
-	<item col1="3165404" col2="SAPUCAÍ-MIRIM" />
-	<item col1="3165503" col2="SARDOÁ" />
-	<item col1="3165537" col2="SARZEDO" />
-	<item col1="3165552" col2="SETUBINHA" />
-	<item col1="3165560" col2="SEM-PEIXE" />
-	<item col1="3165578" col2="SENADOR AMARAL" />
-	<item col1="3165602" col2="SENADOR CORTES" />
-	<item col1="3165701" col2="SENADOR FIRMINO" />
-	<item col1="3165800" col2="SENADOR JOSÉ BENTO" />
-	<item col1="3165909" col2="SENADOR MODESTINO GONÇALVES" />
-	<item col1="3166006" col2="SENHORA DE OLIVEIRA" />
-	<item col1="3166105" col2="SENHORA DO PORTO" />
-	<item col1="3166204" col2="SENHORA DOS REMÉDIOS" />
-	<item col1="3166303" col2="SERICITA" />
-	<item col1="3166402" col2="SERITINGA" />
-	<item col1="3166501" col2="SERRA AZUL DE MINAS" />
-	<item col1="3166600" col2="SERRA DA SAUDADE" />
-	<item col1="3166709" col2="SERRA DOS AIMORÉS" />
-	<item col1="3166808" col2="SERRA DO SALITRE" />
-	<item col1="3166907" col2="SERRANIA" />
-	<item col1="3166956" col2="SERRANÓPOLIS DE MINAS" />
-	<item col1="3167004" col2="SERRANOS" />
-	<item col1="3167103" col2="SERRO" />
-	<item col1="3167202" col2="SETE LAGOAS" />
-	<item col1="3167301" col2="SILVEIRÂNIA" />
-	<item col1="3167400" col2="SILVIANÓPOLIS" />
-	<item col1="3167509" col2="SIMÃO PEREIRA" />
-	<item col1="3167608" col2="SIMONÉSIA" />
-	<item col1="3167707" col2="SOBRÁLIA" />
-	<item col1="3167806" col2="SOLEDADE DE MINAS" />
-	<item col1="3167905" col2="TABULEIRO" />
-	<item col1="3168002" col2="TAIOBEIRAS" />
-	<item col1="3168051" col2="TAPARUBA" />
-	<item col1="3168101" col2="TAPIRA" />
-	<item col1="3168200" col2="TAPIRAÍ" />
-	<item col1="3168309" col2="TAQUARAÇU DE MINAS" />
-	<item col1="3168408" col2="TARUMIRIM" />
-	<item col1="3168507" col2="TEIXEIRAS" />
-	<item col1="3168606" col2="TEÓFILO OTONI" />
-	<item col1="3168705" col2="TIMÓTEO" />
-	<item col1="3168804" col2="TIRADENTES" />
-	<item col1="3168903" col2="TIROS" />
-	<item col1="3169000" col2="TOCANTINS" />
-	<item col1="3169059" col2="TOCOS DO MOJI" />
-	<item col1="3169109" col2="TOLEDO" />
-	<item col1="3169208" col2="TOMBOS" />
-	<item col1="3169307" col2="TRÊS CORAÇÕES" />
-	<item col1="3169356" col2="TRÊS MARIAS" />
-	<item col1="3169406" col2="TRÊS PONTAS" />
-	<item col1="3169505" col2="TUMIRITINGA" />
-	<item col1="3169604" col2="TUPACIGUARA" />
-	<item col1="3169703" col2="TURMALINA" />
-	<item col1="3169802" col2="TURVOLÂNDIA" />
-	<item col1="3169901" col2="UBÁ" />
-	<item col1="3170008" col2="UBAÍ" />
-	<item col1="3170057" col2="UBAPORANGA" />
-	<item col1="3170107" col2="UBERABA" />
-	<item col1="3170206" col2="UBERLÂNDIA" />
-	<item col1="3170305" col2="UMBURATIBA" />
-	<item col1="3170404" col2="UNAÍ" />
-	<item col1="3170438" col2="UNIÃO DE MINAS" />
-	<item col1="3170479" col2="URUANA DE MINAS" />
-	<item col1="3170503" col2="URUCÂNIA" />
-	<item col1="3170529" col2="URUCUIA" />
-	<item col1="3170578" col2="VARGEM ALEGRE" />
-	<item col1="3170602" col2="VARGEM BONITA" />
-	<item col1="3170651" col2="VARGEM GRANDE DO RIO PARDO" />
-	<item col1="3170701" col2="VARGINHA" />
-	<item col1="3170750" col2="VARJÃO DE MINAS" />
-	<item col1="3170800" col2="VÁRZEA DA PALMA" />
-	<item col1="3170909" col2="VARZELÂNDIA" />
-	<item col1="3171006" col2="VAZANTE" />
-	<item col1="3171030" col2="VERDELÂNDIA" />
-	<item col1="3171071" col2="VEREDINHA" />
-	<item col1="3171105" col2="VERÍSSIMO" />
-	<item col1="3171154" col2="VERMELHO NOVO" />
-	<item col1="3171204" col2="VESPASIANO" />
-	<item col1="3171303" col2="VIÇOSA" />
-	<item col1="3171402" col2="VIEIRAS" />
-	<item col1="3171501" col2="MATHIAS LOBATO" />
-	<item col1="3171600" col2="VIRGEM DA LAPA" />
-	<item col1="3171709" col2="VIRGÍNIA" />
-	<item col1="3171808" col2="VIRGINÓPOLIS" />
-	<item col1="3171907" col2="VIRGOLÂNDIA" />
-	<item col1="3172004" col2="VISCONDE DO RIO BRANCO" />
-	<item col1="3172103" col2="VOLTA GRANDE" />
-	<item col1="3172202" col2="WENCESLAU BRAZ" />
+	<item codigo="3100104" nome="ABADIA DOS DOURADOS" />
+	<item codigo="3100203" nome="ABAETÉ" />
+	<item codigo="3100302" nome="ABRE CAMPO" />
+	<item codigo="3100401" nome="ACAIACA" />
+	<item codigo="3100500" nome="AÇUCENA" />
+	<item codigo="3100609" nome="ÁGUA BOA" />
+	<item codigo="3100708" nome="ÁGUA COMPRIDA" />
+	<item codigo="3100807" nome="AGUANIL" />
+	<item codigo="3100906" nome="ÁGUAS FORMOSAS" />
+	<item codigo="3101003" nome="ÁGUAS VERMELHAS" />
+	<item codigo="3101102" nome="AIMORÉS" />
+	<item codigo="3101201" nome="AIURUOCA" />
+	<item codigo="3101300" nome="ALAGOA" />
+	<item codigo="3101409" nome="ALBERTINA" />
+	<item codigo="3101508" nome="ALÉM PARAÍBA" />
+	<item codigo="3101607" nome="ALFENAS" />
+	<item codigo="3101631" nome="ALFREDO VASCONCELOS" />
+	<item codigo="3101706" nome="ALMENARA" />
+	<item codigo="3101805" nome="ALPERCATA" />
+	<item codigo="3101904" nome="ALPINÓPOLIS" />
+	<item codigo="3102001" nome="ALTEROSA" />
+	<item codigo="3102050" nome="ALTO CAPARAÓ" />
+	<item codigo="3102100" nome="ALTO RIO DOCE" />
+	<item codigo="3102209" nome="ALVARENGA" />
+	<item codigo="3102308" nome="ALVINÓPOLIS" />
+	<item codigo="3102407" nome="ALVORADA DE MINAS" />
+	<item codigo="3102506" nome="AMPARO DO SERRA" />
+	<item codigo="3102605" nome="ANDRADAS" />
+	<item codigo="3102704" nome="CACHOEIRA DE PAJEÚ" />
+	<item codigo="3102803" nome="ANDRELÂNDIA" />
+	<item codigo="3102852" nome="ANGELÂNDIA" />
+	<item codigo="3102902" nome="ANTÔNIO CARLOS" />
+	<item codigo="3103009" nome="ANTÔNIO DIAS" />
+	<item codigo="3103108" nome="ANTÔNIO PRADO DE MINAS" />
+	<item codigo="3103207" nome="ARAÇAÍ" />
+	<item codigo="3103306" nome="ARACITABA" />
+	<item codigo="3103405" nome="ARAÇUAÍ" />
+	<item codigo="3103504" nome="ARAGUARI" />
+	<item codigo="3103603" nome="ARANTINA" />
+	<item codigo="3103702" nome="ARAPONGA" />
+	<item codigo="3103751" nome="ARAPORÃ" />
+	<item codigo="3103801" nome="ARAPUÁ" />
+	<item codigo="3103900" nome="ARAÚJOS" />
+	<item codigo="3104007" nome="ARAXÁ" />
+	<item codigo="3104106" nome="ARCEBURGO" />
+	<item codigo="3104205" nome="ARCOS" />
+	<item codigo="3104304" nome="AREADO" />
+	<item codigo="3104403" nome="ARGIRITA" />
+	<item codigo="3104452" nome="ARICANDUVA" />
+	<item codigo="3104502" nome="ARINOS" />
+	<item codigo="3104601" nome="ASTOLFO DUTRA" />
+	<item codigo="3104700" nome="ATALÉIA" />
+	<item codigo="3104809" nome="AUGUSTO DE LIMA" />
+	<item codigo="3104908" nome="BAEPENDI" />
+	<item codigo="3105004" nome="BALDIM" />
+	<item codigo="3105103" nome="BAMBUÍ" />
+	<item codigo="3105202" nome="BANDEIRA" />
+	<item codigo="3105301" nome="BANDEIRA DO SUL" />
+	<item codigo="3105400" nome="BARÃO DE COCAIS" />
+	<item codigo="3105509" nome="BARÃO DE MONTE ALTO" />
+	<item codigo="3105608" nome="BARBACENA" />
+	<item codigo="3105707" nome="BARRA LONGA" />
+	<item codigo="3105905" nome="BARROSO" />
+	<item codigo="3106002" nome="BELA VISTA DE MINAS" />
+	<item codigo="3106101" nome="BELMIRO BRAGA" />
+	<item codigo="3106200" nome="BELO HORIZONTE" />
+	<item codigo="3106309" nome="BELO ORIENTE" />
+	<item codigo="3106408" nome="BELO VALE" />
+	<item codigo="3106507" nome="BERILO" />
+	<item codigo="3106606" nome="BERTÓPOLIS" />
+	<item codigo="3106655" nome="BERIZAL" />
+	<item codigo="3106705" nome="BETIM" />
+	<item codigo="3106804" nome="BIAS FORTES" />
+	<item codigo="3106903" nome="BICAS" />
+	<item codigo="3107000" nome="BIQUINHAS" />
+	<item codigo="3107109" nome="BOA ESPERANÇA" />
+	<item codigo="3107208" nome="BOCAINA DE MINAS" />
+	<item codigo="3107307" nome="BOCAIÚVA" />
+	<item codigo="3107406" nome="BOM DESPACHO" />
+	<item codigo="3107505" nome="BOM JARDIM DE MINAS" />
+	<item codigo="3107604" nome="BOM JESUS DA PENHA" />
+	<item codigo="3107703" nome="BOM JESUS DO AMPARO" />
+	<item codigo="3107802" nome="BOM JESUS DO GALHO" />
+	<item codigo="3107901" nome="BOM REPOUSO" />
+	<item codigo="3108008" nome="BOM SUCESSO" />
+	<item codigo="3108107" nome="BONFIM" />
+	<item codigo="3108206" nome="BONFINÓPOLIS DE MINAS" />
+	<item codigo="3108255" nome="BONITO DE MINAS" />
+	<item codigo="3108305" nome="BORDA DA MATA" />
+	<item codigo="3108404" nome="BOTELHOS" />
+	<item codigo="3108503" nome="BOTUMIRIM" />
+	<item codigo="3108552" nome="BRASILÂNDIA DE MINAS" />
+	<item codigo="3108602" nome="BRASÍLIA DE MINAS" />
+	<item codigo="3108701" nome="BRÁS PIRES" />
+	<item codigo="3108800" nome="BRAÚNAS" />
+	<item codigo="3108909" nome="BRASÓPOLIS" />
+	<item codigo="3109006" nome="BRUMADINHO" />
+	<item codigo="3109105" nome="BUENO BRANDÃO" />
+	<item codigo="3109204" nome="BUENÓPOLIS" />
+	<item codigo="3109253" nome="BUGRE" />
+	<item codigo="3109303" nome="BURITIS" />
+	<item codigo="3109402" nome="BURITIZEIRO" />
+	<item codigo="3109451" nome="CABECEIRA GRANDE" />
+	<item codigo="3109501" nome="CABO VERDE" />
+	<item codigo="3109600" nome="CACHOEIRA DA PRATA" />
+	<item codigo="3109709" nome="CACHOEIRA DE MINAS" />
+	<item codigo="3109808" nome="CACHOEIRA DOURADA" />
+	<item codigo="3109907" nome="CAETANÓPOLIS" />
+	<item codigo="3110004" nome="CAETÉ" />
+	<item codigo="3110103" nome="CAIANA" />
+	<item codigo="3110202" nome="CAJURI" />
+	<item codigo="3110301" nome="CALDAS" />
+	<item codigo="3110400" nome="CAMACHO" />
+	<item codigo="3110509" nome="CAMANDUCAIA" />
+	<item codigo="3110608" nome="CAMBUÍ" />
+	<item codigo="3110707" nome="CAMBUQUIRA" />
+	<item codigo="3110806" nome="CAMPANÁRIO" />
+	<item codigo="3110905" nome="CAMPANHA" />
+	<item codigo="3111002" nome="CAMPESTRE" />
+	<item codigo="3111101" nome="CAMPINA VERDE" />
+	<item codigo="3111150" nome="CAMPO AZUL" />
+	<item codigo="3111200" nome="CAMPO BELO" />
+	<item codigo="3111309" nome="CAMPO DO MEIO" />
+	<item codigo="3111408" nome="CAMPO FLORIDO" />
+	<item codigo="3111507" nome="CAMPOS ALTOS" />
+	<item codigo="3111606" nome="CAMPOS GERAIS" />
+	<item codigo="3111705" nome="CANAÃ" />
+	<item codigo="3111804" nome="CANÁPOLIS" />
+	<item codigo="3111903" nome="CANA VERDE" />
+	<item codigo="3112000" nome="CANDEIAS" />
+	<item codigo="3112059" nome="CANTAGALO" />
+	<item codigo="3112109" nome="CAPARAÓ" />
+	<item codigo="3112208" nome="CAPELA NOVA" />
+	<item codigo="3112307" nome="CAPELINHA" />
+	<item codigo="3112406" nome="CAPETINGA" />
+	<item codigo="3112505" nome="CAPIM BRANCO" />
+	<item codigo="3112604" nome="CAPINÓPOLIS" />
+	<item codigo="3112653" nome="CAPITÃO ANDRADE" />
+	<item codigo="3112703" nome="CAPITÃO ENÉAS" />
+	<item codigo="3112802" nome="CAPITÓLIO" />
+	<item codigo="3112901" nome="CAPUTIRA" />
+	<item codigo="3113008" nome="CARAÍ" />
+	<item codigo="3113107" nome="CARANAÍBA" />
+	<item codigo="3113206" nome="CARANDAÍ" />
+	<item codigo="3113305" nome="CARANGOLA" />
+	<item codigo="3113404" nome="CARATINGA" />
+	<item codigo="3113503" nome="CARBONITA" />
+	<item codigo="3113602" nome="CAREAÇU" />
+	<item codigo="3113701" nome="CARLOS CHAGAS" />
+	<item codigo="3113800" nome="CARMÉSIA" />
+	<item codigo="3113909" nome="CARMO DA CACHOEIRA" />
+	<item codigo="3114006" nome="CARMO DA MATA" />
+	<item codigo="3114105" nome="CARMO DE MINAS" />
+	<item codigo="3114204" nome="CARMO DO CAJURU" />
+	<item codigo="3114303" nome="CARMO DO PARANAÍBA" />
+	<item codigo="3114402" nome="CARMO DO RIO CLARO" />
+	<item codigo="3114501" nome="CARMÓPOLIS DE MINAS" />
+	<item codigo="3114550" nome="CARNEIRINHO" />
+	<item codigo="3114600" nome="CARRANCAS" />
+	<item codigo="3114709" nome="CARVALHÓPOLIS" />
+	<item codigo="3114808" nome="CARVALHOS" />
+	<item codigo="3114907" nome="CASA GRANDE" />
+	<item codigo="3115003" nome="CASCALHO RICO" />
+	<item codigo="3115102" nome="CÁSSIA" />
+	<item codigo="3115201" nome="CONCEIÇÃO DA BARRA DE MINAS" />
+	<item codigo="3115300" nome="CATAGUASES" />
+	<item codigo="3115359" nome="CATAS ALTAS" />
+	<item codigo="3115409" nome="CATAS ALTAS DA NORUEGA" />
+	<item codigo="3115458" nome="CATUJI" />
+	<item codigo="3115474" nome="CATUTI" />
+	<item codigo="3115508" nome="CAXAMBU" />
+	<item codigo="3115607" nome="CEDRO DO ABAETÉ" />
+	<item codigo="3115706" nome="CENTRAL DE MINAS" />
+	<item codigo="3115805" nome="CENTRALINA" />
+	<item codigo="3115904" nome="CHÁCARA" />
+	<item codigo="3116001" nome="CHALÉ" />
+	<item codigo="3116100" nome="CHAPADA DO NORTE" />
+	<item codigo="3116159" nome="CHAPADA GAÚCHA" />
+	<item codigo="3116209" nome="CHIADOR" />
+	<item codigo="3116308" nome="CIPOTÂNEA" />
+	<item codigo="3116407" nome="CLARAVAL" />
+	<item codigo="3116506" nome="CLARO DOS POÇÕES" />
+	<item codigo="3116605" nome="CLÁUDIO" />
+	<item codigo="3116704" nome="COIMBRA" />
+	<item codigo="3116803" nome="COLUNA" />
+	<item codigo="3116902" nome="COMENDADOR GOMES" />
+	<item codigo="3117009" nome="COMERCINHO" />
+	<item codigo="3117108" nome="CONCEIÇÃO DA APARECIDA" />
+	<item codigo="3117207" nome="CONCEIÇÃO DAS PEDRAS" />
+	<item codigo="3117306" nome="CONCEIÇÃO DAS ALAGOAS" />
+	<item codigo="3117405" nome="CONCEIÇÃO DE IPANEMA" />
+	<item codigo="3117504" nome="CONCEIÇÃO DO MATO DENTRO" />
+	<item codigo="3117603" nome="CONCEIÇÃO DO PARÁ" />
+	<item codigo="3117702" nome="CONCEIÇÃO DO RIO VERDE" />
+	<item codigo="3117801" nome="CONCEIÇÃO DOS OUROS" />
+	<item codigo="3117836" nome="CÔNEGO MARINHO" />
+	<item codigo="3117876" nome="CONFINS" />
+	<item codigo="3117900" nome="CONGONHAL" />
+	<item codigo="3118007" nome="CONGONHAS" />
+	<item codigo="3118106" nome="CONGONHAS DO NORTE" />
+	<item codigo="3118205" nome="CONQUISTA" />
+	<item codigo="3118304" nome="CONSELHEIRO LAFAIETE" />
+	<item codigo="3118403" nome="CONSELHEIRO PENA" />
+	<item codigo="3118502" nome="CONSOLAÇÃO" />
+	<item codigo="3118601" nome="CONTAGEM" />
+	<item codigo="3118700" nome="COQUEIRAL" />
+	<item codigo="3118809" nome="CORAÇÃO DE JESUS" />
+	<item codigo="3118908" nome="CORDISBURGO" />
+	<item codigo="3119005" nome="CORDISLÂNDIA" />
+	<item codigo="3119104" nome="CORINTO" />
+	<item codigo="3119203" nome="COROACI" />
+	<item codigo="3119302" nome="COROMANDEL" />
+	<item codigo="3119401" nome="CORONEL FABRICIANO" />
+	<item codigo="3119500" nome="CORONEL MURTA" />
+	<item codigo="3119609" nome="CORONEL PACHECO" />
+	<item codigo="3119708" nome="CORONEL XAVIER CHAVES" />
+	<item codigo="3119807" nome="CÓRREGO DANTA" />
+	<item codigo="3119906" nome="CÓRREGO DO BOM JESUS" />
+	<item codigo="3119955" nome="CÓRREGO FUNDO" />
+	<item codigo="3120003" nome="CÓRREGO NOVO" />
+	<item codigo="3120102" nome="COUTO DE MAGALHÃES DE MINAS" />
+	<item codigo="3120151" nome="CRISÓLITA" />
+	<item codigo="3120201" nome="CRISTAIS" />
+	<item codigo="3120300" nome="CRISTÁLIA" />
+	<item codigo="3120409" nome="CRISTIANO OTONI" />
+	<item codigo="3120508" nome="CRISTINA" />
+	<item codigo="3120607" nome="CRUCILÂNDIA" />
+	<item codigo="3120706" nome="CRUZEIRO DA FORTALEZA" />
+	<item codigo="3120805" nome="CRUZÍLIA" />
+	<item codigo="3120839" nome="CUPARAQUE" />
+	<item codigo="3120870" nome="CURRAL DE DENTRO" />
+	<item codigo="3120904" nome="CURVELO" />
+	<item codigo="3121001" nome="DATAS" />
+	<item codigo="3121100" nome="DELFIM MOREIRA" />
+	<item codigo="3121209" nome="DELFINÓPOLIS" />
+	<item codigo="3121258" nome="DELTA" />
+	<item codigo="3121308" nome="DESCOBERTO" />
+	<item codigo="3121407" nome="DESTERRO DE ENTRE RIOS" />
+	<item codigo="3121506" nome="DESTERRO DO MELO" />
+	<item codigo="3121605" nome="DIAMANTINA" />
+	<item codigo="3121704" nome="DIOGO DE VASCONCELOS" />
+	<item codigo="3121803" nome="DIONÍSIO" />
+	<item codigo="3121902" nome="DIVINÉSIA" />
+	<item codigo="3122009" nome="DIVINO" />
+	<item codigo="3122108" nome="DIVINO DAS LARANJEIRAS" />
+	<item codigo="3122207" nome="DIVINOLÂNDIA DE MINAS" />
+	<item codigo="3122306" nome="DIVINÓPOLIS" />
+	<item codigo="3122355" nome="DIVISA ALEGRE" />
+	<item codigo="3122405" nome="DIVISA NOVA" />
+	<item codigo="3122454" nome="DIVISÓPOLIS" />
+	<item codigo="3122470" nome="DOM BOSCO" />
+	<item codigo="3122504" nome="DOM CAVATI" />
+	<item codigo="3122603" nome="DOM JOAQUIM" />
+	<item codigo="3122702" nome="DOM SILVÉRIO" />
+	<item codigo="3122801" nome="DOM VIÇOSO" />
+	<item codigo="3122900" nome="DONA EUSÉBIA" />
+	<item codigo="3123007" nome="DORES DE CAMPOS" />
+	<item codigo="3123106" nome="DORES DE GUANHÃES" />
+	<item codigo="3123205" nome="DORES DO INDAIÁ" />
+	<item codigo="3123304" nome="DORES DO TURVO" />
+	<item codigo="3123403" nome="DORESÓPOLIS" />
+	<item codigo="3123502" nome="DOURADOQUARA" />
+	<item codigo="3123528" nome="DURANDÉ" />
+	<item codigo="3123601" nome="ELÓI MENDES" />
+	<item codigo="3123700" nome="ENGENHEIRO CALDAS" />
+	<item codigo="3123809" nome="ENGENHEIRO NAVARRO" />
+	<item codigo="3123858" nome="ENTRE FOLHAS" />
+	<item codigo="3123908" nome="ENTRE RIOS DE MINAS" />
+	<item codigo="3124005" nome="ERVÁLIA" />
+	<item codigo="3124104" nome="ESMERALDAS" />
+	<item codigo="3124203" nome="ESPERA FELIZ" />
+	<item codigo="3124302" nome="ESPINOSA" />
+	<item codigo="3124401" nome="ESPÍRITO SANTO DO DOURADO" />
+	<item codigo="3124500" nome="ESTIVA" />
+	<item codigo="3124609" nome="ESTRELA DALVA" />
+	<item codigo="3124708" nome="ESTRELA DO INDAIÁ" />
+	<item codigo="3124807" nome="ESTRELA DO SUL" />
+	<item codigo="3124906" nome="EUGENÓPOLIS" />
+	<item codigo="3125002" nome="EWBANK DA CÂMARA" />
+	<item codigo="3125101" nome="EXTREMA" />
+	<item codigo="3125200" nome="FAMA" />
+	<item codigo="3125309" nome="FARIA LEMOS" />
+	<item codigo="3125408" nome="FELÍCIO DOS SANTOS" />
+	<item codigo="3125507" nome="SÃO GONÇALO DO RIO PRETO" />
+	<item codigo="3125606" nome="FELISBURGO" />
+	<item codigo="3125705" nome="FELIXLÂNDIA" />
+	<item codigo="3125804" nome="FERNANDES TOURINHO" />
+	<item codigo="3125903" nome="FERROS" />
+	<item codigo="3125952" nome="FERVEDOURO" />
+	<item codigo="3126000" nome="FLORESTAL" />
+	<item codigo="3126109" nome="FORMIGA" />
+	<item codigo="3126208" nome="FORMOSO" />
+	<item codigo="3126307" nome="FORTALEZA DE MINAS" />
+	<item codigo="3126406" nome="FORTUNA DE MINAS" />
+	<item codigo="3126505" nome="FRANCISCO BADARÓ" />
+	<item codigo="3126604" nome="FRANCISCO DUMONT" />
+	<item codigo="3126703" nome="FRANCISCO SÁ" />
+	<item codigo="3126752" nome="FRANCISCÓPOLIS" />
+	<item codigo="3126802" nome="FREI GASPAR" />
+	<item codigo="3126901" nome="FREI INOCÊNCIO" />
+	<item codigo="3126950" nome="FREI LAGONEGRO" />
+	<item codigo="3127008" nome="FRONTEIRA" />
+	<item codigo="3127057" nome="FRONTEIRA DOS VALES" />
+	<item codigo="3127073" nome="FRUTA DE LEITE" />
+	<item codigo="3127107" nome="FRUTAL" />
+	<item codigo="3127206" nome="FUNILÂNDIA" />
+	<item codigo="3127305" nome="GALILÉIA" />
+	<item codigo="3127339" nome="GAMELEIRAS" />
+	<item codigo="3127354" nome="GLAUCILÂNDIA" />
+	<item codigo="3127370" nome="GOIABEIRA" />
+	<item codigo="3127388" nome="GOIANÁ" />
+	<item codigo="3127404" nome="GONÇALVES" />
+	<item codigo="3127503" nome="GONZAGA" />
+	<item codigo="3127602" nome="GOUVEIA" />
+	<item codigo="3127701" nome="GOVERNADOR VALADARES" />
+	<item codigo="3127800" nome="GRÃO MOGOL" />
+	<item codigo="3127909" nome="GRUPIARA" />
+	<item codigo="3128006" nome="GUANHÃES" />
+	<item codigo="3128105" nome="GUAPÉ" />
+	<item codigo="3128204" nome="GUARACIABA" />
+	<item codigo="3128253" nome="GUARACIAMA" />
+	<item codigo="3128303" nome="GUARANÉSIA" />
+	<item codigo="3128402" nome="GUARANI" />
+	<item codigo="3128501" nome="GUARARÁ" />
+	<item codigo="3128600" nome="GUARDA-MOR" />
+	<item codigo="3128709" nome="GUAXUPÉ" />
+	<item codigo="3128808" nome="GUIDOVAL" />
+	<item codigo="3128907" nome="GUIMARÂNIA" />
+	<item codigo="3129004" nome="GUIRICEMA" />
+	<item codigo="3129103" nome="GURINHATÃ" />
+	<item codigo="3129202" nome="HELIODORA" />
+	<item codigo="3129301" nome="IAPU" />
+	<item codigo="3129400" nome="IBERTIOGA" />
+	<item codigo="3129509" nome="IBIÁ" />
+	<item codigo="3129608" nome="IBIAÍ" />
+	<item codigo="3129657" nome="IBIRACATU" />
+	<item codigo="3129707" nome="IBIRACI" />
+	<item codigo="3129806" nome="IBIRITÉ" />
+	<item codigo="3129905" nome="IBITIÚRA DE MINAS" />
+	<item codigo="3130002" nome="IBITURUNA" />
+	<item codigo="3130051" nome="ICARAÍ DE MINAS" />
+	<item codigo="3130101" nome="IGARAPÉ" />
+	<item codigo="3130200" nome="IGARATINGA" />
+	<item codigo="3130309" nome="IGUATAMA" />
+	<item codigo="3130408" nome="IJACI" />
+	<item codigo="3130507" nome="ILICÍNEA" />
+	<item codigo="3130556" nome="IMBÉ DE MINAS" />
+	<item codigo="3130606" nome="INCONFIDENTES" />
+	<item codigo="3130655" nome="INDAIABIRA" />
+	<item codigo="3130705" nome="INDIANÓPOLIS" />
+	<item codigo="3130804" nome="INGAÍ" />
+	<item codigo="3130903" nome="INHAPIM" />
+	<item codigo="3131000" nome="INHAÚMA" />
+	<item codigo="3131109" nome="INIMUTABA" />
+	<item codigo="3131158" nome="IPABA" />
+	<item codigo="3131208" nome="IPANEMA" />
+	<item codigo="3131307" nome="IPATINGA" />
+	<item codigo="3131406" nome="IPIAÇU" />
+	<item codigo="3131505" nome="IPUIÚNA" />
+	<item codigo="3131604" nome="IRAÍ DE MINAS" />
+	<item codigo="3131703" nome="ITABIRA" />
+	<item codigo="3131802" nome="ITABIRINHA" />
+	<item codigo="3131901" nome="ITABIRITO" />
+	<item codigo="3132008" nome="ITACAMBIRA" />
+	<item codigo="3132107" nome="ITACARAMBI" />
+	<item codigo="3132206" nome="ITAGUARA" />
+	<item codigo="3132305" nome="ITAIPÉ" />
+	<item codigo="3132404" nome="ITAJUBÁ" />
+	<item codigo="3132503" nome="ITAMARANDIBA" />
+	<item codigo="3132602" nome="ITAMARATI DE MINAS" />
+	<item codigo="3132701" nome="ITAMBACURI" />
+	<item codigo="3132800" nome="ITAMBÉ DO MATO DENTRO" />
+	<item codigo="3132909" nome="ITAMOGI" />
+	<item codigo="3133006" nome="ITAMONTE" />
+	<item codigo="3133105" nome="ITANHANDU" />
+	<item codigo="3133204" nome="ITANHOMI" />
+	<item codigo="3133303" nome="ITAOBIM" />
+	<item codigo="3133402" nome="ITAPAGIPE" />
+	<item codigo="3133501" nome="ITAPECERICA" />
+	<item codigo="3133600" nome="ITAPEVA" />
+	<item codigo="3133709" nome="ITATIAIUÇU" />
+	<item codigo="3133758" nome="ITAÚ DE MINAS" />
+	<item codigo="3133808" nome="ITAÚNA" />
+	<item codigo="3133907" nome="ITAVERAVA" />
+	<item codigo="3134004" nome="ITINGA" />
+	<item codigo="3134103" nome="ITUETA" />
+	<item codigo="3134202" nome="ITUIUTABA" />
+	<item codigo="3134301" nome="ITUMIRIM" />
+	<item codigo="3134400" nome="ITURAMA" />
+	<item codigo="3134509" nome="ITUTINGA" />
+	<item codigo="3134608" nome="JABOTICATUBAS" />
+	<item codigo="3134707" nome="JACINTO" />
+	<item codigo="3134806" nome="JACUÍ" />
+	<item codigo="3134905" nome="JACUTINGA" />
+	<item codigo="3135001" nome="JAGUARAÇU" />
+	<item codigo="3135050" nome="JAÍBA" />
+	<item codigo="3135076" nome="JAMPRUCA" />
+	<item codigo="3135100" nome="JANAÚBA" />
+	<item codigo="3135209" nome="JANUÁRIA" />
+	<item codigo="3135308" nome="JAPARAÍBA" />
+	<item codigo="3135357" nome="JAPONVAR" />
+	<item codigo="3135407" nome="JECEABA" />
+	<item codigo="3135456" nome="JENIPAPO DE MINAS" />
+	<item codigo="3135506" nome="JEQUERI" />
+	<item codigo="3135605" nome="JEQUITAÍ" />
+	<item codigo="3135704" nome="JEQUITIBÁ" />
+	<item codigo="3135803" nome="JEQUITINHONHA" />
+	<item codigo="3135902" nome="JESUÂNIA" />
+	<item codigo="3136009" nome="JOAÍMA" />
+	<item codigo="3136108" nome="JOANÉSIA" />
+	<item codigo="3136207" nome="JOÃO MONLEVADE" />
+	<item codigo="3136306" nome="JOÃO PINHEIRO" />
+	<item codigo="3136405" nome="JOAQUIM FELÍCIO" />
+	<item codigo="3136504" nome="JORDÂNIA" />
+	<item codigo="3136520" nome="JOSÉ GONÇALVES DE MINAS" />
+	<item codigo="3136553" nome="JOSÉ RAYDAN" />
+	<item codigo="3136579" nome="JOSENÓPOLIS" />
+	<item codigo="3136603" nome="NOVA UNIÃO" />
+	<item codigo="3136652" nome="JUATUBA" />
+	<item codigo="3136702" nome="JUIZ DE FORA" />
+	<item codigo="3136801" nome="JURAMENTO" />
+	<item codigo="3136900" nome="JURUAIA" />
+	<item codigo="3136959" nome="JUVENÍLIA" />
+	<item codigo="3137007" nome="LADAINHA" />
+	<item codigo="3137106" nome="LAGAMAR" />
+	<item codigo="3137205" nome="LAGOA DA PRATA" />
+	<item codigo="3137304" nome="LAGOA DOS PATOS" />
+	<item codigo="3137403" nome="LAGOA DOURADA" />
+	<item codigo="3137502" nome="LAGOA FORMOSA" />
+	<item codigo="3137536" nome="LAGOA GRANDE" />
+	<item codigo="3137601" nome="LAGOA SANTA" />
+	<item codigo="3137700" nome="LAJINHA" />
+	<item codigo="3137809" nome="LAMBARI" />
+	<item codigo="3137908" nome="LAMIM" />
+	<item codigo="3138005" nome="LARANJAL" />
+	<item codigo="3138104" nome="LASSANCE" />
+	<item codigo="3138203" nome="LAVRAS" />
+	<item codigo="3138302" nome="LEANDRO FERREIRA" />
+	<item codigo="3138351" nome="LEME DO PRADO" />
+	<item codigo="3138401" nome="LEOPOLDINA" />
+	<item codigo="3138500" nome="LIBERDADE" />
+	<item codigo="3138609" nome="LIMA DUARTE" />
+	<item codigo="3138625" nome="LIMEIRA DO OESTE" />
+	<item codigo="3138658" nome="LONTRA" />
+	<item codigo="3138674" nome="LUISBURGO" />
+	<item codigo="3138682" nome="LUISLÂNDIA" />
+	<item codigo="3138708" nome="LUMINÁRIAS" />
+	<item codigo="3138807" nome="LUZ" />
+	<item codigo="3138906" nome="MACHACALIS" />
+	<item codigo="3139003" nome="MACHADO" />
+	<item codigo="3139102" nome="MADRE DE DEUS DE MINAS" />
+	<item codigo="3139201" nome="MALACACHETA" />
+	<item codigo="3139250" nome="MAMONAS" />
+	<item codigo="3139300" nome="MANGA" />
+	<item codigo="3139409" nome="MANHUAÇU" />
+	<item codigo="3139508" nome="MANHUMIRIM" />
+	<item codigo="3139607" nome="MANTENA" />
+	<item codigo="3139706" nome="MARAVILHAS" />
+	<item codigo="3139805" nome="MAR DE ESPANHA" />
+	<item codigo="3139904" nome="MARIA DA FÉ" />
+	<item codigo="3140001" nome="MARIANA" />
+	<item codigo="3140100" nome="MARILAC" />
+	<item codigo="3140159" nome="MÁRIO CAMPOS" />
+	<item codigo="3140209" nome="MARIPÁ DE MINAS" />
+	<item codigo="3140308" nome="MARLIÉRIA" />
+	<item codigo="3140407" nome="MARMELÓPOLIS" />
+	<item codigo="3140506" nome="MARTINHO CAMPOS" />
+	<item codigo="3140530" nome="MARTINS SOARES" />
+	<item codigo="3140555" nome="MATA VERDE" />
+	<item codigo="3140605" nome="MATERLÂNDIA" />
+	<item codigo="3140704" nome="MATEUS LEME" />
+	<item codigo="3140803" nome="MATIAS BARBOSA" />
+	<item codigo="3140852" nome="MATIAS CARDOSO" />
+	<item codigo="3140902" nome="MATIPÓ" />
+	<item codigo="3141009" nome="MATO VERDE" />
+	<item codigo="3141108" nome="MATOZINHOS" />
+	<item codigo="3141207" nome="MATUTINA" />
+	<item codigo="3141306" nome="MEDEIROS" />
+	<item codigo="3141405" nome="MEDINA" />
+	<item codigo="3141504" nome="MENDES PIMENTEL" />
+	<item codigo="3141603" nome="MERCÊS" />
+	<item codigo="3141702" nome="MESQUITA" />
+	<item codigo="3141801" nome="MINAS NOVAS" />
+	<item codigo="3141900" nome="MINDURI" />
+	<item codigo="3142007" nome="MIRABELA" />
+	<item codigo="3142106" nome="MIRADOURO" />
+	<item codigo="3142205" nome="MIRAÍ" />
+	<item codigo="3142254" nome="MIRAVÂNIA" />
+	<item codigo="3142304" nome="MOEDA" />
+	<item codigo="3142403" nome="MOEMA" />
+	<item codigo="3142502" nome="MONJOLOS" />
+	<item codigo="3142601" nome="MONSENHOR PAULO" />
+	<item codigo="3142700" nome="MONTALVÂNIA" />
+	<item codigo="3142809" nome="MONTE ALEGRE DE MINAS" />
+	<item codigo="3142908" nome="MONTE AZUL" />
+	<item codigo="3143005" nome="MONTE BELO" />
+	<item codigo="3143104" nome="MONTE CARMELO" />
+	<item codigo="3143153" nome="MONTE FORMOSO" />
+	<item codigo="3143203" nome="MONTE SANTO DE MINAS" />
+	<item codigo="3143302" nome="MONTES CLAROS" />
+	<item codigo="3143401" nome="MONTE SIÃO" />
+	<item codigo="3143450" nome="MONTEZUMA" />
+	<item codigo="3143500" nome="MORADA NOVA DE MINAS" />
+	<item codigo="3143609" nome="MORRO DA GARÇA" />
+	<item codigo="3143708" nome="MORRO DO PILAR" />
+	<item codigo="3143807" nome="MUNHOZ" />
+	<item codigo="3143906" nome="MURIAÉ" />
+	<item codigo="3144003" nome="MUTUM" />
+	<item codigo="3144102" nome="MUZAMBINHO" />
+	<item codigo="3144201" nome="NACIP RAYDAN" />
+	<item codigo="3144300" nome="NANUQUE" />
+	<item codigo="3144359" nome="NAQUE" />
+	<item codigo="3144375" nome="NATALÂNDIA" />
+	<item codigo="3144409" nome="NATÉRCIA" />
+	<item codigo="3144508" nome="NAZARENO" />
+	<item codigo="3144607" nome="NEPOMUCENO" />
+	<item codigo="3144656" nome="NINHEIRA" />
+	<item codigo="3144672" nome="NOVA BELÉM" />
+	<item codigo="3144706" nome="NOVA ERA" />
+	<item codigo="3144805" nome="NOVA LIMA" />
+	<item codigo="3144904" nome="NOVA MÓDICA" />
+	<item codigo="3145000" nome="NOVA PONTE" />
+	<item codigo="3145059" nome="NOVA PORTEIRINHA" />
+	<item codigo="3145109" nome="NOVA RESENDE" />
+	<item codigo="3145208" nome="NOVA SERRANA" />
+	<item codigo="3145307" nome="NOVO CRUZEIRO" />
+	<item codigo="3145356" nome="NOVO ORIENTE DE MINAS" />
+	<item codigo="3145372" nome="NOVORIZONTE" />
+	<item codigo="3145406" nome="OLARIA" />
+	<item codigo="3145455" nome="OLHOS-D'ÁGUA" />
+	<item codigo="3145505" nome="OLÍMPIO NORONHA" />
+	<item codigo="3145604" nome="OLIVEIRA" />
+	<item codigo="3145703" nome="OLIVEIRA FORTES" />
+	<item codigo="3145802" nome="ONÇA DE PITANGUI" />
+	<item codigo="3145851" nome="ORATÓRIOS" />
+	<item codigo="3145877" nome="ORIZÂNIA" />
+	<item codigo="3145901" nome="OURO BRANCO" />
+	<item codigo="3146008" nome="OURO FINO" />
+	<item codigo="3146107" nome="OURO PRETO" />
+	<item codigo="3146206" nome="OURO VERDE DE MINAS" />
+	<item codigo="3146255" nome="PADRE CARVALHO" />
+	<item codigo="3146305" nome="PADRE PARAÍSO" />
+	<item codigo="3146404" nome="PAINEIRAS" />
+	<item codigo="3146503" nome="PAINS" />
+	<item codigo="3146552" nome="PAI PEDRO" />
+	<item codigo="3146602" nome="PAIVA" />
+	<item codigo="3146701" nome="PALMA" />
+	<item codigo="3146750" nome="PALMÓPOLIS" />
+	<item codigo="3146909" nome="PAPAGAIOS" />
+	<item codigo="3147006" nome="PARACATU" />
+	<item codigo="3147105" nome="PARÁ DE MINAS" />
+	<item codigo="3147204" nome="PARAGUAÇU" />
+	<item codigo="3147303" nome="PARAISÓPOLIS" />
+	<item codigo="3147402" nome="PARAOPEBA" />
+	<item codigo="3147501" nome="PASSABÉM" />
+	<item codigo="3147600" nome="PASSA QUATRO" />
+	<item codigo="3147709" nome="PASSA TEMPO" />
+	<item codigo="3147808" nome="PASSA-VINTE" />
+	<item codigo="3147907" nome="PASSOS" />
+	<item codigo="3147956" nome="PATIS" />
+	<item codigo="3148004" nome="PATOS DE MINAS" />
+	<item codigo="3148103" nome="PATROCÍNIO" />
+	<item codigo="3148202" nome="PATROCÍNIO DO MURIAÉ" />
+	<item codigo="3148301" nome="PAULA CÂNDIDO" />
+	<item codigo="3148400" nome="PAULISTAS" />
+	<item codigo="3148509" nome="PAVÃO" />
+	<item codigo="3148608" nome="PEÇANHA" />
+	<item codigo="3148707" nome="PEDRA AZUL" />
+	<item codigo="3148756" nome="PEDRA BONITA" />
+	<item codigo="3148806" nome="PEDRA DO ANTA" />
+	<item codigo="3148905" nome="PEDRA DO INDAIÁ" />
+	<item codigo="3149002" nome="PEDRA DOURADA" />
+	<item codigo="3149101" nome="PEDRALVA" />
+	<item codigo="3149150" nome="PEDRAS DE MARIA DA CRUZ" />
+	<item codigo="3149200" nome="PEDRINÓPOLIS" />
+	<item codigo="3149309" nome="PEDRO LEOPOLDO" />
+	<item codigo="3149408" nome="PEDRO TEIXEIRA" />
+	<item codigo="3149507" nome="PEQUERI" />
+	<item codigo="3149606" nome="PEQUI" />
+	<item codigo="3149705" nome="PERDIGÃO" />
+	<item codigo="3149804" nome="PERDIZES" />
+	<item codigo="3149903" nome="PERDÕES" />
+	<item codigo="3149952" nome="PERIQUITO" />
+	<item codigo="3150000" nome="PESCADOR" />
+	<item codigo="3150109" nome="PIAU" />
+	<item codigo="3150158" nome="PIEDADE DE CARATINGA" />
+	<item codigo="3150208" nome="PIEDADE DE PONTE NOVA" />
+	<item codigo="3150307" nome="PIEDADE DO RIO GRANDE" />
+	<item codigo="3150406" nome="PIEDADE DOS GERAIS" />
+	<item codigo="3150505" nome="PIMENTA" />
+	<item codigo="3150539" nome="PINGO-D'ÁGUA" />
+	<item codigo="3150570" nome="PINTÓPOLIS" />
+	<item codigo="3150604" nome="PIRACEMA" />
+	<item codigo="3150703" nome="PIRAJUBA" />
+	<item codigo="3150802" nome="PIRANGA" />
+	<item codigo="3150901" nome="PIRANGUÇU" />
+	<item codigo="3151008" nome="PIRANGUINHO" />
+	<item codigo="3151107" nome="PIRAPETINGA" />
+	<item codigo="3151206" nome="PIRAPORA" />
+	<item codigo="3151305" nome="PIRAÚBA" />
+	<item codigo="3151404" nome="PITANGUI" />
+	<item codigo="3151503" nome="PIUMHI" />
+	<item codigo="3151602" nome="PLANURA" />
+	<item codigo="3151701" nome="POÇO FUNDO" />
+	<item codigo="3151800" nome="POÇOS DE CALDAS" />
+	<item codigo="3151909" nome="POCRANE" />
+	<item codigo="3152006" nome="POMPÉU" />
+	<item codigo="3152105" nome="PONTE NOVA" />
+	<item codigo="3152131" nome="PONTO CHIQUE" />
+	<item codigo="3152170" nome="PONTO DOS VOLANTES" />
+	<item codigo="3152204" nome="PORTEIRINHA" />
+	<item codigo="3152303" nome="PORTO FIRME" />
+	<item codigo="3152402" nome="POTÉ" />
+	<item codigo="3152501" nome="POUSO ALEGRE" />
+	<item codigo="3152600" nome="POUSO ALTO" />
+	<item codigo="3152709" nome="PRADOS" />
+	<item codigo="3152808" nome="PRATA" />
+	<item codigo="3152907" nome="PRATÁPOLIS" />
+	<item codigo="3153004" nome="PRATINHA" />
+	<item codigo="3153103" nome="PRESIDENTE BERNARDES" />
+	<item codigo="3153202" nome="PRESIDENTE JUSCELINO" />
+	<item codigo="3153301" nome="PRESIDENTE KUBITSCHEK" />
+	<item codigo="3153400" nome="PRESIDENTE OLEGÁRIO" />
+	<item codigo="3153509" nome="ALTO JEQUITIBÁ" />
+	<item codigo="3153608" nome="PRUDENTE DE MORAIS" />
+	<item codigo="3153707" nome="QUARTEL GERAL" />
+	<item codigo="3153806" nome="QUELUZITO" />
+	<item codigo="3153905" nome="RAPOSOS" />
+	<item codigo="3154002" nome="RAUL SOARES" />
+	<item codigo="3154101" nome="RECREIO" />
+	<item codigo="3154150" nome="REDUTO" />
+	<item codigo="3154200" nome="RESENDE COSTA" />
+	<item codigo="3154309" nome="RESPLENDOR" />
+	<item codigo="3154408" nome="RESSAQUINHA" />
+	<item codigo="3154457" nome="RIACHINHO" />
+	<item codigo="3154507" nome="RIACHO DOS MACHADOS" />
+	<item codigo="3154606" nome="RIBEIRÃO DAS NEVES" />
+	<item codigo="3154705" nome="RIBEIRÃO VERMELHO" />
+	<item codigo="3154804" nome="RIO ACIMA" />
+	<item codigo="3154903" nome="RIO CASCA" />
+	<item codigo="3155009" nome="RIO DOCE" />
+	<item codigo="3155108" nome="RIO DO PRADO" />
+	<item codigo="3155207" nome="RIO ESPERA" />
+	<item codigo="3155306" nome="RIO MANSO" />
+	<item codigo="3155405" nome="RIO NOVO" />
+	<item codigo="3155504" nome="RIO PARANAÍBA" />
+	<item codigo="3155603" nome="RIO PARDO DE MINAS" />
+	<item codigo="3155702" nome="RIO PIRACICABA" />
+	<item codigo="3155801" nome="RIO POMBA" />
+	<item codigo="3155900" nome="RIO PRETO" />
+	<item codigo="3156007" nome="RIO VERMELHO" />
+	<item codigo="3156106" nome="RITÁPOLIS" />
+	<item codigo="3156205" nome="ROCHEDO DE MINAS" />
+	<item codigo="3156304" nome="RODEIRO" />
+	<item codigo="3156403" nome="ROMARIA" />
+	<item codigo="3156452" nome="ROSÁRIO DA LIMEIRA" />
+	<item codigo="3156502" nome="RUBELITA" />
+	<item codigo="3156601" nome="RUBIM" />
+	<item codigo="3156700" nome="SABARÁ" />
+	<item codigo="3156809" nome="SABINÓPOLIS" />
+	<item codigo="3156908" nome="SACRAMENTO" />
+	<item codigo="3157005" nome="SALINAS" />
+	<item codigo="3157104" nome="SALTO DA DIVISA" />
+	<item codigo="3157203" nome="SANTA BÁRBARA" />
+	<item codigo="3157252" nome="SANTA BÁRBARA DO LESTE" />
+	<item codigo="3157278" nome="SANTA BÁRBARA DO MONTE VERDE" />
+	<item codigo="3157302" nome="SANTA BÁRBARA DO TUGÚRIO" />
+	<item codigo="3157336" nome="SANTA CRUZ DE MINAS" />
+	<item codigo="3157377" nome="SANTA CRUZ DE SALINAS" />
+	<item codigo="3157401" nome="SANTA CRUZ DO ESCALVADO" />
+	<item codigo="3157500" nome="SANTA EFIGÊNIA DE MINAS" />
+	<item codigo="3157609" nome="SANTA FÉ DE MINAS" />
+	<item codigo="3157658" nome="SANTA HELENA DE MINAS" />
+	<item codigo="3157708" nome="SANTA JULIANA" />
+	<item codigo="3157807" nome="SANTA LUZIA" />
+	<item codigo="3157906" nome="SANTA MARGARIDA" />
+	<item codigo="3158003" nome="SANTA MARIA DE ITABIRA" />
+	<item codigo="3158102" nome="SANTA MARIA DO SALTO" />
+	<item codigo="3158201" nome="SANTA MARIA DO SUAÇUÍ" />
+	<item codigo="3158300" nome="SANTANA DA VARGEM" />
+	<item codigo="3158409" nome="SANTANA DE CATAGUASES" />
+	<item codigo="3158508" nome="SANTANA DE PIRAPAMA" />
+	<item codigo="3158607" nome="SANTANA DO DESERTO" />
+	<item codigo="3158706" nome="SANTANA DO GARAMBÉU" />
+	<item codigo="3158805" nome="SANTANA DO JACARÉ" />
+	<item codigo="3158904" nome="SANTANA DO MANHUAÇU" />
+	<item codigo="3158953" nome="SANTANA DO PARAÍSO" />
+	<item codigo="3159001" nome="SANTANA DO RIACHO" />
+	<item codigo="3159100" nome="SANTANA DOS MONTES" />
+	<item codigo="3159209" nome="SANTA RITA DE CALDAS" />
+	<item codigo="3159308" nome="SANTA RITA DE JACUTINGA" />
+	<item codigo="3159357" nome="SANTA RITA DE MINAS" />
+	<item codigo="3159407" nome="SANTA RITA DE IBITIPOCA" />
+	<item codigo="3159506" nome="SANTA RITA DO ITUETO" />
+	<item codigo="3159605" nome="SANTA RITA DO SAPUCAÍ" />
+	<item codigo="3159704" nome="SANTA ROSA DA SERRA" />
+	<item codigo="3159803" nome="SANTA VITÓRIA" />
+	<item codigo="3159902" nome="SANTO ANTÔNIO DO AMPARO" />
+	<item codigo="3160009" nome="SANTO ANTÔNIO DO AVENTUREIRO" />
+	<item codigo="3160108" nome="SANTO ANTÔNIO DO GRAMA" />
+	<item codigo="3160207" nome="SANTO ANTÔNIO DO ITAMBÉ" />
+	<item codigo="3160306" nome="SANTO ANTÔNIO DO JACINTO" />
+	<item codigo="3160405" nome="SANTO ANTÔNIO DO MONTE" />
+	<item codigo="3160454" nome="SANTO ANTÔNIO DO RETIRO" />
+	<item codigo="3160504" nome="SANTO ANTÔNIO DO RIO ABAIXO" />
+	<item codigo="3160603" nome="SANTO HIPÓLITO" />
+	<item codigo="3160702" nome="SANTOS DUMONT" />
+	<item codigo="3160801" nome="SÃO BENTO ABADE" />
+	<item codigo="3160900" nome="SÃO BRÁS DO SUAÇUÍ" />
+	<item codigo="3160959" nome="SÃO DOMINGOS DAS DORES" />
+	<item codigo="3161007" nome="SÃO DOMINGOS DO PRATA" />
+	<item codigo="3161056" nome="SÃO FÉLIX DE MINAS" />
+	<item codigo="3161106" nome="SÃO FRANCISCO" />
+	<item codigo="3161205" nome="SÃO FRANCISCO DE PAULA" />
+	<item codigo="3161304" nome="SÃO FRANCISCO DE SALES" />
+	<item codigo="3161403" nome="SÃO FRANCISCO DO GLÓRIA" />
+	<item codigo="3161502" nome="SÃO GERALDO" />
+	<item codigo="3161601" nome="SÃO GERALDO DA PIEDADE" />
+	<item codigo="3161650" nome="SÃO GERALDO DO BAIXIO" />
+	<item codigo="3161700" nome="SÃO GONÇALO DO ABAETÉ" />
+	<item codigo="3161809" nome="SÃO GONÇALO DO PARÁ" />
+	<item codigo="3161908" nome="SÃO GONÇALO DO RIO ABAIXO" />
+	<item codigo="3162005" nome="SÃO GONÇALO DO SAPUCAÍ" />
+	<item codigo="3162104" nome="SÃO GOTARDO" />
+	<item codigo="3162203" nome="SÃO JOÃO BATISTA DO GLÓRIA" />
+	<item codigo="3162252" nome="SÃO JOÃO DA LAGOA" />
+	<item codigo="3162302" nome="SÃO JOÃO DA MATA" />
+	<item codigo="3162401" nome="SÃO JOÃO DA PONTE" />
+	<item codigo="3162450" nome="SÃO JOÃO DAS MISSÕES" />
+	<item codigo="3162500" nome="SÃO JOÃO DEL REI" />
+	<item codigo="3162559" nome="SÃO JOÃO DO MANHUAÇU" />
+	<item codigo="3162575" nome="SÃO JOÃO DO MANTENINHA" />
+	<item codigo="3162609" nome="SÃO JOÃO DO ORIENTE" />
+	<item codigo="3162658" nome="SÃO JOÃO DO PACUÍ" />
+	<item codigo="3162708" nome="SÃO JOÃO DO PARAÍSO" />
+	<item codigo="3162807" nome="SÃO JOÃO EVANGELISTA" />
+	<item codigo="3162906" nome="SÃO JOÃO NEPOMUCENO" />
+	<item codigo="3162922" nome="SÃO JOAQUIM DE BICAS" />
+	<item codigo="3162948" nome="SÃO JOSÉ DA BARRA" />
+	<item codigo="3162955" nome="SÃO JOSÉ DA LAPA" />
+	<item codigo="3163003" nome="SÃO JOSÉ DA SAFIRA" />
+	<item codigo="3163102" nome="SÃO JOSÉ DA VARGINHA" />
+	<item codigo="3163201" nome="SÃO JOSÉ DO ALEGRE" />
+	<item codigo="3163300" nome="SÃO JOSÉ DO DIVINO" />
+	<item codigo="3163409" nome="SÃO JOSÉ DO GOIABAL" />
+	<item codigo="3163508" nome="SÃO JOSÉ DO JACURI" />
+	<item codigo="3163607" nome="SÃO JOSÉ DO MANTIMENTO" />
+	<item codigo="3163706" nome="SÃO LOURENÇO" />
+	<item codigo="3163805" nome="SÃO MIGUEL DO ANTA" />
+	<item codigo="3163904" nome="SÃO PEDRO DA UNIÃO" />
+	<item codigo="3164001" nome="SÃO PEDRO DOS FERROS" />
+	<item codigo="3164100" nome="SÃO PEDRO DO SUAÇUÍ" />
+	<item codigo="3164209" nome="SÃO ROMÃO" />
+	<item codigo="3164308" nome="SÃO ROQUE DE MINAS" />
+	<item codigo="3164407" nome="SÃO SEBASTIÃO DA BELA VISTA" />
+	<item codigo="3164431" nome="SÃO SEBASTIÃO DA VARGEM ALEGRE" />
+	<item codigo="3164472" nome="SÃO SEBASTIÃO DO ANTA" />
+	<item codigo="3164506" nome="SÃO SEBASTIÃO DO MARANHÃO" />
+	<item codigo="3164605" nome="SÃO SEBASTIÃO DO OESTE" />
+	<item codigo="3164704" nome="SÃO SEBASTIÃO DO PARAÍSO" />
+	<item codigo="3164803" nome="SÃO SEBASTIÃO DO RIO PRETO" />
+	<item codigo="3164902" nome="SÃO SEBASTIÃO DO RIO VERDE" />
+	<item codigo="3165008" nome="SÃO TIAGO" />
+	<item codigo="3165107" nome="SÃO TOMÁS DE AQUINO" />
+	<item codigo="3165206" nome="SÃO THOMÉ DAS LETRAS" />
+	<item codigo="3165305" nome="SÃO VICENTE DE MINAS" />
+	<item codigo="3165404" nome="SAPUCAÍ-MIRIM" />
+	<item codigo="3165503" nome="SARDOÁ" />
+	<item codigo="3165537" nome="SARZEDO" />
+	<item codigo="3165552" nome="SETUBINHA" />
+	<item codigo="3165560" nome="SEM-PEIXE" />
+	<item codigo="3165578" nome="SENADOR AMARAL" />
+	<item codigo="3165602" nome="SENADOR CORTES" />
+	<item codigo="3165701" nome="SENADOR FIRMINO" />
+	<item codigo="3165800" nome="SENADOR JOSÉ BENTO" />
+	<item codigo="3165909" nome="SENADOR MODESTINO GONÇALVES" />
+	<item codigo="3166006" nome="SENHORA DE OLIVEIRA" />
+	<item codigo="3166105" nome="SENHORA DO PORTO" />
+	<item codigo="3166204" nome="SENHORA DOS REMÉDIOS" />
+	<item codigo="3166303" nome="SERICITA" />
+	<item codigo="3166402" nome="SERITINGA" />
+	<item codigo="3166501" nome="SERRA AZUL DE MINAS" />
+	<item codigo="3166600" nome="SERRA DA SAUDADE" />
+	<item codigo="3166709" nome="SERRA DOS AIMORÉS" />
+	<item codigo="3166808" nome="SERRA DO SALITRE" />
+	<item codigo="3166907" nome="SERRANIA" />
+	<item codigo="3166956" nome="SERRANÓPOLIS DE MINAS" />
+	<item codigo="3167004" nome="SERRANOS" />
+	<item codigo="3167103" nome="SERRO" />
+	<item codigo="3167202" nome="SETE LAGOAS" />
+	<item codigo="3167301" nome="SILVEIRÂNIA" />
+	<item codigo="3167400" nome="SILVIANÓPOLIS" />
+	<item codigo="3167509" nome="SIMÃO PEREIRA" />
+	<item codigo="3167608" nome="SIMONÉSIA" />
+	<item codigo="3167707" nome="SOBRÁLIA" />
+	<item codigo="3167806" nome="SOLEDADE DE MINAS" />
+	<item codigo="3167905" nome="TABULEIRO" />
+	<item codigo="3168002" nome="TAIOBEIRAS" />
+	<item codigo="3168051" nome="TAPARUBA" />
+	<item codigo="3168101" nome="TAPIRA" />
+	<item codigo="3168200" nome="TAPIRAÍ" />
+	<item codigo="3168309" nome="TAQUARAÇU DE MINAS" />
+	<item codigo="3168408" nome="TARUMIRIM" />
+	<item codigo="3168507" nome="TEIXEIRAS" />
+	<item codigo="3168606" nome="TEÓFILO OTONI" />
+	<item codigo="3168705" nome="TIMÓTEO" />
+	<item codigo="3168804" nome="TIRADENTES" />
+	<item codigo="3168903" nome="TIROS" />
+	<item codigo="3169000" nome="TOCANTINS" />
+	<item codigo="3169059" nome="TOCOS DO MOJI" />
+	<item codigo="3169109" nome="TOLEDO" />
+	<item codigo="3169208" nome="TOMBOS" />
+	<item codigo="3169307" nome="TRÊS CORAÇÕES" />
+	<item codigo="3169356" nome="TRÊS MARIAS" />
+	<item codigo="3169406" nome="TRÊS PONTAS" />
+	<item codigo="3169505" nome="TUMIRITINGA" />
+	<item codigo="3169604" nome="TUPACIGUARA" />
+	<item codigo="3169703" nome="TURMALINA" />
+	<item codigo="3169802" nome="TURVOLÂNDIA" />
+	<item codigo="3169901" nome="UBÁ" />
+	<item codigo="3170008" nome="UBAÍ" />
+	<item codigo="3170057" nome="UBAPORANGA" />
+	<item codigo="3170107" nome="UBERABA" />
+	<item codigo="3170206" nome="UBERLÂNDIA" />
+	<item codigo="3170305" nome="UMBURATIBA" />
+	<item codigo="3170404" nome="UNAÍ" />
+	<item codigo="3170438" nome="UNIÃO DE MINAS" />
+	<item codigo="3170479" nome="URUANA DE MINAS" />
+	<item codigo="3170503" nome="URUCÂNIA" />
+	<item codigo="3170529" nome="URUCUIA" />
+	<item codigo="3170578" nome="VARGEM ALEGRE" />
+	<item codigo="3170602" nome="VARGEM BONITA" />
+	<item codigo="3170651" nome="VARGEM GRANDE DO RIO PARDO" />
+	<item codigo="3170701" nome="VARGINHA" />
+	<item codigo="3170750" nome="VARJÃO DE MINAS" />
+	<item codigo="3170800" nome="VÁRZEA DA PALMA" />
+	<item codigo="3170909" nome="VARZELÂNDIA" />
+	<item codigo="3171006" nome="VAZANTE" />
+	<item codigo="3171030" nome="VERDELÂNDIA" />
+	<item codigo="3171071" nome="VEREDINHA" />
+	<item codigo="3171105" nome="VERÍSSIMO" />
+	<item codigo="3171154" nome="VERMELHO NOVO" />
+	<item codigo="3171204" nome="VESPASIANO" />
+	<item codigo="3171303" nome="VIÇOSA" />
+	<item codigo="3171402" nome="VIEIRAS" />
+	<item codigo="3171501" nome="MATHIAS LOBATO" />
+	<item codigo="3171600" nome="VIRGEM DA LAPA" />
+	<item codigo="3171709" nome="VIRGÍNIA" />
+	<item codigo="3171808" nome="VIRGINÓPOLIS" />
+	<item codigo="3171907" nome="VIRGOLÂNDIA" />
+	<item codigo="3172004" nome="VISCONDE DO RIO BRANCO" />
+	<item codigo="3172103" nome="VOLTA GRANDE" />
+	<item codigo="3172202" nome="WENCESLAU BRAZ" />
 
 </tabela>
