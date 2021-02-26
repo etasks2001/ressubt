@@ -5,6 +5,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-first
+<h1></h1>
+
+<a href="/ressubt/control?action=Logout">Sair</a>
+
 </body>
 </html>
