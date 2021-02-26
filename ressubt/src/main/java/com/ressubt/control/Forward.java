@@ -16,7 +16,7 @@ public class Forward extends HttpFlow {
     @Override
     public void send(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 	try {
-	    RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/views/" + location);
+	    RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/" + location);
 	    rd.forward(request, response);
 	} catch (IOException e) {
 	    throw new ServletException(e);

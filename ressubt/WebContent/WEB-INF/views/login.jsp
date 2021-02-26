@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +7,13 @@
 </head>
 <body>
 
-	<form>
+	<form action="/ressubt/control" method="post">
+		<input type="hidden" name="action" value="Login">
 		<fieldset>
-			Email: <input type="text" /><br> 
-			Senha: <input type="password" /><br>
-			<button>Ok</button>
+		
+			Email: <input type="text" name="email" /><br> 
+			Senha: <input type="password" name="senha" /><br>
+			<input type="submit">Ok</input>
 		</fieldset>
 	</form>
 </body>

@@ -15,7 +15,7 @@ public class Redirect extends HttpFlow {
     @Override
     public void send(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 	try {
-	    response.sendRedirect("entrada?acao=" + location);
+	    response.sendRedirect("control?action=" + location);
 	} catch (IOException e) {
 	    throw new ServletException(e);
 	}

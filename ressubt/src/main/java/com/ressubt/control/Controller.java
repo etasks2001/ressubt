@@ -16,6 +16,7 @@ public class Controller extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+
 	String parametro = request.getParameter(Util.ACTION);
 
 	Action acao = Util.createInstance(Action.class, parametro);
