@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.ressubt.control.Forward;
 import com.ressubt.control.HttpFlow;
 import com.ressubt.control.Redirect;
 import com.ressubt.model.Usuario;
@@ -20,19 +21,16 @@ public class Login implements Action {
 
 	System.out.println(email + senha);
 	if (email.equals("mauro") && senha.equals("123")) {
-	    System.out.println("Usuário existe ");
-
 	    HttpSession session = request.getSession();
 	    session.setAttribute("usuarioLogado", usuario);
-	    System.out.println(session.getClass().getName());
-	    System.out.println(session.getId());
-	    System.out.println(usuario);
 
 	    return new Redirect("ViewMain");
 	} else {
-	    return new Redirect("ViewLogin");
+	    request.setAttribute("email", email);
+	    request.setAttribute("senha", senha);
+	    request.setAttribute("message", "E-mail ou senha incorretos.");
+
+	    return new Forward("login.jsp");
 	}
-
     }
-
 }

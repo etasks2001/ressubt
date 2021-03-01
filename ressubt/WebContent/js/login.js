@@ -1,6 +1,7 @@
 var btnLogin = document.querySelector("button");
-console.log(btnLogin);
 
+console.log(btnLogin);
+/*
 btnLogin.addEventListener("click", (event) => {
     event.preventDefault();
     console.log("botão pressionado.");
@@ -15,10 +16,13 @@ btnLogin.addEventListener("click", (event) => {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
             console.log("fdsfdasfd");
             console.log(xhr.responseURL);
-            window.location = xhr.responseURL;
+            console.log(xhr.response);
+        } else if (this.readyState === XMLHttpRequest.DONE && this.status === 302) {
+            console.log("302");
+            console.log(xhr.response);
         }
     };
-    var param1 = "action=Login";
 
     xhr.send("action=Login&email=mauro&senha=123");
 });
+*/

@@ -7,6 +7,9 @@
 <body>
 <h1></h1>
 
+
+<a href="/ressubt/control?action=ViewContribuinte">Contribuinte</a>
+
 <a href="/ressubt/control?action=Logout">Sair</a>
 
 </body>
