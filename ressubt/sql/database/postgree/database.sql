@@ -28,8 +28,6 @@ create table usuario(
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table contribuinte(
 	sk serial,
-	ano smallint not null,
-	mes smallint not null,
 	nome varchar(100) not null,
 	cnpj char(14) not null,
 	ie varchar(14) not null,
@@ -39,9 +37,7 @@ create table contribuinte(
 	primary key (sk),
 	unique (cnpj),
 	unique (ie),
-	constraint chk_contribuinte_cnpj check (cnpj ~ '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'),
-	constraint chk_contribuinte_mes check (mes >=1 and mes <= 12),
-	constraint chk_contribuinte_ano check (ano > 0)
+	constraint chk_contribuinte_cnpj check (cnpj ~ '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
 );
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -164,7 +160,7 @@ create table movimento(
 SET client_encoding = 'UTF8';
 
 /*first line must have fields with no content*/
-COPY contribuinte (sk,ano,mes,nome,cnpj,ie,cod_mun,cod_ver,cod_fin) 
+COPY contribuinte (sk,nome,cnpj,ie,cod_mun,cod_ver,cod_fin) 
 	FROM 'C:/rst/database/data/empresa.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
 COPY produto (sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest) 
