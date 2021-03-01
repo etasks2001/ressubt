@@ -13,7 +13,7 @@ public class Contribuinte implements Action {
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 
-	return new Forward("contribuinte.jsp");
+	return new Forward("contribuinte.html");
     }
 
 }

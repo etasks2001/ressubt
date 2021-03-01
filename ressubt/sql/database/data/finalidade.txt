@@ -1,0 +1,4 @@
+﻿;
+00;Remessa regular de arquivo
+01;Remessa de arquivo requerido por intimação do Fisco
+02;Remessa de arquivo para substituição de anterior ACOLHIDO e com Visto Eletrônico

@@ -16,7 +16,22 @@ drop table if exists participante;
 drop table if exists produto;
 drop table if exists saldo;
 drop table if exists movimento;
-drop table if exists usuario; 
+drop table if exists usuario;
+drop table if exists finalidade;
+drop table if exists municipio;
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+create table municipio(
+	codigo char(7) not null,
+	descricao varchar(120) not null, 
+	unique (codigo)
+);
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+create table finalidade(
+	codigo char(2) not null,
+	descricao varchar(120) not null,
+	unique (codigo)
+);
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table usuario(
 	sk serial,
@@ -160,6 +175,9 @@ create table movimento(
 SET client_encoding = 'UTF8';
 
 /*first line must have fields with no content*/
+COPY finalidade (codigo,descricao) 
+	FROM 'C:/rst/database/data/finalidade.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+	
 COPY contribuinte (sk,nome,cnpj,ie,cod_mun,cod_ver,cod_fin) 
 	FROM 'C:/rst/database/data/empresa.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
@@ -175,9 +193,9 @@ COPY movimento (numeroDeOrdem,produto,data,ano,mes,chaveDoDocumentoFiscalEletron
 COPY saldo (produto,ano,mes,qtd_ini,icms_tot_ini_st,icms_tot_ini_proprio,qtd_fim, icms_tot_fim_st,icms_tot_fim_proprio,fixo,entrada,saida) 
 	FROM 'C:/rst/database/data/saldo.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
+SELECT * FROM pg_stat_activity;
 
-
-
+select * from finalidade;
 select * from contribuinte;
 select * from produto;
 select * from participante;
