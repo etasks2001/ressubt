@@ -35,16 +35,16 @@ public class JsonFinalidade implements Action {
 	    ps = con.prepareStatement("select codigo,descricao from finalidade");
 	    rs = ps.executeQuery();
 
-	    List<Finalidade> finalidades = new ArrayList<Finalidade>();
+	    List<Finalidade> listFinalidade = new ArrayList<Finalidade>();
 	    while (rs.next()) {
 		String codigo = rs.getString("codigo");
 		String descricao = rs.getString("descricao");
-		finalidades.add(new Finalidade(codigo, descricao));
+		listFinalidade.add(new Finalidade(codigo, descricao));
 	    }
 
 	    Gson gson = new Gson();
 
-	    String json = gson.toJson(finalidades);
+	    String json = gson.toJson(listFinalidade);
 	    response.setContentType("application/json");
 	    response.getWriter().print(json);
 

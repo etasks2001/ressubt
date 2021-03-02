@@ -1,32 +1,29 @@
-console.log("ola contribuinte");
+import { criaOptionInSelect, GET, URL_FINALIDADE, URL_UF } from './function.js';
 
-var btnGravar = document.querySelector("button");
-console.log(btnGravar);
 
-let xhr = new XMLHttpRequest();
-xhr.open("GET", "/ressubt/control?action=finalidade");
-
-//xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=UTF-8");
-xhr.setRequestHeader("Content-type", "application/json; charset=UTF-8");
-xhr.onreadystatechange = function () {
-    // Chama a função quando o estado mudar.
-
-    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-        let resposta = xhr.response;
-
-        console.log(resposta);
-        let finalidadeJson = JSON.parse(resposta);
-        finalidadeJson.forEach((finalidade) => {
-            console.log(finalidade.codigo + " - " + finalidade.descricao);
-
-            var selFinalidade = document.querySelector(".selFinalidade");
-            let opt = document.createElement("option");
-            opt.appendChild(document.createTextNode(finalidade.descricao));
-            opt.setAttribute("value", finalidade.codigo);
-            selFinalidade.appendChild(opt);
-        });
-    }
+window.onload=()=>{
+	carregaSelect(URL_FINALIDADE, "finalidade");
+	carregaSelect(URL_UF,"uf");
 };
 
-//xhr.send("action=finalidade");
-xhr.send();
+const carregaSelect = function(url, classe){
+	let xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function(){
+	    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+	        loadResposta(this.response, classe);
+	    }
+	};
+	
+	xhr.open(GET, url);
+	xhr.setRequestHeader("Content-type", "application/json; charset=UTF-8");
+	xhr.send();
+}
+
+
+const loadResposta=(resposta, classe)=>{
+    let json = JSON.parse(resposta);
+    json.forEach((j) => {
+        criaOptionInSelect(j.codigo, j.descricao, classe)
+    });
+}
+

@@ -1,59 +1,60 @@
 package com.ressubt.action;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.dbutils.DbUtils;
+
+import com.google.gson.Gson;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
 import com.ressubt.jdbc.PostgreDataSource;
-import com.ressubt.util.Util;
+import com.ressubt.model.Uf;
 
 public class JsonUf implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+	PreparedStatement ps = null;
+	ResultSet rs = null;
+	Connection conn = null;
+
 	try {
 	    PostgreDataSource dataSource = new PostgreDataSource();
-	    Connection connection = dataSource.getConnectionPool().getConnection();
-
-	    String uf = request.getParameter(Util.ACTION);
-	    String municipio = request.getParameter("municipio");
+	    conn = dataSource.getConnectionPool().getConnection();
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
 
-	    if (uf != null && municipio == null) {
-		PreparedStatement ps = connection.prepareStatement("select codigo, descricao from uf");
-		ResultSet rs = ps.executeQuery();
+	    ps = conn.prepareStatement("select codigo, descricao from uf order by descricao");
+	    rs = ps.executeQuery();
+	    List<Uf> listUf = new ArrayList<Uf>();
+	    while (rs.next()) {
+		int codigo = rs.getInt("codigo");
+		String descricao = rs.getString("descricao");
+		listUf.add(new Uf(codigo, descricao));
 	    }
 
-//	    String fileName = municipio;
-//
-//	    if (municipio == null) {
-//		fileName = uf;
-//	    }
-//
-//	    InputStream ufjson = request.getServletContext().getResourceAsStream("/WEB-INF/uf/" + fileName + ".json");
-//
-//	    if (ufjson == null) {
-//		return new Forward("noaction.jsp");
-//	    } else {
-//		byte[] buffer = new byte[1024];
-//
-//		for (int length = 0; (length = ufjson.read(buffer)) > 0;) {
-//		    response.getOutputStream().write(buffer, 0, length);
-//		}
-//		ufjson.close();
-//	    }
-
-	} catch (SQLException e) {
+	    Gson gson = new Gson();
+	    String json = gson.toJson(listUf);
+	    PrintWriter writer = response.getWriter();
+	    writer.print(json);
+	} catch (SQLException | IOException e) {
 	    throw new ServletException(e);
+	} finally {
+	    DbUtils.closeQuietly(rs);
+	    DbUtils.closeQuietly(ps);
+	    DbUtils.closeQuietly(conn);
 	}
 
 	return new FlowEmpty("");

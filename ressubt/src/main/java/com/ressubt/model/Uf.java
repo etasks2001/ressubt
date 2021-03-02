@@ -1,16 +1,16 @@
 package com.ressubt.model;
 
-public class Finalidade {
+public class Uf {
 
-    String codigo;
-    String descricao;
+    private int codigo;
+    private String descricao;
 
-    public Finalidade(String codigo, String descricao) {
+    public Uf(int codigo, String descricao) {
 	this.codigo = codigo;
 	this.descricao = descricao;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
 	return codigo;
     }
 
