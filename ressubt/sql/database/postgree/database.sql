@@ -18,14 +18,23 @@ drop table if exists saldo;
 drop table if exists movimento;
 drop table if exists usuario;
 drop table if exists finalidade;
+drop table if exists uf;
 drop table if exists municipio;
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-create table municipio(
-	codigo char(7) not null,
-	descricao varchar(120) not null, 
-	unique (codigo)
+create table uf(
+	codigo int,
+	sigla char(2),
+	descricao varchar(50),
+	primary key (codigo),
+	unique (sigla)
 );
-
+create table municipio(
+	codigo int not null,
+	uf int not null, 
+	descricao varchar(120) not null, 
+	primary key (codigo),
+	constraint fk_uf_municipio foreign key (uf) references uf (codigo)
+);
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table finalidade(
 	codigo char(2) not null,
@@ -175,6 +184,25 @@ create table movimento(
 SET client_encoding = 'UTF8';
 
 /*first line must have fields with no content*/
+COPY uf (codigo,sigla,descricao) 
+	FROM 'C:/rst/database/data/uf.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+
+COPY municipio (codigo,uf,descricao) 
+	FROM 'C:/rst/database/data/uf_municipio.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+
+
+
+
+
+
+
+
+
+
+
+	
+
 COPY finalidade (codigo,descricao) 
 	FROM 'C:/rst/database/data/finalidade.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 	
@@ -195,6 +223,8 @@ COPY saldo (produto,ano,mes,qtd_ini,icms_tot_ini_st,icms_tot_ini_proprio,qtd_fim
 
 SELECT * FROM pg_stat_activity;
 
+select * from uf;
+select * from municipio;
 select * from finalidade;
 select * from contribuinte;
 select * from produto;
