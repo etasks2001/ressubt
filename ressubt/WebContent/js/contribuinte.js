@@ -1,12 +1,12 @@
-import { criaOptionInSelect, GET, URL_FINALIDADE, URL_UF } from './function.js';
+import { populateHtmlSelect, GET, URL_FINALIDADE, URL_UF } from './function.js';
 
 
 window.onload=()=>{
-	carregaSelect(URL_FINALIDADE, "finalidade");
-	carregaSelect(URL_UF,"uf");
+	requestJson(URL_FINALIDADE, "finalidade");
+	requestJson(URL_UF,"uf");
 };
 
-const carregaSelect = function(url, classe){
+const requestJson = (url, classe)=>{
 	let xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
 	    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
@@ -23,7 +23,9 @@ const carregaSelect = function(url, classe){
 const loadResposta=(resposta, classe)=>{
     let json = JSON.parse(resposta);
     json.forEach((j) => {
-        criaOptionInSelect(j.codigo, j.descricao, classe)
+    	populateHtmlSelect(j.codigo, j.descricao, classe)
     });
 }
+
+
 
