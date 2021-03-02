@@ -12,6 +12,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.dbutils.DbUtils;
+
 import com.google.gson.Gson;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
@@ -22,24 +24,23 @@ public class JsonFinalidade implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-
+	PreparedStatement ps = null;
+	ResultSet rs = null;
+	Connection con = null;
 	try {
 	    response.setHeader("Content-Type", "text/plain");
 	    response.setCharacterEncoding("UTF-8");
 
-	    PostgreDataSource source = new PostgreDataSource();
+	    con = new PostgreDataSource().getConnectionPool().getConnection();
+	    ps = con.prepareStatement("select codigo,descricao from finalidade");
+	    rs = ps.executeQuery();
 
-	    Connection connection = source.getConnectionPool().getConnection();
-	    PreparedStatement ps = connection.prepareStatement("select * from finalidade");
-
-	    ResultSet rs = ps.executeQuery();
 	    List<Finalidade> finalidades = new ArrayList<Finalidade>();
 	    while (rs.next()) {
 		String codigo = rs.getString("codigo");
 		String descricao = rs.getString("descricao");
 		finalidades.add(new Finalidade(codigo, descricao));
 	    }
-	    connection.close();
 
 	    Gson gson = new Gson();
 
@@ -49,6 +50,10 @@ public class JsonFinalidade implements Action {
 
 	} catch (SQLException | IOException e) {
 	    throw new ServletException(e);
+	} finally {
+	    DbUtils.closeQuietly(rs);
+	    DbUtils.closeQuietly(ps);
+	    DbUtils.closeQuietly(con);
 	}
 	return new FlowEmpty("");
     }
