@@ -30,7 +30,7 @@ public class Autorizacao implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain) throws IOException, ServletException {
-	System.out.println("Autorizacao  ->>>-  Filtro");
+//	System.out.println("Autorizacao  ->>>-  Filtro");
 
 	HttpServletRequest request = (HttpServletRequest) servletRequest;
 	HttpServletResponse response = (HttpServletResponse) servletResponse;

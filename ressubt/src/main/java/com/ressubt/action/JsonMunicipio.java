@@ -1,6 +1,7 @@
 package com.ressubt.action;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,44 +19,51 @@ import com.google.gson.Gson;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
 import com.ressubt.jdbc.PostgreDataSource;
-import com.ressubt.model.Finalidade;
+import com.ressubt.model.Municipio;
 
-public class JsonFinalidade implements Action {
+public class JsonMunicipio implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+	Connection conn = null;
 	PreparedStatement ps = null;
 	ResultSet rs = null;
-	Connection con = null;
+	String codigouf = request.getParameter("codigouf");
 	try {
-	    response.setHeader("Content-Type", "text/plain");
-	    response.setHeader("Cache-Control", "public, max-age=31557600");
-	    response.setCharacterEncoding("UTF-8");
 
-	    con = PostgreDataSource.getConnectionPool().getConnection();
-	    ps = con.prepareStatement("select codigo,descricao from finalidade");
+	    conn = PostgreDataSource.getConnectionPool().getConnection();
+	    ps = conn.prepareStatement("select codigo, descricao from municipio where uf = ?");
+	    ps.setInt(1, Integer.parseInt(codigouf));
+
 	    rs = ps.executeQuery();
 
-	    List<Finalidade> listFinalidade = new ArrayList<Finalidade>();
+	    List<Municipio> listMunicipio = new ArrayList<Municipio>();
 	    while (rs.next()) {
-		String codigo = rs.getString("codigo");
+		int codigo = rs.getInt("codigo");
 		String descricao = rs.getString("descricao");
-		listFinalidade.add(new Finalidade(codigo, descricao));
+
+		listMunicipio.add(new Municipio(codigo, descricao));
+
 	    }
 
 	    Gson gson = new Gson();
+	    String municipiosJson = gson.toJson(listMunicipio);
 
-	    String json = gson.toJson(listFinalidade);
-	    response.setContentType("application/json");
-	    response.getWriter().print(json);
+	    response.setHeader("Content-Type", "application/json");
+	    response.setCharacterEncoding("UTF-8");
+	    PrintWriter writer = response.getWriter();
+	    writer.print(municipiosJson);
 
 	} catch (SQLException | IOException e) {
 	    throw new ServletException(e);
+
 	} finally {
 	    DbUtils.closeQuietly(rs);
 	    DbUtils.closeQuietly(ps);
-	    DbUtils.closeQuietly(con);
+	    DbUtils.closeQuietly(conn);
 	}
+
 	return new FlowEmpty("");
     }
+
 }

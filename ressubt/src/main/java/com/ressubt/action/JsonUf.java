@@ -30,8 +30,7 @@ public class JsonUf implements Action {
 	Connection conn = null;
 
 	try {
-	    PostgreDataSource dataSource = new PostgreDataSource();
-	    conn = dataSource.getConnectionPool().getConnection();
+	    conn = PostgreDataSource.getConnectionPool().getConnection();
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
@@ -43,6 +42,7 @@ public class JsonUf implements Action {
 		int codigo = rs.getInt("codigo");
 		String descricao = rs.getString("descricao");
 		listUf.add(new Uf(codigo, descricao));
+//		System.out.println(codigo + ": " + descricao);
 	    }
 
 	    Gson gson = new Gson();

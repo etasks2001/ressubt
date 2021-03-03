@@ -1,16 +1,19 @@
-import { populateHtmlSelect, GET, URL_FINALIDADE, URL_UF } from './function.js';
+import { populateHtmlSelect, GET, URL_FINALIDADE, URL_UF,C_DOT,URL_MUNICIPIO } from './function.js';
 
+const selectUf = document.querySelector("select[name=uf]");
+const selectMunicipio = document.querySelector("select[name=cod_mun]");
+const selectFinalidade = document.querySelector("select[name=cod_fin]");
 
 window.onload=()=>{
-	requestJson(URL_FINALIDADE, "finalidade");
-	requestJson(URL_UF,"uf");
+	requestJson(URL_FINALIDADE, selectFinalidade);
+	requestJson(URL_UF, selectUf);
 };
 
-const requestJson = (url, classe)=>{
+const requestJson = (url, combo)=>{
 	let xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
 	    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-	        loadResposta(this.response, classe);
+	    	populateSelectWithJson(this.response, combo);
 	    }
 	};
 	
@@ -20,11 +23,34 @@ const requestJson = (url, classe)=>{
 }
 
 
-const loadResposta=(resposta, classe)=>{
+
+selectUf.addEventListener('change', (event) => {
+	var option = event.target.options[event.target.selectedIndex];
+
+	console.log(window.localStorage);
+	console.log("change: " + option.value + " - Label: " + option.label);
+	selectMunicipio.innerHTML="";
+	requestJson(URL_MUNICIPIO+option.value, selectMunicipio);
+});
+
+
+
+const populateSelectWithJson=(resposta, combo)=>{
     let json = JSON.parse(resposta);
+    
+    
+    if(window.localStorage.getItem(combo.name)!==null){
+    	window.localStorage.setItem("cod_fin", json);
+    	console.log("jfdkaslç:"+window.localStorage.getItem(combo.name));
+    }
+    
+    
+    
     json.forEach((j) => {
-    	populateHtmlSelect(j.codigo, j.descricao, classe)
+    	populateHtmlSelect(j.codigo, j.descricao, combo)
     });
+    
+    combo.dispatchEvent(new Event('change'));
 }
 
 
