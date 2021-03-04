@@ -32,7 +32,7 @@ public class JsonMunicipio implements Action {
 	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
 	try {
 
-	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
+	    conn = ds.getConnection();
 	    ps = conn.createStatement();
 
 	    rs = ps.executeQuery("select codigo, descricao from municipio where uf = " + codigouf);
@@ -43,7 +43,6 @@ public class JsonMunicipio implements Action {
 		String descricao = rs.getString("descricao");
 
 		listMunicipio.add(new Municipio(codigo, descricao));
-
 	    }
 
 	    Gson gson = new Gson();

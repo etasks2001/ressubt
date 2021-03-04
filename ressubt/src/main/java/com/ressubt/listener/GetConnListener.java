@@ -71,7 +71,7 @@ public class GetConnListener implements ServletContextListener {
 		e.printStackTrace();
 	    }
 
-	    Set pooledDataSources = C3P0Registry.getPooledDataSources();
+	    Set<?> pooledDataSources = C3P0Registry.getPooledDataSources();
 	    System.out.println("Pool size: " + pooledDataSources.size());
 	    for (Object o : pooledDataSources) {
 		((PooledDataSource) o).close();

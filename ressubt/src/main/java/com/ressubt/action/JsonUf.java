@@ -9,6 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -28,26 +29,41 @@ public class JsonUf implements Action {
 	Statement ps = null;
 	ResultSet rs = null;
 	Connection conn = null;
-	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
+	String json = null;
+	ServletContext servletContext = request.getServletContext();
+
+	ComboPooledDataSource ds = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
+	PrintWriter writer = null;
 	try {
 	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
 
-	    ps = conn.createStatement();
-	    rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
-	    List<Uf> listUf = new ArrayList<Uf>();
-	    while (rs.next()) {
-		int codigo = rs.getInt("codigo");
-		String descricao = rs.getString("descricao");
-		listUf.add(new Uf(codigo, descricao));
-	    }
+	    Object ufs = servletContext.getAttribute("uf");
 
-	    Gson gson = new Gson();
-	    String json = gson.toJson(listUf);
-	    PrintWriter writer = response.getWriter();
-	    writer.print(json);
+	    if (ufs == null) {
+		ps = conn.createStatement();
+		rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
+		List<Uf> listUf = new ArrayList<Uf>();
+
+		while (rs.next()) {
+		    int codigo = rs.getInt("codigo");
+		    String descricao = rs.getString("descricao");
+		    listUf.add(new Uf(codigo, descricao));
+		}
+
+		Gson gson = new Gson();
+		json = gson.toJson(listUf);
+		servletContext.setAttribute("uf", json);
+		writer = response.getWriter();
+		writer.print(json);
+		System.out.println("do banco de dados");
+	    } else {
+		System.out.println("do contexto");
+		writer = response.getWriter();
+		writer.print(ufs);
+	    }
 	} catch (SQLException | IOException e) {
 	    throw new ServletException(e);
 	} finally {
