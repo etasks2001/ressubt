@@ -1,13 +1,19 @@
 package com.ressubt.jdbc;
 
+import com.mchange.v2.c3p0.C3P0Registry;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
+import com.mchange.v2.c3p0.PooledDataSource;
 
-public class PostgreDataSource {
-    private static ComboPooledDataSource connectionPool = new ComboPooledDataSource();
+class PostgreDataSource {
+    private ComboPooledDataSource connectionPool = new ComboPooledDataSource("ressubt");
 
-    public static ComboPooledDataSource getConnectionPool() {
+    public ComboPooledDataSource getConnectionPool() {
 
-	return connectionPool;
+	PooledDataSource pooledDataSourceByName = C3P0Registry.pooledDataSourceByName("ressubt");
+
+	System.out.println(C3P0Registry.getPooledDataSources().size());
+
+	return (ComboPooledDataSource) pooledDataSourceByName;
     }
 
 }

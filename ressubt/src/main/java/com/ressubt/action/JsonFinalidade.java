@@ -2,9 +2,9 @@ package com.ressubt.action;
 
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,26 +15,28 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.dbutils.DbUtils;
 
 import com.google.gson.Gson;
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
-import com.ressubt.jdbc.PostgreDataSource;
 import com.ressubt.model.Finalidade;
 
 public class JsonFinalidade implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	PreparedStatement ps = null;
+	Statement ps = null;
 	ResultSet rs = null;
-	Connection con = null;
+	Connection conn = null;
+	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
 	try {
+
 	    response.setHeader("Content-Type", "text/plain");
-	    response.setHeader("Cache-Control", "public, max-age=31557600");
+//	    response.setHeader("Cache-Control", "public, max-age=31557600");
 	    response.setCharacterEncoding("UTF-8");
 
-	    con = PostgreDataSource.getConnectionPool().getConnection();
-	    ps = con.prepareStatement("select codigo,descricao from finalidade");
-	    rs = ps.executeQuery();
+	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
+	    ps = conn.createStatement();
+	    rs = ps.executeQuery("select codigo,descricao from finalidade");
 
 	    List<Finalidade> listFinalidade = new ArrayList<Finalidade>();
 	    while (rs.next()) {
@@ -54,7 +56,8 @@ public class JsonFinalidade implements Action {
 	} finally {
 	    DbUtils.closeQuietly(rs);
 	    DbUtils.closeQuietly(ps);
-	    DbUtils.closeQuietly(con);
+	    DbUtils.closeQuietly(conn);
+	    conn = null;
 	}
 	return new FlowEmpty("");
     }

@@ -3,9 +3,9 @@ package com.ressubt.action;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,33 +16,32 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.dbutils.DbUtils;
 
 import com.google.gson.Gson;
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
-import com.ressubt.jdbc.PostgreDataSource;
 import com.ressubt.model.Uf;
 
 public class JsonUf implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	PreparedStatement ps = null;
+	Statement ps = null;
 	ResultSet rs = null;
 	Connection conn = null;
-
+	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
 	try {
-	    conn = PostgreDataSource.getConnectionPool().getConnection();
+	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
 
-	    ps = conn.prepareStatement("select codigo, descricao from uf order by descricao");
-	    rs = ps.executeQuery();
+	    ps = conn.createStatement();
+	    rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
 	    List<Uf> listUf = new ArrayList<Uf>();
 	    while (rs.next()) {
 		int codigo = rs.getInt("codigo");
 		String descricao = rs.getString("descricao");
 		listUf.add(new Uf(codigo, descricao));
-//		System.out.println(codigo + ": " + descricao);
 	    }
 
 	    Gson gson = new Gson();
@@ -55,6 +54,7 @@ public class JsonUf implements Action {
 	    DbUtils.closeQuietly(rs);
 	    DbUtils.closeQuietly(ps);
 	    DbUtils.closeQuietly(conn);
+	    conn = null;
 	}
 
 	return new FlowEmpty("");

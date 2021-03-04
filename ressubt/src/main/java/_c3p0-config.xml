@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
 <c3p0-config>
   <default-config>
     <property name="testConnectionOnCheckout">true</property>
@@ -16,6 +17,7 @@
     <property name="password">casalafite2013</property>
   </default-config>
 </c3p0-config>
+ -->
 <!-- 
 
 https://java.docow.com/5752/como-faco-para-implementar-um-gerenciador-de-dao-usando-jdbc-e-pools-de-conexao.html
