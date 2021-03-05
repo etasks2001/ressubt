@@ -14,6 +14,7 @@ public class Logout implements Action {
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 	HttpSession session = request.getSession();
 	session.invalidate();
+
 	return new Redirect("ViewLogin");
     }
 

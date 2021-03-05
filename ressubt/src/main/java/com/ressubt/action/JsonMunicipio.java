@@ -9,11 +9,14 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.dbutils.DbUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.gson.Gson;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -22,6 +25,7 @@ import com.ressubt.control.HttpFlow;
 import com.ressubt.model.Municipio;
 
 public class JsonMunicipio implements Action {
+    private static Logger log = LogManager.getLogger(JsonMunicipio.class);
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
@@ -29,31 +33,31 @@ public class JsonMunicipio implements Action {
 	Statement ps = null;
 	ResultSet rs = null;
 	String codigouf = request.getParameter("codigouf");
-	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
+
 	try {
+	    ServletContext servletContext = request.getServletContext();
+	    Object municipioJson = servletContext.getAttribute(codigouf);
+	    ComboPooledDataSource ds = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
 
-	    conn = ds.getConnection();
-	    ps = conn.createStatement();
+	    if (municipioJson == null) {
+		System.out.println("selecting from database " + codigouf);
+		conn = ds.getConnection();
+		ps = conn.createStatement();
 
-	    rs = ps.executeQuery("select codigo, descricao from municipio where uf = " + codigouf);
+		rs = ps.executeQuery("select codigo, descricao from municipio where uf = " + codigouf);
 
-	    List<Municipio> listMunicipio = new ArrayList<Municipio>();
-	    while (rs.next()) {
-		int codigo = rs.getInt("codigo");
-		String descricao = rs.getString("descricao");
-
-		listMunicipio.add(new Municipio(codigo, descricao));
+		municipioJson = createJson(rs);
+		servletContext.setAttribute(codigouf, municipioJson);
 	    }
-
-	    Gson gson = new Gson();
-	    String municipiosJson = gson.toJson(listMunicipio);
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
 	    PrintWriter writer = response.getWriter();
-	    writer.print(municipiosJson);
+	    writer.print(municipioJson);
 
+	    return new FlowEmpty("");
 	} catch (SQLException | IOException e) {
+	    log.error("SEVERE", e);
 	    throw new ServletException(e);
 
 	} finally {
@@ -63,6 +67,16 @@ public class JsonMunicipio implements Action {
 	    conn = null;
 	}
 
-	return new FlowEmpty("");
+    }
+
+    private Object createJson(ResultSet rs) throws SQLException {
+	List<Municipio> listMunicipio = new ArrayList<Municipio>();
+	while (rs.next()) {
+	    int codigo = rs.getInt("codigo");
+	    String descricao = rs.getString("descricao");
+
+	    listMunicipio.add(new Municipio(codigo, descricao));
+	}
+	return new Gson().toJson(listMunicipio);
     }
 }

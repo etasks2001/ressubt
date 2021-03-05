@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.dbutils.DbUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.gson.Gson;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -23,48 +25,37 @@ import com.ressubt.control.HttpFlow;
 import com.ressubt.model.Uf;
 
 public class JsonUf implements Action {
+    private static final Logger log = LogManager.getLogger(JsonFinalidade.class);
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 	Statement ps = null;
 	ResultSet rs = null;
 	Connection conn = null;
-	String json = null;
-	ServletContext servletContext = request.getServletContext();
 
-	ComboPooledDataSource ds = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
-	PrintWriter writer = null;
 	try {
-	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
+	    ServletContext servletContext = request.getServletContext();
+	    Object ufJson = servletContext.getAttribute("uf");
+	    if (ufJson == null) {
+		ComboPooledDataSource ds = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
+		conn = ds.getConnection();
+
+		ps = conn.createStatement();
+		rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
+
+		ufJson = createJson(rs);
+		servletContext.setAttribute("uf", ufJson);
+	    }
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
 
-	    Object ufs = servletContext.getAttribute("uf");
+	    PrintWriter writer = response.getWriter();
+	    writer.print(ufJson);
 
-	    if (ufs == null) {
-		ps = conn.createStatement();
-		rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
-		List<Uf> listUf = new ArrayList<Uf>();
-
-		while (rs.next()) {
-		    int codigo = rs.getInt("codigo");
-		    String descricao = rs.getString("descricao");
-		    listUf.add(new Uf(codigo, descricao));
-		}
-
-		Gson gson = new Gson();
-		json = gson.toJson(listUf);
-		servletContext.setAttribute("uf", json);
-		writer = response.getWriter();
-		writer.print(json);
-		System.out.println("do banco de dados");
-	    } else {
-		System.out.println("do contexto");
-		writer = response.getWriter();
-		writer.print(ufs);
-	    }
+	    return new FlowEmpty("");
 	} catch (SQLException | IOException e) {
+	    log.error("SEVERO", e);
 	    throw new ServletException(e);
 	} finally {
 	    DbUtils.closeQuietly(rs);
@@ -72,7 +63,18 @@ public class JsonUf implements Action {
 	    DbUtils.closeQuietly(conn);
 	    conn = null;
 	}
+    }
 
-	return new FlowEmpty("");
+    private Object createJson(ResultSet rs) throws SQLException {
+	List<Uf> listUf = new ArrayList<Uf>();
+
+	while (rs.next()) {
+	    int codigo = rs.getInt("codigo");
+	    String descricao = rs.getString("descricao");
+
+	    listUf.add(new Uf(codigo, descricao));
+	}
+
+	return new Gson().toJson(listUf);
     }
 }

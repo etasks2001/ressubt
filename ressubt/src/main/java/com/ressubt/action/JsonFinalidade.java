@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.dbutils.DbUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.google.gson.Gson;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -21,6 +23,7 @@ import com.ressubt.control.HttpFlow;
 import com.ressubt.model.Finalidade;
 
 public class JsonFinalidade implements Action {
+    public static final Logger log = LogManager.getLogger(JsonFinalidade.class);
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
@@ -34,7 +37,7 @@ public class JsonFinalidade implements Action {
 //	    response.setHeader("Cache-Control", "public, max-age=31557600");
 	    response.setCharacterEncoding("UTF-8");
 
-	    conn = ds.getConnection();// DBUtil.getDataSource().getConnection();
+	    conn = ds.getConnection();
 	    ps = conn.createStatement();
 	    rs = ps.executeQuery("select codigo,descricao from finalidade");
 
@@ -52,6 +55,7 @@ public class JsonFinalidade implements Action {
 	    response.getWriter().print(json);
 
 	} catch (SQLException | IOException e) {
+	    log.error("SEVERE", e);
 	    throw new ServletException(e);
 	} finally {
 	    DbUtils.closeQuietly(rs);

@@ -1,23 +1,24 @@
 package com.ressubt.listener;
 
-import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Enumeration;
-import java.util.Set;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-import com.mchange.v2.c3p0.C3P0Registry;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.mchange.v2.c3p0.ComboPooledDataSource;
-import com.mchange.v2.c3p0.PooledDataSource;
 
 @WebListener
-public class GetConnListener implements ServletContextListener {
+public class ApplicationServletContextListener implements ServletContextListener {
+
+    private static final Logger LOG = LogManager.getLogger(ApplicationServletContextListener.class);
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
@@ -50,7 +51,6 @@ public class GetConnListener implements ServletContextListener {
 
 	    servletContext.setAttribute("dataSource", dataSource);
 
-	    System.out.println("Data Source is configured!");
 	} catch (Exception e) {
 	    e.printStackTrace();
 	}
@@ -59,48 +59,32 @@ public class GetConnListener implements ServletContextListener {
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
 	try {
-	    ServletContext application = sce.getServletContext();
-	    ComboPooledDataSource ds = (ComboPooledDataSource) application.getAttribute("dataSource");
-	    try {
-		Connection conn = ds.getConnection();
-		if (conn != null) {
-		    conn.close();
-		    Thread.sleep(1000);
-		}
-	    } catch (Exception e) {
-		e.printStackTrace();
-	    }
-
-	    Set<?> pooledDataSources = C3P0Registry.getPooledDataSources();
-	    System.out.println("Pool size: " + pooledDataSources.size());
-	    for (Object o : pooledDataSources) {
-		((PooledDataSource) o).close();
-		System.out.println(o);
-		Thread.sleep(1000);
-	    }
+	    ServletContext applicationContext = sce.getServletContext();
+	    ComboPooledDataSource dataSource = (ComboPooledDataSource) applicationContext.getAttribute("dataSource");
+	    dataSource.close();
+	    LOG.info(dataSource);
+	    Thread.sleep(1000);
 
 	    // https://stackoverflow.com/questions/3320400/to-prevent-a-memory-leak-the-jdbc-driver-has-been-forcibly-unregistered/23912257#23912257
-	    ClassLoader cl = Thread.currentThread().getContextClassLoader();
+
+	    ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 	    Enumeration<Driver> drivers = DriverManager.getDrivers();
+
 	    while (drivers.hasMoreElements()) {
 		Driver driver = drivers.nextElement();
-		if (driver.getClass().getClassLoader() == cl) {
-		    try {
-			System.out.println("Deregistering JDBC driver {}" + driver);
-			DriverManager.deregisterDriver(driver);
-			Thread.sleep(1000);
-		    } catch (SQLException ex) {
-			System.out.println("Error deregistering JDBC driver {}" + driver);
-		    }
+
+		if (driver.getClass().getClassLoader() == classLoader) {
+		    LOG.info("Deregistering JDBC driver " + driver.getClass().getName());
+		    DriverManager.deregisterDriver(driver);
+		    Thread.sleep(1000);
 		} else {
-		    System.out.println("Not deregistering JDBC driver {} as it does not belong to this webapp's ClassLoader" + driver);
+		    LOG.info("Not deregistering JDBC driver {} as it does not belong to this webapp's ClassLoader " + driver);
 		}
 	    }
+	    LOG.info("Tomcat closed");
 
-	    System.out.println("Tomcat closed");
-	} catch (Exception e) {
-
+	} catch (ExceptionInInitializerError | SQLException | InterruptedException e) {
+	    LOG.error(e);
 	}
-
     }
 }
