@@ -4,11 +4,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
+	<link rel="stylesheet" href="css/constribuinte/style.css">
+
 </head>
 <a href="/ressubt/control?action=Logout">Sair</a>
 
 <body>
-	<form action="">
+
+	<div class="tab">
+		<button class="tablinks" name="cadastro">Cadastro</button>
+		<button class="tablinks" name="pesquisa">Pesquisa</button>
+	</div>
+
+
+	<table id="pesquisa" class="tabContent">
+		<tr>
+			<th>Nome</th>
+		</tr>
+
+		<tr>
+			<td>Casa de Campo Ltda</td>
+		</tr>
+
+	</table>
+
+	<form id="cadastro" class="tabContent">
 		<fieldset>
 			<input type="hidden" name="sk" value="" />
 			Nome:<input type="text" name="nome" /><br>

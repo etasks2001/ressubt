@@ -4,6 +4,33 @@ const selectUf = document.querySelector("select[name=uf]");
 const selectMunicipio = document.querySelector("select[name=cod_mun]");
 const selectFinalidade = document.querySelector("select[name=cod_fin]");
 
+const btnCadastro = document.querySelector("button[name=cadastro]");
+const btnPesquisa = document.querySelector("button[name=pesquisa]");
+console.log(btnCadastro);
+
+const tabContents = document.querySelectorAll(".tabContent");
+const btnTabs = document.querySelectorAll(".tab");
+
+const openTab = (event, nome) => {
+    tabContents.forEach((tab) => {
+        tab.style.display = "none";
+    });
+
+    btnTabs.forEach((btn) => {
+        btn.className = btn.className.replace(" active", "");
+    });
+
+    document.querySelector("#" + nome).style.display = "block";
+    event.currentTarget.className += " active";
+};
+
+btnCadastro.addEventListener("click", function (event) {
+    openTab(event, "cadastro");
+});
+btnPesquisa.addEventListener("click", function (event) {
+    openTab(event, "pesquisa");
+});
+
 window.onload = () => {
     requestJson(URL_FINALIDADE, selectFinalidade);
     requestJson(URL_UF, selectUf);
@@ -25,18 +52,12 @@ const requestJson = (url, combo) => {
 selectUf.addEventListener("change", (event) => {
     var option = event.target.options[event.target.selectedIndex];
 
-    console.log(window.localStorage);
-    console.log("change: " + option.value + " - Label: " + option.label);
     selectMunicipio.innerHTML = "";
     requestJson(URL_MUNICIPIO + option.value, selectMunicipio);
 });
 
 const populateSelectWithJson = (resposta, combo) => {
     let json = JSON.parse(resposta);
-    if (window.localStorage.getItem(combo.name) !== null) {
-        window.localStorage.setItem("cod_fin", json);
-        console.log("jfdkaslç:" + window.localStorage.getItem(combo.name));
-    }
     json.forEach((j) => {
         populateHtmlSelect(j.codigo, j.descricao, combo);
     });
