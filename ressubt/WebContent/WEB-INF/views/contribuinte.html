@@ -2,9 +2,9 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<title>Insert title here</title>
-	<link rel="stylesheet" href="css/constribuinte/style.css">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/constribuinte/style.css">
 
 </head>
 <a href="/ressubt/control?action=Logout">Sair</a>
@@ -31,16 +31,34 @@
 	<form id="cadastro" class="tabContent">
 		<fieldset>
 			<input type="hidden" name="sk" value="" />
-			Nome:<input type="text" name="nome" /><br>
-			CNPJ:<input type="text" name="cnpj" /><br>
-			Insc. Est.:<input type="text" name="ie" /><br>
-			UF:<select name="uf"></select><br>
-			Município:<select name="cod_mun"></select><br>
-			Versão Leiaute:<input type="text" name="cod_ver" /><br>
-			Finalidade:<select name="cod_fin"></select><br>
-			<br>
+			<p>
+				<label for="nome" class="left" >Nome</label><input type="text" id="nome"	name="nome" />
+			</p>
+			<p>
+				<label for="cnpj" class="left" >CNPJ</label><input type="text" id="cnpj" name="cnpj" />
+			</p>
+
+			<p>
+				<label for="ie" class="left" >Insc. Est.</label><input type="text" id="ie" name="ie" />
+			</p>
+
+			<p>
+				<label for="uf" class="left" >UF</label><select id="uf" name="uf"></select>
+				<label for="municipio">Município</label><select id="municipio" name="cod_mun"></select>
+				
+			</p>
+
+
+			<p>
+				<label for="versao_leiaute" class="left" >Versão Leiaute</label><input type="text" id="versao_leiaute" name="cod_ver" />
+			</p>
+
+			<p>
+				<label for="finalidade" class="left" >Finalidade</label><select id="finalidade" name="cod_fin"></select>
+			</p>
+			<p><button type="submit">Gravar</button></p>
 		</fieldset>
-		<button type="submit">Gravar</button>
+		
 
 	</form>
 

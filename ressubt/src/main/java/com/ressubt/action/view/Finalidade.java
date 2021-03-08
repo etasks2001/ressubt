@@ -8,11 +8,11 @@ import com.ressubt.action.Action;
 import com.ressubt.control.Forward;
 import com.ressubt.control.HttpFlow;
 
-public class Main implements Action {
+public class Finalidade implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	return new Forward("index.html");
+	return new Forward("finalidade.html");
     }
 
 }
