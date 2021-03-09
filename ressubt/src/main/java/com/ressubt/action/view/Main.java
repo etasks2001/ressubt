@@ -12,6 +12,7 @@ public class Main implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+
 	return new Forward("index.html");
     }
 

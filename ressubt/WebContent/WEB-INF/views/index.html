@@ -3,17 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+<style>
+body {
+		display: flex;
+}
+
+iframe {
+		flex-grow: 2;
+		padding: 5px 8px 6px 16px;
+}
+
+aside {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		background-color: #111;
+}
+
+aside a {
+		padding: 5px 8px 6px 16px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+}
+
+aside a:hover {
+		color: #f1f1f1;
+}
+
+
+</style>
 </head>
 <body>
-<h1></h1>
+	<aside>
+		<a name="contribuinte" class="menu" href="#" >Contribuinte</a>
+		<a name="finalidade" class="menu" href="#">Finalidade</a>
+		<a name="sair" class="menu" href="/ressubt/control?action=Logout">Sair</a>
+	</aside>
+
+	<iframe frameborder="0"></iframe>
 
 
-<p><a href="/ressubt/control?action=ViewContribuinte">Contribuinte</a></p>
-<p><a href="/ressubt/control?action=ViewFinalidade">Finalidade</a></p>
+	<script>
+		var iframe = document.querySelector("iframe");
 
-<p><a href="/ressubt/control?action=Logout">Sair</a></p>
+		let menu = document.querySelectorAll(".menu");
 
-
-
+		for (let i = 0; i < menu.length; i++) {
+			menu[i].addEventListener("click", function(event) {
+				let name = event.currentTarget.name;
+				let src = "";
+				switch (name) {
+				case "contribuinte":
+					src = "/ressubt/control?action=ViewContribuinte";
+					break;
+				case "finalidade":
+					src = "/ressubt/control?action=ViewFinalidade";
+					break;
+				case "sair":
+				default:
+					break;
+				}
+				iframe.src = src;
+			});
+		}
+	</script>
 </body>
 </html>

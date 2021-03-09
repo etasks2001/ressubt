@@ -1,3 +1,5 @@
+@import "../fillformpage.css";
+@import "../tabbedpane.css";
 
 label{
 	display:inline-block;
@@ -5,12 +7,15 @@ label{
 	font-weight: bold;
 	width:64px;
 }
-p{
+
+div.formRow{
 	margin-top:6px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
+
 input, textarea, select {
 	border: 1px solid #CCC;
 	box-shadow: inset 2px 2px 2px #EEE;
