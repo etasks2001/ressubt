@@ -1,4 +1,4 @@
-export {tabbedPaneEvent};
+export { tabbedPaneEvent };
 
 const tabbedPaneEvent = () => {
     var classActive = ["active", ""];
@@ -21,13 +21,12 @@ const tabbedPaneEvent = () => {
         tabButtons[index].removeAttribute("class");
         tabButtons[indexNext].removeAttribute("class");
 
-
         tabContents[index].style.display = "none";
         tabContents[indexNext].style.display = "none";
 
         tabContents[index].style.display = "block";
         tabButtons[index].className += "active";
-    }
+    };
 
     tab.addEventListener("click", eventTab);
-}
+};
