@@ -1,0 +1,22 @@
+input,
+textarea,
+select {
+    border: 1px solid #ccc;
+    box-shadow: inset 2px 2px 2px #eee;
+    font-size: 0.9em;
+    padding: 2px 5px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+div.formRow {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+label {
+    font-family: Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 0.9em;
+}

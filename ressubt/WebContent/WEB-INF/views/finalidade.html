@@ -1,53 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="css/finalidade/style.css">
-</head>
-<body>
-	<fieldset>
-		<legend>Finalidade</legend>
 
-		<div class="tab">
-			<button data-tab-index="0" class="active">Cadastro</button>
-			<button data-tab-index="1">Consulta</button>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/finalidade/style.css">
+</head>
+
+<body>
+	<form action="">
+		<div class="formRow">
+			<label for="codigo">Código</label><input name="codigo" id="codigo" type="text" maxlength="2" size="2" />
 		</div>
-		<div data-tab-index="0">
-			<form action="">
-				<div class="formRow">
-					<label for="codigo">Código</label><input name="codigo" id="codigo" type="text" maxlength="2" size="2" />
-				</div>
-				<div class="formRow">
-					<label for="descricao">Descrição</label><input name="descricao" id="descricao" type="text" maxlength="120" size="120" />
-				</div>
-			</form>
+		<div class="formRow">
+			<label for="descricao">Descrição</label><input name="descricao" id="descricao" type="text" maxlength="120" size="120" />
 		</div>
-		<div data-tab-index="1">
-			<table>
-				<thead>
-					<tr>
-						<th>Código</th>
-						<th>Descrição</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr><td>01</td><td>Remoção</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					<tr><td>02</td><td>Alinhar</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</fieldset>
+	</form>
 	<script type="module" src="js/finalidade/script.js"></script>
 </body>
+
 </html>

@@ -2,18 +2,43 @@ html {
     height: 100%;
 }
 
-body {
+.main {
     height: 100%;
     display: flex;
     flex-direction: row;
 }
 
-iframe {
-    width: 100%;
-    padding: 5px 8px 6px 16px;
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-aside {
+footer {
+    height: 30px;
+    background-color: #fbefcc;
+    padding: 5px;
+}
+button {
+    width: 76px;
+}
+header {
+    height: 22px;
+    padding: 13px;
+    background-color: #e6e2d3;
+}
+.painel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+iframe {
+    height: 100%;
+    padding: 3px;
+}
+
+nav {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -25,13 +50,13 @@ a.active {
     color: black;
 }
 
-aside a {
+nav a {
     padding: 5px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
 }
 
-aside a:hover {
+nav a:hover {
     color: coral;
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/participante/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="hidden" name="sk" id="sk">
+        <input type="hidden" name="contribuinte" id="contribuinte">
+        <div class="formRow">
+            <label for="nome">Nome</label><input type="text" name="nome" id="nome" maxlength="100" size="100">
+        </div>
+        <div class="formRow">
+            <label for="cod_pais">País</label><select name="cod_pais" id="cod_pais">
+                <option value="1">brasil</option>
+            </select>
+        </div>
+        <div class="formRow">
+            <label for="cnpj_cpf">CNPJ/CPF</label><input type="text" name="cnpj_cpf" id="cnpj_cpf" maxlength="14" size="14">
+        </div>
+        <div class="formRow">
+            <label for="ie">Insc. Est.</label><input type="text" name="ie" id="ie" maxlength="14" size="14">
+        </div>
+        <div class="formRow">
+            <label for="uf">UF</label><select name="uf" id="uf"></select>
+        </div>
+
+        <div class="formRow">
+            <label for="cod_mun">Município</label><select name="cod_mun" id="cod_mun"></select>
+        </div>
+    </form>
+    <script type="module" src="js/participante/script.js"></script>
+</body>
+
+</html>

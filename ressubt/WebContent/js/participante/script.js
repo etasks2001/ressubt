@@ -1,11 +1,9 @@
-import { URL_FINALIDADE, URL_UF, URL_MUNICIPIO, requestJson } from "../../js/util/script.js";
+import { URL_UF, URL_MUNICIPIO, requestJson } from "../../js/util/script.js";
 
 const selectUf = document.querySelector("select[name=uf]");
 const selectMunicipio = document.querySelector("select[name=cod_mun]");
-const selectFinalidade = document.querySelector("select[name=cod_fin]");
 
 window.onload = () => {
-    requestJson(URL_FINALIDADE, selectFinalidade);
     requestJson(URL_UF, selectUf);
 };
 

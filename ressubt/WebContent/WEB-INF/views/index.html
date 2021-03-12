@@ -4,17 +4,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index/style.css">
 
 </head>
 
 <body>
-	<aside>
-		<a data-index="0" href="#">Contribuinte</a>
-		<a data-index="1" href="#">Finalidade</a>
-		<a href="/ressubt/control?action=Logout">Sair</a>
-	</aside>
-	<iframe frameborder="0"></iframe>
+	<div class="main">
+		<nav>
+			<a data-index="0" href="#">Contribuinte</a>
+			<a data-index="1" href="#">Finalidade</a>
+			<a data-index="2" href="#">Participante</a>
+			<a data-index="3" href="#">Produto</a>
+			<a href="/ressubt/control?action=Logout">Sair</a>
+		</nav>
+		<div class="painel">
+			<header>
+				<button>Novo</button>
+				<button>Pesquisar</button>
+				<button>Gravar</button>
+			</header>
+			<iframe></iframe>
+		</div>
+	</div>
+	<footer>
+		<label>Empresa</label>
+		<label>Nome da Empresa</label>
+
+
+
+	</footer>
 	<script type="module" src="js/index/script.js"></script>
 </body>
 
