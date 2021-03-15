@@ -3,7 +3,7 @@ textarea,
 select {
     border: 1px solid #ccc;
     box-shadow: inset 2px 2px 2px #eee;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 2px 5px;
     font-family: Geneva, Verdana, sans-serif;
 }
@@ -18,5 +18,5 @@ div.formRow {
 label {
     font-family: Geneva, Verdana, sans-serif;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }

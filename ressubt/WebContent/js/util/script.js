@@ -1,4 +1,4 @@
-export { populateHtmlSelect, GET, URL_FINALIDADE, URL_UF, C_DOT, URL_MUNICIPIO, populateSelectWithJson, requestJson };
+export { populateHtmlSelect, GET, URL_FINALIDADE, URL_UF, C_DOT, URL_MUNICIPIO, URL_PAIS, populateSelectWithJson, requestJson };
 
 const C_VALUE = "value";
 const C_OPTION = "option";
@@ -7,6 +7,7 @@ const GET = "GET";
 const URL_FINALIDADE = "/ressubt/control?action=finalidade";
 const URL_UF = "/ressubt/control?action=uf";
 const URL_MUNICIPIO = "/ressubt/control?action=municipio&codigouf=";
+const URL_PAIS = "/ressubt/control?action=pais";
 
 var populateHtmlSelect = (codigo, descricao, select) => {
     let option = document.createElement(C_OPTION);

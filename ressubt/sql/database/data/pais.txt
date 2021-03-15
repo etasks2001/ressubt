@@ -1,0 +1,240 @@
+﻿;
+00132;Afeganistão
+00175;Albânia, República da
+00230;Alemanha
+00310;Burkina Faso
+00370;Andorra
+00400;Angola
+00418;Anguilla
+00434;Antigua e Barbuda
+00477;Antilhas Holandesas
+00531;Arábia Saudita
+00590;Argélia
+00639;Argentina
+00647;Armênia, República da
+00655;Aruba
+00698;Austrália
+00728;Áustria
+00736;Azerbaijão, República do
+00779;Bahamas, Ilhas
+00809;Bahrein, Ilhas
+00817;Bangladesh
+00833;Barbados
+00850;Belarus
+00876;Bélgica
+00884;Belize
+00906;Bermudas
+00930;Mianmar (Birmânia)
+00973;Bolívia
+00981;Bósnia-Herzegovina
+01015;Botsuana
+01058;Brasil
+01082;Brunei
+01112;Bulgária, República da
+01155;Burundi
+01198;Butão
+01279;Cabo Verde, República de
+01376;Cayman, Ilhas
+01414;Camboja
+01457;Camarões
+01490;Canadá
+01504;Canal, Ilhas do (Jersey e Guernsey)
+01511;Canárias, Ilhas
+01538;Cazaquistão, República do
+01546;Catar
+01589;Chile
+01600;China, República Popular da
+01619;Formosa (Taiwan)
+01635;Chipre
+01651;Cocos (Keeling), Ilhas
+01694;Colômbia
+01732;Comores, Ilhas
+01775;Congo, República do
+01830;Cook, Ilhas
+01872;Coréia, Rep. Pop. Democrática da
+01902;Coréia, República da
+01937;Costa do Marfim
+01953;Croácia, República da
+01961;Costa Rica
+01988;Coveite
+01996;Cuba
+02291;Benin
+02321;Dinamarca
+02356;Dominica, Ilha
+02399;Equador
+02402;Egito
+02437;Eritréia
+02445;Emirados Árabes Unidos
+02453;Espanha
+02461;Eslovênia, República da
+02470;Eslovaca, República
+02496;Estados Unidos
+02518;Estônia, República da
+02534;Etiópia
+02550;Falkland (Ilhas Malvinas)
+02593;Feroe, Ilhas
+02674;Filipinas
+02712;Finlândia
+02755;França
+02810;Gabão
+02852;Gâmbia
+02895;Gana
+02917;Geórgia, República da
+02933;Gibraltar
+02976;Granada
+03018;Grécia
+03050;Groenlândia
+03093;Guadalupe
+03131;Guam
+03174;Guatemala
+03255;Guiana Francesa
+03298;Guiné
+03310;Guiné-Equatorial
+03344;Guiné-Bissau
+03379;Guiana
+03417;Haiti
+03450;Honduras
+03514;Hong Kong, Região Adm. Especial
+03557;Hungria, República da
+03573;Iêmen
+03595;Man, Ilhas
+03611;Índia
+03654;Indonésia
+03697;Iraque
+03727;Irã, República Islâmica do
+03751;Irlanda
+03794;Islândia
+03832;Israel
+03867;Itália
+03883;Iugoslávia, República Fed. da
+03913;Jamaica
+03964;Johnston, Ilhas
+03999;Japão
+04030;Jordânia
+04111;Kiribati
+04200;Laos, Rep. Pop. Democrática do
+04235;Lebuan
+04260;Lesoto
+04278;Letônia, República da
+04316;Líbano
+04340;Libéria
+04383;Líbia
+04405;Liechtenstein
+04421;Lituânia, República da
+04456;Luxemburgo
+04472;Macau
+04499;Macedônia
+04502;Madagascar
+04525;Madeira, Ilha da
+04553;Malásia
+04588;Malavi
+04618;Maldivas
+04642;Máli
+04677;Malta
+04723;Marianas do Norte
+04740;Marrocos
+04766;Marshall, Ilhas
+04774;Martinica
+04855;Maurício
+04880;Mauritânia
+04901;Midway, Ilhas
+04936;México
+04944;Moldávia, República da
+04952;Mônaco
+04979;Mongólia
+04995;Micronésia
+05010;Montserrat, Ilhas
+05053;Moçambique
+05070;Namíbia
+05088;Nauru
+05118;Christmas, Ilha (Navidad)
+05177;Nepal
+05215;Nicarágua
+05258;Niger
+05282;Nigéria
+05312;Niue, Ilha
+05355;Norfolk, Ilha
+05380;Noruega
+05428;Nova Caledônia
+05452;Papua Nova Guiné
+05487;Nova Zelândia
+05517;Vanuatu
+05568;Omã
+05738;Holanda (Países Baixos)
+05754;Palau
+05762;Paquistão
+05800;Panamá
+05860;Paraguai
+05894;Peru
+05932;Pitcairn, Ilha
+05991;Polinésia Francesa
+06033;Polônia, República da
+06076;Portugal
+06114;Porto Rico
+06238;Quênia
+06254;Quirguiz, República
+06289;Reino Unido
+06408;República Centro-Africana
+06475;República Dominicana
+06602;Reunião, Ilha
+06653;Zimbábue
+06700;Romênia
+06750;Ruanda
+06769;Rússia
+06777;Salomão, Ilhas
+06858;Saara Ocidental
+06874;El Salvador
+06904;Samoa
+06912;Samoa Americana
+06955;São Cristóvão e Neves
+06971;San Marino
+07005;São Pedro e Miquelon
+07056;São Vicente e Granadinas
+07102;Santa Helena
+07153;Santa Lúcia
+07200;São Tomé e Príncipe, Ilhas
+07285;Senegal
+07315;Seychelles
+07358;Serra Leoa
+07412;Cingapura
+07447;Síria, República Árabe da
+07480;Somália
+07501;Sri Lanka
+07544;Suazilândia
+07560;África do Sul
+07595;Sudão
+07641;Suécia
+07676;Suíça
+07706;Suriname
+07722;Tadjiquistão
+07765;Tailândia
+07803;Tanzânia, República Unida da
+07820;Território Britânico Oc. Índico
+07838;Djibuti
+07889;Chade
+07919;Tcheca, República
+07951;Timor Leste
+08001;Togo
+08052;Toquelau, Ilhas
+08109;Tonga
+08150;Trinidad e Tobago
+08206;Tunísia
+08230;Turcas e Caicos, Ilhas
+08249;Turcomenistão, República do
+08273;Turquia
+08281;Tuvalu
+08311;Ucrânia
+08338;Uganda
+08451;Uruguai
+08478;Uzbequistão, República do
+08486;Vaticano, Estado da Cidade do
+08508;Venezuela
+08583;Vietnã
+08630;Virgens, Ilhas (Britânicas)
+08664;Virgens, Ilhas (E.U.A.)
+08702;Fiji
+08737;Wake, Ilha
+08753;Wallis e Futuna, Ilhas
+08885;Congo, República Democrática do
+08907;Zâmbia
+08958;Zona do Canal do Panamá

@@ -20,6 +20,13 @@ drop table if exists usuario;
 drop table if exists finalidade;
 drop table if exists uf;
 drop table if exists municipio;
+drop table if exists pais;
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+create table pais(
+	codigo char(5) not null,
+	descricao varchar(50) not null,
+	primary key(codigo)
+)
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table uf(
 	codigo int,
@@ -191,17 +198,11 @@ COPY uf (codigo,sigla,descricao)
 COPY municipio (codigo,uf,descricao) 
 	FROM 'C:/rst/database/data/uf_municipio.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
+COPY pais (codigo,descricao)
+	FROM 'C:/rst/database/data/pais.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
 
 
-
-
-
-
-
-
-
-	
 
 COPY finalidade (codigo,descricao) 
 	FROM 'C:/rst/database/data/finalidade.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
@@ -231,5 +232,5 @@ select * from produto;
 select * from participante;
 select * from movimento;
 select * from saldo;
-
+select * from pais;
 
