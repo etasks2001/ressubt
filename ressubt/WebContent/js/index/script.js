@@ -18,4 +18,12 @@ menuNav.addEventListener("click", (event) => {
     if (anchor instanceof HTMLAnchorElement) {
         anchor.className = "active";
     }
+
+    let controls = iframe.contentWindow.document.querySelectorAll("select, input");
+    for (let i = 0; i < controls.length; i++) {
+        console.log(i);
+        console.log(controls[i].disable);
+        console.log((controls[i].disable = false));
+        console.log(controls[i].disable);
+    }
 });
