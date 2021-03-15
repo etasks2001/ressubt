@@ -1,14 +1,14 @@
-var iframe = document.querySelector("iframe");
-var anchors = document.querySelectorAll("a[data-index]");
+const iframe = document.querySelector("iframe");
+const anchors = document.querySelectorAll("a[data-index]");
 
 const links = ["/ressubt/control?action=ViewContribuinte", "/ressubt/control?action=ViewFinalidade", "/ressubt/control?action=ViewParticipante", "/ressubt/control?action=ViewProduto"];
 
-var menuNav = document.querySelector("nav");
+const menuNav = document.querySelector("nav");
 
 menuNav.addEventListener("click", (event) => {
-    var anchor = event.target;
+    let anchor = event.target;
 
-    var index = parseInt(anchor.getAttribute("data-index"));
+    let index = parseInt(anchor.getAttribute("data-index"));
     iframe.src = links[index];
 
     for (let i = 0; i < anchors.length; i++) {

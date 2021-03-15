@@ -24,9 +24,11 @@ public class Util {
 		nomeDaClasse = BUNDLE.getString(VIEW_NO_ACTION);
 	    }
 	    Class<?> clazz = Class.forName(nomeDaClasse);
+
 	    return clazz.asSubclass(classe).newInstance();
 	} catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
 	    throw new ServletException(e);
 	}
     }
+
 }

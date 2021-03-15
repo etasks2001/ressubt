@@ -35,7 +35,7 @@ header {
 }
 iframe {
     height: 100%;
-    padding: 3px;
+    padding: 5px 5px 5px 13px;
 }
 
 nav {
@@ -43,6 +43,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #111;
+    padding-top: 47px;
 }
 
 a.active {

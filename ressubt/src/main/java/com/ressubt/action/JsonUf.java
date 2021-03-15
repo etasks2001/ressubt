@@ -1,7 +1,6 @@
 package com.ressubt.action;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -25,56 +24,47 @@ import com.ressubt.control.HttpFlow;
 import com.ressubt.model.Uf;
 
 public class JsonUf implements Action {
-    private static final Logger log = LogManager.getLogger(JsonFinalidade.class);
+    private static final Logger LOG = LogManager.getLogger(JsonFinalidade.class);
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	Statement ps = null;
-	ResultSet rs = null;
 	Connection conn = null;
+	Statement st = null;
+	ResultSet rs = null;
+	ServletContext servletContext = request.getServletContext();
 
 	try {
-	    ServletContext servletContext = request.getServletContext();
 	    Object ufJson = servletContext.getAttribute("uf");
+
 	    if (ufJson == null) {
-		ComboPooledDataSource ds = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
-		conn = ds.getConnection();
+		ComboPooledDataSource dataSource = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
+		conn = dataSource.getConnection();
+		st = conn.createStatement();
+		rs = st.executeQuery("select codigo, descricao from uf order by descricao");
+		List<Uf> listUf = new ArrayList<Uf>();
 
-		ps = conn.createStatement();
-		rs = ps.executeQuery("select codigo, descricao from uf order by descricao");
-
-		ufJson = createJson(rs);
+		while (rs.next()) {
+		    int codigo = rs.getInt("codigo");
+		    String descricao = rs.getString("descricao");
+		    listUf.add(new Uf(codigo, descricao));
+		}
+		ufJson = new Gson().toJson(listUf);
 		servletContext.setAttribute("uf", ufJson);
 	    }
 
 	    response.setHeader("Content-Type", "application/json");
 	    response.setCharacterEncoding("UTF-8");
-
-	    PrintWriter writer = response.getWriter();
-	    writer.print(ufJson);
+	    response.getWriter().print(ufJson);
 
 	    return new FlowEmpty("");
 	} catch (SQLException | IOException e) {
-	    log.error("SEVERO", e);
+	    LOG.error("SEVERE", e);
 	    throw new ServletException(e);
 	} finally {
 	    DbUtils.closeQuietly(rs);
-	    DbUtils.closeQuietly(ps);
+	    DbUtils.closeQuietly(st);
 	    DbUtils.closeQuietly(conn);
 	    conn = null;
 	}
-    }
-
-    private Object createJson(ResultSet rs) throws SQLException {
-	List<Uf> listUf = new ArrayList<Uf>();
-
-	while (rs.next()) {
-	    int codigo = rs.getInt("codigo");
-	    String descricao = rs.getString("descricao");
-
-	    listUf.add(new Uf(codigo, descricao));
-	}
-
-	return new Gson().toJson(listUf);
     }
 }

@@ -8,6 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,46 +24,47 @@ import com.ressubt.control.HttpFlow;
 import com.ressubt.model.Finalidade;
 
 public class JsonFinalidade implements Action {
-    public static final Logger log = LogManager.getLogger(JsonFinalidade.class);
+    private static final Logger LOG = LogManager.getLogger(JsonFinalidade.class);
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	Statement ps = null;
-	ResultSet rs = null;
 	Connection conn = null;
-	ComboPooledDataSource ds = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
+	Statement st = null;
+	ResultSet rs = null;
+	ServletContext servletContext = request.getServletContext();
+
 	try {
+	    Object finalidadeJson = servletContext.getAttribute("finalidade");
 
-	    response.setHeader("Content-Type", "text/plain");
-//	    response.setHeader("Cache-Control", "public, max-age=31557600");
-	    response.setCharacterEncoding("UTF-8");
+	    if (finalidadeJson == null) {
+		ComboPooledDataSource dataSource = (ComboPooledDataSource) servletContext.getAttribute("dataSource");
+		conn = dataSource.getConnection();
+		st = conn.createStatement();
+		rs = st.executeQuery("select codigo, descricao from finalidade order by codigo");
+		List<Finalidade> listFinalidade = new ArrayList<Finalidade>();
 
-	    conn = ds.getConnection();
-	    ps = conn.createStatement();
-	    rs = ps.executeQuery("select codigo,descricao from finalidade");
-
-	    List<Finalidade> listFinalidade = new ArrayList<Finalidade>();
-	    while (rs.next()) {
-		String codigo = rs.getString("codigo");
-		String descricao = rs.getString("descricao");
-		listFinalidade.add(new Finalidade(codigo, descricao));
+		while (rs.next()) {
+		    String codigo = rs.getString("codigo");
+		    String descricao = rs.getString("descricao");
+		    listFinalidade.add(new Finalidade(codigo, descricao));
+		}
+		finalidadeJson = new Gson().toJson(listFinalidade);
+		servletContext.setAttribute("finalidade", finalidadeJson);
 	    }
 
-	    Gson gson = new Gson();
+	    response.setHeader("Content-Type", "application/json");
+	    response.setCharacterEncoding("UTF-8");
+	    response.getWriter().print(finalidadeJson);
 
-	    String json = gson.toJson(listFinalidade);
-	    response.setContentType("application/json");
-	    response.getWriter().print(json);
-
+	    return new FlowEmpty("");
 	} catch (SQLException | IOException e) {
-	    log.error("SEVERE", e);
+	    LOG.error("SEVERE", e);
 	    throw new ServletException(e);
 	} finally {
 	    DbUtils.closeQuietly(rs);
-	    DbUtils.closeQuietly(ps);
+	    DbUtils.closeQuietly(st);
 	    DbUtils.closeQuietly(conn);
 	    conn = null;
 	}
-	return new FlowEmpty("");
     }
 }
