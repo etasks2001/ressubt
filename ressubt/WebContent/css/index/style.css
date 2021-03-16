@@ -27,7 +27,7 @@ header {
     padding: 13px;
     background-color: #e6e2d3;
 }
-.painel {
+.operation {
     display: flex;
     flex-direction: column;
     width: 100%;
