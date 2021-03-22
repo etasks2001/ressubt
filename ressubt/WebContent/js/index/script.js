@@ -1,50 +1,47 @@
-import { Operation } from "../../js/cadastro/operation.js";
-
-const links = ["/ressubt/control?action=ViewContribuinte", "/ressubt/control?action=ViewFinalidade", "/ressubt/control?action=ViewParticipante", "/ressubt/control?action=ViewProduto"];
+import { FormFields } from "../../js/cadastro/formfields.js";
+import { FormButtons } from "../../js/cadastro/formbuttons.js";
+import { FormMenu } from "../../js/cadastro/formmenu.js";
 
 const menuNav = document.querySelector("nav");
 
-const iframe = document.querySelector("iframe");
-const anchors = document.querySelectorAll("a[data-index]");
+let iframe = document.querySelector("iframe");
 
+let anchors;
+let formFields = new FormFields();
+let formButtons;
+let formMenu;
 const operations = document.querySelector(".operation");
 
-const operationx = new Operation(document);
-
-const eventoBotoes = (event) => {
-    let nomeClasse = event.target.className;
-    if (nomeClasse === "novo") {
-        operationx.disableFields(false);
-        operationx.disableButtons();
-    } else if (nomeClasse === "gravar") {
-        operationx.disableFields(true);
-        operationx.disableButtons();
-    } else if (nomeClasse === "cancelar") {
-        operationx.disableFields(true);
-        operationx.disableButtons();
-    } else if (nomeClasse === "pesquisar") {
-    }
-    console.log(nomeClasse);
+window.onload = () => {
+    let buttons = document.querySelectorAll("button");
+    formButtons = new FormButtons(buttons);
+    anchors = document.querySelectorAll("a[data-index]");
+    formMenu = new FormMenu(anchors);
 };
 
-const selecionarFormulario = (event) => {
-    let anchor = event.target;
-    let data_index = anchor.getAttribute("data-index");
-    let index = parseInt(data_index);
-
-    iframe.src = links[index];
-
-    for (let i = 0; i < anchors.length; i++) {
-        anchors[i].removeAttribute("class");
+menuNav.addEventListener("click", (event) => {
+    if (event.target instanceof HTMLAnchorElement) {
+        iframe.src = formMenu.selecionarFormulario(event.target);
     }
+});
 
-    if (anchor instanceof HTMLAnchorElement) {
-        anchor.className = "active";
+operations.addEventListener("click", (event) => {
+    let id = event.target.id;
+    if (id === "novo") {
+        formFields.disable(false);
+        formButtons.disable();
+    } else if (id === "gravar") {
+        formFields.disable(true);
+        formButtons.disable();
+    } else if (id === "cancelar") {
+        formFields.disable(true);
+        formButtons.disable();
+    } else if (id === "pesquisar") {
     }
-};
+});
 
-menuNav.addEventListener("click", selecionarFormulario);
 iframe.onload = () => {
-    operationx.selecionarControleFormulario(iframe);
+    let fields = iframe.contentWindow.document.querySelectorAll("select, input[type='text']");
+    formFields.setFields(fields);
+    formFields.disable(true);
 };
-operations.addEventListener("click", eventoBotoes);
