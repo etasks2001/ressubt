@@ -1,3 +1,4 @@
+"use strict";
 import { FormFields } from "../../js/cadastro/formfields.js";
 import { FormButtons } from "../../js/cadastro/formbuttons.js";
 import { FormMenu } from "../../js/cadastro/formmenu.js";
@@ -15,8 +16,7 @@ const operations = document.querySelector(".operation");
 window.onload = () => {
     let buttons = document.querySelectorAll("button");
     formButtons = new FormButtons(buttons);
-    anchors = document.querySelectorAll("a[data-index]");
-    formMenu = new FormMenu(anchors);
+    formMenu = new FormMenu();
 };
 
 menuNav.addEventListener("click", (event) => {
@@ -30,13 +30,33 @@ operations.addEventListener("click", (event) => {
     if (id === "novo") {
         formFields.disable(false);
         formButtons.disable();
+        formFields.setInsert();
     } else if (id === "gravar") {
-        formFields.disable(true);
-        formButtons.disable();
+        console.log(formFields.getParameters());
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                let json = JSON.parse(this.response);
+                console.log(json.code + " - " + json.message);
+
+                if (json.code === 0) {
+                    formFields.disable(true);
+                    formButtons.disable();
+                } else {
+                    console.log();
+                }
+            }
+        };
+
+        xhr.open("POST", "/ressubt/control");
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=UTF-8");
+        xhr.send("action=DbFinalidade&" + formFields.getParameters());
     } else if (id === "cancelar") {
         formFields.disable(true);
         formButtons.disable();
     } else if (id === "pesquisar") {
+        formFields.setUpdate();
+        console.log(formFields.getParameters());
     }
 });
 

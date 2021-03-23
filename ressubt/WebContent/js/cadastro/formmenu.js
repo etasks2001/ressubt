@@ -1,12 +1,12 @@
+"use strict";
 export { FormMenu };
 
-function FormMenu(anchors) {
-    this.anchors = anchors;
+function FormMenu() {
     this.anchorSelected;
 }
 FormMenu.prototype = {
     constructor: FormMenu,
-    links: ["/ressubt/control?action=ViewContribuinte", "/ressubt/control?action=ViewFinalidade", "/ressubt/control?action=ViewParticipante", "/ressubt/control?action=ViewProduto"],
+    view: ["Contribuinte", "Finalidade", "Participante", "Produto"],
 
     selecionarFormulario: function (anchor) {
         if (typeof this.anchorSelected === "undefined") {
@@ -17,8 +17,10 @@ FormMenu.prototype = {
         }
         this.anchorSelected.className = "active";
 
-        let data_index = anchor.getAttribute("data-index");
-        let index = parseInt(data_index);
-        return this.links[index];
+        let form_data_index = anchor.getAttribute("data-form-index");
+        let index = parseInt(form_data_index);
+        let formName = this.view[index];
+
+        return `/ressubt/control?action=View${formName}`;
     },
 };

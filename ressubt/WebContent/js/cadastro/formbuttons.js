@@ -1,3 +1,4 @@
+"use strict";
 export { FormButtons };
 
 function FormButtons(buttons) {
@@ -7,8 +8,8 @@ function FormButtons(buttons) {
 FormButtons.prototype = {
     constructor: FormButtons,
     disable: function () {
-        for (let i = 0; i < this.buttons.length; i++) {
-            this.buttons[i].disabled = !this.buttons[i].disabled;
-        }
+        this.buttons.forEach((x, i, b) => {
+            b[i].disabled = !b[i].disabled;
+        });
     },
 };
