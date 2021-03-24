@@ -32,25 +32,23 @@ operations.addEventListener("click", (event) => {
         formButtons.disable();
         formFields.setInsert();
     } else if (id === "gravar") {
-        console.log(formFields.getParameters());
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
                 let json = JSON.parse(this.response);
                 console.log(json.code + " - " + json.message);
-
                 if (json.code === 0) {
                     formFields.disable(true);
                     formButtons.disable();
                 } else {
-                    console.log();
+                    console.log(json.code + " - " + json.message);
                 }
             }
         };
-
         xhr.open("POST", "/ressubt/control");
-        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=UTF-8");
-        xhr.send("action=DbFinalidade&" + formFields.getParameters());
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+
+        xhr.send(formFields.getParameters());
     } else if (id === "cancelar") {
         formFields.disable(true);
         formButtons.disable();
@@ -61,7 +59,11 @@ operations.addEventListener("click", (event) => {
 });
 
 iframe.onload = () => {
-    let fields = iframe.contentWindow.document.querySelectorAll("select, input[type='text']");
+    let fields = iframe.contentWindow.document.querySelectorAll("select, input[type='text'], input[type='hidden']");
+    let form = iframe.contentWindow.document.querySelector("form");
+    var formName = form.getAttribute("data-formName");
+
     formFields.setFields(fields);
+    formFields.setFormName(formName);
     formFields.disable(true);
 };

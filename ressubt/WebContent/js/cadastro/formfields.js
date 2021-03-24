@@ -1,10 +1,10 @@
-"use strict";
-
+("use strict");
 export { FormFields };
 
 function FormFields() {
     this.fields;
     this.operation;
+    this.formName;
 }
 
 FormFields.prototype = {
@@ -21,20 +21,18 @@ FormFields.prototype = {
         this.fields = fields;
     },
 
-    getParameters: function () {
-        let parameters = "";
-
+    getParameters() {
+        var model = {};
         this.fields.forEach((x, i, f) => {
-            let name = f[i].name;
-            let value = f[i].value;
-            console.log("value " + value);
-            parameters += `${name}=${value}&`;
+            model[f[i].name] = f[i].value;
         });
-        return parameters + `operation=${this.operation}`;
+
+        return "action=Cadastro" + this.formName + "&model=" + JSON.stringify(model) + "&operation=" + this.operation;
     },
+
     clear: function () {
         this.loop(function (f) {
-            if (f.tagName === "INPUT") {
+            if (f.tagName === "INPUT" && f.getAttribute("type") !== "hidden") {
                 f.value = "";
             }
         });
@@ -45,10 +43,15 @@ FormFields.prototype = {
             func(f[i]);
         });
     },
+
     setInsert: function () {
         this.operation = "i";
     },
+
     setUpdate: function () {
         this.operation = "u";
+    },
+    setFormName(formName) {
+        this.formName = formName;
     },
 };

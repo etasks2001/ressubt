@@ -1,4 +1,4 @@
-package com.ressubt.action.db;
+package com.ressubt.action.cadastro;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,49 +12,47 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.dbutils.DbUtils;
 
+import com.google.gson.Gson;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.ressubt.action.Action;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
-import com.ressubt.model.Finalidade;
+import com.ressubt.model.Contribuinte;
 import com.ressubt.util.Util;
 
-public class FinalidadeDB_ implements Action {
+public class ContribuinteCad implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
-	String codigo = request.getParameter("codigo");
-	String descricao = request.getParameter("descricao");
-	Finalidade finalidade = new Finalidade(codigo, descricao);
-
+	String model = request.getParameter("model");
 	String operation = request.getParameter("operation");
-	String sql = Util.RESOURCE_BUNDLE.getString(FinalidadeDB_.class.getSimpleName() + operation);
+	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_" + operation);
 	ComboPooledDataSource dataSource = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
 
 	Connection conn = null;
 	PreparedStatement ps = null;
 	String responseMessage = null;
 	PrintWriter writer = null;
+
+	response.setStatus(200);
+	response.setHeader("Content-Type", "application/json");
+	response.setCharacterEncoding("UTF-8");
+
 	try {
-	    response.setStatus(200);
-	    response.setHeader("Content-Type", "application/jon");
-	    response.setCharacterEncoding("UTF-8");
 	    writer = response.getWriter();
 
 	    conn = dataSource.getConnection();
 	    ps = conn.prepareStatement(sql);
 
-	    ps.setString(1, finalidade.getDescricao());
-	    ps.setString(2, finalidade.getCodigo());
+	    populatePreparedStatement(model, ps);
 
 	    int total = ps.executeUpdate();
-	    if (total > 0) {
 
+	    if (total > 0) {
 		responseMessage = Util.createResponseMessage(0, "gravado com sucessoççç.");
 	    } else {
 		responseMessage = Util.createResponseMessage("erro gravação.");
 	    }
-
 	} catch (SQLException | IOException e) {
 	    responseMessage = Util.createResponseMessage("erro gravação. " + e.getMessage());
 	} finally {
@@ -66,4 +64,20 @@ public class FinalidadeDB_ implements Action {
 
 	return new FlowEmpty("");
     }
+
+    private void populatePreparedStatement(String model, PreparedStatement ps) throws SQLException {
+	System.out.println(model);
+	Contribuinte contribuinte = new Gson().fromJson(model, Contribuinte.class);
+
+	ps.setString(1, contribuinte.getNome());
+	ps.setString(2, contribuinte.getCnpj());
+	ps.setString(3, contribuinte.getIe());
+	ps.setString(4, contribuinte.getCod_mun());
+	ps.setString(5, contribuinte.getCod_ver());
+	ps.setString(6, contribuinte.getCod_fin());
+	if (contribuinte.getSk() != null) {
+	    ps.setInt(7, contribuinte.getSk());
+	}
+    }
+
 }
