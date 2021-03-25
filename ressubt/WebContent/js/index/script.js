@@ -1,36 +1,35 @@
 "use strict";
 import { FormFields } from "../../js/cadastro/formfields.js";
-import { FormButtons } from "../../js/cadastro/formbuttons.js";
+import { EditButtons } from "../../js/cadastro/editbuttons.js";
 import { FormMenu } from "../../js/cadastro/formmenu.js";
 
 const menuNav = document.querySelector("nav");
 
 let iframe = document.querySelector("iframe");
 
-let anchors;
 let formFields = new FormFields();
-let formButtons;
+let editButtons;
 let formMenu;
 const operations = document.querySelector(".operation");
 
 window.onload = () => {
-    let buttons = document.querySelectorAll("button");
-    formButtons = new FormButtons(buttons);
+    editButtons = new EditButtons(document);
     formMenu = new FormMenu();
 };
 
 menuNav.addEventListener("click", (event) => {
     if (event.target instanceof HTMLAnchorElement) {
         iframe.src = formMenu.selecionarFormulario(event.target);
+        editButtons.setDefault();
     }
 });
 
 operations.addEventListener("click", (event) => {
     let id = event.target.id;
     if (id === "novo") {
-        formFields.disable(false);
-        formButtons.disable();
         formFields.setInsert();
+        formFields.disabled(false);
+        editButtons.setEditing();
     } else if (id === "gravar") {
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
@@ -38,8 +37,8 @@ operations.addEventListener("click", (event) => {
                 let json = JSON.parse(this.response);
                 console.log(json.code + " - " + json.message);
                 if (json.code === 0) {
-                    formFields.disable(true);
-                    formButtons.disable();
+                    formFields.disabled(true);
+                    editButtons.setDefault();
                 } else {
                     console.log(json.code + " - " + json.message);
                 }
@@ -50,8 +49,7 @@ operations.addEventListener("click", (event) => {
 
         xhr.send(formFields.getParameters());
     } else if (id === "cancelar") {
-        formFields.disable(true);
-        formButtons.disable();
+        editButtons.setDefault();
     } else if (id === "pesquisar") {
         formFields.setUpdate();
         console.log(formFields.getParameters());
@@ -65,5 +63,5 @@ iframe.onload = () => {
 
     formFields.setFields(fields);
     formFields.setFormName(formName);
-    formFields.disable(true);
+    formFields.disabled(true);
 };

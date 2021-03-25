@@ -9,7 +9,7 @@ function FormFields() {
 
 FormFields.prototype = {
     constructor: FormFields,
-    disable: function (disable) {
+    disabled: function (disable) {
         this.loop(function (f) {
             f.disabled = disable;
         });

@@ -13,8 +13,10 @@ FormMenu.prototype = {
             this.anchorSelected = anchor;
         } else {
             this.anchorSelected.removeAttribute("class");
+            this.anchorSelected.style["pointer-events"] = "auto";
             this.anchorSelected = anchor;
         }
+        this.anchorSelected.style["pointer-events"] = "none";
         this.anchorSelected.className = "active";
 
         let form_data_index = anchor.getAttribute("data-form-index");
