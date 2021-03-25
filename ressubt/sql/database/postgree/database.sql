@@ -26,7 +26,7 @@ create table pais(
 	codigo char(5) not null,
 	descricao varchar(50) not null,
 	primary key(codigo)
-)
+);
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 create table uf(
 	codigo int,
@@ -203,27 +203,36 @@ COPY pais (codigo,descricao)
 
 
 
-
 COPY finalidade (codigo,descricao) 
 	FROM 'C:/rst/database/data/finalidade.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
-	
+
+BEGIN;
 COPY contribuinte (sk,nome,cnpj,ie,cod_mun,cod_ver,cod_fin) 
 	FROM 'C:/rst/database/data/empresa.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+	SELECT setval('contribuinte_sk_seq', max(sk)) FROM contribuinte;
+END;
 
+BEGIN;
 COPY produto (sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest) 
 	FROM 'C:/rst/database/data/produto.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
-
+	SELECT setval('produto_sk_seq', max(sk)) FROM produto;
+END;
+BEGIN;
 COPY participante (sk,contribuinte,nome,cod_pais,cnpj_cpf,ie,cod_mun) 
 	FROM 'C:/rst/database/data/participante.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
-
+	SELECT setval('participante_sk_seq', max(sk)) FROM participante;
+END;
+BEGIN;
 COPY movimento (numeroDeOrdem,produto,data,ano,mes,chaveDoDocumentoFiscalEletronico,tipoDoDocumento,serieDoDocumento,numeroDoDocumento,codigoDoRemetenteOuDestinatario,cfop,numeroDoItemNoDocumento,indicadorDoTipoDeOperacao,quantidade,entrada_valorTotalDoICMSST,entrada_valorTotalDoICMSProprio,saida_ValorUnitarioDoICMSSuportado,saida_SaidaAConsumidorOuUsuarioFinal,saida_FatoGeradorNaoRealizado,saida_SaidaOuSaidaSubsequenteComIsencaoOuNaoIncidencia,saida_SaidaParaOutroEstado,saida_ComercializacaoSubsequente,saida_Confronto_ICMSEfetivoNaSaida,saida_Confronto_ICMSEfetivoDaEntrada,saida_codigoDeEnquadramentoLegal,saldoST_Quantidade,saldoST_ValorUnitario,saldoST_ValorTotal,saldoProprio_Quantidade,saldoProprio_ValorUnitario,saldoProprio_ValorTotal,apuracao_ValorRessarcimento,apuracao_ValorComplemento,apuracao_ICMSCreditoDaOperacaoPropria) 
 	FROM 'C:/rst/database/data/movimento.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
+	SELECT setval('movimento_numerodeordem_seq', max(numerodeordem)) FROM movimento;	
+END;
 
 COPY saldo (produto,ano,mes,qtd_ini,icms_tot_ini_st,icms_tot_ini_proprio,qtd_fim, icms_tot_fim_st,icms_tot_fim_proprio,fixo,entrada,saida) 
 	FROM 'C:/rst/database/data/saldo.txt' WITH (FORMAT csv, HEADER true, DELIMITER ';');
 
 SELECT * FROM pg_stat_activity;
-
+/*
 select * from uf;
 select * from municipio;
 select * from finalidade;
@@ -234,3 +243,4 @@ select * from movimento;
 select * from saldo;
 select * from pais;
 
+*/

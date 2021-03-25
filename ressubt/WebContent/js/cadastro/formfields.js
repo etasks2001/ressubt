@@ -32,7 +32,7 @@ FormFields.prototype = {
 
     clear: function () {
         this.loop(function (f) {
-            if (f.tagName === "INPUT" && f.getAttribute("type") !== "hidden") {
+            if (f.tagName === "INPUT" && f.getAttribute("type") === "text") {
                 f.value = "";
             }
         });
