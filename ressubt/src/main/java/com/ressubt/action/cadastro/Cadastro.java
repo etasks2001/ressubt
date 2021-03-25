@@ -47,7 +47,7 @@ public abstract class Cadastro implements Action {
 	    int total = ps.executeUpdate();
 
 	    if (total > 0) {
-		responseMessage = Util.createResponseMessage(0, "gravado com sucessoççç.");
+		responseMessage = Util.createResponseMessage(0, "gravado com sucesso.");
 	    } else {
 		responseMessage = Util.createResponseMessage("erro gravação.");
 	    }
