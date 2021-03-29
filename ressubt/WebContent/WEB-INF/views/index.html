@@ -20,12 +20,38 @@
 		</nav>
 		<div class="operation">
 			<header>
-				<button id="novo">Novo</button>
-				<button id="gravar" disabled>Gravar</button>
-				<button id="cancelar" disabled>Cancelar</button>
-				<button id="pesquisar">Pesquisar</button>
+				<button id="novo" class="buttonHeader">Novo</button>
+				<button id="gravar" class="buttonHeader" disabled>Gravar</button>
+				<button id="cancelar" class="buttonHeader" disabled>Cancelar</button>
+				<button id="pesquisar" class="buttonHeader">Pesquisar</button>
 			</header>
 			<iframe></iframe>
+		</div>
+	</div>
+
+
+
+	<div class="modalMessage">
+		<div class="messageDialog">
+			<div class="body-cadastro-message">
+				<div type="button" class="closeModal"><span class="closeMessage">×</span></div>
+				<div id="messageUser" class="text-cadastro-message"></div>
+			</div>
+			<div class="footer-cadastro-message">
+				<span class="btnOk">Ok</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="modalConfirm">
+		<div class="messageDialog">
+			<div class="body-cadastro-message">
+				<div type="button" class="closeModal"><span class="closeMessage">×</span></div>
+				<div class="text-cadastro-message">Gravar registro?</div>
+			</div>
+			<div class="footer-cadastro-message">
+				<span id="gravarRegistro" class="btnOk">Ok</span><span class="btnCancelar">Cancelar</span>
+			</div>
 		</div>
 	</div>
 	<footer>

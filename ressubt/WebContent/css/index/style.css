@@ -1,3 +1,4 @@
+@import "../cadastro/modal.css";
 html {
     height: 100%;
 }
@@ -19,7 +20,7 @@ footer {
     background-color: #fbefcc;
     padding: 5px;
 }
-button {
+.buttonHeader {
     width: 76px;
 }
 header {
