@@ -1,5 +1,5 @@
 "use strict";
-import { ModalMessageAction, ModalConfirmAction } from "../../js/cadastro/modal.js";
+import { ModalMessageAction, ModalConfirmAction, ModalPesquisaAction } from "../../js/cadastro/modal.js";
 import { FormFields } from "../../js/cadastro/formfields.js";
 import { EditButtons } from "../../js/cadastro/editbuttons.js";
 import { FormMenu } from "../../js/cadastro/formmenu.js";
@@ -8,22 +8,30 @@ const menuNav = document.querySelector("nav");
 
 let iframe = document.querySelector("iframe");
 
-let formFields = new FormFields();
+let formFields;
 let editButtons;
 let formMenu;
 let modalMessageAction;
 let modalConfirmAction;
+let modalPesquisaAction;
+
 const operations = document.querySelector(".operation");
 const messageUser = document.querySelector("#messageUser");
 const btnGravarRegistro = document.querySelector("#gravarRegistro");
 
 window.onload = () => {
-    editButtons = new EditButtons(document);
-    formMenu = new FormMenu();
     const modalMessage = document.querySelector(".modalMessage");
     const modalConfirm = document.querySelector(".modalConfirm");
+    const modalPesquisa = document.querySelector(".modalPesquisa");
+
     modalMessageAction = new ModalMessageAction(modalMessage);
     modalConfirmAction = new ModalConfirmAction(modalConfirm);
+    modalPesquisaAction = new ModalPesquisaAction(modalPesquisa);
+
+    editButtons = new EditButtons(document);
+    formMenu = new FormMenu();
+    formFields = new FormFields();
+    editButtons.disableAll();
 };
 
 menuNav.addEventListener("click", (event) => {
@@ -46,7 +54,7 @@ operations.addEventListener("click", (event) => {
         formFields.disabled(true);
     } else if (id === "pesquisar") {
         console.log(formFields.getParameters());
-        modalMessageAction.open();
+        modalPesquisaAction.open();
     }
 });
 
@@ -76,6 +84,7 @@ iframe.onload = () => {
     let form = iframe.contentWindow.document.querySelector("form");
     var formName = form.getAttribute("data-formName");
 
+    editButtons.setDefault();
     formFields.setFields(fields);
     formFields.setFormName(formName);
     formFields.disabled(true);

@@ -5,6 +5,7 @@ select {
     box-shadow: inset 2px 2px 2px #eee;
     font-size: 0.8em;
     padding: 2px 5px;
+    margin-right: 2px;
     font-family: Geneva, Verdana, sans-serif;
 }
 

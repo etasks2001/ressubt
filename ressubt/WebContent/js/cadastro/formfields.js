@@ -9,14 +9,18 @@ function FormFields() {
 
 FormFields.prototype = {
     constructor: FormFields,
-    disabled: function (disable) {
+    disabled: function (disabled) {
         this.loop(function (f) {
-            f.disabled = disable;
+            f.disabled = disabled;
+            let setfocus = f.getAttribute("data-setfocus");
+            if (disabled === false) {
+                if (setfocus === "true") {
+                    f.focus();
+                }
+            }
         });
-
         this.clear();
     },
-
     setFields: function (fields) {
         this.fields = fields;
     },

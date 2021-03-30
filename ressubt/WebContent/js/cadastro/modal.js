@@ -1,5 +1,5 @@
 "use strict";
-export { ModalMessageAction, ModalConfirmAction };
+export { ModalMessageAction, ModalConfirmAction, ModalPesquisaAction };
 
 function ModalMessageAction(modalMessage) {
     this.modalMessage = modalMessage;
@@ -39,5 +39,25 @@ ModalConfirmAction.prototype = {
 
     open: function () {
         this.modalConfirm.style.display = "block";
+    },
+};
+
+function ModalPesquisaAction(modalPesquisa) {
+    this.modalPesquisa = modalPesquisa;
+    this.modalPesquisa.addEventListener("click", (event) => {
+        let className = event.target.className;
+        if (className === "modalPesquisa" || className === "closePesquisa") {
+            this.close();
+        }
+    });
+}
+ModalPesquisaAction.prototype = {
+    constructor: ModalPesquisaAction,
+    close: function () {
+        this.modalPesquisa.style.display = "none";
+    },
+
+    open: function () {
+        this.modalPesquisa.style.display = "block";
     },
 };

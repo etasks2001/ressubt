@@ -23,4 +23,11 @@ EditButtons.prototype = {
         this.btnCancelar.disabled = true;
         this.btnPesquisar.disabled = false;
     },
+
+    disableAll: function () {
+        this.btnNovo.disabled = true;
+        this.btnGravar.disabled = true;
+        this.btnCancelar.disabled = true;
+        this.btnPesquisar.disabled = true;
+    },
 };

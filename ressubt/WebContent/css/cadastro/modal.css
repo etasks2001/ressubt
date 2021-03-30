@@ -1,5 +1,7 @@
+@import "../controle/style.css";
 .modalMessage,
-.modalConfirm {
+.modalConfirm,
+.modalPesquisa {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -12,16 +14,26 @@
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
+.pesquisaDialog {
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+}
 
 .messageDialog {
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    border-radius: 8px;
-    z-index: 100;
     left: 30%;
     right: 30%;
     top: 30%;
+}
+
+.messageDialog,
+.pesquisaDialog {
+    position: absolute;
+    /*    right: 8px;*/
+    /*top: 8px;*/
+    border-radius: 8px;
+    z-index: 100;
     background: #ffffff;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 9px 10px rgba(0, 0, 0, 0.08);
 }
@@ -43,12 +55,18 @@
 }
 
 .footer-cadastro-message {
-    background: #f6f6f6;
-    border-radius: 0px 0px 4px 4px;
     padding: 20px;
 }
+.header-cadastro-message {
+    padding: 15px;
+}
+.footer-cadastro-message,
+.header-cadastro-message {
+    background: #f6f6f6;
+    border-radius: 0px 0px 4px 4px;
+}
 
-.footer-cadastro-message a {
+/*.footer-cadastro-message a {
     display: inline-block;
     font-size: 13px;
     font-weight: 500;
@@ -56,9 +74,11 @@
     text-decoration: none;
     line-height: 40px;
 }
-
+*/
 .btnOk,
-.btnCancelar {
+.btnCancelar,
+.btnPesquisar,
+.btnEditar {
     cursor: pointer;
 
     padding-top: 12px;
@@ -67,12 +87,14 @@
     padding-left: 33px;
 }
 
-.btnOk {
+.btnOk,
+.btnPesquisar {
     background: #49afd0;
     color: #f6f6f6;
 }
 
-.btnCancelar {
+.btnCancelar,
+.btnEditar {
     background: #c3e1eb;
     color: #333333;
     margin-left: 20px;
@@ -109,7 +131,8 @@ button.closeModal {
     filter: alpha(opacity=20);
     opacity: 0.2;
 }
-.closeMessage {
+.closeMessage,
+.closePesquisa {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -117,8 +140,14 @@ button.closeModal {
 }
 
 .closeMessage:hover,
-.closeMessage:focus {
+.closeMessage:focus,
+.closePesquisa:hover,
+.closePesquisa:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+#btnPesquisar,
+#btnEditar {
+    margin: 2px;
 }
