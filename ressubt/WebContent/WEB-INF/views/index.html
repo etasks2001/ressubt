@@ -31,35 +31,40 @@
 
 
 
-	<div class="modalMessage">
-		<div class="messageDialog">
-			<div class="body-cadastro-message">
-				<div type="button" class="closeModal"><span class="closeMessage">×</span></div>
-				<div id="messageUser" class="text-cadastro-message"></div>
+	<div class="modal" id="modalMessage">
+		<div class="modalContent">
+			<div>
+				<div class="closeModal">
+					<span class="buttonClose close">×</span>
+				</div>
+				<div class="text-cadastro-message" id="messageUser"></div>
 			</div>
-			<div class="footer-cadastro-message">
-				<span class="btnOk">Ok</span>
+			<div class="footer-modal">
+				<span class="btnOk close">Ok</span>
 			</div>
 		</div>
 	</div>
 
-	<div class="modalConfirm">
-		<div class="messageDialog">
-			<div class="body-cadastro-message">
-				<div type="button" class="closeModal"><span class="closeMessage">×</span></div>
+	<div class="modal" id="modalOkCancel">
+		<div class="modalContent">
+			<div>
+				<div class="closeModal">
+					<span class="buttonClose close">×</span>
+				</div>
 				<div class="text-cadastro-message">Gravar registro?</div>
 			</div>
-			<div class="footer-cadastro-message">
-				<span id="gravarRegistro" class="btnOk">Ok</span><span class="btnCancelar">Cancelar</span>
+			<div class="footer-modal">
+				<span id="gravarRegistro" class="btnOk">Ok</span>
+				<span class="btnCancelar close">Cancelar</span>
 			</div>
 		</div>
 	</div>
 
 
-	<div class="modalPesquisa">
-		<div class="pesquisaDialog">
-			<div class="body-cadastro-message">
-				<div type="button" class="closeModal"><span class="closePesquisa">×</span></div>
+	<div class="modal" id="modalSearch">
+		<div class="modalContent">
+			<div class="closeModal">
+				<span class="buttonClose close">×</span>
 			</div>
 			<div class="header-cadastro-message">
 				<div class="formRow">
@@ -67,7 +72,10 @@
 						<option value="">Descrição</option>
 					</select>
 				</div>
-				<div class="formRow"><button id="btnPesquisar">Pesquisar</button><button id="btnEditar">Editar</button></div>
+				<div class="formRow">
+					<button id="btnPesquisar">Pesquisar</button>
+					<button id="btnEditar">Editar</button>
+				</div>
 
 			</div>
 		</div>

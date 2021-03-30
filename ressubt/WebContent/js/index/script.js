@@ -1,5 +1,5 @@
 "use strict";
-import { ModalMessageAction, ModalConfirmAction, ModalPesquisaAction } from "../../js/cadastro/modal.js";
+import { ModalAction } from "../../js/cadastro/modal.js";
 import { FormFields } from "../../js/cadastro/formfields.js";
 import { EditButtons } from "../../js/cadastro/editbuttons.js";
 import { FormMenu } from "../../js/cadastro/formmenu.js";
@@ -20,13 +20,13 @@ const messageUser = document.querySelector("#messageUser");
 const btnGravarRegistro = document.querySelector("#gravarRegistro");
 
 window.onload = () => {
-    const modalMessage = document.querySelector(".modalMessage");
-    const modalConfirm = document.querySelector(".modalConfirm");
-    const modalPesquisa = document.querySelector(".modalPesquisa");
+    const modalMessage = document.querySelector("#modalMessage");
+    const modalConfirm = document.querySelector("#modalOkCancel");
+    const modalPesquisa = document.querySelector("#modalSearch");
 
-    modalMessageAction = new ModalMessageAction(modalMessage);
-    modalConfirmAction = new ModalConfirmAction(modalConfirm);
-    modalPesquisaAction = new ModalPesquisaAction(modalPesquisa);
+    modalMessageAction = new ModalAction(modalMessage);
+    modalConfirmAction = new ModalAction(modalConfirm);
+    modalPesquisaAction = new ModalAction(modalPesquisa);
 
     editButtons = new EditButtons(document);
     formMenu = new FormMenu();

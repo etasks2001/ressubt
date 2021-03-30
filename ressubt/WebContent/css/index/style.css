@@ -62,3 +62,33 @@ nav a {
 nav a:hover {
     color: coral;
 }
+
+.btnOk,
+.btnCancelar,
+.btnPesquisar,
+.btnEditar {
+    cursor: pointer;
+
+    padding-top: 12px;
+    padding-right: 33px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+}
+
+.btnOk,
+.btnPesquisar {
+    background: #49afd0;
+    color: #f6f6f6;
+}
+
+.btnCancelar,
+.btnEditar {
+    background: #c3e1eb;
+    color: #333333;
+    margin-left: 20px;
+}
+
+#btnPesquisar,
+#btnEditar {
+    margin: 2px;
+}
