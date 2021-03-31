@@ -7,6 +7,8 @@ const selectFinalidade = document.querySelector("select[name=cod_fin]");
 window.onload = () => {
     requestJson(URL_FINALIDADE, selectFinalidade);
     requestJson(URL_UF, selectUf);
+
+    VMasker(document.getElementById("cnpj")).maskPattern("99.999.999/9999-99");
 };
 
 selectUf.addEventListener("change", (event) => {
