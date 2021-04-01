@@ -3,7 +3,7 @@ package com.ressubt.model;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public class Movimento {
+public class Movimento implements Model {
     private Integer numeroDeOrdem;
     private Integer produto;
     private LocalDateTime data;

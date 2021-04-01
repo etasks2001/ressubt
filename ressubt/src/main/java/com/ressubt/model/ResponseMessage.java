@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class ResponseMessage {
+public class ResponseMessage implements Model {
 
     private int code;
     private String message;

@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Municipio {
+public class Municipio implements Model {
 
     private int codigo;
     private String descricao;

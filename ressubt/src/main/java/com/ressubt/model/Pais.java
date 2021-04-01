@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Pais {
+public class Pais implements Model {
 
     private String codigo;
     private String descricao;

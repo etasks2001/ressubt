@@ -2,7 +2,7 @@ package com.ressubt.model;
 
 import java.math.BigDecimal;
 
-public class Produto {
+public class Produto implements Model {
     private Integer sk;
     private Integer contribuinte;
     private String cod_item;

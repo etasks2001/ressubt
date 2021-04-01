@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Usuario {
+public class Usuario implements Model {
 
     private String email;
     private String senha;

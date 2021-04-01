@@ -2,7 +2,7 @@ package com.ressubt.model;
 
 import java.math.BigDecimal;
 
-public class Saldo {
+public class Saldo implements Model {
     private Integer produto;
     private Integer ano;
     private Integer mes;

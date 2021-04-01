@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Contribuinte {
+public class Contribuinte implements Model {
 
     private Integer sk;
 

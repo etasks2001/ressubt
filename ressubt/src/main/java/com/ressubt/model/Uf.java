@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Uf {
+public class Uf implements Model {
 
     private int codigo;
     private String descricao;

@@ -17,9 +17,10 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.ressubt.action.Action;
 import com.ressubt.control.FlowEmpty;
 import com.ressubt.control.HttpFlow;
+import com.ressubt.model.Model;
 import com.ressubt.util.Util;
 
-public abstract class Cadastro<T> implements Action {
+public abstract class Cadastro<T extends Model> implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {

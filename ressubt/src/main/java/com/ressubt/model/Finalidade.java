@@ -1,6 +1,6 @@
 package com.ressubt.model;
 
-public class Finalidade {
+public class Finalidade implements Model {
 
     String codigo;
     String descricao;
