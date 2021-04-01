@@ -1,36 +1,33 @@
 package com.ressubt.action.cadastro;
 
-import java.sql.PreparedStatement;
+import java.math.BigDecimal;
 import java.sql.SQLException;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.ressubt.dao.Dao;
+import com.ressubt.dao.FinalidadeDao;
 import com.ressubt.model.Finalidade;
+import com.ressubt.util.BigDecimalEmptyDeserializer;
+import com.ressubt.util.IntegerEmptyDeserializer;
 
 public class FinalidadeCad extends Cadastro<Finalidade> {
 
-    void populatePreparedStatement(String model, PreparedStatement ps) throws SQLException {
-	System.out.println(model);
+    String executeDao(String json) throws SQLException {
+	System.out.println(json);
 
-	Finalidade finalidade = new Gson().fromJson(model, Finalidade.class);
-	checkFields(finalidade);
-	ps.setString(1, finalidade.getDescricao());
-	ps.setString(2, finalidade.getCodigo());
-    }
+	Gson gson = new GsonBuilder().registerTypeAdapter(BigDecimal.class, new BigDecimalEmptyDeserializer()).registerTypeAdapter(Integer.class, new IntegerEmptyDeserializer()).create();
 
-    @Override
-    void checkFields(Finalidade model) throws SQLException {
-	String codigo = model.getCodigo();
-	String descricao = model.getDescricao();
-	String errorMessage = "";
+	Finalidade model = gson.fromJson(json, Finalidade.class);
 
-	if (isNullOrEmpty(codigo)) {
-	    errorMessage = "Código inválido.";
-	} else if (isNullOrEmpty(descricao)) {
-	    errorMessage = "Descrição inválida.";
+	Dao<Finalidade, String> dao = new FinalidadeDao(conn);
+
+	if (operation.equals("i")) {
+	    return dao.insert(model);
+	} else if (operation.equals("u")) {
+	    return dao.update(model);
 	}
 
-	if (campoComErro(errorMessage)) {
-	    throw new SQLException(errorMessage);
-	}
+	return "";
     }
 }

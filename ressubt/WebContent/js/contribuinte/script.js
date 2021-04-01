@@ -8,7 +8,7 @@ window.onload = () => {
     requestJson(URL_FINALIDADE, selectFinalidade);
     requestJson(URL_UF, selectUf);
 
-    VMasker(document.getElementById("cnpj")).maskPattern("99.999.999/9999-99");
+    //VMasker(document.getElementById("cnpj")).maskPattern("99.999.999/9999-99");
 };
 
 selectUf.addEventListener("change", (event) => {
