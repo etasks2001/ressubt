@@ -10,38 +10,34 @@ import org.apache.commons.dbutils.DbUtils;
 import com.ressubt.model.Participante;
 import com.ressubt.util.Util;
 
-public class ParticipanteDao extends Dao<Participante, Integer> {
-
-    public ParticipanteDao(Connection connection) {
-	super(connection);
-    }
+public class ParticipanteDao extends Dao<Participante> {
 
     @Override
-    public List<Participante> getAll() {
+    public List<Participante> getAll(Connection connection) {
 
 	return null;
     }
 
     @Override
-    public Participante getRegistro(Integer codigo) {
+    public Participante getRegistro(Object codigo, Connection connection) {
 
 	return null;
     }
 
     @Override
-    public void delete(Participante model) {
+    public void delete(Participante model, Connection connection) {
 
     }
 
     @Override
-    public String update(Participante model) {
+    public String update(Participante model, Connection connection) {
 	return "";
     }
 
     @Override
-    public String insert(Participante model) {
+    public String insert(Participante model, Connection connection) {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
-
+	String responseMessage = null;
 	PreparedStatement ps = null;
 	try {
 

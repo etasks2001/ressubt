@@ -11,38 +11,34 @@ import org.apache.commons.dbutils.DbUtils;
 import com.ressubt.model.Produto;
 import com.ressubt.util.Util;
 
-public class ProdutoDao extends Dao<Produto, Integer> {
-
-    public ProdutoDao(Connection connection) {
-	super(connection);
-    }
+public class ProdutoDao extends Dao<Produto> {
 
     @Override
-    public List<Produto> getAll() {
+    public List<Produto> getAll(Connection connection) {
 
 	return null;
     }
 
     @Override
-    public Produto getRegistro(Integer codigo) {
+    public Produto getRegistro(Object codigo, Connection connection) {
 
 	return null;
     }
 
     @Override
-    public void delete(Produto model) {
+    public void delete(Produto model, Connection connection) {
 
     }
 
     @Override
-    public String update(Produto model) {
+    public String update(Produto model, Connection connection) {
 	return "";
     }
 
     @Override
-    public String insert(Produto model) {
+    public String insert(Produto model, Connection connection) {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
-
+	String responseMessage = null;
 	PreparedStatement ps = null;
 	try {
 

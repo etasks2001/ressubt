@@ -8,23 +8,17 @@ import java.util.List;
 import com.ressubt.model.Model;
 import com.ressubt.util.Util;
 
-public abstract class Dao<T extends Model, K> {
-    String responseMessage = null;
-    Connection connection = null;
+public abstract class Dao<T extends Model> {
 
-    public Dao(Connection connection) {
-	this.connection = connection;
-    }
+    public abstract List<T> getAll(Connection connection) throws SQLException;
 
-    public abstract List<T> getAll();
+    public abstract T getRegistro(Object codigo, Connection connection) throws SQLException;
 
-    public abstract T getRegistro(K codigo);
+    public abstract String insert(T model, Connection connection) throws SQLException;
 
-    public abstract String insert(T model);
+    public abstract String update(T model, Connection connection) throws SQLException;
 
-    public abstract String update(T model);
-
-    public abstract void delete(T model);
+    public abstract void delete(T model, Connection connection) throws SQLException;
 
     abstract void checkFields(T model) throws SQLException;
 

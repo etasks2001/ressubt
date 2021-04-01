@@ -10,37 +10,33 @@ import org.apache.commons.dbutils.DbUtils;
 import com.ressubt.model.Finalidade;
 import com.ressubt.util.Util;
 
-public class FinalidadeDao extends Dao<Finalidade, String> {
-
-    public FinalidadeDao(Connection connection) {
-	super(connection);
-    }
+public class FinalidadeDao extends Dao<Finalidade> {
 
     @Override
-    public List<Finalidade> getAll() {
+    public List<Finalidade> getAll(Connection connection) {
 
 	return null;
     }
 
     @Override
-    public Finalidade getRegistro(String codigo) {
+    public Finalidade getRegistro(Object codigo, Connection connection) {
 
 	return null;
     }
 
     @Override
-    public void delete(Finalidade model) {
+    public void delete(Finalidade model, Connection connection) {
 
     }
 
     @Override
-    public String update(Finalidade model) {
+    public String update(Finalidade model, Connection connection) {
 	return "";
 
     }
 
     @Override
-    public String insert(Finalidade model) {
+    public String insert(Finalidade model, Connection connection) throws SQLException {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
 
 	PreparedStatement ps = null;
@@ -53,18 +49,16 @@ public class FinalidadeDao extends Dao<Finalidade, String> {
 	    ps.setString(1, model.getDescricao());
 	    ps.setString(2, model.getCodigo());
 
-	    int total = ps.executeUpdate();
-
-	    responseMessage = checkGravacao(total);
-
+	    ps.executeUpdate();
 	} catch (SQLException e) {
-	    responseMessage = Util.createResponseMessage(e.getMessage());
+
+	    throw new SQLException(e);
 	} finally {
 	    DbUtils.closeQuietly(ps);
 	    DbUtils.closeQuietly(connection);
 	    connection = null;
 	}
-	return responseMessage;
+	return "";
     }
 
     @Override
@@ -83,5 +77,4 @@ public class FinalidadeDao extends Dao<Finalidade, String> {
 	    throw new SQLException(errorMessage);
 	}
     }
-
 }

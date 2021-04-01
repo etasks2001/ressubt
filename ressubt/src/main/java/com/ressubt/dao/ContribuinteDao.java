@@ -10,28 +10,24 @@ import org.apache.commons.dbutils.DbUtils;
 import com.ressubt.model.Contribuinte;
 import com.ressubt.util.Util;
 
-public class ContribuinteDao extends Dao<Contribuinte, Integer> {
-
-    public ContribuinteDao(Connection connection) {
-	super(connection);
-    }
+public class ContribuinteDao extends Dao<Contribuinte> {
 
     @Override
-    public List<Contribuinte> getAll() {
+    public List<Contribuinte> getAll(Connection connection) {
 
 	return null;
     }
 
     @Override
-    public Contribuinte getRegistro(Integer codigo) {
+    public Contribuinte getRegistro(Object codigo, Connection connection) {
 
 	return null;
     }
 
     @Override
-    public String insert(Contribuinte model) {
+    public String insert(Contribuinte model, Connection connection) {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
-
+	String responseMessage = null;
 	PreparedStatement ps = null;
 	try {
 
@@ -61,12 +57,12 @@ public class ContribuinteDao extends Dao<Contribuinte, Integer> {
     }
 
     @Override
-    public void delete(Contribuinte model) {
+    public void delete(Contribuinte model, Connection connection) {
 
     }
 
     @Override
-    public String update(Contribuinte model) {
+    public String update(Contribuinte model, Connection connection) {
 	return "";
     }
 
@@ -98,7 +94,5 @@ public class ContribuinteDao extends Dao<Contribuinte, Integer> {
 	if (campoComErro(errorMessage)) {
 	    throw new SQLException(errorMessage);
 	}
-
     }
-
 }
