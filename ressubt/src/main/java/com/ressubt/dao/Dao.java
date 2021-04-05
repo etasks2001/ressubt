@@ -14,9 +14,9 @@ public abstract class Dao<T extends Model> {
 
     public abstract T getRegistro(Object codigo, Connection connection) throws SQLException;
 
-    public abstract String insert(T model, Connection connection) throws SQLException;
+    public abstract void insert(T model, Connection connection) throws SQLException;
 
-    public abstract String update(T model, Connection connection) throws SQLException;
+    public abstract void update(T model, Connection connection) throws SQLException;
 
     public abstract void delete(T model, Connection connection) throws SQLException;
 
@@ -57,7 +57,5 @@ public abstract class Dao<T extends Model> {
 	System.out.println(Dao.isValidField("00", REGEX_CODIGO_VERSAO));
 	System.out.println(Dao.isValidField("0", REGEX_CODIGO_VERSAO));
 	System.out.println(Dao.isValidField("66.666.666/1111-11", REGEX_CNPJ));
-
     }
-
 }

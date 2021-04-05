@@ -52,7 +52,7 @@ public abstract class Cadastro<T extends Model> implements Action {
 	return new FlowEmpty("");
     }
 
-    abstract String executeDao(String json, Connection conn, String operation) throws SQLException;
+    abstract void executeDao(String json, Connection conn, String operation) throws SQLException;
 
     T fromJson(String json, Class<T> clazzOf) {
 	Gson gson = new GsonBuilder().registerTypeAdapter(BigDecimal.class, new BigDecimalEmptyDeserializer()).registerTypeAdapter(Integer.class, new IntegerEmptyDeserializer()).create();

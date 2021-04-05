@@ -1,6 +1,5 @@
 package com.ressubt.dao;
 
-import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -15,13 +14,11 @@ public class ProdutoDao extends Dao<Produto> {
 
     @Override
     public List<Produto> getAll(Connection connection) {
-
 	return null;
     }
 
     @Override
     public Produto getRegistro(Object codigo, Connection connection) {
-
 	return null;
     }
 
@@ -31,21 +28,19 @@ public class ProdutoDao extends Dao<Produto> {
     }
 
     @Override
-    public String update(Produto model, Connection connection) {
-	return "";
+    public void update(Produto model, Connection connection) {
+
     }
 
     @Override
-    public String insert(Produto model, Connection connection) {
+    public void insert(Produto model, Connection connection) throws SQLException {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
-	String responseMessage = null;
+
 	PreparedStatement ps = null;
 	try {
-
-	    ps = connection.prepareStatement(sql);
-
 	    checkFields(model);
 
+	    ps = connection.prepareStatement(sql);
 	    ps.setInt(1, model.getContribuinte());
 	    ps.setString(2, model.getCod_item());
 	    ps.setString(3, model.getDescr_item());
@@ -55,52 +50,33 @@ public class ProdutoDao extends Dao<Produto> {
 	    ps.setBigDecimal(7, model.getAliq_icms());
 	    ps.setString(8, model.getCest());
 
-	    int total = ps.executeUpdate();
-
-	    responseMessage = checkGravacao(total);
-
+	    ps.executeUpdate();
 	} catch (SQLException e) {
-	    responseMessage = Util.createResponseMessage(e.getMessage());
+	    throw new SQLException(e);
 	} finally {
 	    DbUtils.closeQuietly(ps);
 	    DbUtils.closeQuietly(connection);
 	    connection = null;
 	}
-	return responseMessage;
+
     }
 
     @Override
     void checkFields(Produto model) throws SQLException {
-
-	String cod_item = model.getCod_item();
-	String descr_item = model.getDescr_item();
-	String cod_barra = model.getCod_barra();
-	String unid_inv = model.getUnid_inv();
-	String cod_ncm = model.getCod_ncm();
-	BigDecimal aliq_icms = model.getAliq_icms();
-	String cest = model.getCest();
-
-	String errorMessage = "";
-
-	if (isNullOrEmpty(cod_item)) {
-	    errorMessage = "Código inválido.";
-	} else if (isNullOrEmpty(descr_item)) {
-	    errorMessage = "Descrição inválida.";
-	} else if (isNullOrEmpty(cod_barra)) {
-	    errorMessage = "Código de barras inválido.";
-	} else if (isNullOrEmpty(unid_inv)) {
-	    errorMessage = "Unidade inválida.";
-	} else if (isNullOrEmpty(cod_ncm)) {
-	    errorMessage = "NCM inválida.";
-	} else if (isNullOrEmpty(aliq_icms)) {
-	    errorMessage = "Alíquota ICMS inválida.";
-	} else if (isNullOrEmpty(cest)) {
-	    errorMessage = "CEST inválida.";
-	}
-
-	if (campoComErro(errorMessage)) {
-	    throw new SQLException(errorMessage);
+	if (isNullOrEmpty(model.getCod_item())) {
+	    throw new SQLException("Código inválido.");
+	} else if (isNullOrEmpty(model.getDescr_item())) {
+	    throw new SQLException("Descrição inválida.");
+	} else if (isNullOrEmpty(model.getCod_barra())) {
+	    throw new SQLException("Código de barras inválido.");
+	} else if (isNullOrEmpty(model.getUnid_inv())) {
+	    throw new SQLException("Unidade inválida.");
+	} else if (isNullOrEmpty(model.getCod_ncm())) {
+	    throw new SQLException("NCM inválida.");
+	} else if (isNullOrEmpty(model.getAliq_icms())) {
+	    throw new SQLException("Alíquota ICMS inválida.");
+	} else if (isNullOrEmpty(model.getCest())) {
+	    throw new SQLException("CEST inválida.");
 	}
     }
-
 }

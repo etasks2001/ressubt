@@ -14,7 +14,7 @@ let formMenu;
 let modalMessageAction;
 let modalConfirmAction;
 let modalPesquisaAction;
-
+let form;
 const operations = document.querySelector(".operation");
 const messageUser = document.querySelector("#messageUser");
 const btnGravarRegistro = document.querySelector("#gravarRegistro");
@@ -47,14 +47,26 @@ operations.addEventListener("click", (event) => {
         formFields.setInsert();
         formFields.disabled(false);
         editButtons.setEditing();
-    } else if (id === "gravar") {
-        modalConfirmAction.open();
+        //} else if (id === "gravar") {
+        //modalConfirmAction.open();
     } else if (id === "cancelar") {
         editButtons.setDefault();
         formFields.disabled(true);
     } else if (id === "pesquisar") {
         console.log(formFields.getParameters());
         modalPesquisaAction.open();
+    }
+});
+
+const buttonGravar = document.querySelector("#gravar");
+
+buttonGravar.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    let check = form.checkValidity();
+
+    if (check) {
+        modalConfirmAction.open();
     }
 });
 
@@ -81,7 +93,7 @@ btnGravarRegistro.addEventListener("click", (event) => {
 
 iframe.onload = () => {
     let fields = iframe.contentWindow.document.querySelectorAll("select, input[type='text'], input[type='hidden']");
-    let form = iframe.contentWindow.document.querySelector("form");
+    form = iframe.contentWindow.document.querySelector("form");
     var formName = form.getAttribute("data-formName");
 
     editButtons.setDefault();

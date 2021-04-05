@@ -14,13 +14,11 @@ public class ParticipanteDao extends Dao<Participante> {
 
     @Override
     public List<Participante> getAll(Connection connection) {
-
 	return null;
     }
 
     @Override
     public Participante getRegistro(Object codigo, Connection connection) {
-
 	return null;
     }
 
@@ -30,21 +28,19 @@ public class ParticipanteDao extends Dao<Participante> {
     }
 
     @Override
-    public String update(Participante model, Connection connection) {
-	return "";
+    public void update(Participante model, Connection connection) {
+
     }
 
     @Override
-    public String insert(Participante model, Connection connection) {
+    public void insert(Participante model, Connection connection) throws SQLException {
 	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
-	String responseMessage = null;
+
 	PreparedStatement ps = null;
 	try {
-
-	    ps = connection.prepareStatement(sql);
-
 	    checkFields(model);
 
+	    ps = connection.prepareStatement(sql);
 	    ps.setInt(1, model.getContribuinte());
 	    ps.setString(2, model.getNome());
 	    ps.setString(3, model.getCod_pais());
@@ -52,46 +48,28 @@ public class ParticipanteDao extends Dao<Participante> {
 	    ps.setString(5, model.getIe());
 	    ps.setString(6, model.getCod_mun());
 
-	    int total = ps.executeUpdate();
-
-	    responseMessage = checkGravacao(total);
-
+	    ps.executeUpdate();
 	} catch (SQLException e) {
-	    responseMessage = Util.createResponseMessage(e.getMessage());
+	    throw new SQLException(e);
 	} finally {
 	    DbUtils.closeQuietly(ps);
 	    DbUtils.closeQuietly(connection);
 	    connection = null;
 	}
-	return responseMessage;
     }
 
     @Override
     void checkFields(Participante model) throws SQLException {
-	String nome = model.getNome();
-	String cod_pais = model.getCod_pais();
-	String cnpj_cpf = model.getCnpj_cpf();
-	String ie = model.getIe();
-	String cod_mun = model.getCod_mun();
-
-	String errorMessage = "";
-
-	if (isNullOrEmpty(nome)) {
-	    errorMessage = "Nome inválido.";
-	} else if (isNullOrEmpty(cod_pais)) {
-	    errorMessage = "País inválido.";
-	} else if (isNullOrEmpty(cnpj_cpf)) {
-	    errorMessage = "CNPJ/CPF inválida.";
-	} else if (isNullOrEmpty(ie)) {
-	    errorMessage = "Inscrição Estadual inválida.";
-	} else if (isNullOrEmpty(cod_mun)) {
-	    errorMessage = "Município inválido.";
+	if (isNullOrEmpty(model.getNome())) {
+	    throw new SQLException("Nome inválido.");
+	} else if (isNullOrEmpty(model.getCod_pais())) {
+	    throw new SQLException("País inválido.");
+	} else if (isNullOrEmpty(model.getCnpj_cpf())) {
+	    throw new SQLException("CNPJ/CPF inválida.");
+	} else if (isNullOrEmpty(model.getIe())) {
+	    throw new SQLException("Inscrição Estadual inválida.");
+	} else if (isNullOrEmpty(model.getCod_mun())) {
+	    throw new SQLException("Município inválido.");
 	}
-
-	if (campoComErro(errorMessage)) {
-	    throw new SQLException(errorMessage);
-	}
-
     }
-
 }

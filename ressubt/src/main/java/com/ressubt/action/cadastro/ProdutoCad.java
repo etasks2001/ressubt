@@ -8,18 +8,17 @@ import com.ressubt.model.Produto;
 
 public class ProdutoCad extends Cadastro<Produto> {
 
-    String executeDao(String json, Connection connection, String operation) throws SQLException {
+    void executeDao(String json, Connection connection, String operation) throws SQLException {
 	System.out.println(json);
 
 	Produto model = fromJson(json, Produto.class);
 	ProdutoDao dao = new ProdutoDao();
 
 	if (operation.equals("i")) {
-	    return dao.insert(model, connection);
+	    dao.insert(model, connection);
 	} else if (operation.equals("u")) {
-	    return dao.update(model, connection);
+	    dao.update(model, connection);
 	}
 
-	return "";
     }
 }
