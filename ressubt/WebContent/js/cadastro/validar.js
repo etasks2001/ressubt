@@ -1,13 +1,34 @@
 import { validarDescricao } from "../../js/cadastro/validarDescricao.js";
+import { validarCodigoFinalidade } from "../../js/cadastro/validarCodigoFinalidade.js";
+import { validarCPF } from "../../js/cadastro/validarCPF.js";
 
 const retornarMensagemDeErro = (tipo, validity) => {
-    const tiposDeErro = ["muito curto"];
+    let mensagemDeErro = "";
+    const tiposDeErro = ["valueMissing", "tooShort", "customError", "patternMismatch"];
 
     const mensagensDeErro = {
         descricao: {
-            tooShort: "muito curto",
+            tooShort: "Descrição está em branco.",
+            valueMissing: "Descrição está em branco.",
+        },
+        codigoFinalidade: {
+            tooShort: "Código finalidade está em branco.",
+            valueMissing: "Código finalidade está em branco.",
+            patternMismatch: "Somente números para o código",
+        },
+        cpf: {
+            valueMissing: "O CPF está em branco.",
+            customError: "CPF é inválido.",
         },
     };
+
+    tiposDeErro.forEach((erro) => {
+        if (validity[erro]) {
+            mensagemDeErro = mensagensDeErro[tipo][erro];
+        }
+    });
+
+    return mensagemDeErro;
 };
 export const validarInput = (input, adicionarErro = true) => {
     const elementoEhValido = input.validity.valid;
@@ -23,9 +44,9 @@ export const validarInput = (input, adicionarErro = true) => {
     const tipo = input.dataset.tipo;
 
     const validadoresEspecificos = {
-        descricao: (input) => {
-            validarDescricao(input);
-        },
+        descricao: (input) => validarDescricao(input),
+        codigoFinalidade: (input) => validarCodigoFinalidade(input),
+        cpf: (input) => validarCPF(input),
     };
 
     if (validadoresEspecificos[tipo]) {
@@ -33,7 +54,14 @@ export const validarInput = (input, adicionarErro = true) => {
     }
 
     if (!elementoEhValido) {
+        const label = elementoPai.querySelector("label");
+        const style = getComputedStyle(label);
+        console.log(style.width);
+        console.log(label);
+
         elementoErro.className = classeElementoErro;
+        elementoErro.style.marginLeft = style.width;
+
         elementoErro.textContent = retornarMensagemDeErro(tipo, input.validity);
         if (adicionarErro) {
             input.after(elementoErro);
