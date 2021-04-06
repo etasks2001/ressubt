@@ -1,10 +1,24 @@
 import { URL_FINALIDADE, URL_UF, URL_MUNICIPIO, requestJson } from "../../js/util/script.js";
+import { validarInput } from "../../js/cadastro/validar.js";
 
 const selectUf = document.querySelector("select[name=uf]");
 const selectMunicipio = document.querySelector("select[name=cod_mun]");
 const selectFinalidade = document.querySelector("select[name=cod_fin]");
 
 window.onload = () => {
+    const inputs = document.querySelectorAll("input");
+
+    inputs.forEach((input) => {
+        input.addEventListener("input", () => {
+            console.log("input");
+            validarInput(input, false);
+        });
+
+        input.addEventListener("blur", () => {
+            console.log("input");
+            validarInput(input);
+        });
+    });
     requestJson(URL_FINALIDADE, selectFinalidade);
     requestJson(URL_UF, selectUf);
 

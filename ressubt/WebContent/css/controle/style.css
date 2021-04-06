@@ -2,7 +2,8 @@ textarea,
 select {
     border: 1px solid #ccc;
     box-shadow: inset 2px 2px 2px #eee;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+    font-size: 15px;
     padding: 2px 5px;
     margin-right: 2px;
     font-family: Geneva, Verdana, sans-serif;
@@ -25,9 +26,13 @@ div.formRow {
 }
 
 label {
-    font-family: Geneva, Verdana, sans-serif;
+    /*font-family: Geneva, Verdana, sans-serif;*/
     display: inline-block;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
 }
 
 .input.possui-erro-validacao {

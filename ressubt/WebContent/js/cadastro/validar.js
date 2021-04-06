@@ -1,6 +1,10 @@
 import { validarDescricao } from "../../js/cadastro/validarDescricao.js";
 import { validarCodigoFinalidade } from "../../js/cadastro/validarCodigoFinalidade.js";
 import { validarCPF } from "../../js/cadastro/validarCPF.js";
+import { validarNome } from "../../js/cadastro/validarNome.js";
+import { validarCNPJ } from "../../js/cadastro/validarCNPJ.js";
+import { validarInscricaoEstadual } from "../../js/cadastro/validarInscricaoEstadual.js";
+import { validarVersaoDoLeiaute } from "../../js/cadastro/validarVersaoDoLeiaute.js";
 
 const retornarMensagemDeErro = (tipo, validity) => {
     let mensagemDeErro = "";
@@ -19,6 +23,22 @@ const retornarMensagemDeErro = (tipo, validity) => {
         cpf: {
             valueMissing: "O CPF está em branco.",
             customError: "CPF é inválido.",
+        },
+        nome: {
+            tooShort: "Nome está em branco.",
+            valueMissing: "Nome está em branco.",
+        },
+        cnpj: {
+            tooShort: "CNPJ em branco.",
+            valueMissing: "CNPJ em branco.",
+        },
+        inscricaoestadual: {
+            tooShort: "Inscricao Estadual em branco.",
+            valueMissing: "Inscricao Estadual em branco.",
+        },
+        versaodoleiaute: {
+            tooShort: "Versão do Leiaute está em branco.",
+            valueMissing: "Versão do Leiaute está em branco.",
         },
     };
 
@@ -47,6 +67,10 @@ export const validarInput = (input, adicionarErro = true) => {
         descricao: (input) => validarDescricao(input),
         codigoFinalidade: (input) => validarCodigoFinalidade(input),
         cpf: (input) => validarCPF(input),
+        nome: (input) => validarNome(input),
+        cnpj: (input) => validarCNPJ(input),
+        inscricaoestadual: (input) => validarInscricaoEstadual(input),
+        versaodoleiaute: (input) => validarVersaoDoLeiaute(input),
     };
 
     if (validadoresEspecificos[tipo]) {

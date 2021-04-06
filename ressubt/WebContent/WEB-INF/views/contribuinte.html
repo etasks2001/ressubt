@@ -13,30 +13,30 @@
 	<form data-formName="Contribuinte">
 		<input type="hidden" name="sk" />
 		<div class="formRow">
-			<label for="nome" class="left">Nome</label><input type="text" id="nome" name="nome" maxlength="100" size="100" data-setfocus="true" />
+			<label for="nome" class="left">Nome</label><input data-tipo="nome" class="input" type="text" id="nome" name="nome" maxlength="100" size="100" data-setfocus="true" required />
 		</div>
 		<div class="formRow">
-			<label for="cnpj" class="left">CNPJ</label><input type="text" id="cnpj" name="cnpj" maxlength="14" size="14" />
+			<label for="cnpj" class="left">CNPJ</label><input data-tipo="cnpj" class="input" type="text" id="cnpj" name="cnpj" maxlength="14" size="14" required />
 		</div>
 		<div class="formRow">
-			<label for="ie" class="left">Insc. Est.</label><input type="text" id="ie" name="ie" maxlength="14" size="14" />
+			<label for="ie" class="left">Insc. Est.</label><input data-tipo="inscricaoestadual" class="input" type="text" id="ie" name="ie" maxlength="14" size="14" required />
 		</div>
 		<div class="formRow">
-			<label for="uf" class="left">UF</label><select id="uf" name="uf"></select>
+			<label for="uf" class="left">UF</label><select class="input" id="uf" name="uf"></select>
 		</div>
 		<div class="formRow">
-			<label for="municipio">Município</label><select id="municipio" name="cod_mun"></select>
+			<label for="municipio">Município</label><select class="input" id="municipio" name="cod_mun"></select>
 		</div>
 		<div class="formRow">
-			<label for="versao_leiaute" class="left">Versão Leiaute</label><input type="text" id="versao_leiaute" name="cod_ver" maxlength="2" size="2" />
+			<label for="versao_leiaute" class="left">Versão Leiaute</label><input data-tipo="versaodoleiaute" class="input" type="text" id="versao_leiaute" name="cod_ver" maxlength="2" size="2" required />
 		</div>
 		<div class="formRow">
-			<label for="finalidade" class="left">Finalidade</label><select id="finalidade" name="cod_fin"></select>
+			<label for="finalidade" class="left">Finalidade</label><select class="input" id="finalidade" name="cod_fin"></select>
 		</div>
 	</form>
 
 	<script type="module" src="js/contribuinte/script.js"></script>
-	<script src="js/util/vanilla-masker.min.js"></script>
+
 </body>
 
 </html>
