@@ -50,6 +50,12 @@ operations.addEventListener("click", (event) => {
         //} else if (id === "gravar") {
         //modalConfirmAction.open();
     } else if (id === "cancelar") {
+        formFields.removeErroValidacao();
+        const errosValidacao = form.querySelectorAll(".erro-validacao");
+        errosValidacao.forEach((erro) => {
+            erro.remove();
+        });
+
         editButtons.setDefault();
         formFields.disabled(true);
     } else if (id === "pesquisar") {
@@ -62,9 +68,7 @@ const buttonGravar = document.querySelector("#gravar");
 
 buttonGravar.addEventListener("click", (e) => {
     e.preventDefault();
-
     let check = form.checkValidity();
-
     if (check) {
         modalConfirmAction.open();
     }

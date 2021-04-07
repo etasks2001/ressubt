@@ -58,4 +58,10 @@ FormFields.prototype = {
     setFormName(formName) {
         this.formName = formName;
     },
+
+    removeErroValidacao: function () {
+        this.fields.forEach((field) => {
+            field.classList.remove("possui-erro-validacao");
+        });
+    },
 };

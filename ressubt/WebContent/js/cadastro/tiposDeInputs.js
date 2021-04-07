@@ -1,0 +1,16 @@
+export const tiposDeInputs = {
+    DESCRICAO: "descricao",
+    CODIGO_FINALIDADE: "codigoFinalidade",
+    CPF: "cpf",
+    NOME: "nome",
+    CNPJ: "cnpj",
+    INSCRICAO_ESTADUAL: "inscricaoestadual",
+    VERSAO_DO_LEIAUTE: "versaodoleiaute",
+    CNPJ_CPF: "cnpjcpf",
+    CODIGO_PRODUTO: "codigoproduto",
+    CODIGO_DE_BARRAS: "codigodebarras",
+    UNIDADE: "unidade",
+    NCM: "ncm",
+    ALIQUOTA_ICMS: "aliquotaICMS",
+    CEST: "cest",
+};

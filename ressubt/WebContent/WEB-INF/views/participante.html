@@ -15,16 +15,16 @@
         <input type="hidden" name="sk" id="sk">
         <input type="hidden" name="contribuinte" id="contribuinte" value="1">
         <div class="formRow">
-            <label for="nome">Nome</label><input class="input" type="text" name="nome" id="nome" maxlength="100" size="100" data-setfocus="true">
+            <label for="nome">Nome</label><input class="input" type="text" data-tipo="nome" name="nome" id="nome" maxlength="100" size="100" data-setfocus="true" required>
         </div>
         <div class="formRow">
             <label for="cod_pais">País</label><select class="input" name="cod_pais" id="cod_pais"></select>
         </div>
         <div class="formRow">
-            <label for="cnpj_cpf">CNPJ/CPF</label><input class="input" type="text" name="cnpj_cpf" id="cnpj_cpf" maxlength="14" size="14">
+            <label for="cnpj_cpf">CNPJ/CPF</label><input class="input" data-tipo="cnpjcpf" type="text" name="cnpj_cpf" id="cnpj_cpf" maxlength="14" size="14" required>
         </div>
         <div class="formRow">
-            <label for="ie">Insc. Est.</label><input class="input" type="text" name="ie" id="ie" maxlength="14" size="14">
+            <label for="ie">Insc. Est.</label><input class="input" data-tipo="inscricaoestadual" type="text" name="ie" id="ie" maxlength="14" size="14" required>
         </div>
         <div class="formRow">
             <label for="uf">UF</label><select class="input" name="uf" id="uf"></select>
