@@ -14,13 +14,10 @@ const retornarMensagemDeErro = (tipo, validity) => {
 };
 export const validarInput = (input, adicionarErro = true) => {
     const elementoEhValido = input.validity.valid;
-    console.log(input.validity);
 
     const classeElementoErro = "erro-validacao";
     const classeInputErro = "possui-erro-validacao";
     const elementoPai = input.parentNode;
-
-    console.log(elementoPai);
 
     const elementoErroExiste = elementoPai.querySelector(`.${classeElementoErro}`);
     const elementoErro = elementoErroExiste || document.createElement("div");
