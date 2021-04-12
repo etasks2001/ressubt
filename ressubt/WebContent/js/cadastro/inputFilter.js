@@ -1,8 +1,11 @@
+import { tiposDeInputs } from "../../js/cadastro/tiposDeInputs.js";
+import { inputUppercase } from "../../js/cadastro/inputUpperCase.js";
+
 export const inputFilter = (textbox, inputFilter) => {
     ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
         textbox.addEventListener(event, function () {
             if (inputFilter(this.value)) {
-                this.oldValue = this.value;
+                this.oldValue = this.value.toUpperCase();
                 this.oldSelectionStart = this.selectionStart;
                 this.oldSelectionEnd = this.selectionEnd;
             } else if (this.hasOwnProperty("oldValue")) {
@@ -13,6 +16,31 @@ export const inputFilter = (textbox, inputFilter) => {
             }
         });
     });
+};
+const moneyPattern = /^\d*[,]?\d{0,2}$/;
+const numberPattern = /^-?\d*$/;
+//const upperCasePattern = /[\w]+/g;
+
+export const testReg = (pattern, value) => {
+    return pattern.test(value);
+};
+
+export const inputRulesPatterns = {
+    [tiposDeInputs.CNPJ]: (value) => testReg(numberPattern, value),
+    //[tiposDeInputs.DESCRICAO]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.CODIGO_FINALIDADE]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.CPF]: (value) => testReg(numberPattern, value),
+    //[tiposDeInputs.NOME]: (value) => testReg(upperCasePattern, value),
+    [tiposDeInputs.CNPJ]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.INSCRICAO_ESTADUAL]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.VERSAO_DO_LEIAUTE]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.CNPJ_CPF]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.CODIGO_PRODUTO]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.CODIGO_DE_BARRAS]: (value) => testReg(numberPattern, value),
+    //[tiposDeInputs.UNIDADE]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.NCM]: (value) => testReg(numberPattern, value),
+    [tiposDeInputs.ALIQUOTA_ICMS]: (value) => testReg(moneyPattern, value),
+    [tiposDeInputs.CEST]: (value) => testReg(numberPattern, value),
 };
 /*
                 setInputFilter(document.getElementById("intTextBox"), function(value) {

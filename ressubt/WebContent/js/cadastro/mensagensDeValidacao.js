@@ -21,6 +21,7 @@ export const errorMessages = {
         [VALUE_MISSING]: "Nome está em branco.",
     },
     [tiposDeInputs.CNPJ]: {
+        [CUSTOM_ERROR]: "CNPJ tem que ter 14 números.",
         [TOO_SHORT]: "CNPJ está em branco.",
         [VALUE_MISSING]: "CNPJ está em branco.",
     },
@@ -49,6 +50,7 @@ export const errorMessages = {
         [VALUE_MISSING]: "Unidade está em branco.",
     },
     [tiposDeInputs.NCM]: {
+        [CUSTOM_ERROR]: "NCM tem que ter 8 números.",
         [TOO_SHORT]: "NCM está em branco.",
         [VALUE_MISSING]: "NCM está em branco.",
     },

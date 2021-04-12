@@ -1,5 +1,5 @@
 export const validarAliquotaICMS = (input) => {
-    const valor = input.formatToNumber();
+    const valor = parseFloat(input.value.replace(",", ".").replace(" ", ""));
 
     if (valor === 0 || input.validity.tooShort) {
         input.setCustomValidity("Erro");
