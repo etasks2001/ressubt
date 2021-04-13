@@ -5,6 +5,7 @@ export const validarCNPJ = (input) => {
         input.setCustomValidity("erro");
         return;
     }
+
     input.setCustomValidity("");
     return;
 };

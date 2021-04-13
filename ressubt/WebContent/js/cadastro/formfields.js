@@ -1,5 +1,33 @@
 "use strict";
+import { tiposDeInputs } from "../../js/cadastro/tiposDeInputs.js";
 export { FormFields };
+
+const errorMessage = {
+    [tiposDeInputs.DESCRICAO]: "Descrição está em branco.....",
+};
+
+const fieldHasError = {
+    [tiposDeInputs.DESCRICAO]: (input) => {
+        if (input.value.trim() === "") {
+            input.blanckField = "blanckField";
+        }
+        return;
+    },
+    /*
+    codigoFinalidade: (input) => validarCodigoFinalidade(input),
+    cpf: (input) => validarCPF(input),
+    nome: (input) => validarNome(input),
+    cnpj: (input) => validarCNPJ(input),
+    inscricaoestadual: (input) => validarInscricaoEstadual(input),
+    versaodoleiaute: (input) => validarVersaoDoLeiaute(input),
+    cnpjcpf: (input) => validarCNPJCPF(input),
+    codigoproduto: (input) => validarCodigoProduto(input),
+    codigodebarras: (input) => validarCodigoDeBarras(input),
+    unidade: (input) => validarUnidade(input),
+    ncm: (input) => validarNCM(input),
+    aliquotaICMS: (input) => validarAliquotaICMS(input),
+    cest: (input) => validarCest(input),*/
+};
 
 function FormFields() {
     this.fields;
@@ -59,9 +87,21 @@ FormFields.prototype = {
         this.formName = formName;
     },
 
-    removeErroValidacao: function () {
+    removeErroValidacao() {
         this.fields.forEach((field) => {
             field.classList.remove("possui-erro-validacao");
+        });
+    },
+
+    checkField() {
+        this.fields.forEach((field) => {
+            let tipo = field.dataset.tipo;
+            if (fieldHasError[tipo]) {
+                console.log(fieldHasError[tipo](field));
+                if (fieldHasError[tipo](field)) {
+                    console.log(errorMessage[tipo]);
+                }
+            }
         });
     },
 };

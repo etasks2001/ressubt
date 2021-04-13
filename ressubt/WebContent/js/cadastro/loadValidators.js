@@ -25,6 +25,7 @@ export const loadValidators = () => {
             inputUppercase(input);
         }
 */
+
         input.addEventListener("input", () => {
             validarInput(input, false);
         });

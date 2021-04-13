@@ -14,7 +14,7 @@ import { validarAliquotaICMS } from "../../js/cadastro/validarAliquotaICMS.js";
 import { validarCest } from "../../js/cadastro/validarCest.js";
 
 export const validadoresEspecificos = {
-    descricao: (input) => validarDescricao(input),
+    //descricao: (input) => validarDescricao(input),
     codigoFinalidade: (input) => validarCodigoFinalidade(input),
     cpf: (input) => validarCPF(input),
     nome: (input) => validarNome(input),

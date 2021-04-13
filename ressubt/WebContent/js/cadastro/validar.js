@@ -23,6 +23,7 @@ export const validarInput = (input, adicionarErro = true) => {
     const elementoErro = elementoErroExiste || document.createElement("div");
 
     const tipo = input.dataset.tipo;
+    console.log("Tipo: " + tipo);
 
     if (validadoresEspecificos[tipo]) {
         validadoresEspecificos[tipo](input);

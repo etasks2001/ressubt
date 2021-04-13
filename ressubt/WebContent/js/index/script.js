@@ -68,6 +68,7 @@ const buttonGravar = document.querySelector("#gravar");
 
 buttonGravar.addEventListener("click", (e) => {
     e.preventDefault();
+    formFields.checkField();
     let check = form.checkValidity();
     if (check) {
         modalConfirmAction.open();

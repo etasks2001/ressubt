@@ -3,10 +3,11 @@ import { tiposDeInputs } from "../../js/cadastro/tiposDeInputs.js";
 import { BAD_INPUT, CUSTOM_ERROR, PATTERN_MISMATCH, RANGE_OVERFLOW, RANGE_UNDERFLOW, STEP_MISMATCH, TOO_LONG, TOO_SHORT, TYPE_MISMATCH, VALID, VALUE_MISSING } from "../../js/cadastro/validityStates.js";
 
 export const errorMessages = {
-    [tiposDeInputs.DESCRICAO]: {
+    /*    [tiposDeInputs.DESCRICAO]: {
         [TOO_SHORT]: "Descrição está em branco.",
         [VALUE_MISSING]: "Descrição está em branco.",
     },
+    */
     [tiposDeInputs.CODIGO_FINALIDADE]: {
         [TOO_SHORT]: "Código da Finalidade está em branco.",
         [VALUE_MISSING]: "Código da Finalidade está em branco.",
@@ -50,7 +51,7 @@ export const errorMessages = {
         [VALUE_MISSING]: "Unidade está em branco.",
     },
     [tiposDeInputs.NCM]: {
-        [CUSTOM_ERROR]: "NCM tem que ter 8 números.",
+        [CUSTOM_ERROR]: "NCM somente com 8 números.",
         [TOO_SHORT]: "NCM está em branco.",
         [VALUE_MISSING]: "NCM está em branco.",
     },
