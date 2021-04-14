@@ -9,10 +9,10 @@ const retornarMensagemDeErro = (tipo, validity) => {
             mensagemDeErro = errorMessages[tipo][erro];
         }
     });
-
     return mensagemDeErro;
 };
-export const validarInput = (input, adicionarErro = true) => {
+
+export const validarInput = (input) => {
     const elementoEhValido = input.validity.valid;
 
     const classeElementoErro = "erro-validacao";
@@ -23,7 +23,6 @@ export const validarInput = (input, adicionarErro = true) => {
     const elementoErro = elementoErroExiste || document.createElement("div");
 
     const tipo = input.dataset.tipo;
-    console.log("Tipo: " + tipo);
 
     if (validadoresEspecificos[tipo]) {
         validadoresEspecificos[tipo](input);
@@ -37,10 +36,9 @@ export const validarInput = (input, adicionarErro = true) => {
         elementoErro.style.marginLeft = style.width;
 
         elementoErro.textContent = retornarMensagemDeErro(tipo, input.validity);
-        if (adicionarErro) {
-            input.after(elementoErro);
-            input.classList.add(classeInputErro);
-        }
+
+        input.after(elementoErro);
+        input.classList.add(classeInputErro);
     } else {
         elementoErro.remove();
         input.classList.remove(classeInputErro);
