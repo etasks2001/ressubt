@@ -1,10 +1,11 @@
 "use strict";
-const classeElementoErro = "erro-validacao";
 import { validityStatesError } from "../../js/cadastro/validityStates.js";
 import { validadoresEspecificos } from "../../js/cadastro/validators.js";
 import { errorMessages } from "../../js/cadastro/mensagensDeValidacao.js";
 
-//import { validarInput } from "../../js/cadastro/validar.js";
+const classeErroValidacao = "erro-validacao";
+const classePossuiErroValidacao = "possui-erro-validacao";
+
 export { FormFields };
 
 function FormFields() {
@@ -29,28 +30,15 @@ FormFields.prototype = {
     },
     setFields: function (fields) {
         this.fields = fields;
-
-        this.fields.forEach((field) => {
-            field.addEventListener("focusin", (event) => {
-                let input = event.target;
-                let parent = input.parentNode;
-                let errorMessage = parent.querySelector(".erro-validacao");
-
-                if (errorMessage) {
-                    errorMessage.remove();
-                }
-                input.classList.remove("possui-erro-validacao");
-            });
-        });
+        this.loop((field) => field.addEventListener("focusin", (event) => this.erroDeValidacaoRemover(field)));
     },
 
     getParameters() {
         var model = {};
-        this.fields.forEach((field) => {
-            model[field.name] = field.value;
-        });
 
-        return "action=Cadastro" + this.formName + "&model=" + JSON.stringify(model) + "&operation=" + this.operation;
+        this.fields.forEach((field) => (model[field.name] = field.value));
+        const json = JSON.stringify(model);
+        return `action=Cadastro${this.formName}&model=${json}&operation=${this.operation}`;
     },
 
     clear: function () {
@@ -62,9 +50,7 @@ FormFields.prototype = {
     },
 
     loop: function (func) {
-        this.fields.forEach((field) => {
-            func(field);
-        });
+        this.fields.forEach((field) => func(field));
     },
 
     setInsert: function () {
@@ -80,15 +66,11 @@ FormFields.prototype = {
     },
 
     removeErroValidacao() {
-        this.loop((field) => {
-            field.classList.remove("possui-erro-validacao");
-        });
+        this.loop((field) => field.classList.remove(classePossuiErroValidacao));
     },
 
     checkField() {
-        this.loop((field) => {
-            this.validarInput(field);
-        });
+        this.loop((field) => this.validarInput(field));
     },
 
     retornarMensagemDeErro: function (tipo, validity) {
@@ -103,33 +85,43 @@ FormFields.prototype = {
 
     validarInput: function (input) {
         const elementoEhValido = input.validity.valid;
-
-        const classeInputErro = "possui-erro-validacao";
-        const elementoPai = input.parentNode;
-
-        const elementoErroExiste = elementoPai.querySelector(`.${classeElementoErro}`);
-        const elementoErro = elementoErroExiste || document.createElement("div");
-
         const tipo = input.dataset.tipo;
 
         if (validadoresEspecificos[tipo]) {
             validadoresEspecificos[tipo](input);
         }
 
-        if (!elementoEhValido) {
-            const label = elementoPai.querySelector("label");
-            const style = getComputedStyle(label);
-
-            elementoErro.className = classeElementoErro;
-            elementoErro.style.marginLeft = style.width;
-
-            elementoErro.textContent = this.retornarMensagemDeErro(tipo, input.validity);
-
-            input.after(elementoErro);
-            input.classList.add(classeInputErro);
+        if (elementoEhValido) {
+            this.erroDeValidacaoRemover(input);
         } else {
-            elementoErro.remove();
-            input.classList.remove(classeInputErro);
+            this.erroDeValidacaoAdicionar(input);
         }
+    },
+
+    erroDeValidacaoAdicionar: function (input) {
+        const elementoPai = input.parentNode;
+
+        const elementoErroExiste = elementoPai.querySelector(`.${classeErroValidacao}`);
+        const elementoErro = elementoErroExiste || document.createElement("div");
+
+        const label = elementoPai.querySelector("label");
+        const style = getComputedStyle(label);
+
+        elementoErro.className = classeErroValidacao;
+        elementoErro.style.marginLeft = style.width;
+
+        elementoErro.textContent = this.retornarMensagemDeErro(input.dataset.tipo, input.validity);
+
+        input.after(elementoErro);
+        input.classList.add(classePossuiErroValidacao);
+    },
+    erroDeValidacaoRemover: function (input) {
+        let parent = input.parentNode;
+        let errorMessage = parent.querySelector(`.${classeErroValidacao}`);
+
+        if (errorMessage) {
+            errorMessage.remove();
+        }
+        input.classList.remove(classePossuiErroValidacao);
     },
 };

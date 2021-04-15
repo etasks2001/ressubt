@@ -4,7 +4,6 @@ import { inputUppercase } from "../../js/cadastro/inputUpperCase.js";
 export const inputFilter = (textbox, inputFilter) => {
     ["keydown", "keyup"].forEach(function (event) {
         textbox.addEventListener(event, function () {
-            console.log(textbox.validity);
             if (inputFilter(this.value)) {
                 this.oldValue = this.value.toUpperCase();
                 this.oldSelectionStart = this.selectionStart;
