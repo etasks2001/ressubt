@@ -1,5 +1,7 @@
 export const validarCest = (input) => {
-    if (input.validity.tooShort) {
+    const pattern = /\d{7}/;
+
+    if (!pattern.test(input.value) || input.validity.tooShort) {
         input.setCustomValidity("erro");
         return;
     }

@@ -2,7 +2,7 @@ import { tiposDeInputs } from "../../js/cadastro/tiposDeInputs.js";
 import { inputUppercase } from "../../js/cadastro/inputUpperCase.js";
 
 export const inputFilter = (textbox, inputFilter) => {
-    ["keydown", "keyup"].forEach(function (event) {
+    ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
         textbox.addEventListener(event, function () {
             if (inputFilter(this.value)) {
                 this.oldValue = this.value.toUpperCase();

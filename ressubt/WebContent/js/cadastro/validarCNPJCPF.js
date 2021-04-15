@@ -1,5 +1,6 @@
 export const validarCNPJCPF = (input) => {
-    if (input.validity.tooShort) {
+    const pattern = /(\d{11})|(\d{14})/;
+    if (!pattern.test(input.value) || input.validity.tooShort) {
         input.setCustomValidity("erro");
         return;
     }

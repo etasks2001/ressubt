@@ -76,6 +76,7 @@ FormFields.prototype = {
     retornarMensagemDeErro: function (tipo, validity) {
         let mensagemDeErro = "";
         validityStatesError.forEach((erro) => {
+            console.log(erro + ": " + validity[erro]);
             if (validity[erro]) {
                 mensagemDeErro = errorMessages[tipo][erro];
             }
@@ -84,13 +85,14 @@ FormFields.prototype = {
     },
 
     validarInput: function (input) {
-        const elementoEhValido = input.validity.valid;
+        console.log(input.id);
+        console.log(input.validity);
         const tipo = input.dataset.tipo;
 
         if (validadoresEspecificos[tipo]) {
             validadoresEspecificos[tipo](input);
         }
-
+        const elementoEhValido = input.validity.valid;
         if (elementoEhValido) {
             this.erroDeValidacaoRemover(input);
         } else {
