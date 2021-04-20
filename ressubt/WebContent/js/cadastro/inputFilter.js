@@ -26,12 +26,11 @@ export const testReg = (pattern, value) => {
 };
 
 export const inputRulesPatterns = {
-    [tiposDeInputs.CNPJ]: (value) => testReg(numberPattern, value),
+    //[tiposDeInputs.CNPJ]: (value) => testReg(numberPattern, value),
     //[tiposDeInputs.DESCRICAO]: (value) => testReg(numberPattern, value),
     [tiposDeInputs.CODIGO_FINALIDADE]: (value) => testReg(numberPattern, value),
     [tiposDeInputs.CPF]: (value) => testReg(numberPattern, value),
     //[tiposDeInputs.NOME]: (value) => testReg(upperCasePattern, value),
-    [tiposDeInputs.CNPJ]: (value) => testReg(numberPattern, value),
     [tiposDeInputs.INSCRICAO_ESTADUAL]: (value) => testReg(numberPattern, value),
     [tiposDeInputs.VERSAO_DO_LEIAUTE]: (value) => testReg(numberPattern, value),
     [tiposDeInputs.CNPJ_CPF]: (value) => testReg(numberPattern, value),

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/participante/style.css">
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
 </head>
 
 <body>
@@ -20,6 +21,14 @@
         <div class="formRow">
             <label for="cod_pais">País</label><select class="input" name="cod_pais" id="cod_pais"></select>
         </div>
+        <div class="formRow">
+            <label for="tipodepessoa">Tipo de Pessoa</label><select class="input" name="tipodepessoa" id="tipodepessoa">
+                <option value="1">Física</option>
+                <option value="2">Jurídica</option>
+            </select>
+
+        </div>
+
         <div class="formRow">
             <label for="cnpj_cpf">CNPJ/CPF</label><input class="input" data-tipo="cnpjcpf" type="text" name="cnpj_cpf" id="cnpj_cpf" maxlength="14" size="14" required>
         </div>

@@ -5,6 +5,11 @@ const selectUf = document.querySelector("select[name=uf]");
 const selectMunicipio = document.querySelector("select[name=cod_mun]");
 const selectFinalidade = document.querySelector("select[name=cod_fin]");
 
+let selector = document.querySelector("#cnpj");
+
+var im = new Inputmask("99.999.999/9999-99");
+im.mask(selector);
+
 window.onload = () => {
     loadValidators();
     requestJson(URL_FINALIDADE, selectFinalidade);
