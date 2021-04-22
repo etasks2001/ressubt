@@ -1,6 +1,6 @@
 import { validarDescricao } from "../../js/cadastro/validarDescricao.js";
 import { validarCodigoFinalidade } from "../../js/cadastro/validarCodigoFinalidade.js";
-import { validarCPF } from "../../js/cadastro/validarCPF.js";
+//import { validarCPF } from "../../js/cadastro/validarCPF.js";
 import { validarNome } from "../../js/cadastro/validarNome.js";
 import { validarCNPJ } from "../../js/cadastro/validarCNPJ.js";
 import { validarInscricaoEstadual } from "../../js/cadastro/validarInscricaoEstadual.js";
@@ -16,7 +16,7 @@ import { validarCest } from "../../js/cadastro/validarCest.js";
 export const validadoresEspecificos = {
     descricao: (input) => validarDescricao(input),
     codigoFinalidade: (input) => validarCodigoFinalidade(input),
-    cpf: (input) => validarCPF(input),
+    //cpf: (input) => validarCPF(input),
     nome: (input) => validarNome(input),
     cnpj: (input) => validarCNPJ(input),
     inscricaoestadual: (input) => validarInscricaoEstadual(input),

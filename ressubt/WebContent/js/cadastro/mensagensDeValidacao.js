@@ -7,16 +7,16 @@ export const errorMessages = {
         [TOO_SHORT]: "Descrição está em branco",
         [VALUE_MISSING]: "Descrição está em branco",
     },
-
     [tiposDeInputs.CODIGO_FINALIDADE]: {
         [CUSTOM_ERROR]: "2 números para Código da Finalidade",
         [TOO_SHORT]: "Código da Finalidade está em branco",
         [VALUE_MISSING]: "Código da Finalidade está em branco",
     },
-    [tiposDeInputs.CPF]: {
+    /*    [tiposDeInputs.CPF]: {
+        [CUSTOM_ERROR]: "CPF em branco",
         [TOO_SHORT]: "O CPF está em branco",
-        [CUSTOM_ERROR]: "CPF é inválido",
-    },
+        [VALUE_MISSING]: "CPF em branco",
+    },*/
     [tiposDeInputs.NOME]: {
         [TOO_SHORT]: "Nome está em branco",
         [VALUE_MISSING]: "Nome está em branco",
@@ -42,6 +42,7 @@ export const errorMessages = {
         [VALUE_MISSING]: "CNPJ/CPF está em branco",
     },
     [tiposDeInputs.CODIGO_PRODUTO]: {
+        [CUSTOM_ERROR]: "Código inválido",
         [TOO_SHORT]: "Código do Produto está em branco",
         [VALUE_MISSING]: "Código do Produto está em branco",
     },

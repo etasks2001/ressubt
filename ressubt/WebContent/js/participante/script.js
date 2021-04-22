@@ -6,19 +6,19 @@ const selectPais = document.querySelector("select[name=cod_pais]");
 
 let tipoDePessoa = document.querySelector("#tipodepessoa");
 
-let selector = document.querySelector("#cnpj_cpf");
+let cnpjCpf = document.querySelector("#cnpj_cpf");
+const maskCPF = new Inputmask("999.999.999-99");
+const maskCNPJ = new Inputmask("99.999.999/9999-99");
+maskCPF.mask(cnpjCpf);
 
-tipoDePessoa.addEventListener("click", (event) => {
+tipoDePessoa.addEventListener("change", (event) => {
     let option = event.target.options[event.target.selectedIndex];
-    console.log(option.value);
-    console.log(selector);
-    let im;
+
     if (option.value === "1") {
-        im = new Inputmask("99.999.999/9999-99");
+        maskCPF.mask(cnpjCpf);
     } else if (option.value === "2") {
-        im = new Inputmask("999.999.999-99");
+        maskCNPJ.mask(cnpjCpf);
     }
-    im.mask(selector);
 });
 
 window.onload = () => {

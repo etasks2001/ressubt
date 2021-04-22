@@ -17,7 +17,14 @@ const calcularDigito = (parteCPF, multiplicador) => {
 };
 export const validarCPF = (input) => {
     const cpfNumeros = input.value.replace(/\D/g, "");
-    console.log(cpfNumeros);
+
+    console.log("Numeros CPF: " + cpfNumeros);
+    console.log("Numeros CPF : " + cpfNumeros.length);
+
+    if (cpfNumeros.length === 0) {
+        input.setCustomValidity("CPF em branco");
+        return;
+    }
 
     if (ehUmCPFComNumerosRepetidos(cpfNumeros)) {
         input.setCustomValidity("CPF inválido.");
