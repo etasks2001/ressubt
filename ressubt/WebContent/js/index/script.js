@@ -1,4 +1,5 @@
 "use strict";
+
 import { ModalAction } from "../../js/cadastro/modal.js";
 import { FormFields } from "../../js/cadastro/formfields.js";
 import { EditButtons } from "../../js/cadastro/editbuttons.js";
@@ -15,6 +16,7 @@ let modalMessageAction;
 let modalConfirmAction;
 let modalPesquisaAction;
 let form;
+
 const operations = document.querySelector(".operation");
 const messageUser = document.querySelector("#messageUser");
 const btnGravarRegistro = document.querySelector("#gravarRegistro");
