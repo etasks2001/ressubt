@@ -1,4 +1,20 @@
-﻿select * from information_schema.table_constraints;
+﻿/*
+
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 180 OFFSET 0;
+
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 0;
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30;
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 60;
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 90;
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 120;
+SELECT * FROM participante ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 150;
+
+
+*/
+
+
+
+select * from information_schema.table_constraints;
 
 DO $$
 declare r record;
@@ -234,6 +250,7 @@ COPY saldo (produto,ano,mes,qtd_ini,icms_tot_ini_st,icms_tot_ini_proprio,qtd_fim
 
 SELECT * FROM pg_stat_activity;
 /*
+
 select * from uf;
 select * from municipio;
 select * from finalidade;
@@ -245,3 +262,4 @@ select * from saldo;
 select * from pais;
 
 */
+
