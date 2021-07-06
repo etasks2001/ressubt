@@ -19,6 +19,5 @@ public class FinalidadeCad extends Cadastro<Finalidade> {
 	} else if (operation.equals("u")) {
 	    dao.update(model, connection);
 	}
-
     }
 }

@@ -13,7 +13,7 @@ import com.ressubt.util.Util;
 public class ParticipanteDao extends Dao<Participante> {
 
     @Override
-    public List<Participante> getAll(Connection connection) {
+    public List<Participante> getAll(Connection connection, String... parameters) {
 	return null;
     }
 

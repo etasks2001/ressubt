@@ -19,6 +19,5 @@ public class ContribuinteCad extends Cadastro<Contribuinte> {
 	} else if (operation.equals("u")) {
 	    dao.update(model, connection);
 	}
-
     }
 }

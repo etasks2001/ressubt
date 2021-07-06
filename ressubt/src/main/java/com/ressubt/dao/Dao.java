@@ -10,7 +10,7 @@ import com.ressubt.util.Util;
 
 public abstract class Dao<T extends Model> {
 
-    public abstract List<T> getAll(Connection connection) throws SQLException;
+    public abstract List<T> getAll(Connection connection, String... parameters) throws SQLException;
 
     public abstract T getRegistro(Object codigo, Connection connection) throws SQLException;
 

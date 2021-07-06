@@ -1,4 +1,4 @@
-package com.ressubt.action.cadastro;
+package com.ressubt.action.query;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -21,13 +21,13 @@ import com.ressubt.util.BigDecimalEmptyDeserializer;
 import com.ressubt.util.IntegerEmptyDeserializer;
 import com.ressubt.util.Util;
 
-public abstract class Cadastro<T extends Model> implements Action {
+public abstract class Query<T extends Model> implements Action {
 
     @Override
     public HttpFlow exec(HttpServletRequest request, HttpServletResponse response) throws ServletException {
 
-	String model = request.getParameter("model");
-	String operation = request.getParameter("operation");
+	String[] jsonParameters = new String[] { request.getParameter("model") };
+
 	ComboPooledDataSource dataSource = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
 
 	String responseMessage = null;
@@ -41,7 +41,7 @@ public abstract class Cadastro<T extends Model> implements Action {
 	    writer = response.getWriter();
 	    Connection connection = dataSource.getConnection();
 
-	    executeDao(model, connection, operation);
+	    executeDaoQuery(connection, jsonParameters);
 	    responseMessage = Util.createResponseMessage(0, "gravado com sucesso.");
 	} catch (SQLException | IOException e) {
 	    responseMessage = Util.createResponseMessage(e.getMessage());
@@ -52,7 +52,7 @@ public abstract class Cadastro<T extends Model> implements Action {
 	return new FlowEmpty("");
     }
 
-    abstract void executeDao(String json, Connection connection, String operation) throws SQLException;
+    abstract void executeDaoQuery(Connection connection, String... jsonParameters) throws SQLException;
 
     T fromJson(String json, Class<T> clazzOf) {
 	Gson gson = new GsonBuilder().registerTypeAdapter(BigDecimal.class, new BigDecimalEmptyDeserializer()).registerTypeAdapter(Integer.class, new IntegerEmptyDeserializer()).create();

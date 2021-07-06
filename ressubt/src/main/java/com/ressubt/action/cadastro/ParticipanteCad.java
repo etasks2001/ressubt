@@ -19,6 +19,5 @@ public class ParticipanteCad extends Cadastro<Participante> {
 	} else if (operation.equals("u")) {
 	    dao.update(model, connection);
 	}
-
     }
 }

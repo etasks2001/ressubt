@@ -13,7 +13,7 @@ import com.ressubt.util.Util;
 public class FinalidadeDao extends Dao<Finalidade> {
 
     @Override
-    public List<Finalidade> getAll(Connection connection) {
+    public List<Finalidade> getAll(Connection connection, String... pagination) {
 	return null;
     }
 

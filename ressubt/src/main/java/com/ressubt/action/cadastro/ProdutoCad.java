@@ -19,6 +19,5 @@ public class ProdutoCad extends Cadastro<Produto> {
 	} else if (operation.equals("u")) {
 	    dao.update(model, connection);
 	}
-
     }
 }

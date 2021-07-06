@@ -17,7 +17,7 @@ public class Login implements Action {
 	String email = request.getParameter("email");
 	String senha = request.getParameter("senha");
 
-	Usuario usuario = new Usuario(email, senha);
+	Usuario usuario = new Usuario(email, senha, "1");
 
 	System.out.println(email + senha);
 	if (email.equals("mauro") && senha.equals("123")) {
