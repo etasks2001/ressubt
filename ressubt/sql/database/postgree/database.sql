@@ -1,13 +1,27 @@
 ﻿/*
 
-SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 180 OFFSET 0;
+
+SELECT count(*) FROM participante where contribuinte = 1 and nome like '%RESTAU%'
+
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%RESTAU%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 180 OFFSET 0;
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30
+
+select codigo, descricao from finalidade where descricao like '%a%' order by descricao LIMIT 30 OFFSET 0
+
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 0
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 60
+
+
+
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 0
 
 SELECT * FROM participante where contribuinte = 1  ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 0;
 SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30;
 SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 60;
 SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 90;
 SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 120;
-SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 150;
+SELECT * FROM participante where contribuinte = 1 ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 1290;
 
 
 */
