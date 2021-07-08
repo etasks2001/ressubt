@@ -54,6 +54,7 @@ public class ParticipanteDao extends Dao<Participante> {
 		participantes.add(new Participante(sk, contribuinte, nome, cod_pais, cnpj_cpf, ie, cod_mun));
 	    }
 	} catch (SQLException e) {
+	    LOG.error("SEVERE", e);
 	    throw new SQLException(e);
 	} finally {
 	    DbUtils.closeQuietly(ps);
