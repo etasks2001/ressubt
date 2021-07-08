@@ -1,21 +1,71 @@
 package com.ressubt.dao;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.dbutils.DbUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+import com.ressubt.action.JsonFinalidade;
 import com.ressubt.model.Produto;
 import com.ressubt.util.Util;
 
 public class ProdutoDao extends Dao<Produto> {
+    private static final Logger LOG = LogManager.getLogger(JsonFinalidade.class);
 
     @Override
-    public List<Produto> getAll(Connection connection, Map<String, String> pagination) {
-	return null;
+    public List<Produto> getAll(Connection connection, Map<String, String> parameters) throws SQLException {
+	String currentContribuinte = parameters.get("currentContribuinte");
+	StringBuilder parameter = new StringBuilder();
+	parameter.append('%');
+	parameter.append(parameters.get("parameter"));
+	parameter.append('%');
+
+	int page = Integer.parseInt(parameters.get("page"));
+
+	page = ((page - 1) * 30);
+
+	List<Produto> produto = new ArrayList<Produto>();
+	ResultSet rs = null;
+	PreparedStatement ps = null;
+
+	String sql_search = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_search");
+
+	try {
+	    ps = connection.prepareStatement(String.format(sql_search, currentContribuinte, parameter, page));
+
+	    rs = ps.executeQuery();
+
+	    while (rs.next()) {
+		Integer sk = rs.getInt("sk");
+		Integer contribuinte = rs.getInt("contribuinte");
+		String cod_item = rs.getString("cod_item");
+		String descr_item = rs.getString("descr_item");
+		String cod_barra = rs.getString("cod_barra");
+		String unid_inv = rs.getString("unid_inv");
+		String cod_ncm = rs.getString("cod_ncm");
+		BigDecimal aliq_icms = rs.getBigDecimal("aliq_icms");
+		String cest = rs.getString("cest");
+
+		produto.add(new Produto(sk, contribuinte, cod_item, descr_item, cod_barra, unid_inv, cod_ncm, aliq_icms, cest));
+	    }
+	} catch (SQLException e) {
+	    LOG.error("SEVERE", e);
+	    throw new SQLException(e);
+	} finally {
+	    DbUtils.closeQuietly(ps);
+	    DbUtils.closeQuietly(rs);
+	    DbUtils.closeQuietly(connection);
+	    connection = null;
+	}
+	return produto;
     }
 
     @Override
@@ -53,6 +103,7 @@ public class ProdutoDao extends Dao<Produto> {
 
 	    ps.executeUpdate();
 	} catch (SQLException e) {
+	    LOG.error("SEVERE", e);
 	    throw new SQLException(e);
 	} finally {
 	    DbUtils.closeQuietly(ps);
