@@ -2,20 +2,19 @@ package com.ressubt.action.query;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
+import com.google.gson.Gson;
 import com.ressubt.dao.ParticipanteDao;
 import com.ressubt.model.Participante;
 
 public class ParticipanteQuery extends Query<Participante> {
 
-    void executeDaoQuery(Connection connection, String... jsonParameters) throws SQLException {
-	System.out.println(jsonParameters);
+    Object executeDaoQuery(Connection connection, Map<String, String> parameters) throws SQLException {
 
-	// Participante model = fromJson(jsonParameters, Participante.class);
+	List<Participante> list = new ParticipanteDao().getAll(connection, parameters);
 
-	ParticipanteDao dao = new ParticipanteDao();
-
-	dao.getAll(connection, jsonParameters);
-
+	return new Gson().toJson(list);
     }
 }

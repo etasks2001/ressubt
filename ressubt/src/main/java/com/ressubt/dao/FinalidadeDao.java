@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.dbutils.DbUtils;
 
@@ -13,7 +14,7 @@ import com.ressubt.util.Util;
 public class FinalidadeDao extends Dao<Finalidade> {
 
     @Override
-    public List<Finalidade> getAll(Connection connection, String... pagination) {
+    public List<Finalidade> getAll(Connection connection, Map<String, String> pagination) {
 	return null;
     }
 

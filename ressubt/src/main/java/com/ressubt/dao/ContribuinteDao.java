@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.dbutils.DbUtils;
 
@@ -13,7 +14,7 @@ import com.ressubt.util.Util;
 public class ContribuinteDao extends Dao<Contribuinte> {
 
     @Override
-    public List<Contribuinte> getAll(Connection connection, String... pagination) {
+    public List<Contribuinte> getAll(Connection connection, Map<String, String> pagination) {
 	return null;
     }
 
@@ -34,13 +35,13 @@ public class ContribuinteDao extends Dao<Contribuinte> {
 
     @Override
     public void insert(Contribuinte model, Connection connection) throws SQLException {
-	String sql = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
+	String SQL_INSERT = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_i");
 
 	PreparedStatement ps = null;
 	try {
 	    checkFields(model);
 
-	    ps = connection.prepareStatement(sql);
+	    ps = connection.prepareStatement(SQL_INSERT);
 	    ps.setString(1, model.getNome());
 	    ps.setString(2, model.getCnpj());
 	    ps.setString(3, model.getIe());

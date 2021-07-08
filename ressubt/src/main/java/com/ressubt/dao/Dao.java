@@ -4,13 +4,14 @@ import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 import com.ressubt.model.Model;
 import com.ressubt.util.Util;
 
 public abstract class Dao<T extends Model> {
 
-    public abstract List<T> getAll(Connection connection, String... parameters) throws SQLException;
+    public abstract List<T> getAll(Connection connection, Map<String, String> parameters) throws SQLException;
 
     public abstract T getRegistro(Object codigo, Connection connection) throws SQLException;
 
