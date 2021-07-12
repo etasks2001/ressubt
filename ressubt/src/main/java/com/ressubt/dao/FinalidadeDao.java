@@ -21,12 +21,8 @@ public class FinalidadeDao extends Dao<Finalidade> {
 
     @Override
     public List<Finalidade> getAll(Connection connection, Map<String, String> parameters) throws SQLException {
-
-	StringBuilder parameter = new StringBuilder();
-	parameter.append('%');
-	parameter.append(parameters.get("parameter"));
-	parameter.append('%');
-
+	String parameter = MatchZeroOrMoreChar(parameters.get("parameter"));
+	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
 	page = ((page - 1) * 30);
@@ -38,7 +34,7 @@ public class FinalidadeDao extends Dao<Finalidade> {
 	String sql_search = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_search");
 
 	try {
-	    ps = connection.prepareStatement(String.format(sql_search, parameter, page));
+	    ps = connection.prepareStatement(String.format(sql_search, parameter, order, page));
 
 	    rs = ps.executeQuery();
 

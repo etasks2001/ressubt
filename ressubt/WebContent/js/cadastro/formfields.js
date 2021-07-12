@@ -64,6 +64,9 @@ FormFields.prototype = {
     setFormName(formName) {
         this.formName = formName;
     },
+    getFormName(formName) {
+        return this.formName;
+    },
 
     removeErroValidacao() {
         this.loop((field) => field.classList.remove(classePossuiErroValidacao));

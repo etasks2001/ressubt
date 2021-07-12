@@ -26,6 +26,8 @@ public abstract class Query<T extends Model> implements Action {
 
 	String parameter = request.getParameter("p");
 	String page = request.getParameter("page");
+	String order = request.getParameter("o");
+
 	Usuario usuario = (Usuario) request.getSession().getAttribute("usuarioLogado");
 
 	ComboPooledDataSource dataSource = (ComboPooledDataSource) request.getServletContext().getAttribute("dataSource");
@@ -38,6 +40,7 @@ public abstract class Query<T extends Model> implements Action {
 	parameters.put("parameter", parameter);
 	parameters.put("page", page);
 	parameters.put("currentContribuinte", usuario.getCurrentContribuinte());
+	parameters.put("order", order);
 
 	response.setStatus(200);
 	response.setHeader("Content-Type", "application/json");

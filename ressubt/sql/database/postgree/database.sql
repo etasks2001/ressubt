@@ -4,9 +4,25 @@
 SELECT count(*) FROM participante where contribuinte = 1 and nome like '%RESTAU%'
 
 SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%RESTAU%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 180 OFFSET 0;
-SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%RESTAU%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 100 OFFSET 0
 
-select codigo, descricao from finalidade where descricao like '%a%' order by descricao LIMIT 30 OFFSET 0
+select codigo, descricao from finalidade where descricao like '%%' order by descricao LIMIT 30 OFFSET 0
+
+SELECT 
+	sk, nome,contribuinte, cod_pais,cnpj_cpf, ie, cod_mun , REGEXP_MATCHES(nome, 'RESTAU') 
+FROM 
+	participante
+where contribuinte = 1 
+ORDER BY nome, contribuinte, cnpj_cpf
+LIMIT 100 OFFSET 0;	
+
+
+
+select sk, nome, cnpj,ie,cod_mun,cod_ver,cod_fin from contribuinte where nome like '%' order by nome LIMIT 30 OFFSET 0
+
+select sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest from produto where contribuinte=1 and descr_item like '%' order by descr_item LIMIT 30 OFFSET 60
+
+
 
 SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 0
 SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30

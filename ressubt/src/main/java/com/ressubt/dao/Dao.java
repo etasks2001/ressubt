@@ -48,6 +48,15 @@ public abstract class Dao<T extends Model> {
 	return field.matches(regex);
     }
 
+    static String MatchZeroOrMoreChar(String parameter) {
+	StringBuilder sb = new StringBuilder();
+	sb.append('%');
+	sb.append(parameter);
+	sb.append('%');
+
+	return sb.toString();
+    }
+
     public static String REGEX_CODIGO_MUNICIPIO = "[0-9]{7}";
     public static String REGEX_CODIGO_VERSAO = "[0-9]{2}|[0-9]{1}";
     public static String REGEX_CNPJ = "[0-9]{2}[\\\\.]?[0-9]{3}[\\\\.]?[0-9]{3}[\\\\/]?[0-9]{4}[-]?[0-9]{2}";

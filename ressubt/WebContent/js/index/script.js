@@ -62,6 +62,8 @@ operations.addEventListener("click", (event) => {
         formFields.disabled(true);
     } else if (id === "pesquisar") {
         console.log(formFields.getParameters());
+        console.log(formFields.getFormName());
+
         modalPesquisaAction.open();
     }
 });

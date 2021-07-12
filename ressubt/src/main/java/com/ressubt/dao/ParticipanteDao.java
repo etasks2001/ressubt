@@ -22,11 +22,8 @@ public class ParticipanteDao extends Dao<Participante> {
     @Override
     public List<Participante> getAll(Connection connection, Map<String, String> parameters) throws SQLException {
 	String currentContribuinte = parameters.get("currentContribuinte");
-	StringBuilder parameter = new StringBuilder();
-	parameter.append('%');
-	parameter.append(parameters.get("parameter"));
-	parameter.append('%');
-
+	String parameter = MatchZeroOrMoreChar(parameters.get("parameter"));
+	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
 	page = ((page - 1) * 30);
@@ -38,7 +35,9 @@ public class ParticipanteDao extends Dao<Participante> {
 	String sql_search = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_search");
 
 	try {
-	    ps = connection.prepareStatement(String.format(sql_search, currentContribuinte, parameter, page));
+	    String format = String.format(sql_search, currentContribuinte, parameter, order, page);
+	    System.out.println(format);
+	    ps = connection.prepareStatement(format);
 
 	    rs = ps.executeQuery();
 
