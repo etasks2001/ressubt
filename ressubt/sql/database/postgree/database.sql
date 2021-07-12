@@ -1,5 +1,8 @@
 ﻿/*
 
+select sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest from produto where contribuinte=%s and descr_item like '%S' order by descr_item %s LIMIT 30 OFFSET %s
+
+SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome desc, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30
 
 SELECT count(*) FROM participante where contribuinte = 1 and nome like '%RESTAU%'
 
@@ -7,6 +10,8 @@ SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante 
 SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%RESTAU%' ORDER BY nome, contribuinte, cnpj_cpf LIMIT 100 OFFSET 0
 
 select codigo, descricao from finalidade where descricao like '%%' order by descricao LIMIT 30 OFFSET 0
+
+
 
 SELECT 
 	sk, nome,contribuinte, cod_pais,cnpj_cpf, ie, cod_mun , REGEXP_MATCHES(nome, 'RESTAU') 

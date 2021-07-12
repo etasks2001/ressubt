@@ -33,6 +33,18 @@ btnPesquisar.addEventListener("click", (event) => {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
             let json = JSON.parse(this.response);
 
+            table_head.innerHTML = "";
+            let headNames = Object.keys(json[0]);
+            headNames.forEach((name) => {
+                let th = document.createElement("th");
+                th.innerText = name;
+                table_head.appendChild(th);
+            });
+
+            json.forEach((row) => {
+                console.log(Object.keys(row));
+            });
+
             console.log(json);
             console.log(json.code + " - " + json.message);
         }
