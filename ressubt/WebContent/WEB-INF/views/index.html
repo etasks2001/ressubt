@@ -65,11 +65,8 @@
 			</div>
 			<div class="header-cadastro-message">
 				<div class="formRow">
-					<input type="text" size="40" class="input">
-					<select name="" id="" class="input">
-						<option value="">Descrição</option>
-					</select>
-					<select name="" id="" class="input">
+					<input id="txtPesquisa" type="text" size="40" class="input">
+					<select name="" id="selectOrdenar" class="input">
 						<option value="asc">Crescente</option>
 						<option value="desc">Decrescente</option>
 					</select>
@@ -81,7 +78,7 @@
 
 				<div class="formRow">
 					<table>
-						<thead>
+						<thead id="table_head">
 							<th>
 								Codigo
 							</th>
@@ -89,7 +86,7 @@
 								Descrição
 							</th>
 						</thead>
-						<tbody>
+						<tbody id="table_body">
 							<tr>
 								<td>00001</td>
 								<td>Rua Sem Saída</td>

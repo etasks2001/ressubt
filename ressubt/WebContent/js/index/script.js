@@ -16,6 +16,34 @@ let modalMessageAction;
 let modalConfirmAction;
 let modalPesquisaAction;
 let form;
+let txtPesquisa = document.querySelector("#txtPesquisa");
+let btnPesquisar = document.querySelector("#btnPesquisar");
+let table_head = document.querySelector("#table_head");
+let table_body = document.querySelector("#table_body");
+let selectOrdenar = document.querySelector("#selectOrdenar");
+
+console.log(table_head);
+console.log(table_body);
+
+console.log(selectOrdenar);
+
+btnPesquisar.addEventListener("click", (event) => {
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+            let json = JSON.parse(this.response);
+
+            console.log(json);
+            console.log(json.code + " - " + json.message);
+        }
+    };
+
+    let ordem = selectOrdenar.options[selectOrdenar.selectedIndex].value;
+    xhr.open("POST", "/ressubt/control");
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+
+    xhr.send(`action=Cadastro${formFields.getFormName()}Q&p=${txtPesquisa.value}&page=1&o=${ordem}`);
+});
 
 const operations = document.querySelector(".operation");
 const messageUser = document.querySelector("#messageUser");
@@ -63,7 +91,6 @@ operations.addEventListener("click", (event) => {
     } else if (id === "pesquisar") {
         console.log(formFields.getParameters());
         console.log(formFields.getFormName());
-
         modalPesquisaAction.open();
     }
 });

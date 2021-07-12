@@ -35,9 +35,8 @@ public class ParticipanteDao extends Dao<Participante> {
 	String sql_search = Util.RESOURCE_BUNDLE.getString(this.getClass().getSimpleName() + "_search");
 
 	try {
-	    String format = String.format(sql_search, currentContribuinte, parameter, order, page);
-	    System.out.println(format);
-	    ps = connection.prepareStatement(format);
+
+	    ps = connection.prepareStatement(String.format(sql_search, currentContribuinte, parameter, order, page));
 
 	    rs = ps.executeQuery();
 
