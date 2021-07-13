@@ -12,6 +12,7 @@ function ModalAction(modalMessage) {
             this.close();
         }
     });
+    this.WireEvents = function () {};
 }
 
 ModalAction.prototype = {
@@ -19,7 +20,6 @@ ModalAction.prototype = {
     close: function () {
         this.modalMessage.style.display = "none";
     },
-
     open: function () {
         this.modalMessage.style.display = "block";
     },

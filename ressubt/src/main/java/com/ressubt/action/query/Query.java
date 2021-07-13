@@ -45,7 +45,7 @@ public abstract class Query<T extends Model> implements Action {
 	response.setStatus(200);
 	response.setHeader("Content-Type", "application/json");
 	response.setCharacterEncoding("UTF-8");
-	;
+
 	try {
 	    writer = response.getWriter();
 	    Connection connection = dataSource.getConnection();

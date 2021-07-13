@@ -26,18 +26,18 @@ btnPesquisar.addEventListener("click", (event) => {
 
 const operations = document.querySelector(".operation");
 const messageUser = document.querySelector("#messageUser");
-const btnGravarRegistro = document.querySelector("#gravarRegistro");
+const btnOkDialog = document.querySelector("#btnOk");
 
 window.onload = () => {
     const modalMessage = document.querySelector("#modalMessage");
     const modalConfirm = document.querySelector("#modalOkCancel");
     const modalPesquisa = document.querySelector("#modalSearch");
 
-    let txtPesquisa = document.querySelector("#txtPesquisa");
+    const txtPesquisa = document.querySelector("#txtPesquisa");
 
-    let thead = document.querySelector("#table_head");
-    let tbody = document.querySelector("#table_body");
-    let selectOrdenar = document.querySelector("#selectOrdenar");
+    const thead = document.querySelector("#table_head");
+    const tbody = document.querySelector("#table_body");
+    const selectOrdenar = document.querySelector("#selectOrdenar");
 
     modalMessageAction = new ModalAction(modalMessage);
     modalConfirmAction = new ModalAction(modalConfirm);
@@ -57,44 +57,46 @@ menuNav.addEventListener("click", (event) => {
     }
 });
 
-operations.addEventListener("click", (event) => {
-    let id = event.target.id;
-    if (id === "novo") {
+const operacoes = {
+    novo: function (event) {
         formFields.setInsert();
         formFields.disabled(false);
         editButtons.setEditing();
-        //} else if (id === "gravar") {
-        //modalConfirmAction.open();
-    } else if (id === "cancelar") {
+    },
+    gravar: function (event) {
+        event.preventDefault();
+        formFields.checkField();
+        let check = form.checkValidity();
+        if (check) {
+            modalConfirmAction.open();
+        }
+    },
+    cancelar: function (event) {
         formFields.removeErroValidacao();
         const errosValidacao = form.querySelectorAll(".erro-validacao");
         errosValidacao.forEach((erro) => {
             erro.remove();
         });
-
         editButtons.setDefault();
         formFields.disabled(true);
-    } else if (id === "pesquisar") {
+    },
+    pesquisar: function (event) {
         console.log(formFields.getParameters());
         console.log(formFields.getFormName());
 
         pesquisaCadastro.clear();
         modalPesquisaAction.open();
+    },
+};
+
+operations.addEventListener("click", (event) => {
+    let id = event.target.id;
+    if (operacoes[id]) {
+        operacoes[id](event);
     }
 });
 
-const buttonGravar = document.querySelector("#gravar");
-
-buttonGravar.addEventListener("click", (e) => {
-    e.preventDefault();
-    formFields.checkField();
-    let check = form.checkValidity();
-    if (check) {
-        modalConfirmAction.open();
-    }
-});
-
-btnGravarRegistro.addEventListener("click", (event) => {
+btnOkDialog.addEventListener("click", (event) => {
     modalConfirmAction.close();
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
