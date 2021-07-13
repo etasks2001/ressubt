@@ -26,7 +26,7 @@ public class ParticipanteDao extends Dao<Participante> {
 	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
-	page = ((page - 1) * 15);
+	page = calcularOffSet(page);
 
 	List<Participante> participantes = new ArrayList<Participante>();
 	ResultSet rs = null;

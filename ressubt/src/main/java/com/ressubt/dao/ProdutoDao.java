@@ -27,7 +27,7 @@ public class ProdutoDao extends Dao<Produto> {
 	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
-	page = ((page - 1) * 30);
+	page = calcularOffSet(page);
 
 	List<Produto> produto = new ArrayList<Produto>();
 	ResultSet rs = null;

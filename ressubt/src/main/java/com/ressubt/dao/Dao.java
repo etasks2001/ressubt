@@ -44,6 +44,11 @@ public abstract class Dao<T extends Model> {
 
     }
 
+    static int calcularOffSet(int page) {
+	return page = ((page - 1) * 30);
+
+    }
+
     static boolean isValidField(String field, String regex) {
 	return field.matches(regex);
     }

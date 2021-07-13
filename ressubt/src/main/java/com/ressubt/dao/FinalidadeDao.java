@@ -25,7 +25,7 @@ public class FinalidadeDao extends Dao<Finalidade> {
 	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
-	page = ((page - 1) * 15);
+	page = calcularOffSet(page);
 
 	List<Finalidade> finalidade = new ArrayList<Finalidade>();
 	ResultSet rs = null;
