@@ -4,6 +4,7 @@ import { ModalAction } from "../../js/cadastro/modal.js";
 import { FormFields } from "../../js/cadastro/formfields.js";
 import { EditButtons } from "../../js/cadastro/editbuttons.js";
 import { FormMenu } from "../../js/cadastro/formmenu.js";
+import { PesquisaCadastro } from "../../js/cadastro/pesquisaCadastro.js";
 
 const menuNav = document.querySelector("nav");
 
@@ -15,46 +16,12 @@ let formMenu;
 let modalMessageAction;
 let modalConfirmAction;
 let modalPesquisaAction;
+let pesquisaCadastro;
 let form;
-let txtPesquisa = document.querySelector("#txtPesquisa");
 let btnPesquisar = document.querySelector("#btnPesquisar");
-let table_head = document.querySelector("#table_head");
-let table_body = document.querySelector("#table_body");
-let selectOrdenar = document.querySelector("#selectOrdenar");
-
-console.log(table_head);
-console.log(table_body);
-
-console.log(selectOrdenar);
 
 btnPesquisar.addEventListener("click", (event) => {
-    let xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-            let json = JSON.parse(this.response);
-
-            table_head.innerHTML = "";
-            let headNames = Object.keys(json[0]);
-            headNames.forEach((name) => {
-                let th = document.createElement("th");
-                th.innerText = name;
-                table_head.appendChild(th);
-            });
-
-            json.forEach((row) => {
-                console.log(Object.keys(row));
-            });
-
-            console.log(json);
-            console.log(json.code + " - " + json.message);
-        }
-    };
-
-    let ordem = selectOrdenar.options[selectOrdenar.selectedIndex].value;
-    xhr.open("POST", "/ressubt/control");
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-
-    xhr.send(`action=Cadastro${formFields.getFormName()}Q&p=${txtPesquisa.value}&page=1&o=${ordem}`);
+    pesquisaCadastro.pesquisar(formFields.getFormName());
 });
 
 const operations = document.querySelector(".operation");
@@ -66,9 +33,16 @@ window.onload = () => {
     const modalConfirm = document.querySelector("#modalOkCancel");
     const modalPesquisa = document.querySelector("#modalSearch");
 
+    let txtPesquisa = document.querySelector("#txtPesquisa");
+
+    let thead = document.querySelector("#table_head");
+    let tbody = document.querySelector("#table_body");
+    let selectOrdenar = document.querySelector("#selectOrdenar");
+
     modalMessageAction = new ModalAction(modalMessage);
     modalConfirmAction = new ModalAction(modalConfirm);
     modalPesquisaAction = new ModalAction(modalPesquisa);
+    pesquisaCadastro = new PesquisaCadastro(txtPesquisa, thead, tbody, selectOrdenar);
 
     editButtons = new EditButtons(document);
     formMenu = new FormMenu();
@@ -103,6 +77,8 @@ operations.addEventListener("click", (event) => {
     } else if (id === "pesquisar") {
         console.log(formFields.getParameters());
         console.log(formFields.getFormName());
+
+        pesquisaCadastro.clear();
         modalPesquisaAction.open();
     }
 });

@@ -92,3 +92,25 @@ nav a:hover {
 #btnEditar {
     margin: 2px;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #e1e5f2;
+    text-align: left;
+    padding: 1px;
+}
+th {
+    text-align: center;
+    color: white;
+    background-color: #1f7a8c;
+}
+
+tr:nth-child(even) {
+    background-color: #bfdbf7;
+}

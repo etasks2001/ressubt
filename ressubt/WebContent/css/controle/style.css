@@ -1,4 +1,12 @@
-.input {
+select {
+    padding: 2px;
+    font-size: 16px;
+    border: 2px solid #8f8f8f;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.input[type="text"] {
     padding: 2px;
     font-size: 16px;
     border: 2px solid #8f8f8f;
@@ -6,7 +14,6 @@
     background: transparent;
     text-transform: uppercase;
 }
-
 div.formRow {
     margin-top: 6px;
     margin-bottom: 0px;

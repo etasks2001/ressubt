@@ -25,7 +25,7 @@ public class ContribuinteDao extends Dao<Contribuinte> {
 	String order = parameters.get("order");
 	int page = Integer.parseInt(parameters.get("page"));
 
-	page = ((page - 1) * 30);
+	page = ((page - 1) * 15);
 
 	List<Contribuinte> contribuinte = new ArrayList<Contribuinte>();
 	ResultSet rs = null;

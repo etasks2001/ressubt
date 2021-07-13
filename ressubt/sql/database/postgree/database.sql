@@ -1,6 +1,10 @@
 ﻿/*
 
-select sk,contribuinte,cod_item,descr_item,cod_barra,unid_inv,cod_ncm,aliq_icms,cest from produto where contribuinte=%s and descr_item like '%S' order by descr_item %s LIMIT 30 OFFSET %s
+select sk, nome, cnpj,ie,cod_mun,cod_ver,cod_fin from contribuinte where nome like '%S' order by nome %s LIMIT 30 OFFSET %s
+
+
+
+select * from contribuinte inner join
 
 SELECT sk, contribuinte, nome, cod_pais,cnpj_cpf, ie, cod_mun FROM participante where contribuinte = 1 and nome like '%REST%' ORDER BY nome desc, contribuinte, cnpj_cpf LIMIT 30 OFFSET 30
 
