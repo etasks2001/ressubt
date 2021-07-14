@@ -20,6 +20,11 @@ let pesquisaCadastro;
 let form;
 let btnPesquisar = document.querySelector("#btnPesquisar");
 
+let btnNext = document.querySelector("#next");
+btnNext.addEventListener("click", (event) => {
+    pesquisaCadastro.nextPage(formFields.getFormName());
+});
+
 btnPesquisar.addEventListener("click", (event) => {
     pesquisaCadastro.pesquisar(formFields.getFormName());
 });
@@ -34,7 +39,6 @@ window.onload = () => {
     const modalPesquisa = document.querySelector("#modalSearch");
 
     const txtPesquisa = document.querySelector("#txtPesquisa");
-
     const thead = document.querySelector("#table_head");
     const tbody = document.querySelector("#table_body");
     const selectOrdenar = document.querySelector("#selectOrdenar");
