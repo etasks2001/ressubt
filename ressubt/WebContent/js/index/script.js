@@ -21,8 +21,14 @@ let form;
 let btnPesquisar = document.querySelector("#btnPesquisar");
 
 let btnNext = document.querySelector("#next");
+let btnPrevious = document.querySelector("#previous");
+
 btnNext.addEventListener("click", (event) => {
     pesquisaCadastro.nextPage(formFields.getFormName());
+});
+
+btnPrevious.addEventListener("click", (event) => {
+    pesquisaCadastro.previousPage(formFields.getFormName());
 });
 
 btnPesquisar.addEventListener("click", (event) => {

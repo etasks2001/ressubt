@@ -6,7 +6,7 @@ function PesquisaCadastro(txtPesquisa, thead, tbody, selectOrdenar) {
     this.thead = thead;
     this.tbody = tbody;
     this.selectOrdenar = selectOrdenar;
-    this.pagePrevious = 1;
+    this.pagePrevious = 0;
     this.pageNext = 1;
 }
 
@@ -15,6 +15,8 @@ PesquisaCadastro.prototype = {
 
     pesquisar: function (formName) {
         let xhr = new XMLHttpRequest();
+        this.pagePrevious = 0;
+        this.pageNext = 1;
 
         var _this = this;
         xhr.onreadystatechange = function () {
@@ -27,8 +29,9 @@ PesquisaCadastro.prototype = {
         let ordem = this.selectOrdenar.options[this.selectOrdenar.selectedIndex].value;
         xhr.open("POST", "/ressubt/control");
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-
-        xhr.send(`action=Cadastro${formName}Q&p=${this.txtPesquisa.value}&page=${this.pagePrevious}&o=${ordem}`);
+        let link = `action=Cadastro${formName}Q&p=${this.txtPesquisa.value}&page=${this.pagePrevious}&o=${ordem}`;
+        console.log(link);
+        xhr.send(link);
     },
 
     clear: function () {
@@ -57,6 +60,27 @@ PesquisaCadastro.prototype = {
         console.log(link);
         xhr.send(link);
     },
+
+    previousPage: function (formName) {
+        let xhr = new XMLHttpRequest();
+        let thead = this.thead;
+        let tbody = this.tbody;
+
+        var _this = this;
+        xhr.onreadystatechange = function () {
+            if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+                let json = JSON.parse(this.response);
+                _this.populateJson(json);
+            }
+        };
+
+        let ordem = this.selectOrdenar.options[this.selectOrdenar.selectedIndex].value;
+        xhr.open("POST", "/ressubt/control");
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+        const link = `action=Cadastro${formName}Q&p=${this.txtPesquisa.value}&page=${this.pagePrevious}&o=${ordem}`;
+        console.log(link);
+        xhr.send(link);
+    },
     populateJson: function (json) {
         this.thead.innerHTML = "";
         if (json[0]) {
@@ -80,7 +104,8 @@ PesquisaCadastro.prototype = {
 
                 this.tbody.appendChild(tr);
             });
-            this.pageNext++;
+            return json.length;
         }
+        return 0;
     },
 };
